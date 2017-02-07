@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  6 FEB 2017 22:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  7 FEB 2017 09:24
 entering extended mode
 **./diplomarbeit.tex
 (diplomarbeit.tex
@@ -2206,34 +2206,51 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 
-<img/3mTTWeicheruAddiererDiplSchematic.PNG, id=181, 1173.63469pt x 377.15906pt>
-File: img/3mTTWeicheruAddiererDiplSchematic.PNG Graphic file (type png)
-<use img/3mTTWeicheruAddiererDiplSchematic.PNG>
-Package pdftex.def Info: img/3mTTWeicheruAddiererDiplSchematic.PNG used on inpu
-t line 26.
-(pdftex.def)             Requested size: 344.16646pt x 110.59914pt.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 28.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 28.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 28.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 28.
- [3
-
-]
-<img/TPFilterButterworth2Ordnung.PNG, id=194, 1021.56656pt x 433.62pt>
+<img/TPFilterButterworth2Ordnung.PNG, id=181, 1021.56656pt x 433.62pt>
 File: img/TPFilterButterworth2Ordnung.PNG Graphic file (type png)
 
 <use img/TPFilterButterworth2Ordnung.PNG>
 Package pdftex.def Info: img/TPFilterButterworth2Ordnung.PNG used on input line
- 36.
+ 25.
 (pdftex.def)             Requested size: 430.20644pt x 182.60216pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--38
+Underfull \hbox (badness 10000) in paragraph at lines 18--27
 
  []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 27.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 27.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 27.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 27.
+[3
+
+]
+<img/3mTTWeicheruAddiererDiplSchematic.PNG, id=196, 1173.63469pt x 377.15906pt>
+File: img/3mTTWeicheruAddiererDiplSchematic.PNG Graphic file (type png)
+<use img/3mTTWeicheruAddiererDiplSchematic.PNG>
+Package pdftex.def Info: img/3mTTWeicheruAddiererDiplSchematic.PNG used on inpu
+t line 37.
+(pdftex.def)             Requested size: 344.16646pt x 110.59914pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 51.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 51.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 51.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 51.
+ [4 <./img/TPFilterButterworth2Ordnung.PNG>]
+<img/3mTTWeicheruAddierer-PCB.PNG, id=209, 476.53032pt x 523.20468pt>
+File: img/3mTTWeicheruAddierer-PCB.PNG Graphic file (type png)
+
+<use img/3mTTWeicheruAddierer-PCB.PNG>
+Package pdftex.def Info: img/3mTTWeicheruAddierer-PCB.PNG used on input line 61
+.
+(pdftex.def)             Requested size: 344.16646pt x 377.8966pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2242,127 +2259,160 @@ Including 'comment' comment.
 \openout5 = `comment.cut'.
 
  Straight input of comment.cut. (comment.cut
-
-LaTeX Warning: Reference `fig:abb2.2' on page 4 undefined on input line 1.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 5.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 5.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 5.
-[4 <./img/3mTTWeicheruAddiererDiplSchematic.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 8--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--20
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 9.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 20.
-[5 <./img/TPFilterButterworth2Ordnung.PNG>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 20.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 20.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 20.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 20.
- [6]
-Underfull \hbox (badness 10000) in paragraph at lines 24--26
+(babel)             in language  on input line 9.
+[5 <./img/3mTTWeicheruAddiererDiplSchematic.PNG>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 L
+      eiterplattenspezifische Einstellungen wurden aus den Kriterien der sch...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 18.
+[6 <./img/3mTTWeicheruAddierer-PCB.PNG>])
+Underfull \hbox (badness 10000) in paragraph at lines 93--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--105
+
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 105.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 105.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 105.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 105.
 [7]
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
+
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 113.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 113.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 128.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 52.
- [8]
-
-LaTeX Warning: Reference `fig:abb3.3' on page 9 undefined on input line 61.
-
-
-Overfull \hbox (7.51988pt too wide) in paragraph at lines 61--70
+(babel)             in language  on input line 128.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 128.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 128.
+[8]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 137.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 137.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 137.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 137.
+ [9]
+Overfull \hbox (7.51988pt too wide) in paragraph at lines 146--155
 \T1/cmr/m/n/12 schal-tung für das BT-Modul, das BT-Modul mit her-aus-ge-führ-te
 n Pins und die Klinken-
  []
 
 
-LaTeX Warning: Reference `fig:abb3.4' on page 9 undefined on input line 75.
-
-
-Overfull \hbox (4.02379pt too wide) in paragraph at lines 72--90
+Overfull \hbox (4.02379pt too wide) in paragraph at lines 157--175
 \T1/cmr/m/n/12 Ein ei-ge-ner Ste-cker (Stift-leis-te) für die Ver-sor-gung (12V
 ) so-wie die UART-Schnittstelle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--90
+Underfull \hbox (badness 10000) in paragraph at lines 157--175
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 175.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 175.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 175.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 90.
-[9]
-
-LaTeX Warning: Reference `fig:abb3.6' on page 10 undefined on input line 92.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 99.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 99.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 99.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 175.
 [10]
 
-LaTeX Warning: Reference `fig:abb3.7' on page 11 undefined on input line 107.
+LaTeX Warning: Reference `fig:abb3.6' on page 11 undefined on input line 177.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 184.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 184.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 184.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 184.
+[11]
+
+LaTeX Warning: Reference `fig:abb3.7' on page 12 undefined on input line 192.
 
 
-LaTeX Warning: Reference `fig:abb3.8' on page 11 undefined on input line 117.
+LaTeX Warning: Reference `fig:abb3.8' on page 12 undefined on input line 202.
 
-))
+
+! LaTeX Error: \begin{document} ended by \end{comment}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 \end{comment}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.210 \end{comment}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+)
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 120.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2371,7 +2421,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 120.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 120.
- [11]
+ [12]
 chapter 4.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 120.
@@ -2385,7 +2435,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 122.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 122.
-[12
+[13
 
 ]
 chapter 5.
@@ -2402,7 +2452,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 5.
- [13
+ [14
 
 ]
 chapter without number
@@ -2418,7 +2468,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 10.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 10.
-[14
+[15
 
 ])
 Package babel Info: Redefining ngerman shorthand "|
@@ -2441,7 +2491,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 139.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 139.
- [15
+ [16
 
 ] (diplomarbeit.lot)
 \tf@lot=\write9
@@ -2460,7 +2510,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 5.
- [16
+ [17
 
 ])
 (tex/literatur.tex
@@ -2469,7 +2519,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 )
-<form/betreuungsprotokoll_1.pdf, id=297, 597.23125pt x 845.1575pt>
+<form/betreuungsprotokoll_1.pdf, id=316, 597.23125pt x 845.1575pt>
 File: form/betreuungsprotokoll_1.pdf Graphic file (type pdf)
 
 <use form/betreuungsprotokoll_1.pdf>
@@ -2482,7 +2532,7 @@ Package pdftex.def Info: form/betreuungsprotokoll_1.pdf used on input line 152.
 
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<form/betreuungsprotokoll_1.pdf, id=300, page=1, 597.23125pt x 845.1575pt>
+<form/betreuungsprotokoll_1.pdf, id=319, page=1, 597.23125pt x 845.1575pt>
 File: form/betreuungsprotokoll_1.pdf Graphic file (type pdf)
 
 <use form/betreuungsprotokoll_1.pdf, page 1>
@@ -2503,7 +2553,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 152.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 152.
- [17
+ [18
 
 ]
 File: form/betreuungsprotokoll_1.pdf Graphic file (type pdf)
@@ -2532,8 +2582,8 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 152.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 152.
- [18 <./form/betreuungsprotokoll_1.pdf>] <form/betreuungsprotokoll_2.pdf, id=33
-6, 597.23125pt x 845.1575pt>
+ [19 <./form/betreuungsprotokoll_1.pdf>] <form/betreuungsprotokoll_2.pdf, id=35
+4, 597.23125pt x 845.1575pt>
 File: form/betreuungsprotokoll_2.pdf Graphic file (type pdf)
 
 <use form/betreuungsprotokoll_2.pdf>
@@ -2546,7 +2596,7 @@ Package pdftex.def Info: form/betreuungsprotokoll_2.pdf used on input line 153.
 
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<form/betreuungsprotokoll_2.pdf, id=339, page=1, 597.23125pt x 845.1575pt>
+<form/betreuungsprotokoll_2.pdf, id=357, page=1, 597.23125pt x 845.1575pt>
 File: form/betreuungsprotokoll_2.pdf Graphic file (type pdf)
 
 <use form/betreuungsprotokoll_2.pdf, page 1>
@@ -2585,24 +2635,24 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 153.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 153.
- [19 <./form/betreuungsprotokoll_2.pdf>]
+ [20 <./form/betreuungsprotokoll_2.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
  (diplomarbeit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
 Package rerunfilecheck Info: File `diplomarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: CB36A914196F8559E079EDE7FDA6BB5E;828.
+(rerunfilecheck)             Checksum: C89386AF716E5C114FAD63A2D0144AC7;828.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 41487 strings out of 493333
- 862045 string characters out of 3139197
- 1120996 words of memory out of 3000000
- 44308 multiletter control sequences out of 15000+200000
+ 41501 strings out of 493333
+ 862338 string characters out of 3139197
+ 1121163 words of memory out of 3000000
+ 44316 multiletter control sequences out of 15000+200000
  32540 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,18n,108p,10448b,615s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2621,9 +2671,9 @@ r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/helvetic/uhvr8a.pfb>
-Output written on diplomarbeit.pdf (27 pages, 462936 bytes).
+Output written on diplomarbeit.pdf (28 pages, 592020 bytes).
 PDF statistics:
- 570 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 235 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 590 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
+ 240 words of extra memory for PDF output out of 10000 (max. 10000000)
 

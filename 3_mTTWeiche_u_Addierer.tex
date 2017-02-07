@@ -14,34 +14,80 @@ Diese Schaltung für das Tiefpass-Filter muss variabel designet werden. Das Tief
 Es wurde nach einem möglichst steilen, im Durchlassbereich linearen und einfachen Tiefpass-Filter gesucht. Man hat sich nach Überlegen für ein \enquote{Aktives-Tiefpass-Filter 2.Ordnung} entschieden, dabei wurde die \enquote{Butterworth-Schaltung} bevorzugt. Wegen seiner hohen Linearität im Durchlassbreich und einer Dämpfung von $\frac{-20dB}{Dek.}$ . Dies bedeutet, dass eine Frequenz die 10mal größer ist als die Grenzfrequenz einen um $\frac{1}{10}$ kleineren Pegel aufweist, als die Grenzfrequenz.\\
 Zur Regelung wird an den Eingängen (Rechts, Links) und am Ausgang der Schaltung jeweils ein Potentiometer in der Größenordnung von 1kOhm verbaut. Diese dienen zur Anpassung der Amplitude des ein- und ausgehenden Signals, um mögliche Übersteuerungen zu vermeiden.
 
-\subsubsection{Spezifisches}
-Passend dem Signalverlauf sitzt am Beginn der Schaltung (Abb. \ref{fig:abb3.1}) die erste Regelung über Potentiometer. Anschließend kommt man zu der Addier-Schaltung welche das Stereo-Signal in ein Mono-Signal wandelt und dadurch Stereo-Effekte wie zB. Balance am \enquote{Mono-Bass} entfernt.\\
-Wichtig ist bereits hier die Versorgung der Schaltung. Bedingt durch eine asymmetrische Spannungsversorgung (0...12V) muss am OPV ein Arbeitspunkt eingestellt werden. Dabei handelt es sich um ein absichtliches Anheben des Signals in Y-Richtung bei einem Spannungs-Zeit-Verlauf, sodass die untere Halbwelle des Signals nicht verloren geht. Dafür muss am Plus-Eingang des OPVs der Addier-Grundschaltung und der Butterworth-Filter-Schaltung die halbe Versorgungsspannung angelegt werden, um das beste Ergebnis zu erzielen. Dafür wird an den beiden Plus-Eingängen der OPVs über eine Spannungsteiler-Schaltung aus zwei Widerständen das benötigte $\frac{Vcc}{2}$ angelegt.\\
-Um Störungen im OPV zu vermeiden wird sehr nahe an diesem ein 10µF ELKO in der Versorgungsspannungsleitung vorgesehen.\\
-Nach Addieren des Stereo-Signals zu einem Mono-Signal kommt dieses zum Aktiven-Tiefpass-Filter. Bevor das gefilterte Signal weiter zum Verstärker geht wird nochmals die Möglichkeit geboten um die Amplitude des Signals anzupassen.
-\begin{figure} [h]
-	\centering
-	\caption{Schematic Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche}
-	\label {fig:abb3.1}
-	\includegraphics[width=0.8\textwidth]{img/3mTTWeicheruAddiererDiplSchematic.PNG}
-\end{figure}
-
-
 \subsubsection{Butterworth-Filter 2. Ordnung}
-Die Grundschaltung eines Butterworth-Filter 2. Ordnung ist für verschieden Grenzfrequenzen gleich. Es besteht hauptsächlich aus einem OPV, drei Widerständen und zwei Kondensatoren. Deren Anordnung ist ausschlaggebend für das Filter (Abb. \ref{fig:abb3.2}).
+Die Grundschaltung eines Butterworth-Tiefpass-Filter 2. Ordnung ist auch bei verschieden Grenzfrequenzen gleich. Es besteht hauptsächlich aus einem OPV, drei Widerständen und zwei Kondensatoren. Deren Anordnung ist ausschlaggebend für das Tiefpass-Filter (Abb. \ref{fig:abb3.1}).\\ 
+Bedingt durch das Beschalten des OPVs wird das Ausgangssignal invertiert, was hier keine gröberen Folgen mit sich bringt.\\ 
+Am Plus-Eingang des OPVs wird entweder Masse bei symmetrischer Spannungsversorgung, oder $\frac{Vcc}{2}$ bei asymmetrischer Spannungsversorgung angelegt.
 \begin{figure} [h]
 	\centering
 	\caption{Butterworth-Filter 2. Ordnung}
-	\label {fig:abb3.2}
+	\label {fig:abb3.1}
 	\includegraphics[width=1\textwidth]{img/TPFilterButterworth2Ordnung.PNG}
 \end{figure}\\
 
-\begin{comment}
-Wie in Abbildung \ref{fig:abb2.2} dargestellt, ist der Audio-Ausgang auf den Pins 1-3. Die Status-LED für das Modul wird mit dem Pin 6 geschaltet.\\
-Die Versorgung des Moduls erfolgt über die Pins 11 (VBAT) und 9 (GND). Für die Audiofunktionen wird eine konstante Spannung (1,8V - Pin 12) benötigt. Diese Funktionen befinden sich auf den Pins 14-16 und 21-22. Sie werden mit Tastern beschalten.\\
-Die UART-Schnittstelle befindet sich auf den Pins 18-19.\\
-Außerdem verfügt das Modul auch über eine Mikrofon-Funktion, die aber in diesem Projekt nicht verwendet wird.
+\subsubsection{Schaltung}
+Passend dem Signalverlauf sitzt am Beginn der Schaltung (Abb. \ref{fig:abb3.2}) die erste Regelung über Potentiometer. Anschließend kommt man zu der Addier-Schaltung (Abb. \ref{fig:abb3.3}) welche das Stereo-Signal in ein Mono-Signal wandelt und dadurch Stereo-Effekte wie zB. Balance am \enquote{Mono-Bass} entfernt.\\
+Wichtig ist bereits hier die Versorgung der Schaltung. Bedingt durch eine asymmetrische Spannungsversorgung (0...12V) muss am OPV ein Arbeitspunkt eingestellt werden. Dabei handelt es sich um ein absichtliches Anheben des Signals in Y-Richtung bei einem Spannungs-Zeit-Verlauf, sodass die untere Halbwelle des Signals nicht verloren geht. Dafür muss am Plus-Eingang des OPVs der Addier-Grundschaltung und der Butterworth-Filter-Schaltung die halbe Versorgungsspannung angelegt werden, um das beste Ergebnis zu erzielen. Dafür wird an den beiden Plus-Eingängen der OPVs über eine Spannungsteiler-Schaltung aus zwei Widerständen das benötigte $\frac{Vcc}{2}$ angelegt.\\
+Um Störungen im OPV zu vermeiden wird sehr nahe an diesem ein 10µF ELKO in der Versorgungsspannungsleitung vorgesehen.\\
+Nach Addieren des Stereo-Signals zu einem Mono-Signal kommt dieses zum Aktiven-Tiefpass-Filter(Abb. \ref{fig:abb3.4}). Bevor das gefilterte Signal weiter zum Verstärker geht wird nochmals die Möglichkeit geboten um die Amplitude des Signals anzupassen.
+\begin{figure} [h]
+	\centering
+	\caption{Schematic Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche}
+	\label {fig:abb3.2}
+	\includegraphics[width=0.8\textwidth]{img/3mTTWeicheruAddiererDiplSchematic.PNG}
+\end{figure}
+\begin{figure} [h]
+	\centering
+	\caption{Schematic Mono-Bass-Addier-Schaltung}
+	\label {fig:abb3.3}
+%	\includegraphics[width=0.8\textwidth]{img/3mTTWeicheruAddiererDiplSchematicTeil1.png}
+\end{figure}
+\begin{figure} [h]
+	\centering
+	\caption{Schematic Mono-Bass-Weiche}
+	\label {fig:abb3.4}
+%	\includegraphics[width=0.8\textwidth]{img/3mTTWeicheruAddiererDiplSchematicTeil2.png}
+\end{figure}
 
+
+
+\subsubsection{PCB}
+An einer der vier Seiten der Leiterplatte(Abb. \ref{fig:abb3.5}) wurden alle wesentlichen Ein- und Ausgänge platziert. Eine dreipolige Eingangsstiftleiste für Rechts, Links und Masse. Eine zweipolige Ausgangsstiftleiste für Signal und Masse. Des weiteren darf die Spannungsversorgung nicht fehlen. Wegen größeren Spannungen wurden massivere Stecker verwendet. In diesem Fall handelt es sich um Pol-Klemmen. Zum testen wurde ein zusätzlicher Masse-Printstift angebracht um bei Messungen mit einem Oszilloskop einem besseren Massebezugpunkt zu haben.\\
+Die Bauteile wurden nach Möglichkeit gestaffelt, beziehungsweise gruppiert auf der Leiterplatte platziert um den Platzbedarf zu minimieren.
+\begin{figure} [h]
+	\centering
+	\caption{PCB}
+	\label {fig:abb3.5}
+	\includegraphics[width=0.8\textwidth]{img/3mTTWeicheruAddierer-PCB.PNG}
+\end{figure}
+
+
+
+\begin{comment}
+%% Altium und Einstellungserklärung + Wichtige Layout-Faktoren
+%Beim designen des Leiterplattenlayouts wurden die allgemeinen Altium-Einstellungen vorgenommen und auf die zu berücksichtigenden Layoutpunkte geachtet.
+Beim \enquote{Layouten} der Schaltung mussten einige wichtige Faktoren berücksichtigt werden.\\
+Wie da wären:\\
+\begin{itemize}
+	\item EMV-Technische-Faktoren, wie kurze Leiterbahnen
+	\item Ausnützen der Printfläche
+	\item Mehrfach-Footprints ermöglichen für verschiedene Bauteile
+	\item Mechanische Aufhängebohrungen vorsehen
+	\item Massefläche bei Möglichkeit vorsehen
+\end{itemize}\\
+Leiterplattenspezifische Einstellungen wurden aus den Kriterien der schuleigenen Leiterplattenfertigung übernommen. Zu diesen Einstellungen zählen:\\
+\begin{itemize}
+	\item Leiterbahnbreite
+	\item Leiterbahnabstände untereinander
+	\item Restring bei Bohrungen
+	\item 
+\end{itemize}
+\end{comment}
+
+
+
+
+%%\begin{comment}
 
 \subsubsection{Inbetriebnahme}
 Bereits mit einer simplen Beschaltung kann das Modul in Betrieb genommen werden:
