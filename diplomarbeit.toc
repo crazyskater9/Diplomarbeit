@@ -4,26 +4,19 @@
 \contentsline {chapter}{\numberline {3}Individuelle Zielsetzung}{3}{chapter.3}
 \contentsline {section}{\numberline {3.1}Lautsprecher}{3}{section.3.1}
 \contentsline {section}{\numberline {3.2}Elektronik}{3}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche}{3}{subsection.3.2.1}
-\contentsline {subsubsection}{\nonumberline Allgemeines}{3}{section*.4}
-\contentsline {subsubsection}{\nonumberline Zielsetzung}{3}{section*.5}
-\contentsline {subsubsection}{\nonumberline Auswahl des Tiefpass-Filters}{3}{section*.6}
-\contentsline {subsubsection}{\nonumberline Butterworth-Filter 2. Ordnung}{4}{section*.7}
-\contentsline {subsubsection}{\nonumberline Schaltung}{4}{section*.9}
-\contentsline {subsubsection}{\nonumberline PCB}{5}{section*.13}
-\contentsline {subsubsection}{\nonumberline Inbetriebnahme}{7}{section*.15}
-\contentsline {subsubsection}{\nonumberline Verbindung mit dem Modul}{8}{section*.17}
-\contentsline {subsection}{\numberline {3.2.2}Zusatz-Leiterplatten}{8}{subsection.3.2.2}
-\contentsline {subsubsection}{\nonumberline Allgemeines}{8}{section*.18}
-\contentsline {subsubsection}{\nonumberline Adapter-Board}{8}{section*.19}
-\contentsline {subsubsection}{\nonumberline Hauptboard}{10}{section*.22}
-\contentsline {subsubsection}{\nonumberline Frontplatine}{12}{section*.27}
-\contentsline {chapter}{\numberline {4}Grundlagen und Methoden}{13}{chapter.4}
-\contentsline {chapter}{\numberline {5}Ergebnisse}{14}{chapter.5}
-\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{15}{chapter*.30}
-\contentsline {chapter}{Abbildungsverzeichnis}{16}{section*.31}
-\contentsline {chapter}{Tabellenverzeichnis}{16}{section*.33}
-\contentsline {chapter}{Danksagungen}{17}{section*.35}
-\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{17}{section*.37}
-\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{17}{section*.38}
-\contentsline {chapter}{Literaturverzeichnis}{18}{section*.39}
+\contentsline {chapter}{\numberline {4}Grundlagen und Methoden}{4}{chapter.4}
+\contentsline {chapter}{\numberline {5}Realisierung und Ergebnisse}{5}{chapter.5}
+\contentsline {section}{\numberline {5.1}Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche}{5}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Allgemeines}{5}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Zielsetzung}{5}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Auswahl des Tiefpass-Filters}{5}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Butterworth-Filter 2. Ordnung}{6}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Schaltung}{6}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.6}PCB}{7}{subsection.5.1.6}
+\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{9}{chapter*.9}
+\contentsline {chapter}{Abbildungsverzeichnis}{10}{section*.10}
+\contentsline {chapter}{Tabellenverzeichnis}{10}{section*.12}
+\contentsline {chapter}{Danksagungen}{11}{section*.14}
+\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{11}{section*.16}
+\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{11}{section*.17}
+\contentsline {chapter}{Literaturverzeichnis}{12}{section*.18}

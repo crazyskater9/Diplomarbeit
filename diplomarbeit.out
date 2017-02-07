@@ -3,12 +3,17 @@
 \BOOKMARK [0][]{chapter.3}{Individuelle Zielsetzung}{}% 3
 \BOOKMARK [1][]{section.3.1}{Lautsprecher}{chapter.3}% 4
 \BOOKMARK [1][]{section.3.2}{Elektronik}{chapter.3}% 5
-\BOOKMARK [2][]{subsection.3.2.1}{Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche}{section.3.2}% 6
-\BOOKMARK [2][]{subsection.3.2.2}{Zusatz-Leiterplatten}{section.3.2}% 7
-\BOOKMARK [0][]{chapter.4}{Grundlagen und Methoden}{}% 8
-\BOOKMARK [0][]{chapter.5}{Ergebnisse}{}% 9
-\BOOKMARK [0][]{chapter*.30}{Abk\374rzungsverzeichnis}{}% 10
-\BOOKMARK [0][]{section*.31}{Abbildungsverzeichnis}{}% 11
-\BOOKMARK [0][]{section*.33}{Tabellenverzeichnis}{}% 12
-\BOOKMARK [0][]{section*.35}{Danksagungen}{}% 13
-\BOOKMARK [0][]{section*.39}{Literaturverzeichnis}{}% 14
+\BOOKMARK [0][]{chapter.4}{Grundlagen und Methoden}{}% 6
+\BOOKMARK [0][]{chapter.5}{Realisierung und Ergebnisse}{}% 7
+\BOOKMARK [1][]{section.5.1}{Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche}{chapter.5}% 8
+\BOOKMARK [2][]{subsection.5.1.1}{Allgemeines}{section.5.1}% 9
+\BOOKMARK [2][]{subsection.5.1.2}{Zielsetzung}{section.5.1}% 10
+\BOOKMARK [2][]{subsection.5.1.3}{Auswahl des Tiefpass-Filters}{section.5.1}% 11
+\BOOKMARK [2][]{subsection.5.1.4}{Butterworth-Filter 2. Ordnung}{section.5.1}% 12
+\BOOKMARK [2][]{subsection.5.1.5}{Schaltung}{section.5.1}% 13
+\BOOKMARK [2][]{subsection.5.1.6}{PCB}{section.5.1}% 14
+\BOOKMARK [0][]{chapter*.9}{Abk\374rzungsverzeichnis}{}% 15
+\BOOKMARK [0][]{section*.10}{Abbildungsverzeichnis}{}% 16
+\BOOKMARK [0][]{section*.12}{Tabellenverzeichnis}{}% 17
+\BOOKMARK [0][]{section*.14}{Danksagungen}{}% 18
+\BOOKMARK [0][]{section*.18}{Literaturverzeichnis}{}% 19
