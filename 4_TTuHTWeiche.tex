@@ -10,15 +10,14 @@ Dementsprechend sollen die Filter gewählt und designet werden.
 
 \subsection{Filter}\label{kap:5.2.3}
 Es wurden wie bereits in Kapitel \ref{kap:5.1} \enquote{Butterworth-Tiefpass-Filter 2. Ordnung} verwendet. Dieses mal ein Bandpass-Filter und ein Hochpass-Filter ebenfalls nach Butterworth. Dabei handelt es sich wieder um \enquote{Aktive-Filter} was bedeutet, dass OPV-Schaltungen verwendet wurden.\\
-Bandpass(\ref{fig:abb5.2.3.1}), Hochpass(\ref{fig:abb5.2.3.2}).\\
-
+Das Bandpass-Filter(\ref{fig:abb5.2.3.1}) besteht aus drei Widerständen, zwei Kondensatoren und einem OPV dieser wird am Minus-Eingang angesteuert was zur folge hat, dass die Schaltung invertierend wirkt was aber keine Probleme aufbringt. Am Plus-Eingang des OPVs wird entweder Masse bei symmetrische Versorgungsspannung oder $\frac{Vcc}{2}$ bei asymmetrischer verwendet.
 \begin{figure} [ht]
 	\centering
 	\includegraphics[width=1\textwidth]{img/Print4/BPFilter-Butterworth2Ordnung.PNG}
 	\caption{Butterworth-Bandpass-Filter 2. Ordnung}
 	\label {fig:abb5.2.3.1}
-\end{figure}
-
+\end{figure}\\
+Ähnliche Konstruktion hat der Hochpass(\ref{fig:abb5.2.3.2}). Dieser besteht aus drei Kondensatoren, zwei Widerständen und einem OPV.\\
 \begin{figure} [ht]
 	\centering	
 	\includegraphics[width=1\textwidth]{img/Print4/HPFilter-Butterworth2Ordnung.PNG}
@@ -29,31 +28,40 @@ Bandpass(\ref{fig:abb5.2.3.1}), Hochpass(\ref{fig:abb5.2.3.2}).\\
 \subsection{Schaltung}\label{kap:5.2.4}
 
 Das Eingangssignal (Links, Rechts, Masse) wird an einer dreipoligen Stifleiste angeschlosssen (Abb. \ref{fig:abb5.2.4.1}). Zuerst gelangt Signal-Links und -Rechts an jeweils ein Potentiometer um den Pegel anpassen zu können, es bietet also eine Regelmöglichkeit. Es folgen die Filter. Hochpass für Links/Rechts und Tiefpass für Links/Rechts. Ein \enquote{Butterworth-Tiefpass-Filter 2. Ordnung} wurde bereits in dem Kapitel \ref{kap:5.1.4} erklärt. Das \enquote{Butterworth-Hochpass-Filter und -Bandpass-Filter 2. Ordnung} weist keine groben Unterschiede auf, der Unterschied liegt lediglich in der Bauteilaufteilung.\\
-Nach den Filtern gelangen die getrennten Signale zu deren Ausgangspunkt. Es ist für jede Signalleitung eine zweipolige Stiftleist vorgesehen (Signal + Masse), da der darauffolgende Verstärker einen selbigen Eingang besitzt. Die Stiftleisten sind jedoch gruppiert nach Bandpass- und Hochpass-Ausgang.
-
+Nach den Filtern gelangen die getrennten Signale zu deren Ausgangspunkt. Es ist für jede Signalleitung eine zweipolige Stiftleist vorgesehen (Signal + Masse), da der darauffolgende Verstärker einen selbigen Eingang besitzt. Die Stiftleisten sind jedoch gruppiert nach Bandpass- und Hochpass-Ausgang.\\
 \begin{figure} [ht]
 	\centering	
 	\includegraphics[width=1\textwidth]{img/Print4/4_TTuHTWeiche-Schematic.PNG}
 	\caption{Butterworth-Bandpass-Filter 2. Ordnung}
 	\label {fig:abb5.2.4.1}
-\end{figure}
-
+\end{figure}\\
+Eines der Bandpass-Filter. Gut sichtbar die doppelte, parallele Ausführung von Widerständen und Kondensatoren um krumme Werte auch erhalten zu können. Bedingt durch Parallel-Schaltung von Widerständen und Kondensatoren.\\ 
+Der Eingang wurde gespiegelt um ein schöneres Bild zu erlangen. Die Spiegelung ist für das PCB-Layout nicht relevant!\\
+Bedingt durch die Versorgungsspannung ist auch der Spannungsteiler für $\frac{Vcc}{2}$ am Plus-Eingang des OPVs implementiert.
 \begin{figure} [ht]
 	\centering	
 	\includegraphics[width=1\textwidth]{img/Print4/4_TTuHTWeiche-LinksHP-Schematic.PNG}
-	\caption{Butterworth-Bandpass-Filter 2. Ordnung - aus \ref{fig:abb5.2.4.1}}
+	\caption{Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref{fig:abb5.2.4.1}}
 	\label {fig:abb5.2.4.2}
-\end{figure}
-
+\end{figure}\\
+Am B-Teil des OPVs (erkennbar an der Beschriftung: TT\enquote{B}) ist keine Versorgung einzuzeichnen, da er mit dem A-Teil einen achtpinnigen IC mit zwei integrierten OPVs ergibt. Die zwei Teile sind über das IC-Gehäuse mit der gleichen Versorgungsspannung verbunden, deshalb ist das einmalige Kennzeichnen ausreichend.\\
 \begin{figure} [ht]
 	\centering	
 	\includegraphics[width=1\textwidth]{img/Print4/4_TTuHTWeiche-RechtsBP-Schematic.PNG}
-	\caption{Butterworth-Bandpass-Filter 2. Ordnung - aus \ref{fig:abb5.2.4.1}}
+	\caption{Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref{fig:abb5.2.4.1}}
 	\label {fig:abb5.2.4.3}
 \end{figure}
 
 \subsection{PCB}\label{kap:5.2.5}
-Es wurden wieder die grundlegenden Regeln zur Leiterplattenentflechtung angewandt (\ref{}). Bei dem Design wurde wieder auf hohe Variierbarkeit geachtet um auch zB. Kondensatoren mit unterschiedlichen Footprint einbauen zu können. Es wurden wieder nahe an den IC's ELKOs in der Spannungsversorgungsleitung verbaut, um Störungen zu verhindern.
+Es wurden die grundlegenden Regeln zur Leiterplattenentflechtung angewandt (\ref{}). Bei dem Design (Abb. \ref{fig:abb5.2.5.1}) wurde auf hohe Variierbarkeit geachtet um auch zB. Kondensatoren mit unterschiedlichen Footprint verwenden zu können.\\
+Es wurden wieder nahe an den IC's ELKOs in der Spannungsversorgungsleitung verbaut, um Störungen zu verhindern.
+
+\begin{figure} [ht]
+	\centering	
+	\includegraphics[width=1\textwidth]{img/Print4/4_TTuHTWeiche-PCB.PNG}
+	\caption{Tieftöner- und Hochtönerweichen - PCB}
+	\label {fig:abb5.2.5.1}
+\end{figure}
 
 
 \begin{comment}
