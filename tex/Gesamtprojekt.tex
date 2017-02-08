@@ -1,0 +1,25 @@
+\section{Ziele}\label{sec:2.1}
+Es soll ein 2.1-System entwickelt werden. Ein Mono-Sobwoofer übernimmt die tiefen Bässe, während 2 Satelliten - mit jeweils einem Hoch- und Tieftöner - den Rest übernehmen. Dieser Aufbau wurde gewählt um einen Stereo-Klang erzeugen zu können. \\
+Die Versorgung der Elektronik erfolgt entweder über Akku- oder Netzbetrieb. Jeder Hoch- und Tieftöner bekommt einen eigenen Verstärker (auch der Mono-Subwoofer). \\
+Die Auftrennung der Signale erfolgt über aktive Frequenzweichen.\\
+
+Unsere Diplomarbeit kann grob in 2 Teile aufgeteilt werden:
+\begin{itemize}
+	\item Entwicklung der Elektronik
+	\item Auswahl und Messungen der Lautsprecher
+\end{itemize}
+Die Ziele der 2 Teile werden in diesem Kapitel kurz erläutert.
+
+\subsection{Elektronik}\label{subsec:2.1.1}
+Wie bereits in der Einleitung (\ref{sec:1.2}) erwähnt, ist das Projekt auch für Akkubetrieb ausgelegt und benötigt daher eine passende Versorgungsschaltung. Das Versorgungskonzept sieht einen 12V-Akku mit entsprechendem Ladegerät vor. Dieses wurde zugekauft, da unser Projekt sich eher auf die Lautsprecher konzentriert. Bei Anschluss an das Stromnetz übernimmt das vorgesehene Netzteil die Versorgung der Elektronik. Wegen einer höheren Versorgungsspannung als 12V, steht bei Netzbetrieb eine höhere Leistung zur Verfügung. \\ \\
+Es werden analoge Verstärker von uns verwendet. Gründe dafür sind:
+\begin{itemize}
+	\item Einfacher Aufbau
+	\item Genügend Leistung und Effizienz für dieses Projekt
+	\item Bewährte Technik für Audioverstärker
+\end{itemize} 
+Das Audio-Signal muss vor den Verstärkern natürlich noch gefiltert werden. Diese Aufgabe übernimmt eine Aktive Frequenzweiche. Für den Mono-Subwoofer wird eine eigene Schaltung entwickelt die nicht nur die unerwünschten Signal-Anteile herausfiltert, sondern auch noch das Stereo-Signal auf ein Mono-Signal addiert. \newpage
+Die Signalaufnahme erfolgt über ein Hauptboard mit dem Bluetooth-Modul, welches während einer Projektarbeit in der HTBLuVA St. Pölten entwickelt wurde. Darauf befindet sich außerdem noch ein Klinkenanschluss und eine Addierschaltung.
+
+\subsection{Lautsprecher}\label{subsec:2.1.2}
+Das Ziel für die Auswahl der Lautsprecher war es, möglichst laute Chassis mit möglichst gutem Frequenzgang (wenig Schwankung, möglichst waagrecht) zu finden. Ein weiteres Ziel ist die Verringerung des Volumens der Box, wobei dennoch eine gute Klangqualität erhalten bleibt. Ein kleines Volumen ist nötig, da das fertige System auch für den Außenbereich verwendet werden soll und daher tragbar sein sollte. 
