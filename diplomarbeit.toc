@@ -21,11 +21,16 @@
 \contentsline {subsection}{\numberline {4.2.2}Zielsetzung}{9}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Filter}{9}{subsection.4.2.3}
 \contentsline {subsection}{\numberline {4.2.4}Schaltung}{10}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}PCB}{10}{subsection.4.2.5}
-\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{13}{chapter*.15}
-\contentsline {chapter}{Abbildungsverzeichnis}{14}{section*.16}
-\contentsline {chapter}{Tabellenverzeichnis}{14}{section*.18}
-\contentsline {chapter}{Danksagungen}{15}{section*.20}
-\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{15}{section*.22}
-\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{15}{section*.23}
-\contentsline {chapter}{Literaturverzeichnis}{16}{section*.24}
+\contentsline {subsection}{\numberline {4.2.5}PCB}{13}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}Tieft\IeC {\"o}ner-Verst\IeC {\"a}rker}{15}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Allgemeines}{15}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Zielsetzung}{15}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}TDA2030}{15}{subsection.4.3.3}
+\contentsline {subsubsection}{\nonumberline Absolute Maximalwerte}{16}{section*.17}
+\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{17}{chapter*.19}
+\contentsline {chapter}{Abbildungsverzeichnis}{18}{section*.20}
+\contentsline {chapter}{Tabellenverzeichnis}{18}{section*.22}
+\contentsline {chapter}{Danksagungen}{19}{section*.24}
+\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{19}{section*.26}
+\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{19}{section*.27}
+\contentsline {chapter}{Literaturverzeichnis}{20}{section*.28}
