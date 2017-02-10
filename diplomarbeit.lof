@@ -3,18 +3,18 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Logo von \enquote {Altium Designer} (\url {http://www.altium.com/resources/images/media-release/ad_logo.png})\relax }}{4}{figure.caption.4}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces TDA2030-Pinning\relax }}{6}{figure.caption.5}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces TDA2030-Pinning\relax }}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Butterworth-Tiefpass-Filter 2. Ordnung\relax }}{7}{figure.caption.7}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{8}{figure.caption.8}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Butterworth-Hochpass-Filter 2. Ordnung\relax }}{8}{figure.caption.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Butterworth-Filter 2. Ordnung\relax }}{6}{figure.caption.5}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Schematic Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche\relax }}{7}{figure.caption.6}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Schematic Mono-Bass-Addier-Schaltung\relax }}{7}{figure.caption.7}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Schematic Mono-Bass-Weiche\relax }}{7}{figure.caption.8}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces PCB\relax }}{8}{figure.caption.9}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{9}{figure.caption.10}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Butterworth-Hochpass-Filter 2. Ordnung\relax }}{10}{figure.caption.11}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{11}{figure.caption.12}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:abb5.2.4.1}\relax }}{12}{figure.caption.13}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:abb5.2.4.1}\relax }}{13}{figure.caption.14}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Tieft\IeC {\"o}ner- und Hocht\IeC {\"o}nerweichen - PCB\relax }}{14}{figure.caption.15}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces TDA2030-Pinning\relax }}{15}{figure.caption.16}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces TDA2030-Pinning\relax }}{16}{figure.caption.18}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Schematic Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche\relax }}{10}{figure.caption.10}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Schematic Mono-Bass-Addier-Schaltung\relax }}{10}{figure.caption.11}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Schematic Mono-Bass-Weiche\relax }}{10}{figure.caption.12}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces PCB\relax }}{11}{figure.caption.13}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{13}{figure.caption.14}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:5.2.4.1}\relax }}{14}{figure.caption.15}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:5.2.4.1}\relax }}{15}{figure.caption.16}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Tieft\IeC {\"o}ner- und Hocht\IeC {\"o}nerweichen - PCB\relax }}{16}{figure.caption.17}
 \addvspace {10\p@ }
