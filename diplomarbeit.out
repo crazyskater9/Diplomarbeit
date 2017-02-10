@@ -13,7 +13,7 @@
 \BOOKMARK [2][]{subsection.3.2.1}{Absolute Maximalwerte}{section.3.2}% 13
 \BOOKMARK [1][]{section.3.3}{Filter}{chapter.3}% 14
 \BOOKMARK [2][]{subsection.3.3.1}{Butterworth-Filter 2. Ordnung}{section.3.3}% 15
-\BOOKMARK [0][]{chapter.4}{Realisierung und Ergebnisse}{}% 16
+\BOOKMARK [0][]{chapter.4}{Entwicklung der Elektronik}{}% 16
 \BOOKMARK [1][]{section.4.1}{Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche}{chapter.4}% 17
 \BOOKMARK [2][]{subsection.4.1.1}{Allgemeines}{section.4.1}% 18
 \BOOKMARK [2][]{subsection.4.1.2}{Zielsetzung}{section.4.1}% 19
@@ -27,8 +27,15 @@
 \BOOKMARK [1][]{section.4.3}{Tieft\366ner-Verst\344rker}{chapter.4}% 27
 \BOOKMARK [2][]{subsection.4.3.1}{Allgemeines}{section.4.3}% 28
 \BOOKMARK [2][]{subsection.4.3.2}{Zielsetzung}{section.4.3}% 29
-\BOOKMARK [0][]{chapter*.18}{Abk\374rzungsverzeichnis}{}% 30
-\BOOKMARK [0][]{section*.19}{Abbildungsverzeichnis}{}% 31
-\BOOKMARK [0][]{section*.21}{Tabellenverzeichnis}{}% 32
-\BOOKMARK [0][]{section*.23}{Danksagungen}{}% 33
-\BOOKMARK [0][]{section*.27}{Literaturverzeichnis}{}% 34
+\BOOKMARK [0][]{chapter.5}{Lautsprechermessungen}{}% 30
+\BOOKMARK [1][]{section.5.1}{Allgemeines}{chapter.5}% 31
+\BOOKMARK [2][]{subsection.5.1.1}{Andere wichtige Eigenschaften eines Lautsprechers}{section.5.1}% 32
+\BOOKMARK [1][]{section.5.2}{Messaufbau}{chapter.5}% 33
+\BOOKMARK [2][]{subsection.5.2.1}{Software}{section.5.2}% 34
+\BOOKMARK [2][]{subsection.5.2.2}{Messmodul}{section.5.2}% 35
+\BOOKMARK [2][]{subsection.5.2.3}{Mikrofon}{section.5.2}% 36
+\BOOKMARK [0][]{chapter*.24}{Abk\374rzungsverzeichnis}{}% 37
+\BOOKMARK [0][]{section*.25}{Abbildungsverzeichnis}{}% 38
+\BOOKMARK [0][]{section*.27}{Tabellenverzeichnis}{}% 39
+\BOOKMARK [0][]{section*.29}{Danksagungen}{}% 40
+\BOOKMARK [0][]{section*.33}{Literaturverzeichnis}{}% 41

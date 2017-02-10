@@ -14,24 +14,31 @@
 \contentsline {subsection}{\numberline {3.2.1}Absolute Maximalwerte}{6}{subsection.3.2.1}
 \contentsline {section}{\numberline {3.3}Filter}{6}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Butterworth-Filter 2. Ordnung}{7}{subsection.3.3.1}
-\contentsline {chapter}{\numberline {4}Realisierung und Ergebnisse}{9}{chapter.4}
+\contentsline {chapter}{\numberline {4}Entwicklung der Elektronik}{9}{chapter.4}
 \contentsline {section}{\numberline {4.1}Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche}{9}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Allgemeines}{9}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Zielsetzung}{9}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}Schaltung}{9}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}PCB}{10}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}Tieft\IeC {\"o}ner- und Hocht\IeC {\"o}nerweiche}{12}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Allgemeines}{12}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Zielsetzung}{12}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Schaltung}{12}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}PCB}{15}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Tieft\IeC {\"o}ner-Verst\IeC {\"a}rker}{17}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Allgemeines}{17}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Zielsetzung}{17}{subsection.4.3.2}
-\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{18}{chapter*.18}
-\contentsline {chapter}{Abbildungsverzeichnis}{19}{section*.19}
-\contentsline {chapter}{Tabellenverzeichnis}{19}{section*.21}
-\contentsline {chapter}{Danksagungen}{20}{section*.23}
-\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{20}{section*.25}
-\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{20}{section*.26}
-\contentsline {chapter}{Literaturverzeichnis}{21}{section*.27}
+\contentsline {subsection}{\numberline {4.1.4}PCB}{11}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Tieft\IeC {\"o}ner- und Hocht\IeC {\"o}nerweiche}{13}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Allgemeines}{13}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Zielsetzung}{13}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Schaltung}{13}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}PCB}{16}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Tieft\IeC {\"o}ner-Verst\IeC {\"a}rker}{18}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Allgemeines}{18}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Zielsetzung}{18}{subsection.4.3.2}
+\contentsline {chapter}{\numberline {5}Lautsprechermessungen}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}Allgemeines}{19}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Andere wichtige Eigenschaften eines Lautsprechers}{20}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Messaufbau}{21}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Software}{22}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Messmodul}{23}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Mikrofon}{24}{subsection.5.2.3}
+\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{25}{chapter*.24}
+\contentsline {chapter}{Abbildungsverzeichnis}{26}{section*.25}
+\contentsline {chapter}{Tabellenverzeichnis}{26}{section*.27}
+\contentsline {chapter}{Danksagungen}{27}{section*.29}
+\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{27}{section*.31}
+\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{27}{section*.32}
+\contentsline {chapter}{Literaturverzeichnis}{28}{section*.33}

@@ -53,7 +53,11 @@
 \usepackage{comment}
 \excludecomment{comment}
 
+%% Für figures (H)
 \usepackage{float}
+
+%% Bei Bildern für valign
+\usepackage[export]{adjustbox}
 
 %% definitionen =====================================%%
 \dataSchool{HTBLuVA St. Pölten}
@@ -110,7 +114,6 @@
 
 % Allgemeines über die Diplomarbeit
 \chapter{Einleitung}
-\responsible{Markus Bointner}
 \input{tex/einleitung.tex}
 
 % Ziel der Diplomarbeit
@@ -121,12 +124,18 @@
 \chapter{Grundlagen und Methoden}
 \input{tex/GrundlagenundMethoden.tex}
 
-% Technische Erklärung und Messungen
-\chapter{Realisierung und Ergebnisse}
+% Technische Erklärung der Prints
+\chapter{Entwicklung der Elektronik}
 \responsible{Andreas Macsek}
 \input{tex/3_mTTWeiche_u_Addierer.tex}
 \input{tex/4_TTuHTWeiche.tex}
 \input{tex/5_TTVerstaerker.tex}
+
+% Erklärung der Messungen
+\chapter{Lautsprechermessungen}
+\responsible{Markus Bointner}
+\input{tex/Lautsprechermessungen.tex}
+
 
 %% ANHANG ==============================================%%
 \appendix
