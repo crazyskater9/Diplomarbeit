@@ -4,17 +4,16 @@ Verwendete technische Konzepte, sowie benötigte Software werden in diesem Kapit
 \enquote{Altium Designer} ist eine Software zum Entwickeln und Designen von elektronischen Leiterplatten (engl. PCB). In unserem Fall wurde die Version 13.3 verwendet. 
 \begin{figure} [H]
 	\centering
-	\includegraphics[width=1\textwidth]{img/ad_logo.png}
+	\includegraphics[width=1\textwidth]{img/Grundlagen/Altium/ad_logo.png}
 	\caption{Logo von \enquote{Altium Designer} (\url{http://www.altium.com/resources/images/media-release/ad_logo.png})}
+	%http://www.altium.com/resources/images/media-release/ad_logo.png
 	\label{fig:3.1.1}
 \end{figure}
 
 Für jedes neues \enquote{PCB}-Projekt muss eine \enquote{Schematic}-Datei und eine \enquote{PCB}-Datei angelegt werden.
 
 
-%http://www.altium.com/resources/images/media-release/ad_logo.png
-
-\subsection{Einstellungen für die PCB-Entwicklung}
+\subsection{Einstellungen für die PCB-Entwicklung}\label{subsec:3.1.1}
 %% Altium und Einstellungserklärung + Wichtige Layout-Faktoren
 %Beim designen des Leiterplattenlayouts wurden die allgemeinen Altium-Einstellungen vorgenommen und auf die zu berücksichtigenden Layoutpunkte geachtet.
 Beim \enquote{Layouten} der Schaltung in \enquote{Altium Designer} mussten einige wichtige Einstellungen vorab getätigt werden:\\
@@ -30,7 +29,8 @@ Wie da wären:
 	\item Lochdurchmesser für Pads
 \end{itemize}
 
-\subsection{Designregeln für die PCB-Entwicklung}
+
+\subsection{Designregeln für die PCB-Entwicklung}\label{subsec:3.1.2}
 Beim Entwickeln einer Leiterplatte musste ständig auf wichtige Faktoren geachtet werden um eine Durchwegs EMV konforme, elektrisch wie auch mechanisch Stabile und Teils variable Schaltung zu erhalten. Variabel daher weil es keine Prints für Serienreife sind, welche im Notfall auch mit anderen Bauteilen als den zuvor Vorgesehenen bestückt werden können.\\
 Zu den Wichtigen Faktoren zählen:
 \begin{itemize}
@@ -41,7 +41,6 @@ Zu den Wichtigen Faktoren zählen:
 		\item kleine Leiterschleifen
 		\item Massefläche verwenden
 		\item Anordnung der Bauteile
-		\item ...
 	\end{itemize}
 	\item Ausnützen der Printfläche
 	\item Mehrfach-Footprints ermöglichen für verschiedene Bauteile
@@ -50,31 +49,90 @@ Zu den Wichtigen Faktoren zählen:
 \end{itemize}
 
 
-
-
 \section{TDA2030}\label{sec:3.2}
-Der TDA2030 ist ein für den Audio-Frequenzbereich optimierter OPV. Dieser kann symmetrisch sowie auch asymmetrisch versorgt werden. Eine typische Beschaltung ist im Datenblatt auch vorgegeben, welche auch verwendet wurde. Der TDA2030 besitzt ein Pentawatt-Gehäuse, welches deshalb auch eine Kühlfläche besitzt. Diese Kühlfläche hat das selbe Potential wie der mittlere Anschlusspin (Abb. \ref{fig:3.2.1}).\\
+Der TDA2030 ist ein für den Audio-Frequenzbereich optimierter OPV. Dieser kann symmetrisch sowie auch asymmetrisch versorgt werden. Eine typische Beschaltung ist im Datenblatt auch vorgegeben, welche auch verwendet wurde. Der TDA2030 besitzt ein Pentawatt-Gehäuse, welches eine Kühlfläche besitzt. Diese Kühlfläche hat das selbe Potential wie der mittlere Anschlusspin (Abb. \ref{fig:3.2.1}).\\
 Es wird auch für geringfügigen Betrieb ein Kühlkörper empfohlen!
 \begin{figure} [H]
 	\centering
-	\includegraphics[width=1\textwidth]{img/Print5/TDA2030Pinning.PNG}
+	\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030Pinning.PNG}
 	\caption{TDA2030-Pinning}
 	\label {fig:3.2.1}
+	%http://www.itisff.it/dip_eln/tda2030.pdf --> SnippingTool
 \end{figure}
+\begin{enumerate}
+	\item Noninverting Input = Plus-Eingang des Verstärkers
+	\item Inverting Input = Minus-Eingang des Verstärkers
+	\item -Vs = negative Versorgungsspannung (bzw. Masse)
+	\item Output = Verstärkerausgang
+	\item +Vs = positive Versorgungsspannung		
+\end{enumerate}
+
+
 \subsection{Absolute Maximalwerte}\label{subsec:3.2.1}
 Diese Werte wurden zu aller erst mit den Bedingungen an der Schaltung verglichen, da sie ein sehr genaue, kurze Übersicht über den Baustein liefern. (Abb. \ref{fig:3.2.1.1})
 \begin{figure} [H]
 	\centering
-	\includegraphics[width=1\textwidth]{img/Print5/TDA2030MaximumRatings.PNG}
-	\caption{TDA2030-Pinning}
+	\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030MaximumRatings.PNG}
+	\caption{TDA2030-Maximum Ratings}
 	\label {fig:3.2.1.1}
+	%http://www.itisff.it/dip_eln/tda2030.pdf --> SnippingTool
 \end{figure}
 
-%http://www.itisff.it/dip_eln/tda2030.pdf --> SnippingTool
+
+\subsection{TDA2030-Grundschaltung}\label{subsec:3.2.2}
+Ein wichtiges Bauelement in der Grundschaltung(Abb. \ref{fig:3.2.2.1}) sind die Dioden. Sie schützen den angeschlossenen Lautsprecher vor Überspannungsspitzen.\\
+Das Widerstandsverhältnis am Minus-Eingang des OPVs von 150k Ohm zu 4,7k Ohm liefert die Verstärkung der Schaltung. Hier wäre es dementsprechend eine Verstärkung von ungefähr x32 .\\
+Viele vereinzelte Kondensatoren wurden zum Entstören und gegen mögliches Schwingen der Schaltung vorgesehen.\\
+Der Große-Ausgangs-ELKO wird deshalb verbaut um keine Verschleppte-Gleichspannung am Lautsprecher unnötigerweise anzulegen. Da Gleichspannung an einem Lautsprecher weder hörbar (Frequenz = 0Hz) nur sinnvoll ist, sie zerstört wenn den Lautsprecher ohne es wesentlich mit zu bekommen. Der Kondensator lädt sich einmal mit dieser Gleichspannung auf und lässt die Wechselspannung ohne weiteres passieren.\\\\
+Ein weiteres wesentliches Bauelement ist das \enquote{Boucherot-Glied} ein in Serie geschalteter Kondensator und Widerstand von der Ausgangsleitung des Verstärkers gegen Masse, noch vor dem Ausgangs-ELKO. Es dient zur Widerstandsanpassung im höheren Audio-Frequenzbereich, da der Lautsprecher einen induktiven impedanzabfall aufweist, dieser wird mit dem Kapazitiven impedanzanstieg in diesem Bereich kompensiert. So bleibt die Impedanz im Arbeitsbereich des Verstärkers im wesentlichen die selbe. Ein weiterer Vorteil ist das Frequenzen über der Grenzfrequenz des \enquote{Boucherot-Glieds} wie ein Kurzschluss behandelt werden und so mögliche auftretende Schaltfrequenzen gedämpft werden und nicht anderer folgende Schaltungen beeinflussen können.\\\\
+Die Schaltung ist grundsätzlich für symmetrische und asymmetrische Versorgungsspannung ausgelegt. Die Schaltung ist für 4 und 8 Ohm Lautsprecher spezifiziert.
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030-Grundschaltung.png}
+	\caption{TDA2030-Leistungstransistorschaltung}
+	\text Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.
+	\label {fig:3.2.2.1}
+	%http://www.mikrocontroller.net/attachment/79272/Schaltung.png
+\end{figure}
+
+
+\subsection{Leistungstransistor-Schaltung}\label{subsec:3.2.3}
+Durch das erweitern der TDA2030-Grundschaltung(Kap. \ref{subsec:3.2.2}) mit zwei Leistungstransistoren wird die Schaltung leistungsfähiger. Die Transistoren schalten Ströme über den maximalen schaltbaren Strömen des TDA2030. Während des Normalbetriebes fließt kein Strom durch die Transistoren, sobald aber eine Grenze erreicht wird wird Grundsätzlich mit den Transistoren gearbeitet. Um die Schaltschwelle der Leistungstransistoren fest zu legen wird ein kleiner Widerstand von der Versorgungsspannung gegen den Basis-Anschluss des Transistors geschallten. Beziehungsweise wird dieser Widerstand von der Negativen Versorgungsspannung, oder in diesem Fall von Masse, gegen den Basis-Anschluss des Leistungstransistors geschallten.
+Des weiteren sind die Leistungstransistoren im besten Fall aus der selben Familie. Verwendet wird ein PNP-Leistungstransistor für die positive Halbwelle des Signals und ein NPN-Leistungstransistor für die negative Halbwelle.
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030-Leistungstransschaltung.jpg}
+	\caption{TDA2030-Leistungstransistorschaltung}
+	\text Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.
+	\label {fig:3.2.3.1}
+	%http://www.audiofanatic.it/Schemi/Tipo/Stato_solido/chip/pic_chip/TDA_2030_BD711_712.jpg
+\end{figure}
+
+
+\subsection{H-Brückenschaltung der TDA2030-Verstärkerschaltung}\label{subsec3.2.4}
+Um noch mehr aus dem TDA2030 herauszuholen kann man zwei dieser Verstärker in H-Brücke (Abb. \ref{fig:3.2.4.1}) gegeneinander schalten. Das bedeutet der eine TDA2030 Verstärkt das originale Signal, währenddessen der Zweite das um 90° Phasenverschobene Signal erhält und dieses verstärkt. Das hat zur Folge das während der eine TDA2030 die positive Halbwelle verstärkt der zweite die negative Halbwelle verstärkt. Dies bewirkt einen größeren Hub, da wenn der eine Verstärker bei maximaler Auslenkung die positive Versorgungsspannung erreicht, erreicht der zweite die negative Versorgungsspannung. So erhält man mit zwei TDA2030 den doppelt so hohen Ausgangspegel des Signals.\\
+Einziger Nachteil dieser Konstellation, zwischen den beiden Verstärkern gibt es keinen Massebezug. Bei messen der Schaltung ist Vorsicht geboten, da bei anschließen der Tastkopf-Masse wird je nach anliegendem Signal der eine oder der andere Verstärker kaputt (Kurzschluss!).\\
+Es kann in diesem Fall auch die Leistungstransistorschaltung in H-Brücke geschallten werden um noch mehr aus der Sache heraus zu holen.
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030-H-Bruecke.PNG}
+	\caption{TDA2030-Leistungstransistorschaltung}
+	\text Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.
+	\label {fig:3.2.4.1}
+	%http://www.itisff.it/dip_eln/tda2030.pdf --> SnippingTool
+\end{figure}
+
+
+\subsection{Asymmetrische Spannungsversorgung}\label{subsec3.2.5}
+Bedingt durch eine asymmetrische Spannungsversorgung (zB. 0 und 12V) muss am OPV ein Arbeitspunkt eingestellt werden. Dabei handelt es sich um ein absichtliches Anheben des Signals in Y-Richtung bei einem Spannungs-Zeit-Verlauf, sodass die negative Halbwelle des Signals nicht verloren geht. Die negative Halbwelle würde sonst in den negativen Spannungsbereich reichen wollen, aber dieser ist mit negativer Versorgungsspannung von 0V, also Masse, nicht vorhanden.\\
+Dieser Effekt tritt auf da ein Audio-Signal in der Regel ein symmetrisches Signal ist und eine asymmetrische Versorgungsspannung des Verstärkers dementsprechend die Symmetrie stört.\\
+Um die Symmetrie jedoch trotz asymmetrische Spannungsversorgung bei zu behalten wird ein Arbeitspunkt eingestellt. Dafür wird an dem Plus-Eingang des OPVs über eine Spannungsteiler-Schaltung aus zwei Widerständen das benötigte $\frac{Vcc}{2}$ angelegt.
+
 
 \section{Filter}\label{sec:3.3}
 Es wurde nach einem möglichst steilen, im Durchlassbereich linearen und einfachen Filter gesucht. Man hat sich nach Überlegen für ein \enquote{Aktives-Filter 2.Ordnung} entschieden, dabei wurde die \enquote{Butterworth-Schaltung} bevorzugt. Wegen seiner hohen Linearität im Durchlassbreich und einer Dämpfung von $\frac{-20dB}{Dek.}$ . Dies bedeutet, dass bei einer Tiepfass-Filterung eine Frequenz die 10mal größer ist als die Grenzfrequenz einen um $\frac{1}{10}$ kleineren Pegel aufweist, als die Grenzfrequenz.\\
 Zur Regelung wird an den Eingängen (Rechts, Links) und bei der Schaltung (Abb. \ref{fig:5.2.5.1}) auch am Ausgang, jeweils ein Potentiometer in der Größenordnung von 1kOhm verbaut. Diese dienen zur Anpassung der Amplitude des ein- und ausgehenden Signals, um mögliche Übersteuerungen zu vermeiden.
+
 
 \subsection{Butterworth-Filter 2. Ordnung}\label{subsec:3.3.2}
 Die Grundschaltung eines \enquote{Butterworth-Filters 2. Ordnung} ist für verschiedene Grenzfrequenzen die selbe, lediglich die Bauteilwerte variieren. Auch ist die Schaltung der verschiedenen Grundfilterarten unterschiedlich. \\
@@ -84,7 +142,7 @@ Die da wären:
 	\item Tiefpass
 	\item Bandpass
 \end{itemize}
-Ein Butterworth-Tiefpass-Filter 2. Ordnung besteht hauptsächlich aus einem OPV, drei Widerständen und zwei Kondensatoren. Deren Anordnung ist ausschlaggebend für das Tiefpass-Filter (Abb. \ref{fig:3.3.2.1}).\\ 
+Ein Butterworth-Tiefpass-Filter 2. Ordnung besteht hauptsächlich aus einem OPV, drei Widerständen und zwei Kondensatoren. Deren Anordnung ist ausschlaggebend für das Tiefpass-Filter (Abb. \ref{fig:3.3.2.1}). Dieses Filter lässt alle Frequenzen unterhalb seiner Grenzfrequenz durch.\\ 
 Bedingt durch das Beschalten des OPVs wird das Ausgangssignal invertiert, was hier keine gröberen Folgen mit sich bringt.\\ 
 Am Plus-Eingang des OPVs wird entweder Masse bei symmetrischer Spannungsversorgung, oder $\frac{Vcc}{2}$ bei asymmetrischer Spannungsversorgung angelegt.
 \begin{figure} [H]
@@ -92,21 +150,25 @@ Am Plus-Eingang des OPVs wird entweder Masse bei symmetrischer Spannungsversorgu
 	\includegraphics[width=1\textwidth]{img/Print3/TPFilterButterworth2Ordnung.PNG}
 	\caption{Butterworth-Tiefpass-Filter 2. Ordnung}
 	\label {fig:3.3.2.1}
+	%Selbst generiert in Altium
 \end{figure}
-Das Bandpass-Filter(\ref{fig:3.3.2.2}) besteht aus drei Widerständen, zwei Kondensatoren und einem OPV, jedoch mit anderer Anordnung als bei dem Tiefpass-Filter.
+Das Bandpass-Filter(\ref{fig:3.3.2.2}) besteht aus drei Widerständen, zwei Kondensatoren und einem OPV, jedoch mit anderer Anordnung als bei dem Tiefpass-Filter.  Dieses Filter lässt alle Frequenzen oberhalb seiner Unteren-Grenzfrequenz und unterhalb seiner Oberen-Grenzfrequenz durch.
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/Print4/BPFilter-Butterworth2Ordnung.PNG}
 	\caption{Butterworth-Bandpass-Filter 2. Ordnung}
 	\label {fig:3.3.2.2}
+	%Selbst generiert in Altium	
 \end{figure}
-Das Hochpass-Filter(\ref{fig:3.3.2.3}) hat wieder eine ähnliche Konstruktion. Dieses besteht aus drei Kondensatoren, zwei Widerständen und einem OPV. Wiederum in mit bestimmter Anordnung.
+Das Hochpass-Filter(\ref{fig:3.3.2.3}) hat wieder eine ähnliche Konstruktion. Dieses besteht aus drei Kondensatoren, zwei Widerständen und einem OPV. Wiederum in mit bestimmter Anordnung.  Dieses Filter lässt alle Frequenzen oberhalb seiner Grenzfrequenz durch.
 \begin{figure} [H]
 	\centering	
 	\includegraphics[width=1\textwidth]{img/Print4/HPFilter-Butterworth2Ordnung.PNG}
 	\caption{Butterworth-Hochpass-Filter 2. Ordnung}
 	\label {fig:3.3.2.3}
+	%Selbst generiert in Altium	
 \end{figure}
 
-%Selbst generiert in Altium
+\section{Satelliten-Lautsprecher}\label{sec:3.4}
+Satellitenlautsprecher sind meist passive Lautsprecher, die zumeist durch ein Aktives-Element betrieben werden. Da es sich bei dem Satellitensystem meist um ein Paar oder mehr Boxen handelt und diese räumlichen weiter entfernt voneinander stehen, können Stereo-Effekte verwendet und mit dem reinen Stereo-Eingangssignal gearbeitet werden. Eine Aufteilung des Signals in Linke- und Rechte-Satellitenbox/en muss jedoch schon getroffen werden, um die Effekte richtig zu erhalten.
 
