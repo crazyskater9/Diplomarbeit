@@ -13,11 +13,8 @@ Verwendete technische Konzepte, sowie benötigte Software werden in diesem Kapit
 Für jedes neues \enquote{PCB}-Projekt muss eine \enquote{Schematic}-Datei und eine \enquote{PCB}-Datei angelegt werden.
 
 
-<<<<<<< HEAD
 %http://www.altium.com/resources/images/media-release/ad_logo.png
 
-=======
->>>>>>> origin/master
 \subsection{Einstellungen für die PCB-Entwicklung}\label{subsec:3.1.1}
 %% Altium und Einstellungserklärung + Wichtige Layout-Faktoren
 %Beim designen des Leiterplattenlayouts wurden die allgemeinen Altium-Einstellungen vorgenommen und auf die zu berücksichtigenden Layoutpunkte geachtet.
@@ -34,14 +31,8 @@ Wie da wären:
 	\item Lochdurchmesser für Pads
 \end{itemize}
 
-<<<<<<< HEAD
-\subsection{Designregeln für die PCB-Entwicklung}\label{subsec:3.1.2}
-Beim Entwickeln einer Leiterplatte musste ständig auf wichtige Faktoren geachtet werden um eine durchwegs EMV konforme, elektrisch wie auch mechanisch stabile und teils variable Schaltung zu erhalten. Variabel daher, weil es keine Prints für Serienreife sind, welche im Notfall auch mit anderen Bauteilen als den zuvor Vorgesehenen bestückt werden können.\\
-=======
-
 \subsection{Designregeln für die PCB-Entwicklung}\label{subsec:3.1.2}
 Beim Entwickeln einer Leiterplatte musste ständig auf wichtige Faktoren geachtet werden um eine Durchwegs EMV konforme, elektrisch wie auch mechanisch Stabile und Teils variable Schaltung zu erhalten. Variabel daher weil es keine Prints für Serienreife sind, welche im Notfall auch mit anderen Bauteilen als den zuvor Vorgesehenen bestückt werden können.\\
->>>>>>> origin/master
 Zu den Wichtigen Faktoren zählen:
 \begin{itemize}
 	\item EMV-Technische-Faktoren
@@ -82,13 +73,8 @@ Es wird auch für geringfügigen Betrieb ein Kühlkörper empfohlen!
 Diese Werte wurden zu aller erst mit den Bedingungen an der Schaltung verglichen, da sie ein sehr genaue, kurze Übersicht über den Baustein liefern. (Abb. \ref{fig:3.2.1.1})
 \begin{figure} [H]
 	\centering
-<<<<<<< HEAD
-	\includegraphics[width=1\textwidth]{img/Print5/TDA2030MaximumRatings.PNG}
-	\caption{TDA2030-Absolute Maximum Ratings}
-=======
 	\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030MaximumRatings.PNG}
 	\caption{TDA2030-Maximum Ratings}
->>>>>>> origin/master
 	\label {fig:3.2.1.1}
 	%http://www.itisff.it/dip_eln/tda2030.pdf --> SnippingTool
 \end{figure}
@@ -146,14 +132,9 @@ Um die Symmetrie jedoch trotz asymmetrische Spannungsversorgung bei zu behalten 
 
 \section{Filter}\label{sec:3.3}
 Es wurde nach einem möglichst steilen, im Durchlassbereich linearen und einfachen Filter gesucht. Man hat sich nach Überlegen für ein \enquote{Aktives-Filter 2.Ordnung} entschieden, dabei wurde die \enquote{Butterworth-Schaltung} bevorzugt. Wegen seiner hohen Linearität im Durchlassbreich und einer Dämpfung von $\frac{-20dB}{Dek.}$ . Dies bedeutet, dass bei einer Tiepfass-Filterung eine Frequenz die 10mal größer ist als die Grenzfrequenz einen um $\frac{1}{10}$ kleineren Pegel aufweist, als die Grenzfrequenz.\\
-Zur Regelung wird an den Eingängen (Rechts, Links) und bei der Schaltung (Abb. \ref{fig:5.2.5.1}) auch am Ausgang, jeweils ein Potentiometer in der Größenordnung von 1kOhm verbaut. Diese dienen zur Anpassung der Amplitude des ein- und ausgehenden Signals, um mögliche Übersteuerungen zu vermeiden.
+Zur Regelung wird an den Eingängen (Rechts, Links) und bei der Schaltung (Abb. \ref{fig:4.2.5.1}) auch am Ausgang, jeweils ein Potentiometer in der Größenordnung von 1kOhm verbaut. Diese dienen zur Anpassung der Amplitude des ein- und ausgehenden Signals, um mögliche Übersteuerungen zu vermeiden.
 
-<<<<<<< HEAD
 \subsection{Butterworth-Filter 2. Ordnung}\label{subsec:3.3.1}
-=======
-
-\subsection{Butterworth-Filter 2. Ordnung}\label{subsec:3.3.2}
->>>>>>> origin/master
 Die Grundschaltung eines \enquote{Butterworth-Filters 2. Ordnung} ist für verschiedene Grenzfrequenzen die selbe, lediglich die Bauteilwerte variieren. Auch ist die Schaltung der verschiedenen Grundfilterarten unterschiedlich. \\
 Die da wären: 
 \begin{itemize}

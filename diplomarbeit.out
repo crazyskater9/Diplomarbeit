@@ -11,31 +11,36 @@
 \BOOKMARK [2][]{subsection.3.1.2}{Designregeln f\374r die PCB-Entwicklung}{section.3.1}% 11
 \BOOKMARK [1][]{section.3.2}{TDA2030}{chapter.3}% 12
 \BOOKMARK [2][]{subsection.3.2.1}{Absolute Maximalwerte}{section.3.2}% 13
-\BOOKMARK [1][]{section.3.3}{Filter}{chapter.3}% 14
-\BOOKMARK [2][]{subsection.3.3.1}{Butterworth-Filter 2. Ordnung}{section.3.3}% 15
-\BOOKMARK [0][]{chapter.4}{Entwicklung der Elektronik}{}% 16
-\BOOKMARK [1][]{section.4.1}{Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche}{chapter.4}% 17
-\BOOKMARK [2][]{subsection.4.1.1}{Allgemeines}{section.4.1}% 18
-\BOOKMARK [2][]{subsection.4.1.2}{Zielsetzung}{section.4.1}% 19
-\BOOKMARK [2][]{subsection.4.1.3}{Schaltung}{section.4.1}% 20
-\BOOKMARK [2][]{subsection.4.1.4}{PCB}{section.4.1}% 21
-\BOOKMARK [1][]{section.4.2}{Tieft\366ner- und Hocht\366nerweiche}{chapter.4}% 22
-\BOOKMARK [2][]{subsection.4.2.1}{Allgemeines}{section.4.2}% 23
-\BOOKMARK [2][]{subsection.4.2.2}{Zielsetzung}{section.4.2}% 24
-\BOOKMARK [2][]{subsection.4.2.3}{Schaltung}{section.4.2}% 25
-\BOOKMARK [2][]{subsection.4.2.4}{PCB}{section.4.2}% 26
-\BOOKMARK [1][]{section.4.3}{Tieft\366ner-Verst\344rker}{chapter.4}% 27
-\BOOKMARK [2][]{subsection.4.3.1}{Allgemeines}{section.4.3}% 28
-\BOOKMARK [2][]{subsection.4.3.2}{Zielsetzung}{section.4.3}% 29
-\BOOKMARK [0][]{chapter.5}{Lautsprechermessungen}{}% 30
-\BOOKMARK [1][]{section.5.1}{Allgemeines}{chapter.5}% 31
-\BOOKMARK [2][]{subsection.5.1.1}{Andere wichtige Eigenschaften eines Lautsprechers}{section.5.1}% 32
-\BOOKMARK [1][]{section.5.2}{Messaufbau}{chapter.5}% 33
-\BOOKMARK [2][]{subsection.5.2.1}{Software}{section.5.2}% 34
-\BOOKMARK [2][]{subsection.5.2.2}{Messmodul}{section.5.2}% 35
-\BOOKMARK [2][]{subsection.5.2.3}{Mikrofon}{section.5.2}% 36
-\BOOKMARK [0][]{chapter*.24}{Abk\374rzungsverzeichnis}{}% 37
-\BOOKMARK [0][]{section*.25}{Abbildungsverzeichnis}{}% 38
-\BOOKMARK [0][]{section*.27}{Tabellenverzeichnis}{}% 39
-\BOOKMARK [0][]{section*.29}{Danksagungen}{}% 40
-\BOOKMARK [0][]{section*.33}{Literaturverzeichnis}{}% 41
+\BOOKMARK [2][]{subsection.3.2.2}{TDA2030-Grundschaltung}{section.3.2}% 14
+\BOOKMARK [2][]{subsection.3.2.3}{Leistungstransistor-Schaltung}{section.3.2}% 15
+\BOOKMARK [2][]{subsection.3.2.4}{H-Br\374ckenschaltung der TDA2030-Verst\344rkerschaltung}{section.3.2}% 16
+\BOOKMARK [2][]{subsection.3.2.5}{Asymmetrische Spannungsversorgung}{section.3.2}% 17
+\BOOKMARK [1][]{section.3.3}{Filter}{chapter.3}% 18
+\BOOKMARK [2][]{subsection.3.3.1}{Butterworth-Filter 2. Ordnung}{section.3.3}% 19
+\BOOKMARK [1][]{section.3.4}{Satelliten-Lautsprecher}{chapter.3}% 20
+\BOOKMARK [0][]{chapter.4}{Entwicklung der Elektronik}{}% 21
+\BOOKMARK [1][]{section.4.1}{Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche}{chapter.4}% 22
+\BOOKMARK [2][]{subsection.4.1.1}{Allgemeines}{section.4.1}% 23
+\BOOKMARK [2][]{subsection.4.1.2}{Zielsetzung}{section.4.1}% 24
+\BOOKMARK [2][]{subsection.4.1.3}{Schaltung}{section.4.1}% 25
+\BOOKMARK [2][]{subsection.4.1.4}{PCB}{section.4.1}% 26
+\BOOKMARK [1][]{section.4.2}{Tieft\366ner- und Hocht\366nerweiche}{chapter.4}% 27
+\BOOKMARK [2][]{subsection.4.2.1}{Allgemeines}{section.4.2}% 28
+\BOOKMARK [2][]{subsection.4.2.2}{Zielsetzung}{section.4.2}% 29
+\BOOKMARK [2][]{subsection.4.2.3}{Schaltung}{section.4.2}% 30
+\BOOKMARK [2][]{subsection.4.2.4}{PCB}{section.4.2}% 31
+\BOOKMARK [1][]{section.4.3}{Tieft\366ner-Verst\344rker}{chapter.4}% 32
+\BOOKMARK [2][]{subsection.4.3.1}{Allgemeines}{section.4.3}% 33
+\BOOKMARK [2][]{subsection.4.3.2}{Zielsetzung}{section.4.3}% 34
+\BOOKMARK [0][]{chapter.5}{Lautsprechermessungen}{}% 35
+\BOOKMARK [1][]{section.5.1}{Allgemeines}{chapter.5}% 36
+\BOOKMARK [2][]{subsection.5.1.1}{Andere wichtige Eigenschaften eines Lautsprechers}{section.5.1}% 37
+\BOOKMARK [1][]{section.5.2}{Messaufbau}{chapter.5}% 38
+\BOOKMARK [2][]{subsection.5.2.1}{Software}{section.5.2}% 39
+\BOOKMARK [2][]{subsection.5.2.2}{Messmodul}{section.5.2}% 40
+\BOOKMARK [2][]{subsection.5.2.3}{Mikrofon}{section.5.2}% 41
+\BOOKMARK [0][]{chapter*.27}{Abk\374rzungsverzeichnis}{}% 42
+\BOOKMARK [0][]{section*.28}{Abbildungsverzeichnis}{}% 43
+\BOOKMARK [0][]{section*.30}{Tabellenverzeichnis}{}% 44
+\BOOKMARK [0][]{section*.32}{Danksagungen}{}% 45
+\BOOKMARK [0][]{section*.36}{Literaturverzeichnis}{}% 46
