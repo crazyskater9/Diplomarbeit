@@ -2,29 +2,29 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Logo von \enquote {Altium Designer} (\url {http://www.altium.com/resources/images/media-release/ad_logo.png})\relax }}{4}{figure.caption.4}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces TDA2030-Pinning\relax }}{6}{figure.caption.5}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces TDA2030-Maximum Ratings\relax }}{7}{figure.caption.6}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces TDA2030-Leistungstransistorschaltung\relax }}{8}{figure.caption.7}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces TDA2030-Leistungstransistorschaltung\relax }}{9}{figure.caption.8}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces TDA2030-Leistungstransistorschaltung\relax }}{10}{figure.caption.9}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Logo von \enquote {Altium Designer}}}{4}{figure.caption.4}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces TDA2030-Pinning}}{6}{figure.caption.5}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces TDA2030-Maximum Ratings}}{7}{figure.caption.6}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces TDA2030-Leistungstransistorschaltung}}{8}{figure.caption.7}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces TDA2030-Leistungstransistorschaltung}}{9}{figure.caption.8}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces TDA2030-Leistungstransistorschaltung}}{10}{figure.caption.9}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Butterworth-Tiefpass-Filter 2. Ordnung\relax }}{12}{figure.caption.10}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{12}{figure.caption.11}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{13}{figure.caption.11}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Butterworth-Hochpass-Filter 2. Ordnung\relax }}{13}{figure.caption.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Schematic Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche\relax }}{15}{figure.caption.13}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Schematic Mono-Bass-Addier-Schaltung\relax }}{15}{figure.caption.14}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Schematic Mono-Bass-Weiche\relax }}{16}{figure.caption.15}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces PCB\relax }}{17}{figure.caption.16}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{19}{figure.caption.17}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:4.2.4.1}\relax }}{20}{figure.caption.18}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:4.2.4.1}\relax }}{21}{figure.caption.19}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Tieft\IeC {\"o}ner- und Hocht\IeC {\"o}nerweichen - PCB\relax }}{22}{figure.caption.20}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Schematic Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche\relax }}{16}{figure.caption.13}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Schematic Mono-Bass-Addier-Schaltung\relax }}{16}{figure.caption.14}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Schematic Mono-Bass-Weiche\relax }}{17}{figure.caption.15}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces PCB\relax }}{18}{figure.caption.16}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{20}{figure.caption.17}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:4.2.4.1}\relax }}{21}{figure.caption.18}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:4.2.4.1}\relax }}{22}{figure.caption.19}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Tieft\IeC {\"o}ner- und Hocht\IeC {\"o}nerweichen - PCB\relax }}{23}{figure.caption.20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Beispiel eines Frequenzganges (Tieft\IeC {\"o}ner PSS 297 58206)\relax }}{24}{figure.caption.21}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Schalldichter Raum in der HTBLuVA St. P\IeC {\"o}lten\relax }}{26}{figure.caption.22}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Auschnitt aus der Software \enquote {PULSE LabShop}\relax }}{27}{figure.caption.23}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Zeitfunktion und Spektrum von \enquote {wei\IeC {\ss }em Rauschen}\relax }}{28}{figure.caption.24}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Messmodul\relax }}{28}{figure.caption.25}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Messmikrofon \enquote {Br\IeC {\"u}el \& Kj\ae r Type 2669}\relax }}{29}{figure.caption.26}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Beispiel eines Frequenzganges (Tieft\IeC {\"o}ner PSS 297 58206)\relax }}{25}{figure.caption.21}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Schalldichter Raum in der HTBLuVA St. P\IeC {\"o}lten\relax }}{27}{figure.caption.22}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Auschnitt aus der Software \enquote {PULSE LabShop}\relax }}{28}{figure.caption.23}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Zeitfunktion und Spektrum von \enquote {wei\IeC {\ss }em Rauschen}\relax }}{29}{figure.caption.24}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Messmodul\relax }}{29}{figure.caption.25}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Messmikrofon \enquote {Br\IeC {\"u}el \& Kj\ae r Type 2669}\relax }}{30}{figure.caption.26}
 \addvspace {10\p@ }

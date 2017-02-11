@@ -4,17 +4,15 @@ Verwendete technische Konzepte, sowie benötigte Software werden in diesem Kapit
 \enquote{Altium Designer} ist eine Software zum Entwickeln und Designen von elektronischen Leiterplatten (engl. PCB). In unserem Fall wurde die Version 13.3 verwendet. 
 \begin{figure} [H]
 	\centering
-	\includegraphics[width=1\textwidth]{img/Grundlagen/Altium/ad_logo.png}
-	\caption{Logo von \enquote{Altium Designer} (\url{http://www.altium.com/resources/images/media-release/ad_logo.png})}
+	\includegraphics[width=0.8\textwidth]{img/Grundlagen/Altium/ad_logo.png}
+	\caption[Logo von \enquote{Altium Designer}]{Logo von \enquote{Altium Designer}\footnotemark}
 	%http://www.altium.com/resources/images/media-release/ad_logo.png
 	\label{fig:3.1.1}
 \end{figure}
-
+\footnotetext{http://www.altium.com/resources/images/media-release/ad\_logo.png}
 Für jedes neues \enquote{PCB}-Projekt muss eine \enquote{Schematic}-Datei und eine \enquote{PCB}-Datei angelegt werden.
 
-
-%http://www.altium.com/resources/images/media-release/ad_logo.png
-
+\newpage
 \subsection{Einstellungen für die PCB-Entwicklung}\label{subsec:3.1.1}
 %% Altium und Einstellungserklärung + Wichtige Layout-Faktoren
 %Beim designen des Leiterplattenlayouts wurden die allgemeinen Altium-Einstellungen vorgenommen und auf die zu berücksichtigenden Layoutpunkte geachtet.
@@ -56,10 +54,11 @@ Es wird auch für geringfügigen Betrieb ein Kühlkörper empfohlen!
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030Pinning.PNG}
-	\caption{TDA2030-Pinning}
+	\caption[TDA2030-Pinning]{TDA2030-Pinning\footnotemark}
 	\label {fig:3.2.1}
 	%http://www.itisff.it/dip_eln/tda2030.pdf --> SnippingTool
 \end{figure}
+\footnotetext{http://www.itisff.it/dip\_eln/tda2030.pdf}
 \begin{enumerate}
 	\item Noninverting Input = Plus-Eingang des Verstärkers
 	\item Inverting Input = Minus-Eingang des Verstärkers
@@ -74,60 +73,60 @@ Diese Werte wurden zu aller erst mit den Bedingungen an der Schaltung verglichen
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030MaximumRatings.PNG}
-	\caption{TDA2030-Maximum Ratings}
+	\caption[TDA2030-Maximum Ratings]{TDA2030-Maximum Ratings\footnotemark}
 	\label {fig:3.2.1.1}
 	%http://www.itisff.it/dip_eln/tda2030.pdf --> SnippingTool
 \end{figure}
-
+\footnotetext{http://www.itisff.it/dip\_eln/tda2030.pdf}
 
 \subsection{TDA2030-Grundschaltung}\label{subsec:3.2.2}
 Ein wichtiges Bauelement in der Grundschaltung(Abb. \ref{fig:3.2.2.1}) sind die Dioden. Sie schützen den angeschlossenen Lautsprecher vor Überspannungsspitzen.\\
 Das Widerstandsverhältnis am Minus-Eingang des OPVs von 150k Ohm zu 4,7k Ohm liefert die Verstärkung der Schaltung. Hier wäre es dementsprechend eine Verstärkung von ungefähr x32 .\\
 Viele vereinzelte Kondensatoren wurden zum Entstören und gegen mögliches Schwingen der Schaltung vorgesehen.\\
-Der Große-Ausgangs-ELKO wird deshalb verbaut um keine Verschleppte-Gleichspannung am Lautsprecher unnötigerweise anzulegen. Da Gleichspannung an einem Lautsprecher weder hörbar (Frequenz = 0Hz) nur sinnvoll ist, sie zerstört wenn den Lautsprecher ohne es wesentlich mit zu bekommen. Der Kondensator lädt sich einmal mit dieser Gleichspannung auf und lässt die Wechselspannung ohne weiteres passieren.\\\\
-Ein weiteres wesentliches Bauelement ist das \enquote{Boucherot-Glied} ein in Serie geschalteter Kondensator und Widerstand von der Ausgangsleitung des Verstärkers gegen Masse, noch vor dem Ausgangs-ELKO. Es dient zur Widerstandsanpassung im höheren Audio-Frequenzbereich, da der Lautsprecher einen induktiven impedanzabfall aufweist, dieser wird mit dem Kapazitiven impedanzanstieg in diesem Bereich kompensiert. So bleibt die Impedanz im Arbeitsbereich des Verstärkers im wesentlichen die selbe. Ein weiterer Vorteil ist das Frequenzen über der Grenzfrequenz des \enquote{Boucherot-Glieds} wie ein Kurzschluss behandelt werden und so mögliche auftretende Schaltfrequenzen gedämpft werden und nicht anderer folgende Schaltungen beeinflussen können.\\\\
+Der Große-Ausgangs-ELKO wird deshalb verbaut um keine verschleppte Gleichspannung am Lautsprecher unnötigerweise anzulegen. Gleichspannung ist an einem Lautsprecher weder hörbar (Frequenz = 0Hz) noch sinnvoll und kann den Lautsprecher beschädigen. Der Kondensator lädt sich einmal mit dieser Gleichspannung auf und lässt die Wechselspannung ohne weiteres passieren.\\\\
+Ein weiteres wesentliches Bauelement ist das \enquote{Boucherot-Glied}, ein in Serie geschalteter Kondensator und Widerstand von der Ausgangsleitung des Verstärkers gegen Masse, noch vor dem Ausgangs-ELKO. Es dient zur Widerstandsanpassung im höheren Audio-Frequenzbereich, da der Lautsprecher einen induktiven Impedanzabfall aufweist, wird dieser mit dem kapazitiven Impedanzanstieg in diesem Bereich kompensiert. So bleibt die Impedanz im Arbeitsbereich des Verstärkers im wesentlichen die selbe. Ein weiterer Vorteil ist, dass Frequenzen über der Grenzfrequenz des \enquote{Boucherot-Glieds} wie ein Kurzschluss behandelt werden und so mögliche auftretende Schaltfrequenzen gedämpft werden und nicht andere folgende Schaltungen beeinflussen können.\\\\
 Die Schaltung ist grundsätzlich für symmetrische und asymmetrische Versorgungsspannung ausgelegt. Die Schaltung ist für 4 und 8 Ohm Lautsprecher spezifiziert.
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030-Grundschaltung.png}
-	\caption{TDA2030-Leistungstransistorschaltung}
-	\text Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.
+	\caption[TDA2030-Leistungstransistorschaltung]{TDA2030-Leistungstransistorschaltung\footnotemark}
+	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.)
 	\label {fig:3.2.2.1}
 	%http://www.mikrocontroller.net/attachment/79272/Schaltung.png
 \end{figure}
-
+\footnotetext{http://www.mikrocontroller.net/attachment/79272/Schaltung.png}
 
 \subsection{Leistungstransistor-Schaltung}\label{subsec:3.2.3}
-Durch das erweitern der TDA2030-Grundschaltung(Kap. \ref{subsec:3.2.2}) mit zwei Leistungstransistoren wird die Schaltung leistungsfähiger. Die Transistoren schalten Ströme über den maximalen schaltbaren Strömen des TDA2030. Während des Normalbetriebes fließt kein Strom durch die Transistoren, sobald aber eine Grenze erreicht wird wird Grundsätzlich mit den Transistoren gearbeitet. Um die Schaltschwelle der Leistungstransistoren fest zu legen wird ein kleiner Widerstand von der Versorgungsspannung gegen den Basis-Anschluss des Transistors geschallten. Beziehungsweise wird dieser Widerstand von der Negativen Versorgungsspannung, oder in diesem Fall von Masse, gegen den Basis-Anschluss des Leistungstransistors geschallten.
+Durch das Erweitern der TDA2030-Grundschaltung(Kap. \ref{subsec:3.2.2}) mit zwei Leistungstransistoren wird die Schaltung leistungsfähiger. Die Transistoren schalten Ströme über den maximalen schaltbaren Strömen des TDA2030. Während des Normalbetriebes fließt kein Strom durch die Transistoren, sobald aber eine Grenze erreicht wird, wird grundsätzlich mit den Transistoren gearbeitet. Um die Schaltschwelle der Leistungstransistoren festzulegen wird ein kleiner Widerstand von der Versorgungsspannung gegen den Basis-Anschluss des Transistors geschallten. Beziehungsweise wird dieser Widerstand von der Negativen Versorgungsspannung, oder in diesem Fall von Masse, gegen den Basis-Anschluss des Leistungstransistors geschaltet.
 Des weiteren sind die Leistungstransistoren im besten Fall aus der selben Familie. Verwendet wird ein PNP-Leistungstransistor für die positive Halbwelle des Signals und ein NPN-Leistungstransistor für die negative Halbwelle.
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030-Leistungstransschaltung.jpg}
-	\caption{TDA2030-Leistungstransistorschaltung}
-	\text Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.
+	\caption[TDA2030-Leistungstransistorschaltung]{TDA2030-Leistungstransistorschaltung\footnotemark}
+	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.)
 	\label {fig:3.2.3.1}
 	%http://www.audiofanatic.it/Schemi/Tipo/Stato_solido/chip/pic_chip/TDA_2030_BD711_712.jpg
 \end{figure}
-
+\footnotetext{http://www.audiofanatic.it/Schemi/Tipo/Stato\_solido/chip/pic\_chip/TDA\_2030\_BD711\_712.jpg}
 
 \subsection{H-Brückenschaltung der TDA2030-Verstärkerschaltung}\label{subsec3.2.4}
-Um noch mehr aus dem TDA2030 herauszuholen kann man zwei dieser Verstärker in H-Brücke (Abb. \ref{fig:3.2.4.1}) gegeneinander schalten. Das bedeutet der eine TDA2030 Verstärkt das originale Signal, währenddessen der Zweite das um 90° Phasenverschobene Signal erhält und dieses verstärkt. Das hat zur Folge das während der eine TDA2030 die positive Halbwelle verstärkt der zweite die negative Halbwelle verstärkt. Dies bewirkt einen größeren Hub, da wenn der eine Verstärker bei maximaler Auslenkung die positive Versorgungsspannung erreicht, erreicht der zweite die negative Versorgungsspannung. So erhält man mit zwei TDA2030 den doppelt so hohen Ausgangspegel des Signals.\\
-Einziger Nachteil dieser Konstellation, zwischen den beiden Verstärkern gibt es keinen Massebezug. Bei messen der Schaltung ist Vorsicht geboten, da bei anschließen der Tastkopf-Masse wird je nach anliegendem Signal der eine oder der andere Verstärker kaputt (Kurzschluss!).\\
-Es kann in diesem Fall auch die Leistungstransistorschaltung in H-Brücke geschallten werden um noch mehr aus der Sache heraus zu holen.
+Um noch mehr aus dem TDA2030 herauszuholen kann man zwei dieser Verstärker in H-Brücke (Abb. \ref{fig:3.2.4.1}) gegeneinander schalten. Ein TDA2030 verstärkt das originale Signal, währenddessen der Zweite das um 90° phasenverschobene Signal erhält und dieses verstärkt. Das hat zur Folge das während der eine TDA2030 die positive Halbwelle verstärkt der zweite die negative Halbwelle verstärkt. Dies bewirkt einen größeren Hub, da der eine Verstärker bei maximaler Auslenkung die positive Versorgungsspannung erreicht, während der zweite die negative Versorgungsspannung erreicht. So erhält man mit zwei TDA2030 den doppelten Ausgangspegel des Signals.\\
+Einziger Nachteil dieser Konstellation: Zwischen den beiden Verstärkern gibt es keinen Massebezug. Beim Messen der Schaltung ist Vorsicht geboten, da beim Anschließen der Tastkopf-Masse, je nach anliegendem Signal, der eine oder der andere Verstärker beschädigt werden kann(Kurzschluss!).\\
+Es kann in diesem Fall auch die Leistungstransistorschaltung in H-Brücke geschaltet werden um noch mehr aus der Sache heraus zu holen.
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030-H-Bruecke.PNG}
-	\caption{TDA2030-Leistungstransistorschaltung}
-	\text Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.
+	\caption[TDA2030-Leistungstransistorschaltung]{TDA2030-Leistungstransistorschaltung\footnotemark}
+	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.)
 	\label {fig:3.2.4.1}
 	%http://www.itisff.it/dip_eln/tda2030.pdf --> SnippingTool
 \end{figure}
-
+\footnotetext{http://www.itisff.it/dip\_eln/tda2030.pdf}
 
 \subsection{Asymmetrische Spannungsversorgung}\label{subsec3.2.5}
-Bedingt durch eine asymmetrische Spannungsversorgung (zB. 0 und 12V) muss am OPV ein Arbeitspunkt eingestellt werden. Dabei handelt es sich um ein absichtliches Anheben des Signals in Y-Richtung bei einem Spannungs-Zeit-Verlauf, sodass die negative Halbwelle des Signals nicht verloren geht. Die negative Halbwelle würde sonst in den negativen Spannungsbereich reichen wollen, aber dieser ist mit negativer Versorgungsspannung von 0V, also Masse, nicht vorhanden.\\
-Dieser Effekt tritt auf da ein Audio-Signal in der Regel ein symmetrisches Signal ist und eine asymmetrische Versorgungsspannung des Verstärkers dementsprechend die Symmetrie stört.\\
-Um die Symmetrie jedoch trotz asymmetrische Spannungsversorgung bei zu behalten wird ein Arbeitspunkt eingestellt. Dafür wird an dem Plus-Eingang des OPVs über eine Spannungsteiler-Schaltung aus zwei Widerständen das benötigte $\frac{Vcc}{2}$ angelegt.
+Bedingt durch eine asymmetrische Spannungsversorgung (zB. 0 und 12V), muss am OPV ein Arbeitspunkt eingestellt werden. Dabei handelt es sich um ein absichtliches Anheben des Signals in Y-Richtung bei einem Spannungs-Zeit-Verlauf, sodass die negative Halbwelle des Signals nicht verloren geht. Die negative Halbwelle würde sonst in den negativen Spannungsbereich reichen wollen, aber dieser ist mit negativer Versorgungsspannung von 0V, also Masse, nicht vorhanden.\\
+Dieser Effekt tritt auf, da ein Audio-Signal in der Regel ein symmetrisches Signal ist und eine asymmetrische Versorgungsspannung des Verstärkers dementsprechend die Symmetrie stört.\\
+Um die Symmetrie jedoch trotz asymmetrische Spannungsversorgung beizubehalten, wird ein Arbeitspunkt eingestellt. Dafür wird an dem Plus-Eingang des OPVs über eine Spannungsteiler-Schaltung aus zwei Widerständen das benötigte $\frac{Vcc}{2}$ angelegt.
 
 
 \section{Filter}\label{sec:3.3}
@@ -135,7 +134,7 @@ Es wurde nach einem möglichst steilen, im Durchlassbereich linearen und einfach
 Zur Regelung wird an den Eingängen (Rechts, Links) und bei der Schaltung (Abb. \ref{fig:4.2.5.1}) auch am Ausgang, jeweils ein Potentiometer in der Größenordnung von 1kOhm verbaut. Diese dienen zur Anpassung der Amplitude des ein- und ausgehenden Signals, um mögliche Übersteuerungen zu vermeiden.
 
 \subsection{Butterworth-Filter 2. Ordnung}\label{subsec:3.3.1}
-Die Grundschaltung eines \enquote{Butterworth-Filters 2. Ordnung} ist für verschiedene Grenzfrequenzen die selbe, lediglich die Bauteilwerte variieren. Auch ist die Schaltung der verschiedenen Grundfilterarten unterschiedlich. \\
+Die Grundschaltung eines \enquote{Butterworth-Filters 2. Ordnung} ist für verschiedene Grenzfrequenzen dieselbe, lediglich die Bauteilwerte variieren. Auch die Schaltung der verschiedenen Grundfilterarten ist unterschiedlich. \\
 Die da wären: 
 \begin{itemize}
 	\item Hochpass
@@ -170,5 +169,5 @@ Das Hochpass-Filter(\ref{fig:3.3.2.3}) hat wieder eine ähnliche Konstruktion. D
 \end{figure}
 
 \section{Satelliten-Lautsprecher}\label{sec:3.4}
-Satellitenlautsprecher sind meist passive Lautsprecher, die zumeist durch ein Aktives-Element betrieben werden. Da es sich bei dem Satellitensystem meist um ein Paar oder mehr Boxen handelt und diese räumlichen weiter entfernt voneinander stehen, können Stereo-Effekte verwendet und mit dem reinen Stereo-Eingangssignal gearbeitet werden. Eine Aufteilung des Signals in Linke- und Rechte-Satellitenbox/en muss jedoch schon getroffen werden, um die Effekte richtig zu erhalten.
+Satellitenlautsprecher sind meist passive Lautsprecher, die durch ein Aktives-Element betrieben werden. Da es sich bei dem Satellitensystem meist um ein Paar oder mehr Boxen handelt und diese räumlich weiter entfernt voneinander stehen, können Stereo-Effekte verwendet und mit dem reinen Stereo-Eingangssignal gearbeitet werden. Eine Aufteilung des Signals in Linke- und Rechte-Satellitenbox/en muss jedoch schon getroffen werden, um die Effekte richtig zu erhalten.
 
