@@ -12,7 +12,7 @@ Die Qualität des Frequenzganges eines Lautsprechers hängt nun nicht direkt von
 In diesem Fall werden hohe Frequenzen vom Lautsprecher \enquote{gedämpft} und somit nicht abgestrahlt.
 
 \subsection{Andere wichtige Eigenschaften eines Lautsprechers}\label{subsec:5.1.1}
-Ein Lautsprecher wird aber nicht nur durch seinen Frequenzgang definiert. Es gibt viele andere Eigenschaften, die auch unter dem Namen \enquote{Thiele-Small-Parameter} bekannt sind:
+Ein Lautsprecher wird aber nicht nur durch seinen Frequenzgang definiert. Es gibt viele andere Eigenschaften, die auch unter dem Namen \enquote{Thiele-Small-Parameter}\footnote{https://de.wikipedia.org/wiki/Thiele-Small-Parameter} bekannt sind:
 % Quelle: https://de.wikipedia.org/wiki/Thiele-Small-Parameter
 \begin{itemize}
 	\item Äquivalentvolumen $ V_{as} $
@@ -30,7 +30,7 @@ Ein Lautsprecher wird aber nicht nur durch seinen Frequenzgang definiert. Es gib
 	\item Kraftfaktor \emph{B × l}
 	\item mechanischer Verlustwiderstand $ R_{ms} $
 \end{itemize}
-Diese Eigenschaften, sowie auch die Impedanz \emph{Z}, beschreiben ebenfalls das Verhalten eines Lautsprechers. Sie wurden aber nicht von uns gemessen, weil der Fokus unseres Projekts eher an der Optimierung des Frequenzganges liegt. Die Thiele-Small-Paramter sind aber nicht veränderbar, also auch nicht optimierbar.
+Diese Eigenschaften, sowie auch die Impedanz \emph{Z}, beschreiben ebenfalls das Verhalten eines Lautsprechers. Sie wurden aber nicht von uns gemessen, weil der Fokus unseres Projekts eher an der Optimierung des Frequenzganges liegt. Die Thiele-Small-Paramter sind außerdem nicht veränderbar, also auch nicht optimierbar.
 
 \section{Messaufbau}\label{sec:5.2}
 Um überhaupt präzise Messungen an Lautsprechern durchführen zu können, benötigt man einen geeigneten Messraum. Die HTBLuVA St. Pölten verfügt glücklicherweise über so einen schalldichten Raum. Dieser ist innen mit schalldämpfenden Material ausgekleidet und dämpft somit jede Schallwelle in ihm. 
@@ -84,17 +84,23 @@ Das Mess-Signal besteht aus einem \enquote{weißen Rauschen}. Dieses Signal ist 
 \end{figure}
 
 \newpage
-\subsection{Mikrofon}\label{subsec:5.2.3}
+\subsection{Verstärker}\label{subsec:5.2.3}
+Prinzipiell kann für diesen Aufbau jeder Leistungsverstärker verwendet werden. In unserem Fall war ein \enquote{Brüel \& Kj\ae r Power Amplifier Type 2706} in Verwendung.\\
+Da meist nur ein Lautsprecher gemessen wird, benötigt man auch nur ein Signal (Mono, kein Stereo) zum Messen. Der Verstärker verfügt über einen, in Stufen schaltbaren Abschwächer und einen stufenloses \enquote{Gain Control}.\\
+Da auch andere Komponenten in dem Aufbau von der Firma  \enquote{Brüel \& Kj\ae r} sind, weist der Verstärker eine hohe Kompatibilität zum restlichen Equipment auf.
+\begin{figure} [H]
+	\centering
+	%\includegraphics[width=1\textwidth]{img/LSMessung/verstärker.png}
+	\caption{\enquote{Brüel \& Kj\ae r Power Amplifier Type 2706}}
+	\label{fig:5.2.3.1}
+\end{figure}
+
+\subsection{Mikrofon}\label{subsec:5.2.4}
 Um den Schalldruckpegel möglichst präzise messen zu können wird auch ein dementsprechend genaues Mikrofon benötigt. Das bei uns verwendete Mikrofon war das \enquote{Brüel \& Kj\ae r Type 2669}. \\
 Ebenfalls wichtig ist die Ausrichtung des Mikrofons. Es sollte immer auf Höhe der Mitte des Lautsprechers angebracht werden. Die Entfernung muss bei verschiedenen Lautsprechern gleich bleiben, um vergleichbare Messungen zu ermöglichen. Bei einem Zwei-Weg-System (Hoch- und Tieftöner) haben wir das Mikrofon (vertikal gesehen) zwischen den Lautsprechern befestigt.
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/LSMessung/mikro.png}
 	\caption{Messmikrofon \enquote{Brüel \& Kj\ae r Type 2669}}
-	\label{fig:5.2.3.1}
+	\label{fig:5.2.4.1}
 \end{figure}
-
-
-
-
-
