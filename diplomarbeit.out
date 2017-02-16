@@ -20,44 +20,41 @@
 \BOOKMARK [1][]{section.3.4}{Satelliten-Lautsprecher}{chapter.3}% 20
 \BOOKMARK [1][]{section.3.5}{Nicht invertierende Verst\344rker - OPV-Grundschaltung}{chapter.3}% 21
 \BOOKMARK [0][]{chapter.4}{Entwicklung der Elektronik}{}% 22
-\BOOKMARK [1][]{section.4.1}{Einleitung}{chapter.4}% 23
+\BOOKMARK [1][]{section.4.1}{Bluetooth-Modul XS3868}{chapter.4}% 23
 \BOOKMARK [2][]{subsection.4.1.1}{Allgemeines}{section.4.1}% 24
 \BOOKMARK [2][]{subsection.4.1.2}{Zielsetzung}{section.4.1}% 25
 \BOOKMARK [2][]{subsection.4.1.3}{Auswahl des Bluetooth-Moduls}{section.4.1}% 26
-\BOOKMARK [1][]{section.4.2}{Bluetooth-Modul XS3868}{chapter.4}% 27
-\BOOKMARK [2][]{subsection.4.2.1}{OVC3860}{section.4.2}% 28
-\BOOKMARK [2][]{subsection.4.2.2}{Pinbelegung}{section.4.2}% 29
-\BOOKMARK [2][]{subsection.4.2.3}{Inbetriebnahme}{section.4.2}% 30
-\BOOKMARK [2][]{subsection.4.2.4}{Verbindung mit dem Modul}{section.4.2}% 31
-\BOOKMARK [1][]{section.4.3}{Zusatz-Leiterplatten}{chapter.4}% 32
-\BOOKMARK [2][]{subsection.4.3.1}{Allgemeines}{section.4.3}% 33
-\BOOKMARK [2][]{subsection.4.3.2}{Adapter-Board}{section.4.3}% 34
-\BOOKMARK [2][]{subsection.4.3.3}{Hauptboard}{section.4.3}% 35
-\BOOKMARK [2][]{subsection.4.3.4}{Frontplatine}{section.4.3}% 36
-\BOOKMARK [1][]{section.4.4}{Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche}{chapter.4}% 37
-\BOOKMARK [2][]{subsection.4.4.1}{Allgemeines}{section.4.4}% 38
-\BOOKMARK [2][]{subsection.4.4.2}{Zielsetzung}{section.4.4}% 39
-\BOOKMARK [2][]{subsection.4.4.3}{Schaltung}{section.4.4}% 40
-\BOOKMARK [2][]{subsection.4.4.4}{PCB}{section.4.4}% 41
-\BOOKMARK [1][]{section.4.5}{Tieft\366ner- und Hocht\366nerweiche}{chapter.4}% 42
-\BOOKMARK [2][]{subsection.4.5.1}{Allgemeines}{section.4.5}% 43
-\BOOKMARK [2][]{subsection.4.5.2}{Zielsetzung}{section.4.5}% 44
-\BOOKMARK [2][]{subsection.4.5.3}{Schaltung}{section.4.5}% 45
-\BOOKMARK [2][]{subsection.4.5.4}{PCB}{section.4.5}% 46
-\BOOKMARK [1][]{section.4.6}{Tieft\366ner-Verst\344rker}{chapter.4}% 47
-\BOOKMARK [2][]{subsection.4.6.1}{Allgemeines}{section.4.6}% 48
-\BOOKMARK [2][]{subsection.4.6.2}{Zielsetzung}{section.4.6}% 49
-\BOOKMARK [2][]{subsection.4.6.3}{Schaltung}{section.4.6}% 50
-\BOOKMARK [0][]{chapter.5}{Lautsprechermessungen}{}% 51
-\BOOKMARK [1][]{section.5.1}{Allgemeines}{chapter.5}% 52
-\BOOKMARK [2][]{subsection.5.1.1}{Andere wichtige Eigenschaften eines Lautsprechers}{section.5.1}% 53
-\BOOKMARK [1][]{section.5.2}{Messaufbau}{chapter.5}% 54
-\BOOKMARK [2][]{subsection.5.2.1}{Software}{section.5.2}% 55
-\BOOKMARK [2][]{subsection.5.2.2}{Messmodul}{section.5.2}% 56
-\BOOKMARK [2][]{subsection.5.2.3}{Verst\344rker}{section.5.2}% 57
-\BOOKMARK [2][]{subsection.5.2.4}{Mikrofon}{section.5.2}% 58
-\BOOKMARK [0][]{chapter*.47}{Abk\374rzungsverzeichnis}{}% 59
-\BOOKMARK [0][]{section*.48}{Abbildungsverzeichnis}{}% 60
-\BOOKMARK [0][]{section*.50}{Tabellenverzeichnis}{}% 61
-\BOOKMARK [0][]{section*.52}{Danksagungen}{}% 62
-\BOOKMARK [0][]{section*.56}{Literaturverzeichnis}{}% 63
+\BOOKMARK [2][]{subsection.4.1.4}{OVC3860}{section.4.1}% 27
+\BOOKMARK [2][]{subsection.4.1.5}{Pinbelegung}{section.4.1}% 28
+\BOOKMARK [2][]{subsection.4.1.6}{Inbetriebnahme}{section.4.1}% 29
+\BOOKMARK [2][]{subsection.4.1.7}{Verbindung mit dem Modul}{section.4.1}% 30
+\BOOKMARK [2][]{subsection.4.1.8}{Adapter-Board}{section.4.1}% 31
+\BOOKMARK [2][]{subsection.4.1.9}{Hauptboard}{section.4.1}% 32
+\BOOKMARK [2][]{subsection.4.1.10}{Frontplatine}{section.4.1}% 33
+\BOOKMARK [1][]{section.4.2}{Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche}{chapter.4}% 34
+\BOOKMARK [2][]{subsection.4.2.1}{Allgemeines}{section.4.2}% 35
+\BOOKMARK [2][]{subsection.4.2.2}{Zielsetzung}{section.4.2}% 36
+\BOOKMARK [2][]{subsection.4.2.3}{Schaltung}{section.4.2}% 37
+\BOOKMARK [2][]{subsection.4.2.4}{PCB}{section.4.2}% 38
+\BOOKMARK [1][]{section.4.3}{Tieft\366ner- und Hocht\366nerweiche}{chapter.4}% 39
+\BOOKMARK [2][]{subsection.4.3.1}{Allgemeines}{section.4.3}% 40
+\BOOKMARK [2][]{subsection.4.3.2}{Zielsetzung}{section.4.3}% 41
+\BOOKMARK [2][]{subsection.4.3.3}{Schaltung}{section.4.3}% 42
+\BOOKMARK [2][]{subsection.4.3.4}{PCB}{section.4.3}% 43
+\BOOKMARK [1][]{section.4.4}{Tieft\366ner-Verst\344rker}{chapter.4}% 44
+\BOOKMARK [2][]{subsection.4.4.1}{Allgemeines}{section.4.4}% 45
+\BOOKMARK [2][]{subsection.4.4.2}{Zielsetzung}{section.4.4}% 46
+\BOOKMARK [2][]{subsection.4.4.3}{Schaltung}{section.4.4}% 47
+\BOOKMARK [0][]{chapter.5}{Lautsprechermessungen}{}% 48
+\BOOKMARK [1][]{section.5.1}{Allgemeines}{chapter.5}% 49
+\BOOKMARK [2][]{subsection.5.1.1}{Andere wichtige Eigenschaften eines Lautsprechers}{section.5.1}% 50
+\BOOKMARK [1][]{section.5.2}{Messaufbau}{chapter.5}% 51
+\BOOKMARK [2][]{subsection.5.2.1}{Software}{section.5.2}% 52
+\BOOKMARK [2][]{subsection.5.2.2}{Messmodul}{section.5.2}% 53
+\BOOKMARK [2][]{subsection.5.2.3}{Verst\344rker}{section.5.2}% 54
+\BOOKMARK [2][]{subsection.5.2.4}{Mikrofon}{section.5.2}% 55
+\BOOKMARK [0][]{chapter*.47}{Abk\374rzungsverzeichnis}{}% 56
+\BOOKMARK [0][]{section*.48}{Abbildungsverzeichnis}{}% 57
+\BOOKMARK [0][]{section*.50}{Tabellenverzeichnis}{}% 58
+\BOOKMARK [0][]{section*.52}{Danksagungen}{}% 59
+\BOOKMARK [0][]{section*.56}{Literaturverzeichnis}{}% 60
