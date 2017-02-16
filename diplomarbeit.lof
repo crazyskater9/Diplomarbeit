@@ -13,30 +13,30 @@
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Butterworth-Hochpass-Filter 2. Ordnung\relax }}{13}{figure.caption.12}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Blockschaltbild OVC3860\relax }}{16}{figure.caption.13}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Pinbelegung XS3868\relax }}{16}{figure.caption.14}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Prinzipschaltung XS3868\relax }}{17}{figure.caption.15}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Schaltung des Adapter-Boards\relax }}{18}{figure.caption.16}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces PCB des Adapter-Boards\relax }}{19}{figure.caption.17}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Schaltung des Hauptboards (Versorgung + BT-Modul)\relax }}{20}{figure.caption.20}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Schaltung des Hauptboards (Additionsschaltung)\relax }}{20}{figure.caption.21}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Schaltung des Hauptboards (linker Teil der Additionsschaltung)\relax }}{21}{figure.caption.22}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces PCB des Hauptboards\relax }}{21}{figure.caption.24}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Schaltung der Frontplatine\relax }}{22}{figure.caption.27}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces PCB der Frontplatine\relax }}{22}{figure.caption.29}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Schematic Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche\relax }}{23}{figure.caption.30}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Schematic Mono-Bass-Addier-Schaltung\relax }}{24}{figure.caption.31}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Schematic Mono-Bass-Weiche\relax }}{24}{figure.caption.32}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces PCB\relax }}{25}{figure.caption.33}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{27}{figure.caption.34}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:4.3.4.1}\relax }}{28}{figure.caption.35}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:4.3.4.1}\relax }}{29}{figure.caption.36}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Tieft\IeC {\"o}ner- und Hocht\IeC {\"o}nerweichen - PCB\relax }}{30}{figure.caption.37}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Pinbelegung XS3868\relax }}{17}{figure.caption.14}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Prinzipschaltung XS3868\relax }}{18}{figure.caption.15}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Schaltung des Adapter-Boards\relax }}{19}{figure.caption.16}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces PCB des Adapter-Boards\relax }}{20}{figure.caption.17}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Schaltung des Hauptboards (Versorgung + BT-Modul)\relax }}{21}{figure.caption.20}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Schaltung des Hauptboards (Additionsschaltung)\relax }}{22}{figure.caption.21}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Schaltung des Hauptboards (linker Teil der Additionsschaltung)\relax }}{22}{figure.caption.22}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces PCB des Hauptboards\relax }}{23}{figure.caption.24}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Schaltung der Frontplatine\relax }}{24}{figure.caption.27}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces PCB der Frontplatine\relax }}{25}{figure.caption.29}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Schematic Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche\relax }}{27}{figure.caption.30}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Schematic Mono-Bass-Addier-Schaltung\relax }}{27}{figure.caption.31}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Schematic Mono-Bass-Weiche\relax }}{28}{figure.caption.32}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces PCB\relax }}{29}{figure.caption.33}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{31}{figure.caption.34}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:4.3.4.1}\relax }}{32}{figure.caption.35}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:4.3.4.1}\relax }}{33}{figure.caption.36}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Tieft\IeC {\"o}ner- und Hocht\IeC {\"o}nerweichen - PCB\relax }}{34}{figure.caption.37}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Beispiel eines Frequenzganges (Tieft\IeC {\"o}ner PSS 297 58206)\relax }}{32}{figure.caption.38}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Schalldichter Raum in der HTBLuVA St. P\IeC {\"o}lten\relax }}{34}{figure.caption.39}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Auschnitt aus der Software \enquote {PULSE LabShop}\relax }}{35}{figure.caption.40}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Zeitfunktion und Spektrum von \enquote {wei\IeC {\ss }em Rauschen}\relax }}{36}{figure.caption.41}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Messmodul\relax }}{36}{figure.caption.42}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces \enquote {Br\IeC {\"u}el \& Kj\ae r Power Amplifier Type 2706}\relax }}{37}{figure.caption.43}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Messmikrofon \enquote {Br\IeC {\"u}el \& Kj\ae r Type 2669}\relax }}{37}{figure.caption.44}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Beispiel eines Frequenzganges (Tieft\IeC {\"o}ner PSS 297 58206)\relax }}{36}{figure.caption.38}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Schalldichter Raum in der HTBLuVA St. P\IeC {\"o}lten\relax }}{38}{figure.caption.39}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Auschnitt aus der Software \enquote {PULSE LabShop}\relax }}{39}{figure.caption.40}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Zeitfunktion und Spektrum von \enquote {wei\IeC {\ss }em Rauschen}\relax }}{40}{figure.caption.41}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Messmodul\relax }}{40}{figure.caption.42}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces \enquote {Br\IeC {\"u}el \& Kj\ae r Power Amplifier Type 2706}\relax }}{41}{figure.caption.43}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Messmikrofon \enquote {Br\IeC {\"u}el \& Kj\ae r Type 2669}\relax }}{41}{figure.caption.44}
 \addvspace {10\p@ }
