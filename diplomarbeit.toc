@@ -2,69 +2,69 @@
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Erste Idee}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Weiterf\IeC {\"u}hrende Gedanken}{1}{section.1.2}
-\contentsline {chapter}{\numberline {2}Gesamtprojekt}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Ziele}{3}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Elektronik}{3}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Lautsprecher}{4}{subsection.2.1.2}
-\contentsline {chapter}{\numberline {3}Grundlagen und Methoden}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}Altium}{5}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Einstellungen f\IeC {\"u}r die PCB-Entwicklung}{6}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Designregeln f\IeC {\"u}r die PCB-Entwicklung}{6}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}TDA2030}{7}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Absolute Maximalwerte}{7}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}TDA2030-Grundschaltung}{8}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Leistungstransistor-Schaltung}{9}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}H-Br\IeC {\"u}ckenschaltung der TDA2030-Verst\IeC {\"a}rkerschaltung}{10}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Asymmetrische Spannungsversorgung}{12}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Filter}{12}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Butterworth-Filter 2. Ordnung}{12}{subsection.3.3.1}
-\contentsline {section}{\numberline {3.4}Satelliten-Lautsprecher}{15}{section.3.4}
-\contentsline {chapter}{\numberline {4}Entwicklung der Elektronik}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}Einleitung}{17}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Allgemeines}{17}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Zielsetzung}{17}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Auswahl des Bluetooth-Moduls}{17}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Bluetooth-Modul XS3868}{18}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}OVC3860}{18}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Pinbelegung}{18}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Inbetriebnahme}{18}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Verbindung mit dem Modul}{20}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Zusatz-Leiterplatten}{20}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Allgemeines}{20}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Adapter-Board}{20}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Hauptboard}{22}{subsection.4.3.3}
-\contentsline {subsubsection}{\nonumberline Funktion}{22}{section*.18}
-\contentsline {subsubsection}{\nonumberline Schaltung}{22}{section*.19}
-\contentsline {subsubsection}{\nonumberline PCB}{23}{section*.23}
-\contentsline {subsection}{\numberline {4.3.4}Frontplatine}{24}{subsection.4.3.4}
-\contentsline {subsubsection}{\nonumberline Funktion}{24}{section*.25}
-\contentsline {subsubsection}{\nonumberline Schaltung}{24}{section*.26}
-\contentsline {subsubsection}{\nonumberline PCB}{24}{section*.28}
-\contentsline {section}{\numberline {4.4}Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche}{24}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Allgemeines}{24}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Zielsetzung}{25}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Schaltung}{25}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}PCB}{26}{subsection.4.4.4}
-\contentsline {section}{\numberline {4.5}Tieft\IeC {\"o}ner- und Hocht\IeC {\"o}nerweiche}{28}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Allgemeines}{28}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Zielsetzung}{28}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Schaltung}{28}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}PCB}{31}{subsection.4.5.4}
-\contentsline {section}{\numberline {4.6}Tieft\IeC {\"o}ner-Verst\IeC {\"a}rker}{33}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Allgemeines}{33}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Zielsetzung}{33}{subsection.4.6.2}
-\contentsline {chapter}{\numberline {5}Lautsprechermessungen}{35}{chapter.5}
-\contentsline {section}{\numberline {5.1}Allgemeines}{35}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Andere wichtige Eigenschaften eines Lautsprechers}{36}{subsection.5.1.1}
-\contentsline {section}{\numberline {5.2}Messaufbau}{37}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Software}{38}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Messmodul}{39}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Verst\IeC {\"a}rker}{40}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Mikrofon}{40}{subsection.5.2.4}
-\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{41}{chapter*.45}
-\contentsline {chapter}{Abbildungsverzeichnis}{42}{section*.46}
-\contentsline {chapter}{Tabellenverzeichnis}{44}{section*.48}
-\contentsline {chapter}{Danksagungen}{45}{section*.50}
-\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{45}{section*.52}
-\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{45}{section*.53}
-\contentsline {chapter}{Literaturverzeichnis}{46}{section*.54}
+\contentsline {chapter}{\numberline {2}Gesamtprojekt}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}Ziele}{2}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Elektronik}{2}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Lautsprecher}{3}{subsection.2.1.2}
+\contentsline {chapter}{\numberline {3}Grundlagen und Methoden}{4}{chapter.3}
+\contentsline {section}{\numberline {3.1}Altium}{4}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Einstellungen f\IeC {\"u}r die PCB-Entwicklung}{5}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Designregeln f\IeC {\"u}r die PCB-Entwicklung}{5}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}TDA2030}{6}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Absolute Maximalwerte}{6}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}TDA2030-Grundschaltung}{7}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Leistungstransistor-Schaltung}{8}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}H-Br\IeC {\"u}ckenschaltung der TDA2030-Verst\IeC {\"a}rkerschaltung}{9}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Asymmetrische Spannungsversorgung}{11}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Filter}{11}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Butterworth-Filter 2. Ordnung}{11}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Satelliten-Lautsprecher}{14}{section.3.4}
+\contentsline {chapter}{\numberline {4}Entwicklung der Elektronik}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Einleitung}{15}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Allgemeines}{15}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Zielsetzung}{15}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Auswahl des Bluetooth-Moduls}{15}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Bluetooth-Modul XS3868}{16}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}OVC3860}{16}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Pinbelegung}{16}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Inbetriebnahme}{16}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Verbindung mit dem Modul}{18}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Zusatz-Leiterplatten}{18}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Allgemeines}{18}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Adapter-Board}{18}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Hauptboard}{20}{subsection.4.3.3}
+\contentsline {subsubsection}{\nonumberline Funktion}{20}{section*.18}
+\contentsline {subsubsection}{\nonumberline Schaltung}{20}{section*.19}
+\contentsline {subsubsection}{\nonumberline PCB}{21}{section*.23}
+\contentsline {subsection}{\numberline {4.3.4}Frontplatine}{22}{subsection.4.3.4}
+\contentsline {subsubsection}{\nonumberline Funktion}{22}{section*.25}
+\contentsline {subsubsection}{\nonumberline Schaltung}{22}{section*.26}
+\contentsline {subsubsection}{\nonumberline PCB}{22}{section*.28}
+\contentsline {section}{\numberline {4.4}Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche}{22}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Allgemeines}{22}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Zielsetzung}{23}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Schaltung}{23}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}PCB}{24}{subsection.4.4.4}
+\contentsline {section}{\numberline {4.5}Tieft\IeC {\"o}ner- und Hocht\IeC {\"o}nerweiche}{26}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Allgemeines}{26}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Zielsetzung}{26}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Schaltung}{26}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}PCB}{29}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Tieft\IeC {\"o}ner-Verst\IeC {\"a}rker}{31}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Allgemeines}{31}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Zielsetzung}{31}{subsection.4.6.2}
+\contentsline {chapter}{\numberline {5}Lautsprechermessungen}{32}{chapter.5}
+\contentsline {section}{\numberline {5.1}Allgemeines}{32}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Andere wichtige Eigenschaften eines Lautsprechers}{33}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Messaufbau}{34}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Software}{35}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Messmodul}{36}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Verst\IeC {\"a}rker}{37}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Mikrofon}{37}{subsection.5.2.4}
+\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{38}{chapter*.45}
+\contentsline {chapter}{Abbildungsverzeichnis}{39}{section*.46}
+\contentsline {chapter}{Tabellenverzeichnis}{40}{section*.48}
+\contentsline {chapter}{Danksagungen}{41}{section*.50}
+\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{41}{section*.52}
+\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{41}{section*.53}
+\contentsline {chapter}{Literaturverzeichnis}{42}{section*.54}

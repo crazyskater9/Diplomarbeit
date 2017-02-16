@@ -1,6 +1,6 @@
-%% Dokumentklasse KOMA-Script Book
-\documentclass[paper=a4, 12pt]{scrbook}
-% report zweiseitig machen?
+%% Dokumentklasse KOMA-Script Report
+\documentclass[paper=a4, 12pt, twoside]{scrreprt}
+% report zweiseitig gemacht!
 %% Encoding UTF8
 \usepackage[utf8]{inputenc}
 %% 8 Bit Aufloesung der Buchstaben
@@ -90,7 +90,7 @@
 %%======================================================%%
 
 %% komplett leere seite ================================%%
-\newpage\null\thispagestyle{empty}\newpage
+\newpage\null\thispagestyle{empty}%\newpage
 %%======================================================%%
 
 %% eidesstattliche erklärung ===========================%%
