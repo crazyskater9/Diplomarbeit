@@ -171,3 +171,26 @@ Das Hochpass-Filter(\ref{fig:3.3.2.3}) hat wieder eine ähnliche Konstruktion. D
 \section{Satelliten-Lautsprecher}\label{sec:3.4}
 Satellitenlautsprecher sind meist passive Lautsprecher, die durch ein Aktives-Element betrieben werden. Da es sich bei dem Satellitensystem meist um ein Paar oder mehr Boxen handelt und diese räumlich weiter entfernt voneinander stehen, können Stereo-Effekte verwendet und mit dem reinen Stereo-Eingangssignal gearbeitet werden. Eine Aufteilung des Signals in Linke- und Rechte-Satellitenbox/en muss jedoch schon getroffen werden, um die Effekte richtig zu erhalten.
 
+\section{Nicht invertierende Verstärker - OPV-Grundschaltung}\label{sec:3.5}
+Die hauptsächlichen Eigenschaften eines solchen Verstärkers liegen in der Phasengleichheit am Ein- und Ausgang der Schaltung und am wichtigsten, in der Verstärkung. \\
+Um eine Verstärkung zu erhalten wird am invertierten Eingang (\ref{fig:3.5.1}), oder umgänglicher am Minus-Eingang des OPV ein Rückkopplungsnetz aus zwei Widerständen gebaut.
+Diese bewirken, dass eine Verstärkung \enquote{Vu} möglich ist.
+Diese wird wie folgt berechnet: Vu = $\frac{R2+R1}{R1}$ .
+Aus der Formel geht hervor das R2 im Verhältnis zu R1 normalerweise größer sein sollte um eine nennenswerte Verstärkung zu erhalten.
+Die Verstärkung funktioniert aus einem einfachen Grund.
+Wenn am Eingang ein Signal anliegt möchte der OPV nach seiner Natur den selben Wert wie + Eingang auch a - Eingang haben, er regelt nach.
+Das heißt der Spannungsunterschied Upn soll gegen 0 gehen.
+Wird nun künstlich das Nachregeln beeinflusst, indem man einen Spannungsteiler einbaut, regelt der OPV den Ausgang höher als er eigentlich müsste, er Verstärkt also.
+Der Verstärker ist jedoch durch seine Versorgungsspannung begrenzt, soll heißen wenn man ein Verstärkung von 10 erwartet bei einem Eingangssignal von 1 Volt und einer Versorgungsspannung von 5 Volt, dann ist das Signal nie 10 Volt groß.
+Ein OPV-Verstärker kann auch übersteuert werden.
+Das passiert wenn man ihn, wie bereits vorher erläutert, zu viel Eingangssignal liefert in Abhängigkeit zu der Verstärkung und der Versorgungsspannung.
+So kommt es das wenn der OPV übersteuert ein Sinus kein Sinus mehr ist sonder vielleicht gar zum Rechteck wird, da die Ober- und Untergrenze die positive und negative Versorgungsspannung bietet.
+\begin{figure} [H]
+	\centering	
+	\includegraphics[width=1\textwidth]{img/Grundlagen/OPV-Verstaerker/OPV-VerstaerkerGrundschaltung.png}
+	\caption{Nicht invertierender Verstärker - OPV-Grundschaltung}
+	\label {fig:3.5.1}
+	%http://www.elektronik-kompendium.de/sites/slt/schalt/02101511.gif
+\end{figure}
+
+
