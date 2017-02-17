@@ -43,27 +43,32 @@
 \contentsline {subsection}{\numberline {4.2.2}Zielsetzung}{27}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Schaltung}{27}{subsection.4.2.3}
 \contentsline {subsection}{\numberline {4.2.4}PCB}{29}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Tieft\IeC {\"o}ner- und Hocht\IeC {\"o}nerweiche}{31}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Allgemeines}{31}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Zielsetzung}{31}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Schaltung}{31}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.3}Tieft\IeC {\"o}ner- und Hocht\IeC {\"o}nerweiche}{30}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Allgemeines}{30}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Zielsetzung}{30}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Schaltung}{30}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}PCB}{34}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Tieft\IeC {\"o}ner-Verst\IeC {\"a}rker}{36}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Allgemeines}{36}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Zielsetzung}{36}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Schaltung}{36}{subsection.4.4.3}
-\contentsline {chapter}{\numberline {5}Lautsprechermessungen}{38}{chapter.5}
-\contentsline {section}{\numberline {5.1}Allgemeines}{38}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Andere wichtige Eigenschaften eines Lautsprechers}{39}{subsection.5.1.1}
-\contentsline {section}{\numberline {5.2}Messaufbau}{40}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Software}{41}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Messmodul}{42}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Verst\IeC {\"a}rker}{43}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Mikrofon}{43}{subsection.5.2.4}
-\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{44}{chapter*.47}
-\contentsline {chapter}{Abbildungsverzeichnis}{45}{section*.48}
-\contentsline {chapter}{Tabellenverzeichnis}{46}{section*.50}
-\contentsline {chapter}{Danksagungen}{47}{section*.52}
-\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{47}{section*.54}
-\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{47}{section*.55}
-\contentsline {chapter}{Literaturverzeichnis}{48}{section*.56}
+\contentsline {section}{\numberline {4.4}Tieft\IeC {\"o}ner-Verst\IeC {\"a}rker}{35}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Allgemeines}{35}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Zielsetzung}{35}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Schaltung}{35}{subsection.4.4.3}
+\contentsline {chapter}{\numberline {5}Lautsprechermessungen}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}Allgemeines}{37}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Andere wichtige Eigenschaften eines Lautsprechers}{38}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Messaufbau}{39}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Software}{40}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Messmodul}{41}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Verst\IeC {\"a}rker}{42}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Mikrofon}{42}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Tieft\IeC {\"o}ner-Messungen}{43}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Einleitung}{43}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Ziele}{43}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Subwoofer}{44}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Satelliten-Tieft\IeC {\"o}ner}{47}{subsection.5.3.4}
+\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{48}{chapter*.48}
+\contentsline {chapter}{Abbildungsverzeichnis}{49}{section*.49}
+\contentsline {chapter}{Tabellenverzeichnis}{50}{section*.51}
+\contentsline {chapter}{Danksagungen}{51}{section*.53}
+\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{51}{section*.55}
+\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{51}{section*.56}
+\contentsline {chapter}{Literaturverzeichnis}{52}{section*.57}

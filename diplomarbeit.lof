@@ -5,13 +5,13 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Logo von \enquote {Altium Designer}}}{4}{figure.caption.4}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces TDA2030-Pinning}}{6}{figure.caption.5}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces TDA2030-Maximum Ratings}}{7}{figure.caption.6}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces TDA2030-Leistungstransistorschaltung}}{8}{figure.caption.7}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces TDA2030-Grundschaltung}}{8}{figure.caption.7}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces TDA2030-Leistungstransistorschaltung}}{9}{figure.caption.8}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces TDA2030-Leistungstransistorschaltung}}{10}{figure.caption.9}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces TDA2030-H-Br\IeC {\"u}ckenschaltung}}{10}{figure.caption.9}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Butterworth-Tiefpass-Filter 2. Ordnung\relax }}{12}{figure.caption.10}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{13}{figure.caption.11}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Butterworth-Hochpass-Filter 2. Ordnung\relax }}{13}{figure.caption.12}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Nicht invertierender Verst\IeC {\"a}rker - OPV-Grundschaltung\relax }}{15}{figure.caption.13}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Nicht invertierender Verst\IeC {\"a}rker - OPV-Grundschaltung}}{15}{figure.caption.13}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Blockschaltbild OVC3860\relax }}{17}{figure.caption.14}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Pinbelegung XS3868\relax }}{18}{figure.caption.15}
@@ -25,20 +25,21 @@
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Schaltung der Frontplatine\relax }}{25}{figure.caption.28}
 \contentsline {figure}{\numberline {4.11}{\ignorespaces PCB der Frontplatine\relax }}{26}{figure.caption.30}
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Schematic Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche\relax }}{28}{figure.caption.31}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Schematic Mono-Bass-Addier-Schaltung\relax }}{28}{figure.caption.32}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Schematic Mono-Bass-Weiche\relax }}{29}{figure.caption.33}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces PCB\relax }}{30}{figure.caption.34}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{32}{figure.caption.35}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:4.3.4.1}\relax }}{33}{figure.caption.36}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:4.3.4.1}\relax }}{34}{figure.caption.37}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Tieft\IeC {\"o}ner- und Hocht\IeC {\"o}nerweichen - PCB\relax }}{35}{figure.caption.38}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Tieft\IeC {\"o}ner-Verst\IeC {\"a}rker Schaltung\relax }}{37}{figure.caption.39}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces PCB\relax }}{29}{figure.caption.32}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{31}{figure.caption.33}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:4.3.4.1}\relax }}{32}{figure.caption.34}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:4.3.4.1}\relax }}{33}{figure.caption.35}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Tieft\IeC {\"o}ner- und Hocht\IeC {\"o}nerweichen - PCB\relax }}{34}{figure.caption.36}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Tieft\IeC {\"o}ner-Verst\IeC {\"a}rker Schaltung\relax }}{36}{figure.caption.37}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Beispiel eines Frequenzganges (Tieft\IeC {\"o}ner PSS 297 58206)\relax }}{38}{figure.caption.40}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Schalldichter Raum in der HTBLuVA St. P\IeC {\"o}lten\relax }}{40}{figure.caption.41}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Auschnitt aus der Software \enquote {PULSE LabShop}\relax }}{41}{figure.caption.42}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Zeitfunktion und Spektrum von \enquote {wei\IeC {\ss }em Rauschen}\relax }}{42}{figure.caption.43}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Messmodul\relax }}{42}{figure.caption.44}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces \enquote {Br\IeC {\"u}el \& Kj\ae r Power Amplifier Type 2706}\relax }}{43}{figure.caption.45}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Messmikrofon \enquote {Br\IeC {\"u}el \& Kj\ae r Type 2669}\relax }}{43}{figure.caption.46}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Beispiel eines Frequenzganges (Tieft\IeC {\"o}ner PSS 297 58206)\relax }}{37}{figure.caption.38}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Schalldichter Raum in der HTBLuVA St. P\IeC {\"o}lten\relax }}{39}{figure.caption.39}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Auschnitt aus der Software \enquote {PULSE LabShop}\relax }}{40}{figure.caption.40}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Zeitfunktion und Spektrum von \enquote {wei\IeC {\ss }em Rauschen}}}{41}{figure.caption.41}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Messmodul\relax }}{41}{figure.caption.42}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces \enquote {Br\IeC {\"u}el \& Kj\ae r Power Amplifier Type 2706}\relax }}{42}{figure.caption.43}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Messmikrofon \enquote {Br\IeC {\"u}el \& Kj\ae r Type 2669}\relax }}{42}{figure.caption.44}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces \enquote {Renkforce B12123}}}{44}{figure.caption.45}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Subwoofer-Messung ohne Wolle \enquote {Renkforce} (oben) und \enquote {Visaton} (unten)\relax }}{45}{figure.caption.46}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Subwoofer-Messung mit Wolle \enquote {Renkforce} (oben) und \enquote {Visaton} (unten)\relax }}{46}{figure.caption.47}
 \addvspace {10\p@ }
