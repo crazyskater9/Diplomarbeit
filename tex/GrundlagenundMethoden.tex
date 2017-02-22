@@ -81,8 +81,9 @@ Diese Werte wurden zu aller erst mit den Bedingungen an der Schaltung verglichen
 
 \subsection{TDA2030-Grundschaltung}\label{subsec:3.2.2}
 Ein wichtiges Bauelement in der Grundschaltung(Abb. \ref{fig:3.2.2.1}) sind die Dioden. Sie schützen den angeschlossenen Lautsprecher vor Überspannungsspitzen.\\
-Das Widerstandsverhältnis am Minus-Eingang des OPVs von 150k Ohm zu 4,7k Ohm liefert die Verstärkung der Schaltung. Hier wäre es dementsprechend eine Verstärkung von ungefähr x32 .\\
-Viele vereinzelte Kondensatoren wurden zum Entstören und gegen mögliches Schwingen der Schaltung vorgesehen.\\
+Das Spannungsteiler am Plus-Eingang (Pin1) des OPVs ist da um den Arbeitspunkt des TDA2030 festzulegen. In diesem Fall bei asymmetrischer Versorgung soll dieser $\frac{Vcc}{2}$ betragen.\\
+Das Widerstandsverhältnis am Minus-Eingang (Pin2) des OPVs von 150k Ohm zu 4,7k Ohm liefert die Verstärkung der Schaltung. Hier wäre es dementsprechend eine Verstärkung von ungefähr x32 .\\
+Viele vereinzelte Kondensatoren sind zum Entstören und gegen mögliches Schwingen der Schaltung vorgesehen.\\
 Der Große-Ausgangs-ELKO wird deshalb verbaut um keine verschleppte Gleichspannung am Lautsprecher unnötigerweise anzulegen. Gleichspannung ist an einem Lautsprecher weder hörbar (Frequenz = 0Hz) noch sinnvoll und kann den Lautsprecher beschädigen. Der Kondensator lädt sich einmal mit dieser Gleichspannung auf und lässt die Wechselspannung ohne weiteres passieren.\\\\
 Ein weiteres wesentliches Bauelement ist das \enquote{Boucherot-Glied}, ein in Serie geschalteter Kondensator und Widerstand von der Ausgangsleitung des Verstärkers gegen Masse, noch vor dem Ausgangs-ELKO. Es dient zur Widerstandsanpassung im höheren Audio-Frequenzbereich, da der Lautsprecher einen induktiven Impedanzabfall aufweist, wird dieser mit dem kapazitiven Impedanzanstieg in diesem Bereich kompensiert. So bleibt die Impedanz im Arbeitsbereich des Verstärkers im wesentlichen die selbe. Ein weiterer Vorteil ist, dass Frequenzen über der Grenzfrequenz des \enquote{Boucherot-Glieds} wie ein Kurzschluss behandelt werden und so mögliche auftretende Schaltfrequenzen gedämpft werden und nicht andere folgende Schaltungen beeinflussen können.\\\\
 Die Schaltung ist grundsätzlich für symmetrische und asymmetrische Versorgungsspannung ausgelegt. Die Schaltung ist für 4 und 8 Ohm Lautsprecher spezifiziert.
