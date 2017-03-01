@@ -53,9 +53,9 @@
 \providecommand{\dataSchool}[1]{\gdef\@DataSchool{#1}}
 \def\@DataDepartment{Elektronik und technische Informatik}
 \providecommand{\dataDepartment}[1]{\gdef\@DataDepartment{#1}}
-\def\@DataSubdepartment{Ausbildungsschwerpunkte Embedded Systems}
+\def\@DataSubdepartment{Ausbildungsschwerpunkte Embedded- \& Wireless Systems}
 \providecommand{\dataSubdepartment}[1]{\gdef\@DataSubdepartment{#1}}
-\def\@DataSession{2016/17}
+\def\@DataSession{2015/16}
 \providecommand{\dataSession}[1]{\gdef\@DataSession{#1}}
 %% >> SPANNAGL
 
@@ -271,7 +271,7 @@
             \fi
             % Nach dem Subject (wenn vorhanden) folgt der Titel
             % in \titlefont. Titel muss! vorhanden sein
-            \mbox{}\sffamily\normalsize Gesamtprojekt\\ %% leerzeile - statt gesamtprojekt
+            \mbox{}\\ %% leerzeile - statt gesamtprojekt
             {\titlefont\huge \@title\par}%
             \vskip 1em %vertikaler Abstand
             % wieder Abfrage ob Untertitel leer ist, wenn nicht wird er gesetzt.
@@ -309,7 +309,7 @@
     		\begin{tabular}[t]{l}
     			\iflanguage{english}{Supervisors:\\
     			}{
-    			Betreuer:\\}
+    			Betreuer/Betreuerin:\\}
     			\\
     			\@professor
     		\end{tabular}
@@ -317,23 +317,6 @@
     	\par
     	\vskip 2em
     	{\sffamily \@place , \iflanguage{english}{on}{am} \@date}
-    	\hrule
-    	\vskip 1em
-    	{\sffamily\tabcolsep 0pt
-    		\begin{tabular}[t]{l}
-	    		
-    				Abgabevermerk:\\
-	    			Datum:
-    			
-    		\end{tabular}
-    		\hfill\hskip 7.5em
-    		\begin{tabular}[t]{l}
-    			
-    				Betreuer:
-    			
-    		\end{tabular}
-    		\hfill}
-    	
     	\par
     	\vfill%\vfill
       %%======== Anpassungen Ende =============================%%
@@ -463,12 +446,8 @@
     verfasst, andere als die angegebenen Quellen und
     Hilfsmittel nicht benutzt und die den benutzten
     Quellen w\"ortlich und inhaltlich entnommenen
-	Stellen als solche erkenntlich gemacht habe.\\
-	
-	\@place , \date{\today}
-	\par
+	Stellen als solche erkenntlich gemacht habe.\par
 }
-
 \def\unterschrift#1{\\ \\ \\ \hline\makebox[60mm]{#1}\\}
 \newenvironment{affidavit}{%
     \thispagestyle{empty}
