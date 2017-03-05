@@ -227,7 +227,7 @@ Das passiert wenn man ihn, wie bereits vorher erläutert, zu viel Eingangssignal
 So kommt es das wenn der OPV übersteuert ein Sinus kein Sinus mehr ist sonder vielleicht gar zum Rechteck wird, da die Ober- und Untergrenze die positive und negative Versorgungsspannung bietet.
 \begin{figure} [H]
 	\centering	
-	\includegraphics[width=0.8\textwidth]{img/Grundlagen/OPV-Verstaerker/OPV-VerstaerkerGrundschaltung.png}
+	\includegraphics[width=0.6\textwidth]{img/Grundlagen/OPV-Verstaerker/OPV-VerstaerkerGrundschaltung.png}
 	\caption[Nicht invertierender Verstärker - OPV-Grundschaltung]{Nicht invertierender Verstärker - OPV-Grundschaltung\footnotemark}
 	\label {fig:3.5.1}
 	%http://www.elektronik-kompendium.de/sites/slt/schalt/02101511.gif
@@ -243,6 +243,32 @@ Dies erfolgt über zwei gleichgroße Widerstände, die zumeist im Bereich vom Ki
 Sie werden in Serie von Vcc gegen Masse gelegt, somit kann zwischen den beiden Widerständen $\frac{Vcc}{2}$ abgegriffen werden.
 Somit liegt das Eingangssignalgrundpegel in mitten der Versorgungsspannung.
 D.h. der Spannungsunterschied zur positiven Versorgungsspannung ist der selbe wie zur negativen Versorgungsspannung (Masse). 
+
+\newpage
+\section{Versorgungskonzept} \label{sec:3.6}
+Die gesamte Box soll portabel sein, d.h. ohne externe Stromzufuhr funktionieren.
+Dafür ist ein Akku notwendig.
+Nach einigen Überlegungen haben wir uns für einen Blei-Vlies-Akku entschieden.
+Gründe dafür sind:
+\begin{itemize}
+	\item Geringe Kosten
+	\item Einfache Beschaltung
+	\item Geringere Gefahr gegenüber Lithium-Akkus
+	\item Wegen Vlies-Technik: Kein Auslaufen von chemischen Substanzen
+\end{itemize}
+Dieser Akku versorgt grundsätzlich die Elektronik mit 12 V.
+Da aber mit dieser, relativ geringen Spannung nur eher kleine Leistungen zu erwarten sind, kam die Idee auf, die Verstärker bei externer Versorgung durch das Stromnetz mit einer größeren Spannung (24 V) zu versorgen.
+Um das zu realisieren wird ein Netzteil, in unserem Fall ein Schaltnetzteil benötigt.
+Falls das Gerät am externen Stromnetz hängt, wird die Versorgung der Verstärker automatisch mithilfe eines passenden Relais umgeschaltet.
+Diese Lösung wurde gewählt, da sie sehr simpel ist und gut funktioniert.
+Veranschaulicht wird das Konzept durch diese Schaltung:
+\begin{figure} [H]
+	\centering	
+	\includegraphics[width=1\textwidth]{img/Grundlagen/Versorgung.png}
+	\caption{Versorgungskonzept}
+	\label {fig:3.6.1}
+\end{figure}
+
 
 
 
