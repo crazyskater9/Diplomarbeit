@@ -21,53 +21,54 @@
 \BOOKMARK [1][]{section.3.5}{Nicht invertierende Verst\344rker - OPV-Grundschaltung}{chapter.3}% 21
 \BOOKMARK [2][]{subsection.3.5.1}{Asymmetrische Versorgung eines OPV's}{section.3.5}% 22
 \BOOKMARK [1][]{section.3.6}{Versorgungskonzept}{chapter.3}% 23
-\BOOKMARK [0][]{chapter.4}{Entwicklung der Elektronik}{}% 24
-\BOOKMARK [1][]{section.4.1}{Bluetooth-Modul XS3868}{chapter.4}% 25
-\BOOKMARK [2][]{subsection.4.1.1}{Allgemeines}{section.4.1}% 26
-\BOOKMARK [2][]{subsection.4.1.2}{Zielsetzung}{section.4.1}% 27
-\BOOKMARK [2][]{subsection.4.1.3}{Auswahl des Bluetooth-Moduls}{section.4.1}% 28
-\BOOKMARK [2][]{subsection.4.1.4}{OVC3860}{section.4.1}% 29
-\BOOKMARK [2][]{subsection.4.1.5}{Pinbelegung}{section.4.1}% 30
-\BOOKMARK [2][]{subsection.4.1.6}{Inbetriebnahme}{section.4.1}% 31
-\BOOKMARK [2][]{subsection.4.1.7}{Verbindung mit dem Modul}{section.4.1}% 32
-\BOOKMARK [2][]{subsection.4.1.8}{Adapter-Board}{section.4.1}% 33
-\BOOKMARK [2][]{subsection.4.1.9}{Hauptboard}{section.4.1}% 34
-\BOOKMARK [2][]{subsection.4.1.10}{Frontplatine}{section.4.1}% 35
-\BOOKMARK [1][]{section.4.2}{Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche}{chapter.4}% 36
-\BOOKMARK [2][]{subsection.4.2.1}{Allgemeines}{section.4.2}% 37
-\BOOKMARK [2][]{subsection.4.2.2}{Zielsetzung}{section.4.2}% 38
-\BOOKMARK [2][]{subsection.4.2.3}{Schaltung}{section.4.2}% 39
-\BOOKMARK [2][]{subsection.4.2.4}{PCB}{section.4.2}% 40
-\BOOKMARK [1][]{section.4.3}{Tieft\366ner- und Hocht\366nerweiche}{chapter.4}% 41
-\BOOKMARK [2][]{subsection.4.3.1}{Allgemeines}{section.4.3}% 42
-\BOOKMARK [2][]{subsection.4.3.2}{Zielsetzung}{section.4.3}% 43
-\BOOKMARK [2][]{subsection.4.3.3}{Schaltung}{section.4.3}% 44
-\BOOKMARK [2][]{subsection.4.3.4}{PCB}{section.4.3}% 45
-\BOOKMARK [1][]{section.4.4}{Tieft\366ner-Verst\344rker}{chapter.4}% 46
-\BOOKMARK [2][]{subsection.4.4.1}{Allgemeines}{section.4.4}% 47
-\BOOKMARK [2][]{subsection.4.4.2}{Zielsetzung}{section.4.4}% 48
-\BOOKMARK [2][]{subsection.4.4.3}{Schaltung}{section.4.4}% 49
-\BOOKMARK [2][]{subsection.4.4.4}{PCB}{section.4.4}% 50
-\BOOKMARK [1][]{section.4.5}{Hocht\366ner-Verst\344rker}{chapter.4}% 51
-\BOOKMARK [2][]{subsection.4.5.1}{Allgemeines}{section.4.5}% 52
-\BOOKMARK [2][]{subsection.4.5.2}{Zielsetzung}{section.4.5}% 53
-\BOOKMARK [2][]{subsection.4.5.3}{Schaltung}{section.4.5}% 54
-\BOOKMARK [2][]{subsection.4.5.4}{PCB}{section.4.5}% 55
-\BOOKMARK [0][]{chapter.5}{Lautsprechermessungen}{}% 56
-\BOOKMARK [1][]{section.5.1}{Allgemeines}{chapter.5}% 57
-\BOOKMARK [2][]{subsection.5.1.1}{Andere wichtige Eigenschaften eines Lautsprechers}{section.5.1}% 58
-\BOOKMARK [1][]{section.5.2}{Messaufbau}{chapter.5}% 59
-\BOOKMARK [2][]{subsection.5.2.1}{Software}{section.5.2}% 60
-\BOOKMARK [2][]{subsection.5.2.2}{Messmodul}{section.5.2}% 61
-\BOOKMARK [2][]{subsection.5.2.3}{Verst\344rker}{section.5.2}% 62
-\BOOKMARK [2][]{subsection.5.2.4}{Mikrofon}{section.5.2}% 63
-\BOOKMARK [1][]{section.5.3}{Tieft\366ner-Messungen}{chapter.5}% 64
-\BOOKMARK [2][]{subsection.5.3.1}{Einleitung}{section.5.3}% 65
-\BOOKMARK [2][]{subsection.5.3.2}{Ziele}{section.5.3}% 66
-\BOOKMARK [2][]{subsection.5.3.3}{Subwoofer}{section.5.3}% 67
-\BOOKMARK [2][]{subsection.5.3.4}{Satelliten-Tieft\366ner}{section.5.3}% 68
-\BOOKMARK [0][]{chapter*.55}{Abk\374rzungsverzeichnis}{}% 69
-\BOOKMARK [0][]{section*.56}{Abbildungsverzeichnis}{}% 70
-\BOOKMARK [0][]{section*.58}{Tabellenverzeichnis}{}% 71
-\BOOKMARK [0][]{section*.60}{Danksagungen}{}% 72
-\BOOKMARK [0][]{section*.64}{Literaturverzeichnis}{}% 73
+\BOOKMARK [1][]{section.3.7}{Welligkeit}{chapter.3}% 24
+\BOOKMARK [0][]{chapter.4}{Entwicklung der Elektronik}{}% 25
+\BOOKMARK [1][]{section.4.1}{Bluetooth-Modul XS3868}{chapter.4}% 26
+\BOOKMARK [2][]{subsection.4.1.1}{Allgemeines}{section.4.1}% 27
+\BOOKMARK [2][]{subsection.4.1.2}{Zielsetzung}{section.4.1}% 28
+\BOOKMARK [2][]{subsection.4.1.3}{Auswahl des Bluetooth-Moduls}{section.4.1}% 29
+\BOOKMARK [2][]{subsection.4.1.4}{OVC3860}{section.4.1}% 30
+\BOOKMARK [2][]{subsection.4.1.5}{Pinbelegung}{section.4.1}% 31
+\BOOKMARK [2][]{subsection.4.1.6}{Inbetriebnahme}{section.4.1}% 32
+\BOOKMARK [2][]{subsection.4.1.7}{Verbindung mit dem Modul}{section.4.1}% 33
+\BOOKMARK [2][]{subsection.4.1.8}{Adapter-Board}{section.4.1}% 34
+\BOOKMARK [2][]{subsection.4.1.9}{Hauptboard}{section.4.1}% 35
+\BOOKMARK [2][]{subsection.4.1.10}{Frontplatine}{section.4.1}% 36
+\BOOKMARK [1][]{section.4.2}{Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche}{chapter.4}% 37
+\BOOKMARK [2][]{subsection.4.2.1}{Allgemeines}{section.4.2}% 38
+\BOOKMARK [2][]{subsection.4.2.2}{Zielsetzung}{section.4.2}% 39
+\BOOKMARK [2][]{subsection.4.2.3}{Schaltung}{section.4.2}% 40
+\BOOKMARK [2][]{subsection.4.2.4}{PCB}{section.4.2}% 41
+\BOOKMARK [1][]{section.4.3}{Tieft\366ner- und Hocht\366nerweiche}{chapter.4}% 42
+\BOOKMARK [2][]{subsection.4.3.1}{Allgemeines}{section.4.3}% 43
+\BOOKMARK [2][]{subsection.4.3.2}{Zielsetzung}{section.4.3}% 44
+\BOOKMARK [2][]{subsection.4.3.3}{Schaltung}{section.4.3}% 45
+\BOOKMARK [2][]{subsection.4.3.4}{PCB}{section.4.3}% 46
+\BOOKMARK [1][]{section.4.4}{Tieft\366ner-Verst\344rker}{chapter.4}% 47
+\BOOKMARK [2][]{subsection.4.4.1}{Allgemeines}{section.4.4}% 48
+\BOOKMARK [2][]{subsection.4.4.2}{Zielsetzung}{section.4.4}% 49
+\BOOKMARK [2][]{subsection.4.4.3}{Schaltung}{section.4.4}% 50
+\BOOKMARK [2][]{subsection.4.4.4}{PCB}{section.4.4}% 51
+\BOOKMARK [1][]{section.4.5}{Hocht\366ner-Verst\344rker}{chapter.4}% 52
+\BOOKMARK [2][]{subsection.4.5.1}{Allgemeines}{section.4.5}% 53
+\BOOKMARK [2][]{subsection.4.5.2}{Zielsetzung}{section.4.5}% 54
+\BOOKMARK [2][]{subsection.4.5.3}{Schaltung}{section.4.5}% 55
+\BOOKMARK [2][]{subsection.4.5.4}{PCB}{section.4.5}% 56
+\BOOKMARK [0][]{chapter.5}{Lautsprechermessungen}{}% 57
+\BOOKMARK [1][]{section.5.1}{Allgemeines}{chapter.5}% 58
+\BOOKMARK [2][]{subsection.5.1.1}{Andere wichtige Eigenschaften eines Lautsprechers}{section.5.1}% 59
+\BOOKMARK [1][]{section.5.2}{Messaufbau}{chapter.5}% 60
+\BOOKMARK [2][]{subsection.5.2.1}{Software}{section.5.2}% 61
+\BOOKMARK [2][]{subsection.5.2.2}{Messmodul}{section.5.2}% 62
+\BOOKMARK [2][]{subsection.5.2.3}{Verst\344rker}{section.5.2}% 63
+\BOOKMARK [2][]{subsection.5.2.4}{Mikrofon}{section.5.2}% 64
+\BOOKMARK [1][]{section.5.3}{Tieft\366ner-Messungen}{chapter.5}% 65
+\BOOKMARK [2][]{subsection.5.3.1}{Einleitung}{section.5.3}% 66
+\BOOKMARK [2][]{subsection.5.3.2}{Ziele}{section.5.3}% 67
+\BOOKMARK [2][]{subsection.5.3.3}{Subwoofer}{section.5.3}% 68
+\BOOKMARK [2][]{subsection.5.3.4}{Satelliten-Tieft\366ner}{section.5.3}% 69
+\BOOKMARK [0][]{chapter*.55}{Abk\374rzungsverzeichnis}{}% 70
+\BOOKMARK [0][]{section*.56}{Abbildungsverzeichnis}{}% 71
+\BOOKMARK [0][]{section*.58}{Tabellenverzeichnis}{}% 72
+\BOOKMARK [0][]{section*.60}{Danksagungen}{}% 73
+\BOOKMARK [0][]{section*.64}{Literaturverzeichnis}{}% 74
