@@ -2,51 +2,51 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Logo von \enquote {Altium Designer}}}{5}{figure.caption.4}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces TDA2030-Pinning}}{7}{figure.caption.5}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces TDA2030-Maximum Ratings}}{8}{figure.caption.6}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces TDA2030-Grundschaltung}}{9}{figure.caption.7}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces TDA2030-Leistungstransistorschaltung}}{10}{figure.caption.8}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces TDA2030-H-Br\IeC {\"u}ckenschaltung}}{12}{figure.caption.9}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Butterworth-Tiefpass-Filter 2. Ordnung\relax }}{14}{figure.caption.10}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{14}{figure.caption.11}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Butterworth-Hochpass-Filter 2. Ordnung\relax }}{15}{figure.caption.12}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Nicht invertierender Verst\IeC {\"a}rker - OPV-Grundschaltung}}{16}{figure.caption.13}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Versorgungskonzept\relax }}{18}{figure.caption.14}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Logo von \enquote {Altium Designer}}}{4}{figure.caption.4}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces TDA2030-Pinning}}{6}{figure.caption.5}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces TDA2030-Maximum Ratings}}{7}{figure.caption.6}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces TDA2030-Grundschaltung}}{8}{figure.caption.7}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces TDA2030-Leistungstransistorschaltung}}{9}{figure.caption.8}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces TDA2030-H-Br\IeC {\"u}ckenschaltung}}{11}{figure.caption.9}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Butterworth-Tiefpass-Filter 2. Ordnung\relax }}{13}{figure.caption.10}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Butterworth-Hochpass-Filter 2. Ordnung\relax }}{14}{figure.caption.12}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Nicht invertierender Verst\IeC {\"a}rker - OPV-Grundschaltung}}{15}{figure.caption.13}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Versorgungskonzept\relax }}{17}{figure.caption.14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Blockschaltbild OVC3860\relax }}{21}{figure.caption.15}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Pinbelegung XS3868\relax }}{22}{figure.caption.16}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Prinzipschaltung XS3868\relax }}{23}{figure.caption.17}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Schaltung des Adapter-Boards\relax }}{24}{figure.caption.18}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces PCB des Adapter-Boards\relax }}{25}{figure.caption.19}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Schaltung des Hauptboards (Versorgung + BT-Modul)\relax }}{26}{figure.caption.22}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Schaltung des Hauptboards (Additionsschaltung)\relax }}{27}{figure.caption.23}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Schaltung des Hauptboards (linker Teil der Additionsschaltung)\relax }}{27}{figure.caption.24}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces PCB des Hauptboards\relax }}{28}{figure.caption.26}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Schaltung der Frontplatine\relax }}{29}{figure.caption.29}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces PCB der Frontplatine\relax }}{30}{figure.caption.31}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Schematic Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche\relax }}{32}{figure.caption.32}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces PCB\relax }}{33}{figure.caption.33}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{35}{figure.caption.34}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:4.3.4.1}\relax }}{36}{figure.caption.35}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:4.3.4.1}\relax }}{37}{figure.caption.36}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Tieft\IeC {\"o}ner- und Hocht\IeC {\"o}nerweichen - PCB\relax }}{38}{figure.caption.37}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Tieft\IeC {\"o}ner-Verst\IeC {\"a}rker Schaltung\relax }}{40}{figure.caption.38}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Tieft\IeC {\"o}ner-Verst\IeC {\"a}rker PCB\relax }}{41}{figure.caption.39}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Hocht\IeC {\"o}ner-Verst\IeC {\"a}rker Schaltung\relax }}{42}{figure.caption.40}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Hocht\IeC {\"o}ner-Verst\IeC {\"a}rker PCB\relax }}{43}{figure.caption.41}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Blockschaltbild OVC3860\relax }}{20}{figure.caption.15}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Pinbelegung XS3868\relax }}{21}{figure.caption.16}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Prinzipschaltung XS3868\relax }}{22}{figure.caption.17}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Schaltung des Adapter-Boards\relax }}{23}{figure.caption.18}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces PCB des Adapter-Boards\relax }}{24}{figure.caption.19}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Schaltung des Hauptboards (Versorgung + BT-Modul)\relax }}{25}{figure.caption.22}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Schaltung des Hauptboards (Additionsschaltung)\relax }}{26}{figure.caption.23}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Schaltung des Hauptboards (linker Teil der Additionsschaltung)\relax }}{26}{figure.caption.24}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces PCB des Hauptboards\relax }}{27}{figure.caption.26}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Schaltung der Frontplatine\relax }}{28}{figure.caption.29}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces PCB der Frontplatine\relax }}{29}{figure.caption.31}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Schematic Mono-Bass-Addier-Schaltung und Mono-Bass-Weiche\relax }}{31}{figure.caption.32}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces PCB\relax }}{32}{figure.caption.33}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{34}{figure.caption.34}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:4.3.4.1}\relax }}{35}{figure.caption.35}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung - aus Abb.\ref {fig:4.3.4.1}\relax }}{36}{figure.caption.36}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Tieft\IeC {\"o}ner- und Hocht\IeC {\"o}nerweichen - PCB\relax }}{37}{figure.caption.37}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Tieft\IeC {\"o}ner-Verst\IeC {\"a}rker Schaltung\relax }}{39}{figure.caption.38}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Tieft\IeC {\"o}ner-Verst\IeC {\"a}rker PCB\relax }}{40}{figure.caption.39}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Hocht\IeC {\"o}ner-Verst\IeC {\"a}rker Schaltung\relax }}{41}{figure.caption.40}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Hocht\IeC {\"o}ner-Verst\IeC {\"a}rker PCB\relax }}{42}{figure.caption.41}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Beispiel eines Frequenzganges (Tieft\IeC {\"o}ner PSS 297 58206)\relax }}{44}{figure.caption.42}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Schalldichter Raum in der HTBLuVA St. P\IeC {\"o}lten\relax }}{46}{figure.caption.43}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Auschnitt aus der Software \enquote {PULSE LabShop}\relax }}{47}{figure.caption.44}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Zeitfunktion und Spektrum von \enquote {wei\IeC {\ss }em Rauschen}}}{48}{figure.caption.45}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Messmodul\relax }}{49}{figure.caption.46}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces \enquote {Br\IeC {\"u}el \& Kj\ae r Power Amplifier Type 2706}\relax }}{50}{figure.caption.47}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Messmikrofon \enquote {Br\IeC {\"u}el \& Kj\ae r Type 2669}\relax }}{50}{figure.caption.48}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces \enquote {Renkforce B12123}}}{52}{figure.caption.49}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Subwoofer-Messung ohne Wolle \enquote {Renkforce} (oben) und \enquote {Visaton} (unten) | Boxenvolumen: 149 l\relax }}{53}{figure.caption.50}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Subwoofer-Messung mit Wolle \enquote {Renkforce} (oben) und \enquote {Visaton} (unten) | Boxenvolumen: 149 l\relax }}{54}{figure.caption.51}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Tieft\IeC {\"o}ner-Messung ohne Wolle \enquote {TT1} (oben) und mit Wolle \enquote {TT1} (unten) | Boxenvolumen: 13,72l\relax }}{56}{figure.caption.52}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Tieft\IeC {\"o}ner-Messung ohne Wolle \enquote {TT2} (oben) und mit Wolle \enquote {TT2} (unten) Boxenvolumen: 13,72 l\relax }}{57}{figure.caption.53}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces \enquote {TT1} | Boxenvolumen = 4,87 l\relax }}{58}{figure.caption.54}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Beispiel eines Frequenzganges (Tieft\IeC {\"o}ner PSS 297 58206)\relax }}{43}{figure.caption.42}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Schalldichter Raum in der HTBLuVA St. P\IeC {\"o}lten\relax }}{45}{figure.caption.43}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Auschnitt aus der Software \enquote {PULSE LabShop}\relax }}{46}{figure.caption.44}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Zeitfunktion und Spektrum von \enquote {wei\IeC {\ss }em Rauschen}}}{47}{figure.caption.45}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Messmodul\relax }}{48}{figure.caption.46}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces \enquote {Br\IeC {\"u}el \& Kj\ae r Power Amplifier Type 2706}\relax }}{49}{figure.caption.47}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Messmikrofon \enquote {Br\IeC {\"u}el \& Kj\ae r Type 2669}\relax }}{49}{figure.caption.48}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces \enquote {Renkforce B12123}}}{51}{figure.caption.49}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Subwoofer-Messung ohne Wolle \enquote {Renkforce} (oben) und \enquote {Visaton} (unten) | Boxenvolumen: 149 l\relax }}{52}{figure.caption.50}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Subwoofer-Messung mit Wolle \enquote {Renkforce} (oben) und \enquote {Visaton} (unten) | Boxenvolumen: 149 l\relax }}{53}{figure.caption.51}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Tieft\IeC {\"o}ner-Messung ohne Wolle \enquote {TT1} (oben) und mit Wolle \enquote {TT1} (unten) | Boxenvolumen: 13,72l\relax }}{55}{figure.caption.52}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Tieft\IeC {\"o}ner-Messung ohne Wolle \enquote {TT2} (oben) und mit Wolle \enquote {TT2} (unten) Boxenvolumen: 13,72 l\relax }}{56}{figure.caption.53}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces \enquote {TT1} | Boxenvolumen = 4,87 l\relax }}{57}{figure.caption.54}
 \addvspace {10\p@ }
