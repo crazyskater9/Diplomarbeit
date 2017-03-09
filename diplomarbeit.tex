@@ -4,7 +4,7 @@
 \makeatletter 
 \renewcommand*\l@section{\bprot@dottedtocline{1}{1em}{2em}} % Original 1.5 und 2.3 
 \renewcommand*\l@subsection{\bprot@dottedtocline{2}{1.5em}{2.8em}} % Original 3.8 und 3.2 
-\makeatother 
+\makeatother
 % report zweiseitig gemacht!
 %% Encoding UTF8
 \usepackage[utf8]{inputenc}
@@ -89,6 +89,10 @@
     bookmarksopen=true]{hyperref}
 
 \begin{document}
+
+%% Richtige Einrückung für doppelseitiges Format (Auf der Innenseite mehr Abstand)
+\oddsidemargin10mm
+\evensidemargin0mm
 
 \frontmatter
 
