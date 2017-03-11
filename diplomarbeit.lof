@@ -16,19 +16,29 @@
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Tieft\IeC {\"o}ner-Messung ohne Wolle \enquote {TT2} (oben) und mit Wolle \enquote {TT2} (unten) Boxenvolumen: 13,72 l\relax }}{18}{figure.caption.22}
 \contentsline {figure}{\numberline {4.12}{\ignorespaces \enquote {TT1} | Boxenvolumen = 4,87 l\relax }}{19}{figure.caption.23}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Blockschaltbild OVC3860\relax }}{23}{figure.caption.27}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Pinbelegung XS3868\relax }}{24}{figure.caption.29}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Prinzipschaltung XS3868\relax }}{25}{figure.caption.31}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Schaltung des Adapter-Boards\relax }}{26}{figure.caption.34}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces PCB des Adapter-Boards\relax }}{27}{figure.caption.35}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Schaltung des Hauptboards (Versorgung + BT-Modul)\relax }}{28}{figure.caption.39}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Schaltung des Hauptboards (Additionsschaltung)\relax }}{29}{figure.caption.40}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Schaltung des Hauptboards (linker Teil der Additionsschaltung)\relax }}{29}{figure.caption.41}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces PCB des Hauptboards\relax }}{30}{figure.caption.43}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Schaltung der Frontplatine\relax }}{31}{figure.caption.47}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces PCB der Frontplatine\relax }}{32}{figure.caption.49}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Verst\IeC {\"a}rker f\IeC {\"u}r Hochton-Bereich - Schaltung\relax }}{22}{figure.caption.26}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Verst\IeC {\"a}rker f\IeC {\"u}r Hochton-Bereich - PCB\relax }}{23}{figure.caption.28}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Verst\IeC {\"a}rker f\IeC {\"u}r Tiefton-Bereich - Schaltung\relax }}{25}{figure.caption.31}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Verst\IeC {\"a}rker f\IeC {\"u}r Tiefton-Bereich - PCB\relax }}{26}{figure.caption.33}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Butterworth-Bandpass-Weiche 2. Ordnung\relax }}{29}{figure.caption.37}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Butterworth-Bandpass-Weiche 2. Ordnung - aus Abb.\ref {fig:4.3.2.1}\relax }}{30}{figure.caption.38}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Butterworth-Bandpass-Weiche 2. Ordnung - aus Abb.\ref {fig:4.3.2.1}\relax }}{30}{figure.caption.39}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Tiefton- und Hochtonweichen - PCB\relax }}{31}{figure.caption.41}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Schematic Mono-Subwoofer-Addier-Schaltung und Mono-Subwoofer-Weiche\relax }}{33}{figure.caption.45}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces PCB\relax }}{34}{figure.caption.47}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Blockschaltbild OVC3860\relax }}{36}{figure.caption.51}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Pinbelegung XS3868\relax }}{37}{figure.caption.53}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Prinzipschaltung XS3868\relax }}{38}{figure.caption.55}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Schaltung des Adapter-Boards\relax }}{39}{figure.caption.58}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces PCB des Adapter-Boards\relax }}{40}{figure.caption.59}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Schaltung des Hauptboards (Versorgung + BT-Modul)\relax }}{41}{figure.caption.63}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Schaltung des Hauptboards (Additionsschaltung)\relax }}{42}{figure.caption.64}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Schaltung des Hauptboards (linker Teil der Additionsschaltung)\relax }}{42}{figure.caption.65}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces PCB des Hauptboards\relax }}{43}{figure.caption.67}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Schaltung der Frontplatine\relax }}{44}{figure.caption.71}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces PCB der Frontplatine\relax }}{45}{figure.caption.73}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Logo von \enquote {Altium Designer}}}{34}{figure.caption.50}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Logo von \enquote {FilterPro}}}{35}{figure.caption.51}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Logo von \enquote {Altium Designer}}}{47}{figure.caption.74}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Logo von \enquote {FilterPro}}}{48}{figure.caption.75}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
