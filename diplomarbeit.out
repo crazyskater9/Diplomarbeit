@@ -2,69 +2,33 @@
 \BOOKMARK [1][]{section.1.1}{Erste Idee}{chapter.1}% 2
 \BOOKMARK [1][]{section.1.2}{Weiterf\374hrende Gedanken}{chapter.1}% 3
 \BOOKMARK [0][]{chapter.2}{Individuelle Zielsetzung}{}% 4
-\BOOKMARK [1][]{section.2.1}{Ziele}{chapter.2}% 5
-\BOOKMARK [2][]{subsection.2.1.1}{Elektronik}{section.2.1}% 6
-\BOOKMARK [2][]{subsection.2.1.2}{Lautsprecher}{section.2.1}% 7
-\BOOKMARK [0][]{chapter.3}{Grundlagen und Methoden}{}% 8
-\BOOKMARK [1][]{subsection.3.0.1}{Einstellungen f\374r die PCB-Entwicklung}{chapter.3}% 9
-\BOOKMARK [2][]{subsection.3.0.2}{Designregeln f\374r die PCB-Entwicklung}{subsection.3.0.1}% 10
-\BOOKMARK [1][]{section.3.1}{TDA2030}{chapter.3}% 11
-\BOOKMARK [2][]{subsection.3.1.1}{Absolute Maximalwerte}{section.3.1}% 12
-\BOOKMARK [2][]{subsection.3.1.2}{TDA2030-Grundschaltung}{section.3.1}% 13
-\BOOKMARK [2][]{subsection.3.1.3}{Leistungstransistor-Schaltung}{section.3.1}% 14
-\BOOKMARK [2][]{subsection.3.1.4}{H-Br\374ckenschaltung der TDA2030-Verst\344rkerschaltung}{section.3.1}% 15
-\BOOKMARK [2][]{subsection.3.1.5}{Asymmetrische Spannungsversorgung}{section.3.1}% 16
-\BOOKMARK [1][]{section.3.2}{Filter}{chapter.3}% 17
-\BOOKMARK [2][]{subsection.3.2.1}{Butterworth-Filter 2. Ordnung}{section.3.2}% 18
-\BOOKMARK [1][]{section.3.3}{Satelliten-Lautsprecher}{chapter.3}% 19
-\BOOKMARK [1][]{section.3.4}{Nicht invertierende Verst\344rker - OPV-Grundschaltung}{chapter.3}% 20
-\BOOKMARK [2][]{subsection.3.4.1}{Asymmetrische Versorgung eines OPV's}{section.3.4}% 21
-\BOOKMARK [1][]{section.3.5}{Versorgungskonzept}{chapter.3}% 22
-\BOOKMARK [1][]{section.3.6}{Welligkeit}{chapter.3}% 23
-\BOOKMARK [0][]{chapter.4}{Auswahl der Lautsprecher-Chassis}{}% 24
-\BOOKMARK [1][]{section.4.1}{Allgemeines}{chapter.4}% 25
-\BOOKMARK [2][]{subsection.4.1.1}{Andere wichtige Eigenschaften eines Lautsprechers}{section.4.1}% 26
-\BOOKMARK [1][]{section.4.2}{Messaufbau}{chapter.4}% 27
-\BOOKMARK [2][]{subsection.4.2.1}{Software}{section.4.2}% 28
-\BOOKMARK [2][]{subsection.4.2.2}{Messmodul}{section.4.2}% 29
-\BOOKMARK [2][]{subsection.4.2.3}{Verst\344rker}{section.4.2}% 30
-\BOOKMARK [2][]{subsection.4.2.4}{Mikrofon}{section.4.2}% 31
-\BOOKMARK [1][]{section.4.3}{Tieft\366ner-Messungen}{chapter.4}% 32
-\BOOKMARK [2][]{subsection.4.3.1}{Einleitung}{section.4.3}% 33
-\BOOKMARK [2][]{subsection.4.3.2}{Ziele}{section.4.3}% 34
-\BOOKMARK [2][]{subsection.4.3.3}{Subwoofer}{section.4.3}% 35
-\BOOKMARK [2][]{subsection.4.3.4}{Satelliten-Tieft\366ner}{section.4.3}% 36
-\BOOKMARK [0][]{chapter.5}{Entwicklung der Elektronik-Platinen}{}% 37
-\BOOKMARK [1][]{section.5.1}{Verst\344rker f\374r Tiefton-Bereich}{chapter.5}% 38
-\BOOKMARK [2][]{subsection.5.1.1}{Allgemeines}{section.5.1}% 39
-\BOOKMARK [2][]{subsection.5.1.2}{Schaltung}{section.5.1}% 40
-\BOOKMARK [2][]{subsection.5.1.3}{PCB}{section.5.1}% 41
-\BOOKMARK [1][]{section.5.2}{Verst\344rker f\374r Hochton-Bereich}{chapter.5}% 42
-\BOOKMARK [2][]{subsection.5.2.1}{Allgemeines}{section.5.2}% 43
-\BOOKMARK [2][]{subsection.5.2.2}{Schaltung}{section.5.2}% 44
-\BOOKMARK [2][]{subsection.5.2.3}{PCB}{section.5.2}% 45
-\BOOKMARK [1][]{section.5.3}{Mono-Subwoofer-Addier-Schaltung und Mono-Subwoofer-Weiche}{chapter.5}% 46
-\BOOKMARK [2][]{subsection.5.3.1}{Allgemeines}{section.5.3}% 47
-\BOOKMARK [2][]{subsection.5.3.2}{Schaltung}{section.5.3}% 48
-\BOOKMARK [2][]{subsection.5.3.3}{PCB}{section.5.3}% 49
-\BOOKMARK [1][]{section.5.4}{Tiefton- und Hochton-Weiche}{chapter.5}% 50
-\BOOKMARK [2][]{subsection.5.4.1}{Allgemeines}{section.5.4}% 51
-\BOOKMARK [2][]{subsection.5.4.2}{Schaltung}{section.5.4}% 52
-\BOOKMARK [2][]{subsection.5.4.3}{PCB}{section.5.4}% 53
-\BOOKMARK [1][]{section.5.5}{Bluetooth-Modul "XS3868"}{chapter.5}% 54
-\BOOKMARK [2][]{subsection.5.5.1}{Allgemeines}{section.5.5}% 55
-\BOOKMARK [2][]{subsection.5.5.2}{Auswahl des Bluetooth-Moduls}{section.5.5}% 56
-\BOOKMARK [2][]{subsection.5.5.3}{OVC3860}{section.5.5}% 57
-\BOOKMARK [2][]{subsection.5.5.4}{Pinbelegung}{section.5.5}% 58
-\BOOKMARK [2][]{subsection.5.5.5}{Inbetriebnahme}{section.5.5}% 59
-\BOOKMARK [2][]{subsection.5.5.6}{Verbindung mit dem Modul}{section.5.5}% 60
-\BOOKMARK [2][]{subsection.5.5.7}{Adapter-Board}{section.5.5}% 61
-\BOOKMARK [2][]{subsection.5.5.8}{Hauptboard}{section.5.5}% 62
-\BOOKMARK [2][]{subsection.5.5.9}{Frontplatine}{section.5.5}% 63
-\BOOKMARK [0][]{chapter.6}{Verwendete Tools}{}% 64
-\BOOKMARK [1][]{section.6.1}{Elektronik-Entwicklungsumgebung f\374r Layout und Leiterplatten "Altium"}{chapter.6}% 65
-\BOOKMARK [1][]{section.6.2}{Filterberechnungstool "FilterPro"}{chapter.6}% 66
-\BOOKMARK [0][]{chapter*.56}{Abk\374rzungsverzeichnis}{}% 67
-\BOOKMARK [0][]{section*.57}{Abbildungsverzeichnis}{}% 68
-\BOOKMARK [0][]{section*.59}{Danksagungen}{}% 69
-\BOOKMARK [0][]{section*.63}{Literaturverzeichnis}{}% 70
+\BOOKMARK [1][]{subsection.2.0.1}{Elektronik}{chapter.2}% 5
+\BOOKMARK [2][]{subsection.2.0.2}{Lautsprecher}{subsection.2.0.1}% 6
+\BOOKMARK [0][]{chapter.3}{Grundlagen und Methoden}{}% 7
+\BOOKMARK [1][]{section.3.1}{Blockschaltbild des Projekts}{chapter.3}% 8
+\BOOKMARK [1][]{section.3.2}{Mehrweg-Lautsprechersystem}{chapter.3}% 9
+\BOOKMARK [1][]{section.3.3}{Spannungsversorgung}{chapter.3}% 10
+\BOOKMARK [1][]{section.3.4}{Signal\374bertragung \374ber Bluetooth}{chapter.3}% 11
+\BOOKMARK [0][]{chapter.4}{Auswahl der Lautsprecher-Chassis}{}% 12
+\BOOKMARK [1][]{section.4.1}{Messaufbau und Messung}{chapter.4}% 13
+\BOOKMARK [1][]{section.4.2}{Lautsprecher f\374r Hochton-Bereich}{chapter.4}% 14
+\BOOKMARK [1][]{section.4.3}{Lautsprecher f\374r Tiefton-Bereich}{chapter.4}% 15
+\BOOKMARK [1][]{section.4.4}{Optimierung der Lautsprecher-Boxen}{chapter.4}% 16
+\BOOKMARK [2][]{subsection.4.4.1}{Eignung von verschiedenen Materialien zur Volumsverminderung}{section.4.4}% 17
+\BOOKMARK [2][]{subsection.4.4.2}{Subwoofer-Box}{section.4.4}% 18
+\BOOKMARK [2][]{subsection.4.4.3}{Box f\374r Satelliten-Boxen}{section.4.4}% 19
+\BOOKMARK [0][]{chapter.5}{Entwicklung der Elektronik-Platinen}{}% 20
+\BOOKMARK [1][]{section.5.1}{Verst\344rker-Schaltungen}{chapter.5}% 21
+\BOOKMARK [2][]{subsection.5.1.1}{Verst\344rker f\374r Hochton-Bereich}{section.5.1}% 22
+\BOOKMARK [2][]{subsection.5.1.2}{Verst\344rker f\374r Tiefton-Bereich}{section.5.1}% 23
+\BOOKMARK [2][]{subsection.5.1.3}{Subwoofer-Verst\344rker}{section.5.1}% 24
+\BOOKMARK [1][]{section.5.2}{Frequenzweichen}{chapter.5}% 25
+\BOOKMARK [1][]{section.5.3}{Beschaltung des Bluetooth-Moduls}{chapter.5}% 26
+\BOOKMARK [0][]{chapter.6}{Verwendete Tools}{}% 27
+\BOOKMARK [1][]{section.6.1}{Elektronik-Entwicklungsumgebung f\374r Layout und Leiterplatten "Altium"}{chapter.6}% 28
+\BOOKMARK [1][]{section.6.2}{Filterberechnungstool "FilterPro"}{chapter.6}% 29
+\BOOKMARK [0][]{chapter.7}{Betriebswirtschaftlicher Teil}{}% 30
+\BOOKMARK [0][]{chapter*.6}{Abk\374rzungsverzeichnis}{}% 31
+\BOOKMARK [0][]{section*.7}{Abbildungsverzeichnis}{}% 32
+\BOOKMARK [0][]{section*.9}{Danksagungen}{}% 33
+\BOOKMARK [0][]{section*.13}{Literaturverzeichnis}{}% 34
