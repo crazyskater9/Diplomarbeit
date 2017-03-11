@@ -1,35 +1,35 @@
 \null\newpage
-\section{Tieftöner-Verstärker}\label{sec:4.4}
+\section{Verstärker für Tiefton-Bereich}\label{sec:4.4}
 \subsection{Allgemeines}\label{subsec:4.4.1}
 Nach dem Filtern des Signals soll dieses vor dem Abstrahlen am Lautsprecher verstärkt werden.
 Es wurde eine analoge Verstärker-Schaltung verwendet, da diese einfacher und mit weniger Problemen realisiert werden konnte.
 Mithilfe bereits bekannter, bewährter Schaltungen konnte ein Layout für diese Schaltung designet werden.
-Ein wichtiger Baustein in dieser Schaltung ist der Verstärker \enquote{TDA2030}, wie in Kapitel \ref{sec:3.2} beschrieben.
-Des weiteren wurden zwei Leistungstransistoren verbaut die höhere Ströme schalten können, falls der maximale Schaltstrom des TDA2030 erreicht wird.
-
-\subsection{Zielsetzung}\label{subsec:4.4.2}
+Ein wichtiger Baustein in dieser Schaltung ist der Verstärkerbaustein \enquote{TDA2030} (Siehe Kapitel \ref{sec:3.2}).
+Des weiteren werden zwei Leistungstransistoren verbaut die höhere Ströme schalten können, falls der maximale Schaltstrom des TDA2030 erreicht wird. (Siehe Kapitel \ref{subsec:3.2.3})
 Das Eingangssignal soll verstärkt werden um am Ausgang der Schaltung höhere Spannungs-Amplituden und höheren Ströme aufzuweisen.
-Es soll nach diesem Schritt möglich sein den Tieftöner in einer der zwei Satellitenboxen mit ausreichend Signal zu versorgen, um einen Schalldruck von zumindest Zimmerlautstärke zu erhalten. 
+Es soll nach diesem Schritt möglich sein den Tiefton-Lautsprecher in einer der zwei Satellitenboxen mit ausreichend Signal zu versorgen, um einen Schalldruck von zumindest Zimmerlautstärke zu erhalten. 
 
-\subsection{Schaltung}\label{subsec:4.4.3}
-Leicht ersichtlich in der Schaltung (\ref{fig:4.4.3.1}) ist in der oberen, linken Ecke des Bildes der Spannungsteiler für einstellen des Arbeitspunktes (Siehe Kapitel \ref{subsec:3.5.1}).
+
+\subsection{Schaltung}\label{subsec:4.4.2}
+In der linken, oberen Ecke der Schaltung (\ref{fig:4.4.2.1}) ist der Spannungsteiler für einstellen des Arbeitspunktes (Siehe Kapitel \ref{subsec:3.5.1}) ersichtlich.
 Mit Hilfe des ELKO's \enquote{EL504} wird verschleppte Gleichspannung am Eingang der Schaltung heraus gesiebt.
-Dafür ist auch der ELKO \enquote{EL502}, dieser siebt die Gleichspannung am Ausgang der Schaltung heraus, bevor das Signal den Print verlässt. \\
+Dafür ist auch der ELKO \enquote{EL502}, dieser siebt die Gleichspannung am Ausgang der Schaltung heraus, bevor das Signal die Platine verlässt. \\
 Über die Widerstände \enquote{R506} und \enquote{R505} wird die Verstärkung der Schaltung eingestellt.
 In diesem Fall ist die Verstärkung $\frac{R505+R506}{R505}$ = 31 .
-Das bedeutet, dass das Eingangssignal am Ausgang 31mal so groß sein soll, natürlich unter Beachtung der Grenzen der OPV-Verstärkerschaltung(\ref{sec:3.5}).
+Das bedeutet, dass das Eingangssignal am Ausgang 31mal so groß sein soll, natürlich unter Beachtung der Grenzen der OPV-Verstärkerschaltung (\ref{sec:3.5}).
 
 \begin{figure} [H]
 	\centering	
 	\includegraphics[width=1\textwidth]{img/Print5/5_TTVerstaerker-Schem.PNG}
-	\caption{Tieftöner-Verstärker Schaltung}
-	\label {fig:4.4.3.1}
+	\caption{Verstärker für Tiefton-Bereich - Schaltung}
+	\label {fig:4.4.2.1}
 \end{figure}
 
-\subsection{PCB}\label{subsec:4.4.4}
-Die drei zu kühlenden Bauteile \enquote{Q502, U501, Q501}(\ref{fig:4.4.4.1}) sind auf selber Höhe montiert um sie auf einen Kühlkörper montieren können.
+
+\subsection{PCB}\label{subsec:4.4.3}
+Die drei zu kühlenden Bauteile \enquote{Q502, U501, Q501} (\ref{fig:4.4.3.1}) sind auf selber Höhe montiert um sie auf einen Kühlkörper montieren können.
 \emph{Zu beachten dabei ist deren Potential an der Kühlfläche!}
-Das Potential ist das Selbe wie an dem mittleren Pin.
+Das Potential ist das Selbe wie an dem mittleren Anschluss-Pin des jeweiligen Bauteils.
 Daher:
 \begin{itemize}
 	\item TDA2030: \enquote{-Vcc} = Masse bei asymmetrische Versorgung
@@ -38,18 +38,18 @@ Daher:
 \end{itemize}
 
 Aus diesem Grund müssen zumindest die zwei Transistoren isoliert am Kühlkörper angebracht werden.\\
-Die Ein- und Ausgänge sind wieder auf einer Seite montiert. 
-Einheitlich mit dem Hochtönerverstärkerprint(\ref{sec:4.5}) ist von links nach rechts zuerst Versorgungsstecker, dann Eingangssignal und am Ende der Ausgangsstecker.
+Die Ein- und Ausgänge sind auf einer Seite montiert. 
+Einheitlich mit der Hochtonverstärkerplatine(\ref{sec:4.5}) ist von links nach rechts zuerst Versorgungsstecker, dann Eingangssignal und am Ende der Ausgangsstecker angebracht.
 Ebenso ist Masse jeweils rechts angeordnet um die Einheitlichkeit noch weiter zu erhöhen.\\
-Über den zu kühlenden Elementen ist eine große frei Fläche mit Bohrungen um eine bessere mechanische Verbindung mit dem Kühlkörper zu erhalten.
+Auf der Platine ist über den zu kühlenden Elementen ist eine große frei Fläche mit Bohrungen um eine bessere mechanische Verbindung mit dem Kühlkörper zu erhalten.
 Die vier kleineren Bohrungen waren für einen Testkühlkörper vorgesehen. 
-Dieser wurde bald durch einen größeren ersetzt um mehrere Prints montieren zu können.
+Dieser Kühlkörper wurde bald durch einen größeren ersetzt um mehrere Platinen montieren zu können.
 %Die finale Ausführung ist jedoch nur auf die mechanische Verbindung der Bauteile mit dem Kühlkörper angewiesen.
 
 \begin{figure} [H]
 	\centering	
 	\includegraphics[width=1\textwidth]{img/Print5/5_TTVerstaerker-PCB.PNG}
-	\caption{Tieftöner-Verstärker PCB}
-	\label {fig:4.4.4.1}
+	\caption{Verstärker für Tiefton-Bereich - PCB}
+	\label {fig:4.4.3.1}
 \end{figure}
 
