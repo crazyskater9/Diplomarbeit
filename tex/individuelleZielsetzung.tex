@@ -1,0 +1,52 @@
+
+%\section{Ziele}\label{sec:2.1}
+%Es soll ein 2.1-System entwickelt werden.
+%Ein Mono-Subwoofer übernimmt den niedrigen Audiofrequenzbereich, während 2 weitere Lautsprecherboxen (auch genannt Satelliten-Boxen) - mit jeweils einem Hochton- und Tiefton-Lautsprecher - den Rest übernehmen.
+%Dieser Aufbau wurde gewählt um einen Raum-Klang erzeugen zu können. \\
+%Die Versorgung der Elektronik erfolgt entweder über Akku- oder Netzbetrieb.
+%Jeder Hochton- und Tiefton-Lautsprecher bekommt einen eigenen Verstärker (so auch der Mono-Subwoofer). \\
+%Das Audiosignal wird in verschiedene Frequenzbereiche aufgeteilt.\\
+%
+%%An Struktur neu anpassen
+%Unsere Diplomarbeit kann grob in 2 Teile aufgeteilt werden:
+%\begin{itemize}
+%	\item Entwicklung der Elektronik
+%	\item Auswahl und Messungen der Lautsprecher
+%\end{itemize}
+%Die Ziele der 2 Teile werden in diesem Kapitel kurz erläutert.
+
+
+\section{Elektronik}\label{subsec:2.1.1}
+Wie bereits in der Einleitung (\ref{sec:1.2}) erwähnt, ist das Projekt auch für den Akkubetrieb ausgelegt und benötigt daher eine passende Versorgungsschaltung.
+Das Versorgungskonzept sieht einen 12V-Akku mit entsprechendem Ladegerät vor.
+Dieses wurde zugekauft, da unser Projekt sich auf die Lautsprechermessung und -beschaltung konzentriert.
+Bei Anschluss an eine Steckdose (nach CEE-Norm) übernimmt das vorgesehene Netzteil die Versorgung der Elektronik.
+Wegen einer höheren Versorgungsspannung als die 12V des vorgesehenen Akkus, steht bei Netzbetrieb eine höhere Leistung zur Verfügung. \\ \\
+Es werden analoge Verstärker verwendet.
+Gründe dafür sind:
+\begin{itemize}
+	\item Einfacher Aufbau
+	\item Ausreichende Leistung und Effizienz für dieses Projekt
+	\item Bewährte Technik für Audioverstärker
+\end{itemize} 
+Das Audio-Signal muss vor den Verstärkern noch gefiltert werden.
+Diese Aufgabe übernimmt eine Aktive Frequenzweiche.
+Für den Mono-Subwoofer wird eine eigene Schaltung entwickelt die nicht nur die unerwünschten Signal-Anteile herausfiltert, sondern auch noch das Stereo-Signal auf ein Mono-Signal addiert.\\ \\
+%\newpage ??
+Die Signalaufnahme erfolgt über Eingänge auf der Hauptplatine.
+Auf dieser Platine befindet sich ein AUX-Eingang (3,5mm Klinkenbuchse).
+Über ein passendes Kinkensteckerkabel kann das Signal von einem beliebigen Endgerät wiedergegeben werden.
+Eine weitere Möglichkeit bietet das Bluetooth-Modul, welches sich ebenfalls, mittels Adapterplatine, auf der Hauptplatine befindet.
+Durch dieses kann über Bluetooth-Funkverbindung mit einem beliebigen bluetoothfähigen Endgerät ebenso ein Audiosignal übertragen werden.
+An der Hauptplatine werden des weiteren Filter und an diesen die Verstärker angeschlossen. 
+Das schlussendlich verstärkte und gefilterte Audiosignal wird an einem Lautsprecher abstrahlen.\\
+Die Hauptplatine und die Adapterplatine für das Bluetooth-Modul, wurden während einer Projektarbeit in der HTBLuVA St. Pölten entwickelt.
+%Addierschaltung von Klinke und Bluetooth vielleicht erst später einbauen und erläutern
+
+\section{Lautsprecher}\label{subsec:2.1.2}
+Das Ziel für die Auswahl der Lautsprecher war es, möglichst laute Lautsprecher-Chassis mit möglichst gutem Frequenzgang (großer verwendbarer Frequenzbereich im Zusammenhang mit geringer Welligkeit [Siehe Kapitel \ref{sec:3.7}]) zu finden.
+Ein weiteres Ziel ist die Verringerung des Volumens der Box.
+Dabei muss beachtet werden, dass sich die Klangqualität des in der Box verbauten Lautsprecher-Chassis mit ändernden Volumen, ebenfalls verändern kann.
+Daher ist ein Boxenvolumen zu bestimmen unter diesem die Klangqualität des Lautsprecher-Chassis nicht leidet.\\
+Ein kleines Volumen ist nötig, da das fertige Lautsprecher-System auch für den Außenbereich verwendet werden soll und daher leicht transportabel sein sollte.
+Aus diesen Bedingungen folgt eine Optimierungsarbeit am Boxenvolumen.

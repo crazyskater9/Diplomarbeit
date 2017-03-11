@@ -1,6 +1,6 @@
 \newpage
-\section{Bluetooth-Modul \enquote{XS3868}} \label{sec:4.1}
-\subsection{Allgemeines} \label{subsec:4.1.1}
+\section{Beschaltung des Bluetooth-Moduls \enquote{XS3868}} \label{sec:4.1}
+\subsection*{Allgemeines} \label{subsec:4.1.1}
 Ein Audio-Bluetooth-Modul soll ein Audio-Signal von einem beliebigen bluetoothfähigen Endgerät über Bluetooth-Funkverbindung empfangen, es umwandeln und dieses Signal an einem nachgeschalteten Lautsprecher wiedergeben.
 Dabei ist eine hohe Kompatibilität mit viele Geräten wichtig, weil es sehr viele verschiedene Versionen von Bluetooth gibt. Da Bluetooth-Geräte meist abwärtskompatibel sind, ist es sinnvoll das Modul mit einer älteren BT-Version laufen zu lassen.
 
@@ -8,14 +8,14 @@ Es soll ein Print angefertigt werden auf dem sich das BT-Modul samt Versorgungss
 Um eine leichtere Handhabung zu ermöglichen, muss auch ein Adapterprint für das BT-Modul angefertigt werden.
 
 
-\subsection{Auswahl des Bluetooth-Moduls} \label{subsec:4.1.2}
+\subsection*{Auswahl des Bluetooth-Moduls} \label{subsec:4.1.2}
 Wie bereits erwähnt soll das BT-Modul mit möglichst viele Geräten kompatibel sein, also mit einer älteren BT-Version laufen. Es sollte weiterhin eine möglichst einfache Bedienung für den Benutzer ermöglichen (beispielsweise Play-/Pausetaste).\\
 Außerdem soll es bei geringen Kosten eine möglichst gute Verbindung, d.h. einen hohe Reichweite, erzielt werden.\\
 Nach ausführlicher Recherche wurde das Modul \enquote{XS3868 Revision 3} ausgewählt. Der darauf verbaute Chip \enquote{OVC3860} von \enquote{OmniVision Technologies} hat sich bereits in vielen anderen Projekten bewährt. 
 
 
 \newpage
-\subsection{OVC3860} \label{subsec:4.1.3}
+\subsection*{OVC3860} \label{subsec:4.1.3}
 In dem Chip (Abb. \ref {fig:4.1.3.1}) ist außer der Bluetooth-Verbindung auch noch ein Stereo-Audio-Prozessor verbaut. Zusätzlich gibt es noch eine UART-Schnittstelle mithilfe man einige Einstellungen am Chip vornehmen kann. Eine kleine LiPo-Ladeschaltung ist ebenfalls vorhanden, wird aber in diesem Fall nicht verwendet.\\
 Das Modul benötigt eine Versorgungsspannung von 3,3V bis 4,2V, wobei der Chip mit 1,8V versorgt wird. Diese Spannung wird auf dem Modul erzeugt.\\
 Die verwendete BT-Version ist 2.0. Einige GPIO-Pins sind auf das Modul herausgeführt um Funktionen wie \enquote{Play/Pause} zu ermöglichen. Der Chip benötigt einen externen Speicher und eine Antenne (auf dem Modul) um ordnungsgemäß zu funktionieren.
@@ -27,7 +27,7 @@ Die verwendete BT-Version ist 2.0. Einige GPIO-Pins sind auf das Modul herausgef
 \end{figure}
 \newpage
 
-\subsection{Pinbelegung} \label{subsec:4.1.4}
+\subsection*{Pinbelegung} \label{subsec:4.1.4}
 Insgesamt hat das Modul 23 verwendbare Pins, aufgeteilt auf 2 Seiten in 11 und 12 Pins.
 \begin{figure} [H]
 	\centering
@@ -41,7 +41,7 @@ Außerdem verfügt das Modul auch über eine Mikrofon-Funktion, die aber in dies
 \newpage
 
 
-\subsection{Inbetriebnahme} \label{subsec:4.1.5}
+\subsection*{Inbetriebnahme} \label{subsec:4.1.5}
 Bereits mit einer simplen Beschaltung kann das Modul in Betrieb genommen werden:
 \begin{figure} [H]
 	\centering
@@ -56,7 +56,7 @@ Statt die Lautsprecher direkt an das Modul anzuschließen, sollte allerdings noc
 \newpage
 
 
-\subsection{Verbindung mit dem Modul} \label{subsec:4.1.6}
+\subsection*{Verbindung mit dem Modul} \label{subsec:4.1.6}
 Wenn der OVC3860 eingeschaltet ist, sucht er andauernd nach BT-Geräten. Mit einem Smartphone findet man das Gerät und kann sich mit einem Standard-PIN-Code (\enquote{0000}) verbinden. Wenn bereits Lautsprecher angeschlossen sind, wird ein Ton abgespielt, der die Verbindung bestätigt. Außerdem hat die Status-LED nun ein anderes Blinkverhalten (Mehrmaliges Blinken mit längeren Pausen).\\
 Jetzt ist das Modul bereit Musik abzuspielen. Diese kann vom Smartphone oder vom Modul aus gesteuert werden. Die notwendigen Taster müssen allerdings schon in der Schaltung verbaut sein um die Bedienung der Musik zu ermöglichen.
 
@@ -66,7 +66,7 @@ Jetzt ist das Modul bereit Musik abzuspielen. Diese kann vom Smartphone oder vom
 %Als Entwicklungsprogramm für beide Leiterplatten wurde  \enquote{Altium Designer 13.3} verwendet. Die Schaltung wurde in diesem Programm gezeichnet, das Layout für die Leiterplatten angefertigt und entflechtet. Es wurden einseitige Platinen verwendet, da doppelseitige nicht notwendig waren.
 
 
-\subsection{Adapter-Board} \label{subsec:4.1.7}
+\subsection*{Adapter-Board} \label{subsec:4.1.7}
 Da das Modul in SMD-Bauform gefertigt ist, wurde ein Adapter-Board (Abb. \ref{fig:4.1.7.1}) vorgesehen um eine einfachere Handhabung mit dem Modul zu ermöglichen. Als Anschlussmöglichkeiten werden Stiftleisten verwendet.\\
 Die Schaltung ist deshalb auch sehr simpel aufgebaut:
 \begin{figure} [H]
@@ -86,7 +86,7 @@ Mit diesem PCB kann da BT-Modul nun besser getestet und auch weiterverwendet wer
 \newpage
 
 
-\subsection{Hauptboard} \label{subsec:4.1.8}
+\subsection*{Hauptboard} \label{subsec:4.1.8}
 \subsubsection{Funktion} \label{subsubsec:4.1.8.1}
 Das Hauptboard wird hauptsächlich zur Versorgung des BT-Moduls, aber auch zur Weiterverarbeitung des Audio-Signals verwendet. Darüber hinaus ist eine Additionsschaltung vorgesehen, die das Signal des BT-Moduls mit einem zweiten, von einem Klinken-Eingang zugeführten, Signal vermischt. Die Lautstärke von diesem zweiten Audio-Signal kann über ein Stereo-Potentiometer geregelt werden. \\
 Weiterhin sind die Pins zur Bedienung der Musik an einen 2x5-Wannenstecker herausgeführt. Zugang zur seriellen Schnittstelle wird auch ermöglicht.
@@ -130,7 +130,7 @@ Die Platine(Abb. \ref {fig:4.1.8.3.1}) für das Hauptboard sollte möglichst kom
 \newpage
 
 
-\subsection{Frontplatine} \label{subsec:4.1.9}
+\subsection*{Frontplatine} \label{subsec:4.1.9}
 \subsubsection{Funktion} \label{subsubsec:4.1.9.1}
 Diese Platine ist eigentlich eine Erweiterung des Hauptboards. Es wird mit dem Hauptboard über einen 2x5-Wannenstecker verbunden und auch versorgt. Sonst sind nur die Taster zur Bedienung des BT-Moduls, sowie die Status-LED verbaut.
 
