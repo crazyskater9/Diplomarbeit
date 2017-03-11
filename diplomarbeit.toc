@@ -6,38 +6,38 @@
 \contentsline {section}{\numberline {2.1}Elektronik}{2}{section.2.1}
 \contentsline {section}{\numberline {2.2}Lautsprecher}{3}{section.2.2}
 \contentsline {chapter}{\numberline {3}Grundlagen und Methoden}{4}{chapter.3}
-\contentsline {section}{\numberline {3.1}Blockschaltbild des Projekts}{5}{section.3.1}
-\contentsline {section}{\numberline {3.2}Mehrweg-Lautsprechersystem}{5}{section.3.2}
-\contentsline {section}{\numberline {3.3}Spannungsversorgung}{5}{section.3.3}
-\contentsline {section}{\numberline {3.4}Signal\IeC {\"u}bertragung \IeC {\"u}ber Bluetooth}{5}{section.3.4}
-\contentsline {chapter}{\numberline {4}Auswahl der Lautsprecher-Chassis}{6}{chapter.4}
-\contentsline {section}{\numberline {4.1}Messaufbau und Messung}{6}{section.4.1}
-\contentsline {section}{\numberline {4.2}Lautsprecher f\IeC {\"u}r Tiefton-Bereich}{12}{section.4.2}
-\contentsline {section}{\numberline {4.3}Lautsprecher f\IeC {\"u}r Hochton-Bereich}{20}{section.4.3}
-\contentsline {section}{\numberline {4.4}Optimierung der Lautsprecher-Boxen}{20}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Eignung von verschiedenen Materialien zur Volumsverminderung}{20}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Subwoofer-Box}{20}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Box f\IeC {\"u}r Satelliten-Boxen}{20}{subsection.4.4.3}
-\contentsline {chapter}{\numberline {5}Entwicklung der Elektronik-Platinen}{21}{chapter.5}
-\contentsline {section}{\numberline {5.1}Verst\IeC {\"a}rker-Schaltungen}{21}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Verst\IeC {\"a}rker f\IeC {\"u}r Hochton-Bereich}{21}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Verst\IeC {\"a}rker f\IeC {\"u}r Tiefton-Bereich}{21}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Subwoofer-Verst\IeC {\"a}rker}{21}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Frequenzweichen}{21}{section.5.2}
-\contentsline {section}{\numberline {5.3}Beschaltung des Bluetooth-Moduls \enquote {XS3868}}{22}{section.5.3}
-\contentsline {subsubsection}{\nonumberline Funktion}{28}{section*.37}
-\contentsline {subsubsection}{\nonumberline Schaltung}{28}{section*.38}
-\contentsline {subsubsection}{\nonumberline PCB}{30}{section*.42}
-\contentsline {subsubsection}{\nonumberline Funktion}{31}{section*.45}
-\contentsline {subsubsection}{\nonumberline Schaltung}{31}{section*.46}
-\contentsline {subsubsection}{\nonumberline PCB}{32}{section*.48}
-\contentsline {chapter}{\numberline {6}Verwendete Tools}{33}{chapter.6}
-\contentsline {section}{\numberline {6.1}Elektronik-Entwicklungsumgebung f\IeC {\"u}r Layout und Leiterplatten \enquote {Altium}}{34}{section.6.1}
-\contentsline {section}{\numberline {6.2}Filterberechnungstool \enquote {FilterPro}}{35}{section.6.2}
-\contentsline {chapter}{\numberline {7}Betriebswirtschaftlicher Teil}{36}{chapter.7}
-\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{38}{chapter*.52}
-\contentsline {chapter}{Abbildungsverzeichnis}{39}{section*.53}
-\contentsline {chapter}{Danksagungen}{39}{section*.55}
-\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{40}{section*.57}
-\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{40}{section*.58}
-\contentsline {chapter}{Literaturverzeichnis}{41}{section*.59}
+\contentsline {section}{\numberline {3.1}Blockschaltbild des Projekts}{4}{section.3.1}
+\contentsline {section}{\numberline {3.2}Mehrweg-Lautsprechersysteme}{6}{section.3.2}
+\contentsline {section}{\numberline {3.3}Signal\IeC {\"u}bertragung \IeC {\"u}ber Bluetooth}{8}{section.3.3}
+\contentsline {section}{\numberline {3.4}Spannungsversorgung}{10}{section.3.4}
+\contentsline {chapter}{\numberline {4}Auswahl der Lautsprecher-Chassis}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Messaufbau und Messung}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}Lautsprecher f\IeC {\"u}r Tiefton-Bereich}{17}{section.4.2}
+\contentsline {section}{\numberline {4.3}Lautsprecher f\IeC {\"u}r Hochton-Bereich}{25}{section.4.3}
+\contentsline {section}{\numberline {4.4}Optimierung der Lautsprecher-Boxen}{25}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Eignung von verschiedenen Materialien zur Volumsverminderung}{25}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Subwoofer-Box}{25}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Box f\IeC {\"u}r Satelliten-Boxen}{25}{subsection.4.4.3}
+\contentsline {chapter}{\numberline {5}Entwicklung der Elektronik-Platinen}{26}{chapter.5}
+\contentsline {section}{\numberline {5.1}Verst\IeC {\"a}rker-Schaltungen}{26}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Verst\IeC {\"a}rker f\IeC {\"u}r Hochton-Bereich}{26}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Verst\IeC {\"a}rker f\IeC {\"u}r Tiefton-Bereich}{26}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Subwoofer-Verst\IeC {\"a}rker}{26}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Frequenzweichen}{26}{section.5.2}
+\contentsline {section}{\numberline {5.3}Beschaltung des Bluetooth-Moduls \enquote {XS3868}}{27}{section.5.3}
+\contentsline {subsubsection}{\nonumberline Funktion}{31}{section*.36}
+\contentsline {subsubsection}{\nonumberline Schaltung}{31}{section*.37}
+\contentsline {subsubsection}{\nonumberline PCB}{33}{section*.41}
+\contentsline {subsubsection}{\nonumberline Funktion}{34}{section*.44}
+\contentsline {subsubsection}{\nonumberline Schaltung}{34}{section*.45}
+\contentsline {subsubsection}{\nonumberline PCB}{35}{section*.47}
+\contentsline {chapter}{\numberline {6}Verwendete Tools}{36}{chapter.6}
+\contentsline {section}{\numberline {6.1}Elektronik-Entwicklungsumgebung f\IeC {\"u}r Layout und Leiterplatten \enquote {Altium}}{37}{section.6.1}
+\contentsline {section}{\numberline {6.2}Filterberechnungstool \enquote {FilterPro}}{38}{section.6.2}
+\contentsline {chapter}{\numberline {7}Betriebswirtschaftlicher Teil}{39}{chapter.7}
+\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{41}{chapter*.51}
+\contentsline {chapter}{Abbildungsverzeichnis}{42}{section*.52}
+\contentsline {chapter}{Danksagungen}{42}{section*.54}
+\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{43}{section*.56}
+\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{43}{section*.57}
+\contentsline {chapter}{Literaturverzeichnis}{44}{section*.58}

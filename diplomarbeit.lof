@@ -2,33 +2,35 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Blockschaltbild\relax }}{4}{figure.caption.4}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Beispiel eines Frequenzganges (Tieft\IeC {\"o}ner PSS 297 58206)\relax }}{6}{figure.caption.5}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Blockschaltbild OVC3860}}{9}{figure.caption.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Schalldichter Raum in der HTBLuVA St. P\IeC {\"o}lten\relax }}{6}{figure.caption.4}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Auschnitt aus der Software \enquote {PULSE LabShop}\relax }}{8}{figure.caption.6}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Zeitfunktion und Spektrum von \enquote {wei\IeC {\ss }em Rauschen}}}{9}{figure.caption.8}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Messmodul\relax }}{10}{figure.caption.9}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces \enquote {Br\IeC {\"u}el \& Kj\ae r Power Amplifier Type 2706}\relax }}{11}{figure.caption.11}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Messmikrofon \enquote {Br\IeC {\"u}el \& Kj\ae r Type 2669}\relax }}{11}{figure.caption.13}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces \enquote {Renkforce B12123}}}{13}{figure.caption.17}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Subwoofer-Messung ohne Wolle \enquote {Renkforce} (oben) und \enquote {Visaton} (unten) | Boxenvolumen: 149 l\relax }}{14}{figure.caption.18}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Subwoofer-Messung mit Wolle \enquote {Renkforce} (oben) und \enquote {Visaton} (unten) | Boxenvolumen: 149 l\relax }}{15}{figure.caption.19}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Tieft\IeC {\"o}ner-Messung ohne Wolle \enquote {TT1} (oben) und mit Wolle \enquote {TT1} (unten) | Boxenvolumen: 13,72l\relax }}{17}{figure.caption.21}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Tieft\IeC {\"o}ner-Messung ohne Wolle \enquote {TT2} (oben) und mit Wolle \enquote {TT2} (unten) Boxenvolumen: 13,72 l\relax }}{18}{figure.caption.22}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces \enquote {TT1} | Boxenvolumen = 4,87 l\relax }}{19}{figure.caption.23}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Schalldichter Raum in der HTBLuVA St. P\IeC {\"o}lten\relax }}{11}{figure.caption.7}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Auschnitt aus der Software \enquote {PULSE LabShop}\relax }}{13}{figure.caption.9}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Zeitfunktion und Spektrum von \enquote {wei\IeC {\ss }em Rauschen}}}{14}{figure.caption.11}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Messmodul\relax }}{15}{figure.caption.12}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \enquote {Br\IeC {\"u}el \& Kj\ae r Power Amplifier Type 2706}\relax }}{16}{figure.caption.14}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Messmikrofon \enquote {Br\IeC {\"u}el \& Kj\ae r Type 2669}\relax }}{16}{figure.caption.16}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces \enquote {Renkforce B12123}}}{18}{figure.caption.20}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Subwoofer-Messung ohne Wolle \enquote {Renkforce} (oben) und \enquote {Visaton} (unten) | Boxenvolumen: 149 l\relax }}{19}{figure.caption.21}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Subwoofer-Messung mit Wolle \enquote {Renkforce} (oben) und \enquote {Visaton} (unten) | Boxenvolumen: 149 l\relax }}{20}{figure.caption.22}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Tieft\IeC {\"o}ner-Messung ohne Wolle \enquote {TT1} (oben) und mit Wolle \enquote {TT1} (unten) | Boxenvolumen: 13,72l\relax }}{22}{figure.caption.24}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Tieft\IeC {\"o}ner-Messung ohne Wolle \enquote {TT2} (oben) und mit Wolle \enquote {TT2} (unten) Boxenvolumen: 13,72 l\relax }}{23}{figure.caption.25}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces \enquote {TT1} | Boxenvolumen = 4,87 l\relax }}{24}{figure.caption.26}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Blockschaltbild OVC3860\relax }}{23}{figure.caption.27}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Pinbelegung XS3868\relax }}{24}{figure.caption.29}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Prinzipschaltung XS3868\relax }}{25}{figure.caption.31}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Schaltung des Adapter-Boards\relax }}{26}{figure.caption.34}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces PCB des Adapter-Boards\relax }}{27}{figure.caption.35}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Schaltung des Hauptboards (Versorgung + BT-Modul)\relax }}{28}{figure.caption.39}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Schaltung des Hauptboards (Additionsschaltung)\relax }}{29}{figure.caption.40}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Schaltung des Hauptboards (linker Teil der Additionsschaltung)\relax }}{29}{figure.caption.41}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces PCB des Hauptboards\relax }}{30}{figure.caption.43}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Schaltung der Frontplatine\relax }}{31}{figure.caption.47}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces PCB der Frontplatine\relax }}{32}{figure.caption.49}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Pinbelegung XS3868\relax }}{27}{figure.caption.28}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Prinzipschaltung XS3868\relax }}{28}{figure.caption.30}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Schaltung des Adapter-Boards\relax }}{29}{figure.caption.33}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces PCB des Adapter-Boards\relax }}{30}{figure.caption.34}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Schaltung des Hauptboards (Versorgung + BT-Modul)\relax }}{31}{figure.caption.38}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Schaltung des Hauptboards (Additionsschaltung)\relax }}{32}{figure.caption.39}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Schaltung des Hauptboards (linker Teil der Additionsschaltung)\relax }}{32}{figure.caption.40}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces PCB des Hauptboards\relax }}{33}{figure.caption.42}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Schaltung der Frontplatine\relax }}{34}{figure.caption.46}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces PCB der Frontplatine\relax }}{35}{figure.caption.48}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Logo von \enquote {Altium Designer}}}{34}{figure.caption.50}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Logo von \enquote {FilterPro}}}{35}{figure.caption.51}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Logo von \enquote {Altium Designer}}}{37}{figure.caption.49}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Logo von \enquote {FilterPro}}}{38}{figure.caption.50}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

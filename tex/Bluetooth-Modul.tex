@@ -1,31 +1,32 @@
 \newpage
 \section{Beschaltung des Bluetooth-Moduls \enquote{XS3868}} \label{sec:4.1}
-\subsection*{Allgemeines} \label{subsec:4.1.1}
-Ein Audio-Bluetooth-Modul soll ein Audio-Signal von einem beliebigen bluetoothfähigen Endgerät über Bluetooth-Funkverbindung empfangen, es umwandeln und dieses Signal an einem nachgeschalteten Lautsprecher wiedergeben.
-Dabei ist eine hohe Kompatibilität mit viele Geräten wichtig, weil es sehr viele verschiedene Versionen von Bluetooth gibt. Da Bluetooth-Geräte meist abwärtskompatibel sind, ist es sinnvoll das Modul mit einer älteren BT-Version laufen zu lassen.
-
-Es soll ein Print angefertigt werden auf dem sich das BT-Modul samt Versorgungsschaltung befindet. Auf diesem Print wird zusätzlich noch eine Additionsschaltung vorgesehen, um auch mit einem Klinkeneingang ein Signal zuführen zu können, falls das BT-Modul ausfällt.\\
-Um eine leichtere Handhabung zu ermöglichen, muss auch ein Adapterprint für das BT-Modul angefertigt werden.
-
-
-\subsection*{Auswahl des Bluetooth-Moduls} \label{subsec:4.1.2}
-Wie bereits erwähnt soll das BT-Modul mit möglichst viele Geräten kompatibel sein, also mit einer älteren BT-Version laufen. Es sollte weiterhin eine möglichst einfache Bedienung für den Benutzer ermöglichen (beispielsweise Play-/Pausetaste).\\
-Außerdem soll es bei geringen Kosten eine möglichst gute Verbindung, d.h. einen hohe Reichweite, erzielt werden.\\
-Nach ausführlicher Recherche wurde das Modul \enquote{XS3868 Revision 3} ausgewählt. Der darauf verbaute Chip \enquote{OVC3860} von \enquote{OmniVision Technologies} hat sich bereits in vielen anderen Projekten bewährt. 
-
-
-\newpage
-\subsection*{OVC3860} \label{subsec:4.1.3}
-In dem Chip (Abb. \ref {fig:4.1.3.1}) ist außer der Bluetooth-Verbindung auch noch ein Stereo-Audio-Prozessor verbaut. Zusätzlich gibt es noch eine UART-Schnittstelle mithilfe man einige Einstellungen am Chip vornehmen kann. Eine kleine LiPo-Ladeschaltung ist ebenfalls vorhanden, wird aber in diesem Fall nicht verwendet.\\
-Das Modul benötigt eine Versorgungsspannung von 3,3V bis 4,2V, wobei der Chip mit 1,8V versorgt wird. Diese Spannung wird auf dem Modul erzeugt.\\
-Die verwendete BT-Version ist 2.0. Einige GPIO-Pins sind auf das Modul herausgeführt um Funktionen wie \enquote{Play/Pause} zu ermöglichen. Der Chip benötigt einen externen Speicher und eine Antenne (auf dem Modul) um ordnungsgemäß zu funktionieren.
-\begin{figure} [H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{img/BTModul/blockschaltbild.png}
-	%Quellenangabe!
-	\caption{Blockschaltbild OVC3860}\label {fig:4.1.3.1}
-\end{figure}
-\newpage
+%\subsection*{Allgemeines} \label{subsec:4.1.1}
+%Ein Audio-Bluetooth-Modul soll ein Audio-Signal von einem beliebigen bluetoothfähigen Endgerät über Bluetooth-Funkverbindung empfangen, es umwandeln und dieses Signal an einem nachgeschalteten Lautsprecher wiedergeben.
+%Dabei ist eine hohe Kompatibilität mit viele Geräten wichtig, weil es sehr viele verschiedene Versionen von Bluetooth gibt. Da Bluetooth-Geräte meist abwärtskompatibel sind, ist es sinnvoll das Modul mit einer älteren BT-Version laufen zu lassen.
+%
+%Es soll ein Print angefertigt werden auf dem sich das BT-Modul samt Versorgungsschaltung befindet. Auf diesem Print wird zusätzlich noch eine Additionsschaltung vorgesehen, um auch mit einem Klinkeneingang ein Signal zuführen zu können, falls das BT-Modul ausfällt.\\
+%Um eine leichtere Handhabung zu ermöglichen, muss auch ein Adapterprint für das BT-Modul angefertigt werden.
+%
+%
+%\subsection*{Auswahl des Bluetooth-Moduls} \label{subsec:4.1.2}
+%Wie bereits erwähnt soll das BT-Modul mit möglichst viele Geräten kompatibel sein, also mit einer älteren BT-Version laufen. Es sollte weiterhin eine möglichst einfache Bedienung für den Benutzer ermöglichen (beispielsweise Play-/Pausetaste).\\
+%Außerdem soll es bei geringen Kosten eine möglichst gute Verbindung, d.h. einen hohe Reichweite, erzielt werden.\\
+%Nach ausführlicher Recherche wurde das Modul \enquote{XS3868 Revision 3} ausgewählt. Der darauf verbaute Chip \enquote{OVC3860} von \enquote{OmniVision Technologies} hat sich bereits in vielen anderen Projekten bewährt. 
+%
+%
+%\newpage
+%\subsection*{OVC3860} \label{subsec:4.1.3}
+%In dem Chip (Abb. \ref {fig:4.1.3.1}) ist außer der Bluetooth-Verbindung auch noch ein Stereo-Audio-Prozessor verbaut. Zusätzlich gibt es noch eine UART-Schnittstelle mithilfe man einige Einstellungen am Chip vornehmen kann. Eine kleine LiPo-Ladeschaltung ist ebenfalls vorhanden, wird aber in diesem Projekt nicht verwendet.\\
+%Das Modul benötigt eine Versorgungsspannung von 3,3V bis 4,2V, wobei der Chip mit 1,8V versorgt wird. Diese Spannung wird auf dem Modul erzeugt.\\
+%Die verwendete BT-Version ist 2.0. Einige GPIO-Pins sind auf das Modul herausgeführt um Funktionen wie \enquote{Play/Pause} zu ermöglichen. Der Chip benötigt einen externen Speicher und eine Antenne (auf dem Modul) um ordnungsgemäß zu funktionieren.
+%\begin{figure} [H]
+%	\centering
+%	\includegraphics[width=0.8\textwidth]{img/BTModul/blockschaltbild.png}
+%	%Quellenangabe!
+%	\caption[Blockschaltbild OVC3860]{Blockschaltbild OVC3860\footnotemark}\label {fig:4.1.3.1}
+%\end{figure}
+%\footnotetext{http://cxem.net/review/files/review24\_OVC3860.pdf,\\Zugriff: 11.03.2017}
+%\newpage
 
 \subsection*{Pinbelegung} \label{subsec:4.1.4}
 Insgesamt hat das Modul 23 verwendbare Pins, aufgeteilt auf 2 Seiten in 11 und 12 Pins.
