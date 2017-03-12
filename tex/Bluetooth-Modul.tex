@@ -35,9 +35,16 @@ Insgesamt hat das Modul 23 verwendbare Pins, aufgeteilt auf 2 Seiten in 11 und 1
 	\includegraphics[width=1\textwidth]{img/BTModul/XS3868_Pinbelegung.png}
 	\caption{Pinbelegung XS3868}\label {fig:4.1.4.1}
 \end{figure}
-Wie in Abbildung \ref{fig:4.1.4.1} dargestellt, ist der Audio-Ausgang auf den Pins 1-3. Die Status-LED für das Modul wird mit dem Pin 6 geschaltet.\\ \\
-Die Versorgung des Moduls erfolgt über die Pins 11 (VBAT) und 9 (GND). Für die Audiofunktionen wird eine konstante Spannung (1,8V - Pin 12) benötigt. Diese Funktionen befinden sich auf den Pins 14-16 und 21-22. Sie werden mit Tastern beschalten.\\
-Die UART-Schnittstelle befindet sich auf den Pins 18-19.\\
+Wie in Abbildung \ref{fig:4.1.4.1} dargestellt, ist der Audio-Ausgang auf den Pins 1-3.
+Die Status-LED für das Modul wird mit dem Pin 6 geschaltet.
+\\ \\
+Die Versorgung des Moduls erfolgt über die Pins 11 (VBAT) und 9 (GND).
+Für die Audiofunktionen wird eine konstante Spannung (1,8V - Pin 12) benötigt.
+Diese Funktionen befinden sich auf den Pins 14-16 und 21-22.
+Sie werden mit Tastern beschalten.
+\\
+Die UART-Schnittstelle befindet sich auf den Pins 18-19.
+\\
 Außerdem verfügt das Modul auch über eine Mikrofon-Funktion, die aber in diesem Projekt nicht verwendet wird.
 \newpage
 
@@ -49,17 +56,31 @@ Bereits mit einer simplen Beschaltung kann das Modul in Betrieb genommen werden:
 	\includegraphics[width=1\textwidth]{img/BTModul/XS3868_Prinzipschaltung.png}
 	\caption{Prinzipschaltung XS3868}\label {fig:4.1.5.1}
 \end{figure} 
-Mit dieser Schaltung (Abb. \ref {fig:4.1.5.1}) kann das Modul bereits ordnungsgemäß arbeiten.\\
-Die Versorgungsspannung ist mit 4V etwas höher gewählt damit es nicht zu Ausfällen durch Spannungsschwankungen kommt. Das XS3868-Modul hat eine Stromaufnahme von ca. 30mA beim Starten, 10mA im Stand-By und bis zu 100mA wenn Musik abgespielt wird.\\ \\
-Die Status-LED ist, wie in Abbildung \ref {fig:4.1.5.1} dargestellt, \enquote{Low-Aktiv}. Beim Starten des Moduls und während der Suche nach Geräten blinkt sie durchgehend, wobei sie bei einer bestehenden Verbindung nur die Hälfte der Zeit blinkt.\\ \\
-Mit einfachem Betätigen eines Tasters wird die entsprechende Funktion vom Modul ausgeführt, jeweils mit einem Bestätigungston begleitet. Dieser Ton wird auch beim Starten des Moduls abgespielt.\\ \\
+Mit dieser Schaltung (Abb. \ref {fig:4.1.5.1}) kann das Modul bereits ordnungsgemäß arbeiten.
+\\
+Die Versorgungsspannung darf zwischen 3,3 V und 4,2 V liegen.
+Das XS3868-Modul hat eine Stromaufnahme von bis zu 200mA wenn Musik abgespielt wird.
+\\ \\
+Die Status-LED ist, wie in Abbildung \ref {fig:4.1.5.1} dargestellt, \enquote{Low-Aktiv}.
+Das bedeutet, dass der Pin 6 (\enquote{LED1}) auf Masse geschaltet wird, wenn die LED leuchten soll.
+Beim Starten des Moduls und während der Suche nach Geräten blinkt sie durchgehend, wobei sie bei einer bestehenden Verbindung nur die Hälfte der Zeit blinkt.
+\\ \\
+Mit einfachem Betätigen eines Tasters wird die entsprechende Funktion vom Modul ausgeführt, jeweils mit einem Bestätigungston begleitet.
+Dieser Ton wird auch beim Starten des Moduls abgespielt.
+\\ \\
 Statt die Lautsprecher direkt an das Modul anzuschließen, sollte allerdings noch ein Verstärker verbaut werden.
 \newpage
 
 
 \subsection*{Verbindung mit dem Modul} \label{subsec:4.1.6}
-Wenn der OVC3860 eingeschaltet ist, sucht er andauernd nach BT-Geräten. Mit einem Smartphone findet man das Gerät und kann sich mit einem Standard-PIN-Code (\enquote{0000}) verbinden. Wenn bereits Lautsprecher angeschlossen sind, wird ein Ton abgespielt, der die Verbindung bestätigt. Außerdem hat die Status-LED nun ein anderes Blinkverhalten (Mehrmaliges Blinken mit längeren Pausen).\\
-Jetzt ist das Modul bereit Musik abzuspielen. Diese kann vom Smartphone oder vom Modul aus gesteuert werden. Die notwendigen Taster müssen allerdings schon in der Schaltung verbaut sein um die Bedienung der Musik zu ermöglichen.
+Wenn der OVC3860 eingeschaltet ist, sucht er andauernd nach BT-Geräten.
+Mit einem Smartphone findet man das Gerät und kann sich mit einem Standard-PIN-Code (\enquote{0000}) verbinden.
+Wenn bereits Lautsprecher angeschlossen sind, wird ein Ton abgespielt, der die Verbindung bestätigt.
+Außerdem hat die Status-LED nun ein anderes Blinkverhalten (Mehrmaliges Blinken mit längeren Pausen).
+\\
+Jetzt ist das Modul bereit Musik abzuspielen.
+Diese kann vom Smartphone oder vom Modul aus gesteuert werden.
+Die notwendigen Taster müssen allerdings schon in der Schaltung verbaut sein um die Bedienung der Musik zu ermöglichen.
 
 
 %\section{Zusatz-Leiterplatten} \label{sec:4.3}
@@ -68,14 +89,16 @@ Jetzt ist das Modul bereit Musik abzuspielen. Diese kann vom Smartphone oder vom
 
 
 \subsection*{Adapter-Board} \label{subsec:4.1.7}
-Da das Modul in SMD-Bauform gefertigt ist, wurde ein Adapter-Board (Abb. \ref{fig:4.1.7.1}) vorgesehen um eine einfachere Handhabung mit dem Modul zu ermöglichen. Als Anschlussmöglichkeiten werden Stiftleisten verwendet.\\
+Da das Modul in SMD-Bauform gefertigt ist, wurde ein Adapter-Board (Abb. \ref{fig:4.1.7.1}) vorgesehen, um eine einfachere Handhabung mit dem Modul zu ermöglichen.
+Als Anschlussmöglichkeiten werden Stiftleisten verwendet.
+\\
 Die Schaltung ist deshalb auch sehr simpel aufgebaut:
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/BTModul/adapter_sch.png}
 	\caption{Schaltung des Adapter-Boards}\label {fig:4.1.7.1}
 \end{figure} 
-Jeder Pin bekommt auch auf dem Adapter einen eigenen Pin auf der Stiftleiste.
+Jeder Pin wird vom Modul auf einen Pin der Stiftleiste herausgeführt.
 \newpage
 Das PCB (Abb. \ref{fig:4.1.7.2}) ist, wie bereits erwähnt, einseitig aufgebaut:
 \begin{figure} [H]
@@ -83,68 +106,91 @@ Das PCB (Abb. \ref{fig:4.1.7.2}) ist, wie bereits erwähnt, einseitig aufgebaut:
 	\includegraphics[width=0.6\textwidth]{img/BTModul/adapter_pcb.png}
 	\caption{PCB des Adapter-Boards}\label {fig:4.1.7.2}
 \end{figure} 
-Mit diesem PCB kann da BT-Modul nun besser getestet und auch weiterverwendet werden. Gemeinsam mit diesem Adapter kommt es auch auf das Hauptboard.
+Mit diesem PCB kann da BT-Modul nun besser getestet und auch weiterverwendet werden.
+Gemeinsam mit diesem Adapter kommt es auch auf die Hauptplatine.
 \newpage
 
 
-\subsection*{Hauptboard} \label{subsec:4.1.8}
-\subsubsection{Funktion} \label{subsubsec:4.1.8.1}
-Das Hauptboard wird hauptsächlich zur Versorgung des BT-Moduls, aber auch zur Weiterverarbeitung des Audio-Signals verwendet. Darüber hinaus ist eine Additionsschaltung vorgesehen, die das Signal des BT-Moduls mit einem zweiten, von einem Klinken-Eingang zugeführten, Signal vermischt. Die Lautstärke von diesem zweiten Audio-Signal kann über ein Stereo-Potentiometer geregelt werden. \\
-Weiterhin sind die Pins zur Bedienung der Musik an einen 2x5-Wannenstecker herausgeführt. Zugang zur seriellen Schnittstelle wird auch ermöglicht.
+\subsection*{Hauptplatine} \label{subsec:4.1.8}
+%\subsubsection{Funktion} \label{subsubsec:4.1.8.1}
+Die Hauptplatine wird hauptsächlich zur Versorgung des BT-Moduls, aber auch zur Weiterverarbeitung des Audio-Signals verwendet.
+Darüber hinaus ist eine Additionsschaltung vorgesehen, die das Signal des BT-Moduls mit einem zweiten, von einem Klinken-Eingang zugeführten, Signal vermischt.
+Die Lautstärke von diesem zweiten Audio-Signal kann über ein Stereo-Potentiometer geregelt werden.
+\\
+Weiterhin sind die Pins zur Bedienung der Musik an einen 2x5-Wannenstecker herausgeführt.
+Zugang zur seriellen Schnittstelle des BT-Moduls wird auch ermöglicht.
+\\
 
-\subsubsection{Schaltung} \label{subsubsec:4.1.8.2}
-Die Schaltung (Abb. \ref{fig:4.1.8.2.1}) des Hauptboards ist in mehrere Teile aufgeteilt und wird deshalb auch einzeln erklärt.
+%\subsubsection{Schaltung} \label{subsubsec:4.1.8.2}
+Die Schaltung (Abb. \ref{fig:4.1.8.2.1}) der Hauptplatine ist in mehrere Teile aufgeteilt und wird deshalb auch einzeln erklärt.
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/BTModul/hauptboard_sch1.png}
-	\caption{Schaltung des Hauptboards (Versorgung + BT-Modul)}\label {fig:4.1.8.2.1}
+	\caption{Schaltung der Hauptplatine (Versorgung + BT-Modul)}\label {fig:4.1.8.2.1}
 \end{figure} 
-In diesem Teil der Schaltung ist zu sehen: die Versorgungsbuchse, die Versorgungsschaltung für das BT-Modul, das BT-Modul mit herausgeführten Pins und die Klinken-Buchse.\\
-Der Spannungsregler LM317 (Bezeichnung: U201) stellt eine Versorgungsspannung von 3,9V für das BT-Modul ein. Mit einer maximalen Stromaufnahme von 100mA ergibt sich folgende Verlustleistung:
+In diesem Teil der Schaltung ist zu sehen: die Versorgungsbuchse, die Versorgungsschaltung für das BT-Modul, das BT-Modul mit herausgeführten Pins und die Klinken-Buchse.
+\\
+Der Spannungsregler LM317 (Bezeichnung: U201) stellt eine Versorgungsspannung von 3,4V für das BT-Modul ein. 
+Mit einer maximalen Stromaufnahme von 200mA ergibt sich folgende Verlustleistung:
 \begin{equation}
-	P_{max} = 8,1V * 100mA = 0,81W
+	P_{max} = 8,6 V * 200 mA = 1,7 2W
 \end{equation}
-Deshalb wird auch kein Kühlkörper benötigt, es wird aber trotzdem eine Alu-Platte an den LM317 geschraubt um sicher zu gehen. \\
-Ein eigener Stecker (Stiftleiste) für die Versorgung (12V) sowie die UART-Schnittstelle (RS232) sind auch vorgesehen. Der Wannenstecker (hier: \enquote{MediaControl}) ist mit allen wichtigen Pins des Moduls verbunden und verbindet eine Frontplatine mit dem Hauptboard. \\
+Deshalb wird auch ein Kühlkörper, in Form einer Alu-Platte, verwendet.
+\\
+Ein eigener Stecker (Stiftleiste) für die Versorgung (12 V) sowie die UART-Schnittstelle (RS232, 3V3) sind auch vorgesehen.
+Der Wannenstecker (hier: \enquote{MediaControl}) ist mit allen wichtigen Pins des Moduls verbunden und verbindet eine Frontplatine mit der Hauptplatine.
+\\
 Die Klinkenbuchse wird in der folgenden Additionsschaltung(Abb. \ref {fig:4.1.8.2.2}) weiterverwendet:
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/BTModul/hauptboard_sch2.png}
-	\caption{Schaltung des Hauptboards (Additionsschaltung)}\label {fig:4.1.8.2.2}
+	\caption{Schaltung der Hauptplatine (Additionsschaltung)}\label {fig:4.1.8.2.2}
 \end{figure}
 Vergrößert:
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/BTModul/hauptboard_sch2_zoom.png}
-	\caption{Schaltung des Hauptboards (linker Teil der Additionsschaltung)}
+	\caption{Schaltung der Hauptplatine (linker Teil der Additionsschaltung)}
 \end{figure}
-Mithilfe dieser OPV-Schaltung werden die zwei Audio-Signale (ein Addierer pro Kanal) addiert. Das Signal vom Klinkeneingang kann zuvor noch mit einem Potentiometer abgeschwächt werden.\\
-Der Arbeitspunkt bei 6V am Pin 3 wird benötigt um am Ausgang eine Spannung von $\pm$6V zu erreichen. Der OPV wird hier als invertierender Verstärker mit Verstärkung 1 aufgebaut, aber er addiert hier die zwei Signale zusammen auf ein Ausgangssignal.
+Mithilfe dieser OPV-Schaltung werden die zwei Audio-Signale (ein Addierer pro Kanal) addiert.
+Das Signal vom Klinkeneingang kann zuvor noch mit einem Potentiometer abgeschwächt werden.
+\\
+Der Arbeitspunkt bei 6 V am Pin 3 wird benötigt um am Ausgang eine Spannung von $\pm$6 V zu erreichen. Der OPV wird hier als invertierender Verstärker mit Verstärkung 1 aufgebaut, aber er addiert hier die zwei Signale zusammen auf ein Ausgangssignal.
+\newpage
 
-\subsubsection{PCB} \label{subsec:4.1.8.3}
-Die Platine(Abb. \ref {fig:4.1.8.3.1}) für das Hauptboard sollte möglichst kompakt sein und alle Eingänge oder Bedienelemente auf einer Seite (hier rechts) haben. Das BT-Modul wird samt Adapter auf zwei Stiftleisten gesteckt. Darunter werden keine Bauteile verwendet, weil es sonst zu eng wäre. Des weiteren wären Bauteile unter dem Adapterprint während der Testphase unvorteilhaft, da diese schwerer zugänglich sind.
+%\subsubsection{PCB} \label{subsec:4.1.8.3}
+Die Platine(Abb. \ref {fig:4.1.8.3.1}) für die Hauptplatine sollte möglichst kompakt sein und alle Eingänge oder Bedienelemente auf einer Seite (hier rechts) haben.
+Das BT-Modul wird samt Adapter auf zwei Stiftleisten gesteckt.
+Darunter werden keine Bauteile verwendet, weil es sonst zu eng wäre.
+Des weiteren wären Bauteile unter dem Adapterprint während der Testphase unvorteilhaft, da diese schwerer zugänglich sind.
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/BTModul/hauptboard_pcb.png}
-	\caption{PCB des Hauptboards}\label {fig:4.1.8.3.1}
+	\caption{PCB der Hauptplatine}\label {fig:4.1.8.3.1}
 \end{figure}
 \newpage
 
 
 \subsection*{Frontplatine} \label{subsec:4.1.9}
-\subsubsection{Funktion} \label{subsubsec:4.1.9.1}
-Diese Platine ist eigentlich eine Erweiterung des Hauptboards. Es wird mit dem Hauptboard über einen 2x5-Wannenstecker verbunden und auch versorgt. Sonst sind nur die Taster zur Bedienung des BT-Moduls, sowie die Status-LED verbaut.
+%\subsubsection{Funktion} \label{subsubsec:4.1.9.1}
+Diese Platine ist eine Erweiterung der Hauptplatine.
+Sie wird mit der Hauptplatine über einen 2x5-Wannenstecker verbunden und auch versorgt.
+Sonst sind nur die Taster zur Bedienung des BT-Moduls, sowie die Status-LED verbaut.
+\\
 
-\subsubsection{Schaltung} \label{subsubsec:4.1.9.2}
-Die Taster werden jeweils mithilfe eines Kondensators entprellt. Die Höhe der Taster reicht über die Kondensatoren hinaus um eine Bedienung zu ermöglichen. (Abb. \ref{fig:4.1.9.2.1})
+%\subsubsection{Schaltung} \label{subsubsec:4.1.9.2}
+Die Taster werden jeweils mithilfe eines Kondensators entprellt.
+Die Höhe der Taster reicht über die Kondensatoren hinaus um eine Bedienung zu ermöglichen. (Abb. \ref{fig:4.1.9.2.1})
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{img/BTModul/front_sch.png}
 	\caption{Schaltung der Frontplatine}\label {fig:4.1.9.2.1}
 \end{figure}
-Jeder der Taster ist mit dem 1,8V-Pin des Moduls verbunden und geht dann weiter auf den entsprechenden Funktionspin. Die Bezeichnung \enquote{LED+} entspricht der Versorgungsspannung (\enquote{VBAT} = 3,9V) des Moduls. \enquote{LED-} ist mit dem Ansteuerungssignal am BT-Modul verbunden (Pin 6).
+Jeder Taster ist mit dem 1V8-Pin des Moduls verbunden und geht dann weiter auf den entsprechenden Funktionspin.
+Die Bezeichnung \enquote{LED+} entspricht der Versorgungsspannung (\enquote{VBAT} = 3,4 V) des Moduls.
+\enquote{LED-} ist mit dem Ansteuerungssignal am BT-Modul verbunden (Pin 6).
 
-\subsubsection{PCB} \label{subsubsec:4.1.9.3}
+%%\subsubsection{PCB} \label{subsubsec:4.1.9.3}
 Das PCB (Abb. \ref {fig:4.1.9.3.1}) der Frontplatine soll ebenfalls so klein wie möglich aber von der Bedienung her sinnvoll aufgebaut sein.
 \begin{figure} [H]
 	\centering

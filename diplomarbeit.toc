@@ -12,32 +12,38 @@
 \contentsline {section}{\numberline {3.4}Spannungsversorgung}{10}{section.3.4}
 \contentsline {chapter}{\numberline {4}Auswahl der Lautsprecher-Chassis}{11}{chapter.4}
 \contentsline {section}{\numberline {4.1}Messaufbau und Messung}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}Lautsprecher f\IeC {\"u}r Tiefton-Bereich}{17}{section.4.2}
-\contentsline {section}{\numberline {4.3}Lautsprecher f\IeC {\"u}r Hochton-Bereich}{25}{section.4.3}
-\contentsline {section}{\numberline {4.4}Optimierung der Lautsprecher-Boxen}{25}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Eignung von verschiedenen Materialien zur Volumsverminderung}{25}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Subwoofer-Box}{25}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Box f\IeC {\"u}r Satelliten-Boxen}{25}{subsection.4.4.3}
-\contentsline {chapter}{\numberline {5}Entwicklung der Elektronik-Platinen}{26}{chapter.5}
-\contentsline {section}{\numberline {5.1}Verst\IeC {\"a}rker-Schaltungen}{26}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Verst\IeC {\"a}rker f\IeC {\"u}r Hochton-Bereich}{26}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Verst\IeC {\"a}rker f\IeC {\"u}r Tiefton-Bereich}{26}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Subwoofer-Verst\IeC {\"a}rker}{26}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Frequenzweichen}{26}{section.5.2}
-\contentsline {section}{\numberline {5.3}Beschaltung des Bluetooth-Moduls \enquote {XS3868}}{27}{section.5.3}
-\contentsline {subsubsection}{\nonumberline Funktion}{31}{section*.36}
-\contentsline {subsubsection}{\nonumberline Schaltung}{31}{section*.37}
-\contentsline {subsubsection}{\nonumberline PCB}{33}{section*.41}
-\contentsline {subsubsection}{\nonumberline Funktion}{34}{section*.44}
-\contentsline {subsubsection}{\nonumberline Schaltung}{34}{section*.45}
-\contentsline {subsubsection}{\nonumberline PCB}{35}{section*.47}
-\contentsline {chapter}{\numberline {6}Verwendete Tools}{36}{chapter.6}
-\contentsline {section}{\numberline {6.1}Elektronik-Entwicklungsumgebung f\IeC {\"u}r Layout und Leiterplatten \enquote {Altium}}{37}{section.6.1}
-\contentsline {section}{\numberline {6.2}Filterberechnungstool \enquote {FilterPro}}{38}{section.6.2}
-\contentsline {chapter}{\numberline {7}Betriebswirtschaftlicher Teil}{39}{chapter.7}
-\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{41}{chapter*.51}
-\contentsline {chapter}{Abbildungsverzeichnis}{42}{section*.52}
-\contentsline {chapter}{Danksagungen}{42}{section*.54}
-\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{43}{section*.56}
-\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{43}{section*.57}
-\contentsline {chapter}{Literaturverzeichnis}{44}{section*.58}
+\contentsline {section}{\numberline {4.2}Lautsprecher f\IeC {\"u}r Tiefton-Bereich}{16}{section.4.2}
+\contentsline {section}{\numberline {4.3}Lautsprecher f\IeC {\"u}r Hochton-Bereich}{24}{section.4.3}
+\contentsline {section}{\numberline {4.4}Optimierung der Lautsprecher-Boxen}{24}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Eignung von verschiedenen Materialien zur Volumsverminderung}{24}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Subwoofer-Box}{24}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Box f\IeC {\"u}r Satelliten-Boxen}{24}{subsection.4.4.3}
+\contentsline {chapter}{\numberline {5}Entwicklung der Elektronik-Platinen}{25}{chapter.5}
+\contentsline {section}{\numberline {5.1}Verst\IeC {\"a}rker-Schaltungen}{25}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Verst\IeC {\"a}rker f\IeC {\"u}r Hochton-Bereich}{25}{subsection.5.1.1}
+\contentsline {subsubsection}{\nonumberline Allgemeines}{25}{section*.27}
+\contentsline {subsubsection}{\nonumberline Schaltung}{25}{section*.28}
+\contentsline {subsubsection}{\nonumberline PCB}{26}{section*.30}
+\contentsline {subsection}{\numberline {5.1.2}Verst\IeC {\"a}rker f\IeC {\"u}r Tiefton-Bereich}{28}{subsection.5.1.2}
+\contentsline {subsubsection}{\nonumberline Allgemeines}{28}{section*.32}
+\contentsline {subsubsection}{\nonumberline Schaltung}{28}{section*.33}
+\contentsline {subsubsection}{\nonumberline PCB}{29}{section*.35}
+\contentsline {subsection}{\numberline {5.1.3}Subwoofer-Verst\IeC {\"a}rker}{31}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Frequenzweichen}{32}{section.5.2}
+\contentsline {subsubsection}{\nonumberline Allgemeines}{32}{section*.38}
+\contentsline {subsubsection}{\nonumberline Schaltung}{32}{section*.39}
+\contentsline {subsubsection}{\nonumberline PCB}{35}{section*.43}
+\contentsline {subsubsection}{\nonumberline Allgemeines}{36}{section*.46}
+\contentsline {subsubsection}{\nonumberline Schaltung}{36}{section*.47}
+\contentsline {subsubsection}{\nonumberline PCB}{38}{section*.49}
+\contentsline {section}{\numberline {5.3}Beschaltung des Bluetooth-Moduls \enquote {XS3868}}{39}{section.5.3}
+\contentsline {chapter}{\numberline {6}Verwendete Tools}{48}{chapter.6}
+\contentsline {section}{\numberline {6.1}Elektronik-Entwicklungsumgebung f\IeC {\"u}r Layout und Leiterplatten \enquote {Altium}}{48}{section.6.1}
+\contentsline {section}{\numberline {6.2}Filterberechnungstool \enquote {FilterPro}}{49}{section.6.2}
+\contentsline {chapter}{\numberline {7}Betriebswirtschaftlicher Teil}{50}{chapter.7}
+\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{51}{chapter*.69}
+\contentsline {chapter}{Abbildungsverzeichnis}{52}{section*.70}
+\contentsline {chapter}{Danksagungen}{53}{section*.72}
+\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{53}{section*.74}
+\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{53}{section*.75}
+\contentsline {chapter}{Literaturverzeichnis}{54}{section*.76}
