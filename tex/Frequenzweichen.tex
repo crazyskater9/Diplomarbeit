@@ -1,6 +1,7 @@
 \newpage
 \section{Frequenzweichen}
-
+In den folgenden Schaltungen kommen Bauteile vor welche mit einem roten Kreuz durchgestrichen wurden.
+Es bedeutet, dass diese Bauteile nicht benötigt und durch einen Leerlauf ersetzt wurden.
 \subsection*{Tiefton- und Hochton-Weiche}\label{sec:4.3}
 \subsubsection{Allgemeines}\label{subsec:4.3.1}
 Für die Satellitenlautsprecher, welche aus einem Hochton-Lautsprecher und einem Tiefton-Lautsprecher bestehen, werden nun die Teilfrequenzbereiche Mitte und Hoch benötigt.
@@ -27,16 +28,17 @@ Es folgen die Weichen.
 Hochpass-Weiche für Links/Rechts und Tiefpass-Weiche für Links/Rechts.
 Ein \enquote{Butterworth-Tiefpass 2. Ordnung} wurde bereits in dem Kapitel \ref{subsec:4.1.3} erklärt.
 Der \enquote{Butterworth-Hochpass und -Bandpass 2. Ordnung} weist keine groben Unterschiede auf, der Unterschied liegt lediglich in der Bauteilaufteilung.
-\newpage
+%\newpage
 Nach der Weiche gelangen die frequenzmäßig getrennten Signale zu deren Ausgangspunkt. Es ist für jede Signalleitung eine zweipolige Stiftleiste vorgesehen (Signal \& Masse), da der darauffolgende Verstärker selbige Verbindung als Eingang vorweist.
 Die Stiftleisten sind jedoch gruppiert nach Bandpass- und Hochpass-Ausgang.
 \begin{figure} [H]
 	\centering	
-	\includegraphics[width=1\textwidth]{img/Print4/4_TTuHTWeiche-Schematic.PNG}
+	\includegraphics[width=1\textwidth]{img/Print4/4_TTuHTWeiche-SchematicV2.PNG}
 	\caption{Butterworth-Bandpass-Weiche 2. Ordnung}
 	\label {fig:4.3.2.1}
 \end{figure}
 %TD Layout anpassen --> Abstand zu groß!
+\newpage
 Eine der Bandpass-Weiche.
 Gut sichtbar die doppelte, parallele Ausführung von Widerständen und Kondensatoren um krumme Werte auch erhalten zu können.
 Bedingt durch Parallel-Schaltung von Widerständen und Kondensatoren.\\ 
@@ -45,15 +47,16 @@ Die Spiegelung ist für das PCB-Layout nicht relevant!\\
 Bedingt durch die Versorgungsspannung ist auch der Spannungsteiler für $\frac{Vcc}{2}$ am Plus-Eingang des OPVs implementiert.
 \begin{figure} [H]
 	\centering	
-	\includegraphics[width=0.9\textwidth]{img/Print4/4_TTuHTWeiche-LinksHP-Schematic.PNG}
+	\includegraphics[width=0.65\textwidth]{img/Print4/4_TTuHTWeiche-LinksHP-SchematicV2.PNG}
 	\caption{Butterworth-Bandpass-Weiche 2. Ordnung - aus Abb.\ref{fig:4.3.2.1}}
 	\label {fig:4.3.2.2}
 \end{figure}
+%\newpage
 Am B-Teil des OPVs (erkennbar an der Beschriftung: TT\enquote{B}) ist keine Versorgung einzuzeichnen, da er mit dem A-Teil einen achtpinnigen IC mit zwei integrierten OPVs ergibt.
 Die zwei Teile sind über das IC-Gehäuse mit der gleichen Versorgungsspannung verbunden, deshalb ist das einmalige Kennzeichnen ausreichend.\\
 \begin{figure} [H]
 	\centering	
-	\includegraphics[width=0.7\textwidth]{img/Print4/4_TTuHTWeiche-RechtsBP-Schematic.PNG}
+	\includegraphics[width=0.6\textwidth]{img/Print4/4_TTuHTWeiche-RechtsBP-SchematicV2.PNG}
 	\caption{Butterworth-Bandpass-Weiche 2. Ordnung - aus Abb.\ref{fig:4.3.2.1}}
 	\label {fig:4.3.2.3}
 \end{figure}
@@ -94,7 +97,7 @@ Bevor das gefilterte Signal weiter zum Verstärker läuft wird nochmals die Mög
 	\vspace*{\fill}
 	\begin{figure} [H]
 		\centering
-		\includegraphics[width=\linewidth,height=0.9\textheight,keepaspectratio]{img/Print3/3mTTWeicheruAddiererDiplSchematic.PNG}
+		\includegraphics[width=\linewidth,height=0.9\textheight,keepaspectratio]{img/Print3/3mTTWeicheruAddiererDiplSchematicV2.PNG}
 		\caption{Schematic Mono-Subwoofer-Addier-Schaltung und Mono-Subwoofer-Weiche}
 		\label {fig:4.2.2.1}
 	\end{figure}

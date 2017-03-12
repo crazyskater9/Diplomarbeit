@@ -41,9 +41,24 @@
 \contentsline {section}{\numberline {6.1}Elektronik-Entwicklungsumgebung f\IeC {\"u}r Layout und Leiterplatten \enquote {Altium}}{48}{section.6.1}
 \contentsline {section}{\numberline {6.2}Filterberechnungstool \enquote {FilterPro}}{49}{section.6.2}
 \contentsline {chapter}{\numberline {7}Betriebswirtschaftlicher Teil}{50}{chapter.7}
-\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{51}{chapter*.69}
-\contentsline {chapter}{Abbildungsverzeichnis}{52}{section*.70}
-\contentsline {chapter}{Danksagungen}{53}{section*.72}
-\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{53}{section*.74}
-\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{53}{section*.75}
-\contentsline {chapter}{Literaturverzeichnis}{54}{section*.76}
+\contentsline {chapter}{\numberline {A}Anhang}{51}{appendix.A}
+\contentsline {section}{\numberline {A.1}Einstellungen f\IeC {\"u}r die PCB-Entwicklung in \enquote {Altium}}{52}{section.A.1}
+\contentsline {section}{\numberline {A.2}Designregeln f\IeC {\"u}r die PCB-Entwicklung}{52}{section.A.2}
+\contentsline {section}{\numberline {A.3}TDA2030}{53}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Absolute Maximalwerte}{53}{subsection.A.3.1}
+\contentsline {subsection}{\numberline {A.3.2}TDA2030-Grundschaltung}{54}{subsection.A.3.2}
+\contentsline {subsection}{\numberline {A.3.3}Leistungstransistor-Schaltung}{55}{subsection.A.3.3}
+\contentsline {subsection}{\numberline {A.3.4}H-Br\IeC {\"u}ckenschaltung der TDA2030-Verst\IeC {\"a}rkerschaltung}{57}{subsection.A.3.4}
+\contentsline {section}{\numberline {A.4}Filter}{58}{section.A.4}
+\contentsline {subsection}{\numberline {A.4.1}Butterworth-Filter 2. Ordnung}{59}{subsection.A.4.1}
+\contentsline {section}{\numberline {A.5}Satelliten-Lautsprecher}{61}{section.A.5}
+\contentsline {section}{\numberline {A.6}Nicht invertierende Verst\IeC {\"a}rker - OPV-Grundschaltung}{61}{section.A.6}
+\contentsline {subsection}{\numberline {A.6.1}Asymmetrische Versorgung eines OPV's}{62}{subsection.A.6.1}
+\contentsline {section}{\numberline {A.7}Versorgungskonzept}{64}{section.A.7}
+\contentsline {section}{\numberline {A.8}Welligkeit}{64}{section.A.8}
+\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{66}{chapter*.79}
+\contentsline {chapter}{Abbildungsverzeichnis}{67}{section*.80}
+\contentsline {chapter}{Danksagungen}{68}{section*.82}
+\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{68}{section*.84}
+\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{68}{section*.85}
+\contentsline {chapter}{Literaturverzeichnis}{69}{section*.86}
