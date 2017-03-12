@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.16)  12 MAR 2017 18:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.16)  12 MAR 2017 18:27
 entering extended mode
 **./diplomarbeit.tex
 (diplomarbeit.tex
@@ -2876,134 +2876,139 @@ Package babel Info: Redefining ngerman shorthand "~
 LaTeX Warning: Reference `subsec:3.2.2' on page 25 undefined on input line 7.
 
 
-LaTeX Warning: Reference `subsec:3.2.2' on page 25 undefined on input line 17.
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+
+ []
 
 
-LaTeX Warning: Reference `subsec:3.5.1' on page 25 undefined on input line 17.
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
 
-<img/Print6/HTVerstaerker-Schem.PNG, id=478, 1002.74625pt x 538.26094pt>
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 17.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 17.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 17.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 17.
+[25
+
+]
+
+LaTeX Warning: Reference `subsec:3.2.2' on page 26 undefined on input line 19.
+
+
+LaTeX Warning: Reference `subsec:3.5.1' on page 26 undefined on input line 19.
+
+<img/Print6/HTVerstaerker-Schem.PNG, id=483, 1002.74625pt x 538.26094pt>
 File: img/Print6/HTVerstaerker-Schem.PNG Graphic file (type png)
 
 <use img/Print6/HTVerstaerker-Schem.PNG>
 Package pdftex.def Info: img/Print6/HTVerstaerker-Schem.PNG used on input line 
-24.
+26.
 (pdftex.def)             Requested size: 430.20644pt x 230.93025pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 28.
- [25
+(babel)             in language  on input line 31.
+ [26 <./img/Print6/HTVerstaerker-Schem.PNG>]
 
-]
+LaTeX Warning: Reference `subsec:3.1.2' on page 27 undefined on input line 33.
 
-LaTeX Warning: Reference `subsec:3.1.2' on page 26 undefined on input line 31.
-
-<img/Print6/HTVerstaerker-PCB.PNG, id=485, 296.307pt x 442.0515pt>
+<img/Print6/HTVerstaerker-PCB.PNG, id=491, 296.307pt x 442.0515pt>
 File: img/Print6/HTVerstaerker-PCB.PNG Graphic file (type png)
 
 <use img/Print6/HTVerstaerker-PCB.PNG>
-Package pdftex.def Info: img/Print6/HTVerstaerker-PCB.PNG used on input line 39
+Package pdftex.def Info: img/Print6/HTVerstaerker-PCB.PNG used on input line 41
 .
 (pdftex.def)             Requested size: 301.14319pt x 449.30145pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 43.
- [26 <./img/Print6/HTVerstaerker-Schem.PNG>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 45.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 45.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 45.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 47.
  [27 <./img/Print6/HTVerstaerker-PCB.PNG>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 48.
 
 
-LaTeX Warning: Reference `subsec:3.2.3' on page 28 undefined on input line 53.
+LaTeX Warning: Reference `subsec:3.2.3' on page 28 undefined on input line 56.
 
 
-LaTeX Warning: Reference `subsec:3.5.1' on page 28 undefined on input line 61.
+Underfull \hbox (badness 10000) in paragraph at lines 50--63
+
+ []
 
 
-LaTeX Warning: Reference `sec:3.5' on page 28 undefined on input line 66.
+Underfull \hbox (badness 10000) in paragraph at lines 50--63
 
-<img/Print5/5_TTVerstaerker-Schem.PNG, id=502, 766.66425pt x 435.42674pt>
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 64.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 64.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 64.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 64.
+[28]
+
+LaTeX Warning: Reference `subsec:3.5.1' on page 29 undefined on input line 66.
+
+
+LaTeX Warning: Reference `sec:3.5' on page 29 undefined on input line 71.
+
+<img/Print5/5_TTVerstaerker-Schem.PNG, id=507, 766.66425pt x 435.42674pt>
 File: img/Print5/5_TTVerstaerker-Schem.PNG Graphic file (type png)
 
 <use img/Print5/5_TTVerstaerker-Schem.PNG>
 Package pdftex.def Info: img/Print5/5_TTVerstaerker-Schem.PNG used on input lin
-e 73.
+e 78.
 (pdftex.def)             Requested size: 430.20644pt x 244.33562pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 77.
+(babel)             in language  on input line 83.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 77.
+(babel)             in language  on input line 83.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 77.
+(babel)             in language  on input line 83.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 77.
- [28]
+(babel)             in language  on input line 83.
+ [29 <./img/Print5/5_TTVerstaerker-Schem.PNG>]
 
-LaTeX Warning: Reference `sec:4.5' on page 29 undefined on input line 92.
+LaTeX Warning: Reference `sec:4.5' on page 30 undefined on input line 97.
 
-
-Overfull \hbox (83.12465pt too wide) in paragraph at lines 90--98
-\T1/cmr/m/n/12 Die Ein- und Aus-gän-ge sind auf ei-ner Sei-te mon-tiert. Ein-he
-it-lich mit der Hochtonverstärkerplatine([])
- []
-
-<img/Print5/5_TTVerstaerker-PCB.PNG, id=513, 505.28775pt x 453.49425pt>
+<img/Print5/5_TTVerstaerker-PCB.PNG, id=518, 505.28775pt x 453.49425pt>
 File: img/Print5/5_TTVerstaerker-PCB.PNG Graphic file (type png)
 
 <use img/Print5/5_TTVerstaerker-PCB.PNG>
 Package pdftex.def Info: img/Print5/5_TTVerstaerker-PCB.PNG used on input line 
-101.
-(pdftex.def)             Requested size: 430.20644pt x 386.10854pt.
+106.
+(pdftex.def)             Requested size: 258.12648pt x 231.6665pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 112.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 112.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 112.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 105.
- [29 <./img/Print5/5_TTVerstaerker-Schem.PNG>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 107.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 107.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 107.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 112.
  [30 <./img/Print5/5_TTVerstaerker-PCB.PNG>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 113.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 113.
 ) (tex/Frequenzweichen.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -3013,131 +3018,141 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-
-[31]
+ [31]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--15
+Underfull \hbox (badness 10000) in paragraph at lines 6--19
 
  []
 
 
-LaTeX Warning: Reference `subsec:3.5.1' on page 32 undefined on input line 19.
+Underfull \hbox (badness 10000) in paragraph at lines 6--19
+
+ []
 
 
-LaTeX Warning: Reference `subsec:4.1.3' on page 32 undefined on input line 23.
+Underfull \hbox (badness 10000) in paragraph at lines 6--19
 
-<img/Print4/4_TTuHTWeiche-Schematic.PNG, id=531, 1000.48781pt x 627.09282pt>
+ []
+
+
+LaTeX Warning: Reference `subsec:3.5.1' on page 32 undefined on input line 23.
+
+
+LaTeX Warning: Reference `subsec:4.1.3' on page 32 undefined on input line 28.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--30
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 30.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 30.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 30.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 30.
+[32]
+<img/Print4/4_TTuHTWeiche-Schematic.PNG, id=539, 1000.48781pt x 627.09282pt>
 File: img/Print4/4_TTuHTWeiche-Schematic.PNG Graphic file (type png)
 
 <use img/Print4/4_TTuHTWeiche-Schematic.PNG>
 Package pdftex.def Info: img/Print4/4_TTuHTWeiche-Schematic.PNG used on input l
-ine 29.
+ine 35.
 (pdftex.def)             Requested size: 430.20644pt x 269.64465pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--32
-
- []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 34.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 34.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 34.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 34.
-[32]
 <img/Print4/4_TTuHTWeiche-LinksHP-Schematic.PNG, id=540, 957.5775pt x 539.76656
 pt>
 File: img/Print4/4_TTuHTWeiche-LinksHP-Schematic.PNG Graphic file (type png)
  <use img/Print4/4_TTuHTWeiche-LinksHP-Schematic.PNG>
 Package pdftex.def Info: img/Print4/4_TTuHTWeiche-LinksHP-Schematic.PNG used on
- input line 42.
+ input line 48.
 (pdftex.def)             Requested size: 387.18317pt x 218.24187pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 52.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 52.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 52.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 52.
  [33 <./img/Print4/4_TTuHTWeiche-Schematic.PNG>]
 <img/Print4/4_TTuHTWeiche-RechtsBP-Schematic.PNG, id=549, 782.925pt x 608.2725p
 t>
 File: img/Print4/4_TTuHTWeiche-RechtsBP-Schematic.PNG Graphic file (type png)
  <use img/Print4/4_TTuHTWeiche-RechtsBP-Schematic.PNG>
 Package pdftex.def Info: img/Print4/4_TTuHTWeiche-RechtsBP-Schematic.PNG used o
-n input line 50.
+n input line 56.
 (pdftex.def)             Requested size: 301.14319pt x 233.96753pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--53
+Underfull \hbox (badness 10000) in paragraph at lines 52--59
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 61.
 [34 <./img/Print4/4_TTuHTWeiche-LinksHP-Schematic.PNG> <./img/Print4/4_TTuHTWei
 che-RechtsBP-Schematic.PNG>]
 
-LaTeX Warning: Reference `subsec:3.1.2' on page 35 undefined on input line 57.
+LaTeX Warning: Reference `subsec:3.1.2' on page 35 undefined on input line 63.
 
 <img/Print4/4_TTuHTWeiche-PCB.PNG, id=561, 944.02687pt x 648.92438pt>
 File: img/Print4/4_TTuHTWeiche-PCB.PNG Graphic file (type png)
 
 <use img/Print4/4_TTuHTWeiche-PCB.PNG>
-Package pdftex.def Info: img/Print4/4_TTuHTWeiche-PCB.PNG used on input line 63
+Package pdftex.def Info: img/Print4/4_TTuHTWeiche-PCB.PNG used on input line 69
 .
 (pdftex.def)             Requested size: 430.20644pt x 295.72644pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 76.
  [35 <./img/Print4/4_TTuHTWeiche-PCB.PNG>]
 
-LaTeX Warning: Reference `subsec:3.5.1' on page 36 undefined on input line 82.
+LaTeX Warning: Reference `subsec:3.5.1' on page 36 undefined on input line 88.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 93.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 93.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 93.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 93.
 [36]
 <img/Print3/3mTTWeicheruAddiererDiplSchematic.PNG, id=578, 1173.63469pt x 377.1
 5906pt>
 File: img/Print3/3mTTWeicheruAddiererDiplSchematic.PNG Graphic file (type png)
  <use img/Print3/3mTTWeicheruAddiererDiplSchematic.PNG>
 Package pdftex.def Info: img/Print3/3mTTWeicheruAddiererDiplSchematic.PNG used 
-on input line 91.
+on input line 97.
 (pdftex.def)             Requested size: 608.4311pt x 195.52531pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 102.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 102.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 102.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 102.
  [37
 
  <./img/Print3/3mTTWeicheruAddiererDiplSchematic.PNG>]
@@ -3146,7 +3161,7 @@ File: img/Print3/3mTTWeicheruAddierer-PCB.PNG Graphic file (type png)
 
 <use img/Print3/3mTTWeicheruAddierer-PCB.PNG>
 Package pdftex.def Info: img/Print3/3mTTWeicheruAddierer-PCB.PNG used on input 
-line 113.
+line 119.
 (pdftex.def)             Requested size: 301.14319pt x 330.65854pt.
 ) (tex/Bluetooth-Modul.tex
 Package babel Info: Redefining ngerman shorthand "|
@@ -3608,7 +3623,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  42540 strings out of 493334
  887894 string characters out of 3136669
- 1136778 words of memory out of 3000000
+ 1136777 words of memory out of 3000000
  45132 multiletter control sequences out of 15000+200000
  37502 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3637,7 +3652,7 @@ fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on diplomarbeit.pdf (66 pages, 9992275 bytes).
+Output written on diplomarbeit.pdf (66 pages, 9992571 bytes).
 PDF statistics:
  1202 PDF objects out of 1440 (max. 8388607)
  200 named destinations out of 1000 (max. 500000)
