@@ -28,22 +28,20 @@
 \BOOKMARK [1][]{section.6.1}{Elektronik-Entwicklungsumgebung f\374r Layout und Leiterplatten "Altium"}{chapter.6}% 28
 \BOOKMARK [1][]{section.6.2}{Filterberechnungstool "FilterPro"}{chapter.6}% 29
 \BOOKMARK [0][]{chapter.7}{Betriebswirtschaftlicher Teil}{}% 30
-\BOOKMARK [0][]{appendix.A}{Anhang}{}% 31
-\BOOKMARK [1][]{section.A.1}{Einstellungen f\374r die PCB-Entwicklung in "Altium"}{appendix.A}% 32
-\BOOKMARK [1][]{section.A.2}{Designregeln f\374r die PCB-Entwicklung}{appendix.A}% 33
-\BOOKMARK [1][]{section.A.3}{TDA2030}{appendix.A}% 34
-\BOOKMARK [2][]{subsection.A.3.1}{Absolute Maximalwerte}{section.A.3}% 35
-\BOOKMARK [2][]{subsection.A.3.2}{TDA2030-Grundschaltung}{section.A.3}% 36
-\BOOKMARK [2][]{subsection.A.3.3}{Leistungstransistor-Schaltung}{section.A.3}% 37
-\BOOKMARK [2][]{subsection.A.3.4}{H-Br\374ckenschaltung der TDA2030-Verst\344rkerschaltung}{section.A.3}% 38
-\BOOKMARK [1][]{section.A.4}{Filter}{appendix.A}% 39
-\BOOKMARK [2][]{subsection.A.4.1}{Butterworth-Filter 2. Ordnung}{section.A.4}% 40
-\BOOKMARK [1][]{section.A.5}{Satelliten-Lautsprecher}{appendix.A}% 41
-\BOOKMARK [1][]{section.A.6}{Nicht invertierende Verst\344rker - OPV-Grundschaltung}{appendix.A}% 42
-\BOOKMARK [2][]{subsection.A.6.1}{Asymmetrische Versorgung eines OPV's}{section.A.6}% 43
-\BOOKMARK [1][]{section.A.7}{Versorgungskonzept}{appendix.A}% 44
-\BOOKMARK [1][]{section.A.8}{Welligkeit}{appendix.A}% 45
-\BOOKMARK [0][]{chapter*.79}{Abk\374rzungsverzeichnis}{}% 46
-\BOOKMARK [0][]{section*.80}{Abbildungsverzeichnis}{}% 47
-\BOOKMARK [0][]{section*.82}{Danksagungen}{}% 48
-\BOOKMARK [0][]{section*.86}{Literaturverzeichnis}{}% 49
+\BOOKMARK [0][]{chapter.8}{Anhang}{}% 31
+\BOOKMARK [1][]{section.8.1}{Einstellungen f\374r die PCB-Entwicklung in "Altium"}{chapter.8}% 32
+\BOOKMARK [1][]{section.8.2}{Designregeln f\374r die PCB-Entwicklung}{chapter.8}% 33
+\BOOKMARK [1][]{section.8.3}{TDA2030}{chapter.8}% 34
+\BOOKMARK [2][]{subsection.8.3.1}{Absolute Maximalwerte}{section.8.3}% 35
+\BOOKMARK [2][]{subsection.8.3.2}{TDA2030-Grundschaltung}{section.8.3}% 36
+\BOOKMARK [2][]{subsection.8.3.3}{Leistungstransistor-Schaltung}{section.8.3}% 37
+\BOOKMARK [2][]{subsection.8.3.4}{H-Br\374ckenschaltung der TDA2030-Verst\344rkerschaltung}{section.8.3}% 38
+\BOOKMARK [1][]{section.8.4}{Filter}{chapter.8}% 39
+\BOOKMARK [2][]{subsection.8.4.1}{Butterworth-Filter 2. Ordnung}{section.8.4}% 40
+\BOOKMARK [1][]{section.8.5}{Nicht invertierende Verst\344rker - OPV-Grundschaltung}{chapter.8}% 41
+\BOOKMARK [2][]{subsection.8.5.1}{Asymmetrische Versorgung eines OPV's}{section.8.5}% 42
+\BOOKMARK [1][]{section.8.6}{Welligkeit}{chapter.8}% 43
+\BOOKMARK [0][]{chapter*.79}{Abk\374rzungsverzeichnis}{}% 44
+\BOOKMARK [0][]{section*.80}{Abbildungsverzeichnis}{}% 45
+\BOOKMARK [0][]{section*.82}{Danksagungen}{}% 46
+\BOOKMARK [0][]{section*.86}{Literaturverzeichnis}{}% 47

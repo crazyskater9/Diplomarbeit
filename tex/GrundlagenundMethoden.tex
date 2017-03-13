@@ -28,7 +28,7 @@ Versorgt wird die Elektronik mit 12 V oder 24 V, genauere Erklärung im Kapitel 
 
 \newpage
 \section{Mehrweg-Lautsprechersysteme}\label{sec:3.2}
-Ein Lautsprecher ist ein Bauelement, dass ein elektrisches Signal in ein akustisches Signal (20 Hz bis 20 kHz) umwandelt.
+Ein Lautsprecher ist ein Bauelement, das ein elektrisches Signal in ein akustisches Signal (20 Hz bis 20 kHz) umwandelt.
 Dabei wird eine Membran in Schwingung versetzt, die wiederum die umgebende Luft zum Schwingen bringt und einen hörbaren Ton erzeugt.
 \\ \\
 Nun wird aber nicht jede Frequenz gleich gut von ein und demselben Lautsprecher abgestrahlt.
@@ -114,21 +114,43 @@ Der Chip benötigt einen externen Speicher und eine Antenne (auf dem Modul) um o
 
 \newpage
 \section{Spannungsversorgung}\label{sec:3.4}
-Da das Projekt portabel sein soll, ist auch ein Akku (Vlies-Blei-Akku) eingebaut.
-Er versorgt die gesamte Elektronik mit 12 V bei Akkubetrieb.
-Aufgeladen wird er durch ein passendes Ladegerät, welches aber nicht von uns entwickelt wird.
-\\ \\
-Falls eine externe Stromversorgung über eine Steckdose (230V AC) gegeben ist, ändert sich die Versorgung der Verstärker.
-Während nun der Akku aufgeladen wird, schaltet ein Relais die Versorgungsspannung der Verstärker von 12 V auf 24 V um.
-Diese Spannung (24 V) wird durch ein Schaltnetzteil erzeugt.
-\\ \\
-Durch eine höhere Spannung können die Verstärker auch die Signale auf höhere Spannungen verstärken.
-Somit ergibt sich eine höhere Leistung an den Verstärkern aber auch an den Lautsprechern.
-Eine Leistungssteigerung an einem Lautsprecher entspricht einer Steigerung des Schalldruckpegels was wiederum eine höhere Lautstärke bewirkt.
-An den Verstärkern bewirkt eine höhere Leistung auch eine größere Wärmeentwicklung.
-Der verbaute Kühlkörper muss diese Wärme bei Akkubetrieb als auch bei Netzbetrieb ableiten können.
-\\ \\
-Das Lautsprecher-System kann somit bei Netzbetrieb die Musik lauter abspielen als bei Akku-Betrieb.
+Die gesamte Box soll portabel sein, d.h. ohne externe Stromzufuhr funktionieren.
+Dafür ist ein Akku notwendig.
+Nach einigen Überlegungen haben wir uns für einen Blei-Vlies-Akku entschieden.
+Gründe dafür sind:
+\begin{itemize}
+	\item Geringe Kosten
+	\item Einfache Beschaltung
+	\item Geringere Gefahr gegenüber Lithium-Akkus
+	\item Wegen Vlies-Technik: Kein Auslaufen von chemischen Substanzen
+\end{itemize}
+Dieser Akku versorgt grundsätzlich die Elektronik mit 12 V und wird über ein passendes Ladegerät aufgeladen.
+Da aber mit dieser, relativ geringen, Spannung nur eher kleine Leistungen zu erwarten sind, kam die Idee auf, die Verstärker bei externer Versorgung durch das Stromnetz (230 V / AC) mit einer größeren Spannung (24 V) zu versorgen.
+Um das zu realisieren wird ein Netzteil, in unserem Fall ein Schaltnetzteil benötigt.
+Falls das Gerät am externen Stromnetz hängt, wird die Versorgung der Verstärker automatisch mithilfe eines passenden Relais umgeschaltet.
+Diese Lösung wurde gewählt, da sie sehr simpel ist und gut funktioniert.
+Veranschaulicht wird das Konzept durch diese Schaltung:
+\begin{figure} [H]
+	\centering	
+	\includegraphics[width=1\textwidth]{img/Grundlagen/Versorgung.png}
+	\caption{Versorgungskonzept}
+	\label {fig:3.4.1}
+\end{figure}
+Das Lautsprecher-System kann somit bei Netzbetrieb die Musik lauter abspielen, als bei Akku-Betrieb.
 
-
-
+% ANDERE VERSION
+%Da das Projekt portabel sein soll, ist auch ein Akku (Vlies-Blei-Akku) eingebaut.
+%Er versorgt die gesamte Elektronik mit 12 V bei Akkubetrieb.
+%Aufgeladen wird er durch ein passendes Ladegerät, welches aber nicht von uns entwickelt wird.
+%\\ \\
+%Falls eine externe Stromversorgung über eine Steckdose (230V AC) gegeben ist, ändert sich die Versorgung der Verstärker.
+%Während nun der Akku aufgeladen wird, schaltet ein Relais die Versorgungsspannung der Verstärker von 12 V auf 24 V um.
+%Diese Spannung (24 V) wird durch ein Schaltnetzteil erzeugt.
+%\\ \\
+%Durch eine höhere Spannung können die Verstärker auch die Signale auf höhere Spannungen verstärken.
+%Somit ergibt sich eine höhere Leistung an den Verstärkern aber auch an den Lautsprechern.
+%Eine Leistungssteigerung an einem Lautsprecher entspricht einer Steigerung des Schalldruckpegels was wiederum eine höhere Lautstärke bewirkt.
+%An den Verstärkern bewirkt eine höhere Leistung auch eine größere Wärmeentwicklung.
+%Der verbaute Kühlkörper muss diese Wärme bei Akkubetrieb als auch bei Netzbetrieb ableiten können.
+%\\ \\
+%Das Lautsprecher-System kann somit bei Netzbetrieb die Musik lauter abspielen, als bei Akku-Betrieb.
