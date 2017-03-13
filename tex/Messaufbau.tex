@@ -1,3 +1,5 @@
+%TD -- Kapitel 4.1 -- alle Labels darauf aufbauend
+
 %\section{Allgemeines}\label{sec:5.1}
 %Um die Charakteristika eines Lautsprechers zu beurteilen ist es wichtig den genauen Frequenzgang eines Lautsprecherchassis zu wissen. Dieser sagt aus, wie sich ein Lautsprecher bei bestimmten Frequenzen verhält. Der von uns gemessene Frequenzbereich beginnt bei 20Hz und endet bei 20kHz. Dieser Bereich wurde gewählt, da auch das menschliche Gehör nur in diesen Frequenzen aktiv ist.
 %\begin{figure} [H]
@@ -34,7 +36,7 @@
 
 Um Lautsprecher mit geeigneten Eigenschaften auswählen zu können, müssen zunächst ausgewählte Lautsprecher gemessen und verglichen werden.
 
-\section{Messaufbau und Messung}\label{sec:5.2}
+\section{Messaufbau und Messung}\label{sec:4.1}
 Um überhaupt präzise Messungen an Lautsprechern durchführen zu können, benötigt man einen geeigneten Messraum.
 Die HTBLuVA St. Pölten verfügt glücklicherweise über so einen schalldichten Raum.
 Dieser ist innen mit schalldämpfenden Material ausgekleidet und dämpft somit jede Schallwelle in ihm. 
@@ -42,7 +44,7 @@ Dieser ist innen mit schalldämpfenden Material ausgekleidet und dämpft somit j
 	\centering
 	\includegraphics[width=0.8\textwidth]{img/LSMessung/akkustiklabor1.png}
 	\caption{Schalldichter Raum in der HTBLuVA St. Pölten}
-	\label{fig:5.2.1}
+	\label{fig:4.1.1}
 \end{figure}
 \newpage
 In diesem Raum wurden alle Lautsprecher gemessen.
@@ -58,7 +60,7 @@ Um nun auch ein passendes Mess-Signal erzeugen zu können ist noch weiteres Equi
 \end{itemize}
 
 \newpage
-\subsection*{Software}\label{subsec:5.2.1}
+\subsection*{Software}\label{subsec:4.1.1}
 Als Software wurde \enquote{PULSE LabShop Version 13.5.0} von \enquote{Brüel \& Kj\ae r} verwendet.
 Der Mess-PC basierte auf dem Betriebssystem \enquote{Windows XP}.
 Um diese Software ordnungsgemäß verwenden zu können wird noch ein kleiner USB-Dongle benötigt.
@@ -67,9 +69,9 @@ Nur mit diesem Dongle lässt sich die Software aktivieren.
 	\centering
 	\includegraphics[width=1\textwidth]{img/LSMessung/VisatonMitSilikonMitWolle.png}
 	\caption{Auschnitt aus der Software \enquote{PULSE LabShop}}
-	\label{fig:5.2.1.1}
+	\label{fig:4.1.1.1}
 \end{figure}
-In der Abbildung \ref{fig:5.2.1.1} ist bereits ein gemessener Frequenzgang eines Tieftöners zu sehen. Bei den Messungen wurde eine abgespeicherte Datei inklusive allen Einstellungen verwendet, da man sonst immer wieder die nötigen Einstellungen treffen müsste.
+In der Abbildung \ref{fig:4.1.1.1} ist bereits ein gemessener Frequenzgang eines Tieftöners zu sehen. Bei den Messungen wurde eine abgespeicherte Datei inklusive allen Einstellungen verwendet, da man sonst immer wieder die nötigen Einstellungen treffen müsste.
 Die Software ist damit auf alle verwendeten Komponenten abgestimmt und sendet auch das richtige Mess-Signal (\enquote{Weißes Rauschen}) aus.
 Mit einem Klick auf die Start-Taste beginnt die Messung.
 Es werden insgesamt 100 Messungen gemittelt um einen möglichst genauen Frequenzgang aufnehmen zu können.
@@ -78,11 +80,11 @@ Dies dauert in etwa 20s.
 All diese Einstellungen sind je nach Wunsch veränderbar, genau wie die Angaben und Einheiten der 2 Achsen.
 Die Frequenzachse ist logarithmisch von 20Hz bis 20kHz dargestellt.
 Die Achse des Schalldruckpegels ist in der Einheit dB angegeben.
-In diesem Beispiel (Abb. \ref{fig:5.2.1.1}) ist der Bereich von 0dB bis 80dB gewählt.
+In diesem Beispiel (Abb. \ref{fig:4.1.1.1}) ist der Bereich von 0dB bis 80dB gewählt.
 Diese Einstellung wurde von uns später geändert auf 0dB bis 60dB um möglichst vergleichbare Messungen zu erzeugen.
 
 \newpage
-\subsection*{Messmodul}\label{subsec:5.2.2}
+\subsection*{Messmodul}\label{subsec:4.1.2}
 Das Modul ist über ein Ethernet-Kabel mit dem PC und somit mit der Software verbunden.
 Sobald der Befehl zum Start der Messung kommt, beginnt das Modul das Mess-Signal auszusenden und gleichzeitig über ein Mikrofon die Ergebnisse aufzunehmen.
 \\
@@ -95,7 +97,7 @@ Dieses Signal ist optimal für die Messung von Lautsprechern, da alle Frequenzen
 	\subfloat{\includegraphics[valign=m,width=0.4\textwidth]{img/LSMessung/White_noise.png}}
 	\subfloat{\includegraphics[valign=m,width=0.4\textwidth]{img/LSMessung/White_noise_spectrum.png}}
 	\caption[Zeitfunktion und Spektrum von \enquote{weißem Rauschen}]{Zeitfunktion\footnotemark und Spektrum\footnotemark von \enquote{weißem Rauschen}}
-	\label{fig:5.2.2.1}
+	\label{fig:4.1.2.1}
 \end{figure}
 \footnotetext[2]{https://upload.wikimedia.org/wikipedia/commons/c/c1/White\_noise.svg,\\Zugriff: 11.02.2017}
 \footnotetext[3]{https://upload.wikimedia.org/wikipedia/commons/3/3c/White\_noise\_spectrum.svg,\\Zugriff: 11.02.2017}
@@ -103,11 +105,11 @@ Dieses Signal ist optimal für die Messung von Lautsprechern, da alle Frequenzen
 	\centering
 	\includegraphics[width=0.4\textwidth]{img/LSMessung/modul_front.png}
 	\caption{Messmodul}
-	\label{fig:5.2.2.2}
+	\label{fig:4.1.2.2}
 \end{figure}
 
 \newpage
-\subsection*{Verstärker}\label{subsec:5.2.3}
+\subsection*{Verstärker}\label{subsec:4.1.3}
 Prinzipiell kann für diesen Aufbau jeder Leistungsverstärker verwendet werden.
 In unserem Fall war ein \enquote{Brüel \& Kj\ae r Power Amplifier Type 2706} in Verwendung.
 \\
@@ -118,10 +120,10 @@ Da auch andere Komponenten in dem Aufbau von der Firma  \enquote{Brüel \& Kj\ae
 	\centering
 	\includegraphics[width=0.4\textwidth]{img/LSMessung/verstaerker1.png}
 	\caption{\enquote{Brüel \& Kj\ae r Power Amplifier Type 2706}}
-	\label{fig:5.2.3.1}
+	\label{fig:4.1.3.1}
 \end{figure}
 
-\subsection*{Mikrofon}\label{subsec:5.2.4}
+\subsection*{Mikrofon}\label{subsec:4.1.4}
 Um den Schalldruckpegel möglichst präzise messen zu können, wird auch ein dementsprechend genaues Mikrofon benötigt.
 Das bei uns verwendete Mikrofon war das \enquote{Brüel \& Kj\ae r Type 2669}.
 \\
@@ -133,5 +135,5 @@ Bei einem Zwei-Weg-System (Hoch- und Tieftöner) haben wir das Mikrofon (vertika
 	\centering
 	\includegraphics[width=0.4\textwidth]{img/LSMessung/mikro.png}
 	\caption{Messmikrofon \enquote{Brüel \& Kj\ae r Type 2669}}
-	\label{fig:5.2.4.1}
+	\label{fig:4.1.4.1}
 \end{figure}

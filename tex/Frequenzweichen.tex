@@ -1,9 +1,14 @@
+
+%TD - Da die Verstärker in der Hierachie oberbei stehen und aus drei Teilen bestehen, beginnt hier die Section mit 5.4
+
+%TD -- Kapitel 5.4 und 5.5 -- alle Labels darauf aufbauend
+
 \newpage
 \section{Frequenzweichen}
 In den folgenden Schaltungen kommen Bauteile vor welche mit einem roten Kreuz durchgestrichen wurden.
 Es bedeutet, dass diese Bauteile nicht benötigt und durch einen Leerlauf ersetzt wurden.
-\subsection*{Tiefton- und Hochton-Weiche}\label{sec:4.3}
-\subsubsection{Allgemeines}\label{subsec:4.3.1}
+\subsection*{Tiefton- und Hochton-Weiche}\label{sec:5.4}
+\subsubsection{Allgemeines}\label{subsec:5.4.1}
 Für die Satellitenlautsprecher, welche aus einem Hochton-Lautsprecher und einem Tiefton-Lautsprecher bestehen, werden nun die Teilfrequenzbereiche Mitte und Hoch benötigt.
 Da es sich bei dem Satellitenboxen um ein Paar an Boxen handelt und diese räumlich weiter entfernt voneinander stehen, können nun Stereo-Effekte verwendet und mit dem reinen Stereo-Audio-Eingangssignal gearbeitet werden.
 \\ \\
@@ -18,15 +23,16 @@ Bei dem Satelliten-Tiefton-Lautsprecher wird jedoch ein Bandpass vorgesehen um b
 Dementsprechend sollen die Weichen gewählt und entwickelt werden.
 \\
 
-\subsubsection{Schaltung}\label{subsec:4.3.2}
-Das Eingangssignal (Links, Rechts, Masse) wird an einer dreipoligen Stiftleiste angeschlossen (Abb. \ref{fig:4.3.2.1}).
+\subsubsection{Schaltung}\label{subsec:5.4.2}
+Das Eingangssignal (Links, Rechts, Masse) wird an einer dreipoligen Stiftleiste angeschlossen (Abb. \ref{fig:5.4.2.1}).
 Zuerst gelangt Signal-Links und -Rechts an jeweils ein Potentiometer um den Pegel anpassen zu können, es bietet also eine Regelmöglichkeit.
-Über das Widerstandsnetzwerk am Plus-Eingang von HTA, welcher mit jedem Plus-Eingang der anderen OPVs verbunden ist, wird der Arbeitspunkt eingestellt (Siehe Kapitel \ref{subsec:3.5.1}). 
-%TD Arbeitspunkt Verweis
-\\ \\
+Über das Widerstandsnetzwerk am Plus-Eingang von HTA, welcher mit jedem Plus-Eingang der anderen OPVs verbunden ist, wird der Arbeitspunkt eingestellt (Siehe Kapitel \ref{subsec:8.5.1}). 
+
+%\\ \\
+\newpage
 Es folgen die Weichen.
 Hochpass-Weiche für Links/Rechts und Tiefpass-Weiche für Links/Rechts.
-Ein \enquote{Butterworth-Tiefpass 2. Ordnung} wurde bereits in dem Kapitel \ref{subsec:4.1.3} erklärt.
+Ein \enquote{Butterworth-Tiefpass 2. Ordnung} wurde bereits in dem Kapitel \ref{subsec:8.4.1} erklärt.
 Der \enquote{Butterworth-Hochpass und -Bandpass 2. Ordnung} weist keine groben Unterschiede auf, der Unterschied liegt lediglich in der Bauteilaufteilung.
 %\newpage
 Nach der Weiche gelangen die frequenzmäßig getrennten Signale zu deren Ausgangspunkt. Es ist für jede Signalleitung eine zweipolige Stiftleiste vorgesehen (Signal \& Masse), da der darauffolgende Verstärker selbige Verbindung als Eingang vorweist.
@@ -35,11 +41,11 @@ Die Stiftleisten sind jedoch gruppiert nach Bandpass- und Hochpass-Ausgang.
 	\centering	
 	\includegraphics[width=1\textwidth]{img/Print4/4_TTuHTWeiche-SchematicV2.PNG}
 	\caption{Butterworth-Bandpass-Weiche 2. Ordnung}
-	\label {fig:4.3.2.1}
+	\label {fig:5.4.2.1}
 \end{figure}
-%TD Layout anpassen --> Abstand zu groß!
+
 \newpage
-Eine der Bandpass-Weiche.
+Eine der Bandpass-Weichen (Abb. \ref{fig:5.4.2.2}).
 Gut sichtbar die doppelte, parallele Ausführung von Widerständen und Kondensatoren um krumme Werte auch erhalten zu können.
 Bedingt durch Parallel-Schaltung von Widerständen und Kondensatoren.\\ 
 Der Eingang wurde gespiegelt um ein schöneres Bild zu erlangen.
@@ -48,48 +54,46 @@ Bedingt durch die Versorgungsspannung ist auch der Spannungsteiler für $\frac{V
 \begin{figure} [H]
 	\centering	
 	\includegraphics[width=0.65\textwidth]{img/Print4/4_TTuHTWeiche-LinksHP-SchematicV2.PNG}
-	\caption{Butterworth-Bandpass-Weiche 2. Ordnung - aus Abb.\ref{fig:4.3.2.1}}
-	\label {fig:4.3.2.2}
+	\caption{Butterworth-Bandpass-Weiche 2. Ordnung - aus Abb.\ref{fig:5.4.2.1}}
+	\label {fig:5.4.2.2}
 \end{figure}
 %\newpage
-Am B-Teil des OPVs (erkennbar an der Beschriftung: TT\enquote{B}) ist keine Versorgung einzuzeichnen, da er mit dem A-Teil einen achtpinnigen IC mit zwei integrierten OPVs ergibt.
+Am B-Teil des OPVs (erkennbar an der Beschriftung: TT\enquote{B}) ist keine Versorgungsspannung einzuzeichnen, da er mit dem A-Teil einen achtpinnigen IC mit zwei integrierten OPVs ergibt.
 Die zwei Teile sind über das IC-Gehäuse mit der gleichen Versorgungsspannung verbunden, deshalb ist das einmalige Kennzeichnen ausreichend.\\
 \begin{figure} [H]
 	\centering	
 	\includegraphics[width=0.6\textwidth]{img/Print4/4_TTuHTWeiche-RechtsBP-SchematicV2.PNG}
-	\caption{Butterworth-Bandpass-Weiche 2. Ordnung - aus Abb.\ref{fig:4.3.2.1}}
-	\label {fig:4.3.2.3}
+	\caption{Butterworth-Bandpass-Weiche 2. Ordnung - aus Abb.\ref{fig:5.4.2.1}}
+	\label {fig:5.4.2.3}
 \end{figure}
 
 \newpage
-\subsubsection{PCB}\label{subsec:4.3.3}
-Es werden die grundlegenden Regeln zur Leiterplattenentflechtung angewandt (\ref{subsec:3.1.2}).
-%TD Leiterplattenentflechtung Regeln Verweis
-Bei dem Design (Abb. \ref{fig:4.3.3.1}) wird auf hohe Variierbarkeit geachtet um auch zB. Kondensatoren mit unterschiedlichen Fußabdruck (engl. \enquote{Footprint}) verwenden zu können.\\
+\subsubsection{PCB}\label{subsec:5.4.3}
+Es werden die grundlegenden Regeln zur Leiterplattenentflechtung angewandt (\ref{subsec:8.2}).
+Bei dem Design (Abb. \ref{fig:5.4.3.1}) wird auf hohe Variierbarkeit geachtet um auch zB. Kondensatoren mit unterschiedlichen Fußabdruck (engl. \enquote{Footprint}) verwenden zu können.\\
 Es wurden ebenfalls nahe an den OPVs ELKOs \enquote{EL401, EL402} zwischen Versorgungsspannung und Masse verbaut, um Störungen zu verhindern.
 \begin{figure} [H]
 	\centering	
 	\includegraphics[width=1\textwidth]{img/Print4/4_TTuHTWeiche-PCB.PNG}
 	\caption{Tiefton- und Hochtonweichen - PCB}
-	\label {fig:4.3.3.1}
+	\label {fig:5.4.3.1}
 \end{figure}
 
 %---------------------------------------------------------------------------------%
 
 \newpage
-\subsection*{Mono-Subwoofer-Addier-Schaltung und Mono-Subwoofer-Weiche}\label{sec:4.2}
-\subsubsection{Allgemeines}\label{susec:4.2.1}
+\subsection*{Mono-Subwoofer-Addier-Schaltung und Mono-Subwoofer-Weiche}\label{sec:5.5}
+\subsubsection{Allgemeines}\label{susec:5.5.1}
 Das empfangene Audio-Signal muss für das Lautsprecher-System aufgetrennt werden. In Hoch-, Mitte- und Tiefton-Bereich.
 Für den \enquote{Mono-Subwoofer} werden nur die tiefen Frequenzen des Audiosignals verwendet.
 Da, wie der Name schon sagt, es sich um einen \enquote{Mono-Subwoofer} handelt, muss das Stereo-Audio-Signal zuvor mittels OPV-Addierschaltung addiert werden um ein Mono-Audio-Signal zu erhalten.\\
 Es soll eine Platine angefertigt werden, welcher über eine OPV-Addierschaltung verfügt und des weiteren das eintreffende Audio-Signal über ein Weiche passend für den \enquote{Mono-Subwoofer} filtert.
 Diese Schaltung für die Tiefpass-Weiche muss variabel designet werden. Die Tiefpass-Weiche muss unabhängig vom Platinendesign, nur durch Ändern von Bauteilwerten, andere Grenzfrequenzen umsetzen können.
 
-\subsubsection{Schaltung}\label{subsec:4.2.2}
-Passend dem Signalverlauf sitzt am Beginn der Schaltung (Abb. \ref{fig:4.2.2.1}) die erste Regelung über zwei Potentiometer.
+\subsubsection{Schaltung}\label{subsec:5.5.2}
+Passend dem Signalverlauf sitzt am Beginn der Schaltung (Abb. \ref{fig:5.5.2.1}) die erste Regelung über zwei Potentiometer.
 Anschließend kommt man zu der Addier-Schaltung welche das Stereo-Audiosignal in ein Mono-Audiosignal wandelt und dadurch Stereo-Effekte wie zB. Balance am \enquote{Mono-Subwoofer} entfernt.\\
-Bedingt durch die asymmetrische Spannungsversorgung muss am Plus-Eingang des OPV ein Arbeitspunkt eingestellt werden (Siehe Kapitel \ref{subsec:3.5.1}).\\
-%TD Arbeitspunkt Verweis
+Bedingt durch die asymmetrische Spannungsversorgung muss am Plus-Eingang des OPV ein Arbeitspunkt eingestellt werden (Siehe Kapitel \ref{subsec:8.5.1}).\\
 Um Störungen im OPV zu vermeiden wird sehr nahe an diesem der ELKO \enquote{EL301} zwischen Versorgungsspannung und Masse vorgesehen.\\
 Nach Addieren des Stereo-Audiosignals zu einem Mono-Audiosignal kommt dieses zur Aktiven-Tiefpass-Weiche.
 Bevor das gefilterte Signal weiter zum Verstärker läuft wird nochmals die Möglichkeit geboten um die Amplitude des Signals anzupassen.
@@ -99,15 +103,15 @@ Bevor das gefilterte Signal weiter zum Verstärker läuft wird nochmals die Mög
 		\centering
 		\includegraphics[width=\linewidth,height=0.9\textheight,keepaspectratio]{img/Print3/3mTTWeicheruAddiererDiplSchematicV2.PNG}
 		\caption{Schematic Mono-Subwoofer-Addier-Schaltung und Mono-Subwoofer-Weiche}
-		\label {fig:4.2.2.1}
+		\label {fig:5.5.2.1}
 	\end{figure}
 	\vfill
 \end{landscape}
 \raggedbottom
 
 
-\subsubsection{PCB}\label{subsec:4.2.3}
-An einer der vier Seiten der Leiterplatte (Abb. \ref{fig:4.2.3.1})(in diesem Fall: Unten) wurden alle wesentlichen Ein- und Ausgänge platziert.
+\subsubsection{PCB}\label{subsec:5.5.3}
+An einer der vier Seiten der Leiterplatte (Abb. \ref{fig:5.5.3.1})(in diesem Fall: Unten) wurden alle wesentlichen Ein- und Ausgänge platziert.
 Eine dreipolige Eingangsstiftleiste für Rechts, Links und Masse.
 Eine zweipolige Ausgangsstiftleiste für Signal und Masse.
 Es dürfen bei Ein- und Ausgang noch Stiftleisten verwendet werden, da es sich hier noch um geringe Spannungen und Ströme handelt.\\
@@ -121,7 +125,7 @@ Es wurde grundsätzlich auf jeder Platine versucht eine geeignete Beschriftung v
 	\centering
 	\includegraphics[width=0.7\textwidth]{img/Print3/3mTTWeicheruAddierer-PCB.PNG}
 	\caption{PCB}
-	\label {fig:4.2.3.1}
+	\label {fig:5.5.3.1}
 \end{figure}
 
 

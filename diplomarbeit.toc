@@ -45,9 +45,9 @@
 \contentsline {section}{\numberline {8.1}Einstellungen f\IeC {\"u}r die PCB-Entwicklung in \enquote {Altium}}{57}{section.8.1}
 \contentsline {section}{\numberline {8.2}Designregeln f\IeC {\"u}r die PCB-Entwicklung}{57}{section.8.2}
 \contentsline {section}{\numberline {8.3}TDA2030}{58}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Absolute Maximalwerte}{58}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.1}Absolute Maximalwerte}{59}{subsection.8.3.1}
 \contentsline {subsection}{\numberline {8.3.2}TDA2030-Grundschaltung}{59}{subsection.8.3.2}
-\contentsline {subsection}{\numberline {8.3.3}Leistungstransistor-Schaltung}{60}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.3}Leistungstransistor-Schaltung}{61}{subsection.8.3.3}
 \contentsline {subsection}{\numberline {8.3.4}H-Br\IeC {\"u}ckenschaltung der TDA2030-Verst\IeC {\"a}rkerschaltung}{62}{subsection.8.3.4}
 \contentsline {section}{\numberline {8.4}Filter}{63}{section.8.4}
 \contentsline {subsection}{\numberline {8.4.1}Butterworth-Filter 2. Ordnung}{64}{subsection.8.4.1}
