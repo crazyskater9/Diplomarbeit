@@ -42,7 +42,7 @@
 \contentsline {section}{\numberline {6.2}Filterberechnungstool \enquote {FilterPro}}{54}{section.6.2}
 \contentsline {chapter}{\numberline {7}Betriebswirtschaftlicher Teil}{55}{chapter.7}
 \contentsline {chapter}{\numberline {8}Anhang}{56}{chapter.8}
-\contentsline {section}{\numberline {8.1}Einstellungen f\IeC {\"u}r die PCB-Entwicklung in \enquote {Altium}}{57}{section.8.1}
+\contentsline {section}{\numberline {8.1}Einstellungen f\IeC {\"u}r die PCB-Entwicklung in \enquote {Altium Designer}}{57}{section.8.1}
 \contentsline {section}{\numberline {8.2}Designregeln f\IeC {\"u}r die PCB-Entwicklung}{57}{section.8.2}
 \contentsline {section}{\numberline {8.3}TDA2030}{58}{section.8.3}
 \contentsline {subsection}{\numberline {8.3.1}Absolute Maximalwerte}{59}{subsection.8.3.1}
@@ -53,10 +53,10 @@
 \contentsline {subsection}{\numberline {8.4.1}Butterworth-Filter 2. Ordnung}{64}{subsection.8.4.1}
 \contentsline {section}{\numberline {8.5}Nicht invertierende Verst\IeC {\"a}rker - OPV-Grundschaltung}{66}{section.8.5}
 \contentsline {subsection}{\numberline {8.5.1}Asymmetrische Versorgung eines OPV's}{67}{subsection.8.5.1}
-\contentsline {section}{\numberline {8.6}Welligkeit}{68}{section.8.6}
+\contentsline {section}{\numberline {8.6}Welligkeit}{67}{section.8.6}
 \contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{69}{chapter*.85}
-\contentsline {chapter}{Abbildungsverzeichnis}{70}{section*.86}
-\contentsline {chapter}{Danksagungen}{71}{section*.88}
-\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{71}{section*.90}
-\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{71}{section*.91}
-\contentsline {chapter}{Literaturverzeichnis}{72}{section*.92}
+\contentsline {chapter}{Abbildungsverzeichnis}{71}{section*.86}
+\contentsline {chapter}{Danksagungen}{72}{section*.88}
+\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{72}{section*.90}
+\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{72}{section*.91}
+\contentsline {chapter}{Literaturverzeichnis}{73}{section*.92}
