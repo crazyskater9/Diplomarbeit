@@ -10,9 +10,137 @@ Um nun den optimalen Klang bzw. das optimale Boxenvolumen für Satelliten-Boxen 
 Das Volumen der Boxen wird dabei verringert, um so das kleinste Volumen bei gleichzeitig noch gutem Frequenzgang zu finden.
 
 \subsection{Eignung von verschiedenen Materialien zur Volumsverminderung}\label{subsec:4.4.1}
+Zur Verringerung des Volumens der Subwooferbox wird eine große Menge an schalldichten Material benötigt.
+Da Ziegelsteine sehr schwer und nicht reichlich vorhanden sind, wird eine Vergleichsmessung mit Styropor angestellt um zu belegen, dass dieses Material sich ebenfalls zur Volumsverminderung eignet.
+Die Idee Styropor zu verwenden stammt aus Foren, diese aber keinen eindeutigen Beweis erbrachten, dass Styropor gleich wie Ziegelsteine als Schall-Tot gelten.\\
+Um die Messungen vergleichen zu können wird die aufgenommene Kurve aus \enquote{PULSE LabShop} in eine Zusatzapplikation dieser Software geladen.
+Dabei handelt es sich um die Kalkulationssoftware von \enquote{PULSE LabShop}.
+Um die Kurven in ein Diagramm zusammenzufügen, muss zuerst jede Messung als 
+\enquote{.txt Datei} gespeichert werden.
+In dieser Datei stehen die für die Berechnung relevanten Daten jedes einzelnen Punktes in der Kurve.
+%Die Datei ist nicht Verschlüsselt.
+%Der Inhalt ist lesbarer Text.
+Nach dem Speichern jeder Kurve, können diese in die Berechnungssoftware geladen werden.
+Die Software beherrscht einige mathematische Funktionen.
+Unter anderem kann man die Differenz zwischen zwei Kurven ermitteln.\\ 
+Für diese Messungen wird der \enquote{TT1} und die 13,72 l Box herangezogen.
+Es wurde grundsätzlich in zwei Messungsbereiche unterteilt.
+Von 20Hz bis 20kHz, das ganze Audiospektrum und von 20Hz bis 500Hz, da in diesem Bereich sich eine Volumsverminderung auswirkt.
+Es wurden drei Kurven aufgenommen und verglichen.\\
+Diese waren:
+\begin{itemize}
+	\item Volumsverminderung mit Ytong-Ziegel
+	\item Volumsverminderung mit Styropor
+	\item ohne Volumsverminderung
+\end{itemize}
+Das Volumen wurde jeweils um 4,5 l vermindert.
+Zischen den Kurven von Styropor und Ytong-Ziegel wurde zusätzlich die Differenz gebildet.
 
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{img/Optimierung/Vergleich/VergleichYtognStyro_full.png}
+	\caption{Vergleichsmessung Styropor zu Ytong-Ziegel von 20Hz bis 20kHz}
+	\label{fig:4.4.1.1}
+\end{figure}
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{img/Optimierung/Vergleich/VergleichYtognStyro_Abweichung_full.png}
+	\caption{Vergleichsmessung Styropor zu Ytong-Ziegel von 20Hz bis 20kHz - Differenz der beiden Kurven}
+	\label{fig:4.4.1.2}
+\end{figure}
+
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{img/Optimierung/Vergleich/VergleichYtognStyro_500Hz.png}
+	\caption{Vergleichsmessung Styropor zu Ytong-Ziegel von 20Hz bis 500Hz}
+	\label{fig:4.4.1.3}
+\end{figure}
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{img/Optimierung/Vergleich/VergleichYtognStyro_Abweichung_500Hz.png}
+	\caption{Vergleichsmessung Styropor zu Ytong-Ziegel von 20Hz bis 500Hz - Differenz der beiden Kurven}
+	\label{fig:4.4.1.4}
+\end{figure}
+
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{img/Optimierung/Vergleich/VergleichYtognStyroOhne_full.png}
+	\caption{Vergleichsmessung Styropor zu Ytong-Ziegel zu ohne Verminderung, von 20Hz bis 20kHz}
+	\label{fig:4.4.1.5}
+\end{figure}\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{img/Optimierung/Vergleich/VergleichYtognStyroOhne_500Hz.png}
+	\caption{Vergleichsmessung Styropor zu Ytong-Ziegel zu ohne Verminderung, von 20Hz bis 500Hz}
+	\label{fig:4.4.1.6}
+\end{figure}
+
+Die Schlussfolgerung aus diesen Messungen ist, dass Styropor sich auch zur Volumsverminderung von Lautsprechern gut eignet, aus diesem Grund wird Styropor auch hauptsächlich bei allen anderen Messungen verwendet.\\ \\
 
 \subsection{Subwoofer-Box}\label{subsec:4.4.2}
+Das Zeil ist die Box so klein wie möglich zu bauen, ohne Verlust an Klangqualität und Pegel.
+Dafür wird die Testbox mit 149 l in ihrem Volumina vermindert um zu testen, ob zuvor genannte Verluste auftreten.
+Zu Beginn wird das Volumen drastisch verkleinert, in diesem Fall von 149 l auf 47,4 l (Bild \ref{fig:4.4.2.1}).
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.75\textwidth]{img/Optimierung/Sub/RenkforceStyro_47l.png}
+\caption{Renkforce Subwoofer mit einem durch Styropor verminderten Boxenvolumen von 47,4 l}
+\label{fig:4.4.2.1}
+\end{figure}
+
+Die folgenden Messungen mit geringerer Verringerung des Volumens wurden an einem anderen Messtag erstellt.
+In der Zwischenzeit wurden von anderen Personen ebenfalls Messungen erstellt, wobei der Verstärkerlevel des Messverstärkers verändert wurde.
+Im ersten Moment wurde diese Änderung übersehen, jedoch nach Bemerken wieder an die einheitliche Messeinstellung angepasst.
+Die dabei aufgenommenen Kurven weisen einen um 8dB höheren Pegel auf, als die welche danach aufgenommen wurden.
+Um zu bestätigen, dass nicht die Volumsverminderung schuld an der Pegeländerung ist, wurde eine Vergleichsmessung mit einem zuvor gemessenen Volumen angestellt.\\
+
+Fazit:\textit{\textbf{ Die folgenden Messaufnahmen weißen einen um 8dB erhöhten Pegel auf.}}
+Dazu gehören: Messung \ref{fig:4.4.2.2}, \ref{fig:4.4.2.3}, \ref{fig:4.4.2.4} und \ref{fig:4.4.2.5}
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.75\textwidth]{img/Optimierung/Sub/RenkforceStyro_138l.png}
+\caption{Renkforce Subwoofer mit einem durch Styropor verminderten Boxenvolumen von 138,28 l}
+\label{fig:4.4.2.2}
+\end{figure}
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.75\textwidth]{img/Optimierung/Sub/RenkforceStyro_138l_Wolle.png}
+\caption{Renkforce Subwoofer mit einem durch Styropor verminderten Boxenvolumen von 138,28 l, mit Wolle}
+\label{fig:4.4.2.3}
+\end{figure}
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.75\textwidth]{img/Optimierung/Sub/RenkforceStyro_126l_Wolle.png}
+\caption{Renkforce Subwoofer mit einem durch Styropor verminderten Boxenvolumen von 126,51 l, mit Wolle}
+\label{fig:4.4.2.4}
+\end{figure}
+
+\newpage
+Die folgenden Messungen zeigen den Vergleich, von verstellter Ausgangsverstärkung zu einheitlichen verwendeten Ausgangsverstärkung. (Bild \ref{fig:4.4.2.5} und \ref{fig:4.4.2.6})
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.65\textwidth]{img/Optimierung/Sub/RenkforceStyro_113l_Wolle.png}
+\caption{Renkforce Subwoofer mit einem durch Styropor und Ytong-Ziegel verminderten Boxenvolumen von 113,25 l, mit Wolle}
+\label{fig:4.4.2.5}
+\end{figure}
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.65\textwidth]{img/Optimierung/Sub/RenkforceStyro_113l_Wolle_Angepasst.png}
+\caption{Renkforce Subwoofer mit einem durch Styropor und Ytong-Ziegel verminderten Boxenvolumen von 113,25 l, mit Wolle - Angepasster Pegel}
+\label{fig:4.4.2.6}
+\end{figure}
+Bei dem Vergleich ist lediglich eine Verschiebung auf der Y-Achse merkbar.\\ \\
+
+Nach den vielen verschiedenen Messungen der Box konnte der Schluss gezogen werden, dass ein Innenvolumen der Box von 47 Liter ausreicht um die gleiche Klangqualität unter dem selben Schalldruckpegel zu erreichen.\\
+Ein kleineres Volumen wurde nicht angestrebt, da die ganze Elektronik ( Verstärker, Weichen, Akku, ...) ebenfalls in der Box platz haben sollen.
+Aus diesem Grund wird eine Box mit einem Innenvolumen von 50 Litern angestrebt.
+
 
 
 \subsection{Box für Satelliten-Boxen}\label{subsec:4.4.3}
