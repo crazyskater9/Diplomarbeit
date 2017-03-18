@@ -28,20 +28,26 @@
 \BOOKMARK [1][]{section.6.1}{Elektronik-Entwicklungsumgebung f\374r Layout und Leiterplatten "Altium"}{chapter.6}% 28
 \BOOKMARK [1][]{section.6.2}{Filterberechnungstool "FilterPro"}{chapter.6}% 29
 \BOOKMARK [0][]{chapter.7}{Betriebswirtschaftlicher Teil}{}% 30
-\BOOKMARK [0][]{chapter.8}{Anhang}{}% 31
-\BOOKMARK [1][]{section.8.1}{Einstellungen f\374r die PCB-Entwicklung in "Altium Designer"}{chapter.8}% 32
-\BOOKMARK [1][]{section.8.2}{Designregeln f\374r die PCB-Entwicklung}{chapter.8}% 33
-\BOOKMARK [1][]{section.8.3}{TDA2030}{chapter.8}% 34
-\BOOKMARK [2][]{subsection.8.3.1}{Absolute Maximalwerte}{section.8.3}% 35
-\BOOKMARK [2][]{subsection.8.3.2}{TDA2030-Grundschaltung}{section.8.3}% 36
-\BOOKMARK [2][]{subsection.8.3.3}{Leistungstransistor-Schaltung}{section.8.3}% 37
-\BOOKMARK [2][]{subsection.8.3.4}{H-Br\374ckenschaltung der TDA2030-Verst\344rkerschaltung}{section.8.3}% 38
-\BOOKMARK [1][]{section.8.4}{Filter}{chapter.8}% 39
-\BOOKMARK [2][]{subsection.8.4.1}{Butterworth-Filter 2. Ordnung}{section.8.4}% 40
-\BOOKMARK [1][]{section.8.5}{Nicht invertierende Verst\344rker - OPV-Grundschaltung}{chapter.8}% 41
-\BOOKMARK [2][]{subsection.8.5.1}{Asymmetrische Versorgung eines OPV's}{section.8.5}% 42
-\BOOKMARK [1][]{section.8.6}{Welligkeit}{chapter.8}% 43
-\BOOKMARK [0][]{chapter*.97}{Abk\374rzungsverzeichnis}{}% 44
-\BOOKMARK [0][]{section*.98}{Abbildungsverzeichnis}{}% 45
-\BOOKMARK [0][]{section*.100}{Danksagungen}{}% 46
-\BOOKMARK [0][]{section*.104}{Literaturverzeichnis}{}% 47
+\BOOKMARK [1][]{section.7.1}{Kostenrechnung}{chapter.7}% 31
+\BOOKMARK [2][]{subsection.7.1.1}{Materialkosten}{section.7.1}% 32
+\BOOKMARK [2][]{subsection.7.1.2}{Entwicklungskosten}{section.7.1}% 33
+\BOOKMARK [2][]{subsection.7.1.3}{Herstellungskosten}{section.7.1}% 34
+\BOOKMARK [1][]{section.7.2}{Absatzkalkulation}{chapter.7}% 35
+\BOOKMARK [1][]{section.7.3}{Break-Even-Point}{chapter.7}% 36
+\BOOKMARK [0][]{chapter.8}{Anhang}{}% 37
+\BOOKMARK [1][]{section.8.1}{Einstellungen f\374r die PCB-Entwicklung in "Altium Designer"}{chapter.8}% 38
+\BOOKMARK [1][]{section.8.2}{Designregeln f\374r die PCB-Entwicklung}{chapter.8}% 39
+\BOOKMARK [1][]{section.8.3}{TDA2030}{chapter.8}% 40
+\BOOKMARK [2][]{subsection.8.3.1}{Absolute Maximalwerte}{section.8.3}% 41
+\BOOKMARK [2][]{subsection.8.3.2}{TDA2030-Grundschaltung}{section.8.3}% 42
+\BOOKMARK [2][]{subsection.8.3.3}{Leistungstransistor-Schaltung}{section.8.3}% 43
+\BOOKMARK [2][]{subsection.8.3.4}{H-Br\374ckenschaltung der TDA2030-Verst\344rkerschaltung}{section.8.3}% 44
+\BOOKMARK [1][]{section.8.4}{Filter}{chapter.8}% 45
+\BOOKMARK [2][]{subsection.8.4.1}{Butterworth-Filter 2. Ordnung}{section.8.4}% 46
+\BOOKMARK [1][]{section.8.5}{Nicht invertierende Verst\344rker - OPV-Grundschaltung}{chapter.8}% 47
+\BOOKMARK [2][]{subsection.8.5.1}{Asymmetrische Versorgung eines OPV's}{section.8.5}% 48
+\BOOKMARK [1][]{section.8.6}{Welligkeit}{chapter.8}% 49
+\BOOKMARK [0][]{chapter*.105}{Abk\374rzungsverzeichnis}{}% 50
+\BOOKMARK [0][]{section*.106}{Abbildungsverzeichnis}{}% 51
+\BOOKMARK [0][]{section*.108}{Danksagungen}{}% 52
+\BOOKMARK [0][]{section*.112}{Literaturverzeichnis}{}% 53
