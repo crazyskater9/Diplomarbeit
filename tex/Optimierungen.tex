@@ -1,5 +1,7 @@
 %TD Generelle Messung des Equipments aus dem Word "20170107-SubwooferMessungen.docx" einbauen?
 
+% ^ -> Ich würde wenn dann nur schreiben, dass das Equipment getestet wurde und alles top war!
+
 \newpage
 \section{Optimierung der Lautsprecher-Boxen}\label{sec:4.4}
 Die ausgewählten Lautsprecher sind hier noch einmal zusammengefasst:
@@ -13,12 +15,13 @@ Das Volumen der Boxen wird dabei verringert, um so das kleinste Volumen bei glei
 
 \subsection{Eignung von verschiedenen Materialien zur Volumsverminderung}\label{subsec:4.4.1}
 Zur Verringerung des Volumens der Subwooferbox wird eine große Menge an schalldichten Material benötigt.
-Da Ziegelsteine sehr schwer und nicht reichlich vorhanden sind, wird eine Vergleichsmessung mit Styropor angestellt um zu belegen, dass dieses Material sich ebenfalls zur Volumsverminderung eignet.
-Die Idee Styropor zu verwenden stammt aus Foren, diese aber keinen eindeutigen Beweis erbrachten, dass Styropor gleich wie Ziegelsteine als Schall-Tot gelten.\\
+Da Ziegelsteine sehr schwer und nicht reichlich vorhanden sind, wird eine Vergleichsmessung mit Styropor angestellt, um zu belegen, dass dieses Material sich ebenfalls zur Volumsverminderung eignet.
+% I würd des goa ned erwähnen ;)
+%Die Idee, Styropor zu verwenden, stammt aus Foren, diese aber keinen eindeutigen Beweis erbrachten, dass Styropor gleich wie Ziegelsteine als Schall-Tot gelten.\\
 Um die Messungen vergleichen zu können wird die aufgenommene Kurve aus \enquote{PULSE LabShop} in eine Zusatzapplikation dieser Software geladen.
 Dabei handelt es sich um die Kalkulationssoftware von \enquote{PULSE LabShop}.
 Um die Kurven in ein Diagramm zusammenzufügen, muss zuerst jede Messung als 
-\enquote{.txt Datei} gespeichert werden.
+Textdatei gespeichert werden.
 In dieser Datei stehen die für die Berechnung relevanten Daten jedes einzelnen Punktes in der Kurve.
 %Die Datei ist nicht Verschlüsselt.
 %Der Inhalt ist lesbarer Text.
@@ -26,8 +29,8 @@ Nach dem Speichern jeder Kurve, können diese in die Berechnungssoftware geladen
 Die Software beherrscht einige mathematische Funktionen.
 Unter anderem kann man die Differenz zwischen zwei Kurven ermitteln.\\ 
 Für diese Messungen wird der \enquote{TT1} und die 13,72 l Box herangezogen.
-Es wurde grundsätzlich in zwei Messungsbereiche unterteilt.
-Von 20Hz bis 20kHz, das ganze Audiospektrum und von 20Hz bis 500Hz, da in diesem Bereich sich eine Volumsverminderung auswirkt.
+Es wurde grundsätzlich in zwei Messbereiche unterteilt.
+Von 20 Hz bis 20 kHz, das ganze Audiospektrum, und von 20 Hz bis 500 Hz, da in diesem Bereich eine Volumsverminderung deutliche Unterschiede hervorbringen kann.
 Es wurden drei Kurven aufgenommen und verglichen.\\
 Diese waren:
 \begin{itemize}
@@ -36,18 +39,18 @@ Diese waren:
 	\item ohne Volumsverminderung
 \end{itemize}
 Das Volumen wurde jeweils um 4,5 l vermindert.
-Zischen den Kurven von Styropor und Ytong-Ziegel wurde zusätzlich die Differenz gebildet.
+Zwischen den Kurven von Styropor und Ytong-Ziegel wurde zusätzlich die Differenz gebildet.
 
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.75\textwidth]{img/Optimierung/Vergleich/VergleichYtognStyro_full.png}
-	\caption{Vergleichsmessung Styropor zu Ytong-Ziegel von 20Hz bis 20kHz}
+	\caption{Vergleichsmessung Styropor zu Ytong-Ziegel von 20 Hz bis 20 kHz}
 	\label{fig:4.4.1.1}
 \end{figure}
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.75\textwidth]{img/Optimierung/Vergleich/VergleichYtognStyro_Abweichung_full.png}
-	\caption{Vergleichsmessung Styropor zu Ytong-Ziegel von 20Hz bis 20kHz - Differenz der beiden Kurven}
+	\caption{Vergleichsmessung Styropor zu Ytong-Ziegel von 20 Hz bis 20 kHz - Differenz der beiden Kurven}
 	\label{fig:4.4.1.2}
 \end{figure}
 
@@ -55,13 +58,13 @@ Zischen den Kurven von Styropor und Ytong-Ziegel wurde zusätzlich die Differenz
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.75\textwidth]{img/Optimierung/Vergleich/VergleichYtognStyro_500Hz.png}
-	\caption{Vergleichsmessung Styropor zu Ytong-Ziegel von 20Hz bis 500Hz}
+	\caption{Vergleichsmessung Styropor zu Ytong-Ziegel von 20 Hz bis 500 Hz}
 	\label{fig:4.4.1.3}
 \end{figure}
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.75\textwidth]{img/Optimierung/Vergleich/VergleichYtognStyro_Abweichung_500Hz.png}
-	\caption{Vergleichsmessung Styropor zu Ytong-Ziegel von 20Hz bis 500Hz - Differenz der beiden Kurven}
+	\caption{Vergleichsmessung Styropor zu Ytong-Ziegel von 20 Hz bis 500 Hz - Differenz der beiden Kurven}
 	\label{fig:4.4.1.4}
 \end{figure}
 
@@ -69,23 +72,25 @@ Zischen den Kurven von Styropor und Ytong-Ziegel wurde zusätzlich die Differenz
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.75\textwidth]{img/Optimierung/Vergleich/VergleichYtognStyroOhne_full.png}
-	\caption{Vergleichsmessung Styropor zu Ytong-Ziegel zu ohne Verminderung, von 20Hz bis 20kHz}
+	\caption{Vergleichsmessung Styropor zu Ytong-Ziegel zu ohne Verminderung, von 20 Hz bis 20 kHz}
 	\label{fig:4.4.1.5}
 \end{figure}\begin{figure} [H]
 	\centering
 	\includegraphics[width=0.75\textwidth]{img/Optimierung/Vergleich/VergleichYtognStyroOhne_500Hz.png}
-	\caption{Vergleichsmessung Styropor zu Ytong-Ziegel zu ohne Verminderung, von 20Hz bis 500Hz}
+	\caption{Vergleichsmessung Styropor zu Ytong-Ziegel zu ohne Verminderung, von 20 Hz bis 500 Hz}
 	\label{fig:4.4.1.6}
 \end{figure}
 
-Die Schlussfolgerung aus diesen Messungen ist, dass Styropor sich auch zur Volumsverminderung von Lautsprechern gut eignet, aus diesem Grund wird Styropor auch hauptsächlich bei allen anderen Messungen verwendet.\\ \\
+Die Schlussfolgerung aus diesen Messungen ist, dass Styropor sich auch zur Volumsverminderung von Lautsprechern gut eignet.
+Aus diesem Grund wird Styropor auch hauptsächlich bei allen anderen Messungen verwendet.
+\\ \\
 
 
 
 
 \subsection{Subwoofer-Box}\label{subsec:4.4.2}
-Das Zeil ist die Box so klein wie möglich zu bauen, ohne Verlust an Klangqualität und Pegel.
-Dafür wird die Messbox mit 149 l in ihrem Volumina vermindert um zu testen, ob zuvor genannte Verluste auftreten.
+Das Ziel ist, die Box so klein wie möglich zu bauen, ohne Verlust an Klangqualität und Pegel.
+Dafür wird die Messbox mit 149 l in ihrem Volumen vermindert, um zu testen, ob zuvor genannte Verluste auftreten.
 Zu Beginn wird das Volumen drastisch verkleinert, in diesem Fall von 149 l auf 47,4 l (Bild \ref{fig:4.4.2.1}).
 
 \begin{figure} [H]
@@ -95,11 +100,11 @@ Zu Beginn wird das Volumen drastisch verkleinert, in diesem Fall von 149 l auf 4
 \label{fig:4.4.2.1}
 \end{figure}
 
-Die folgenden Messungen mit geringerer Verringerung des Volumens wurden an einem anderen Messtag erstellt.
-In der Zwischenzeit wurden von anderen Personen ebenfalls Messungen erstellt, wobei der Verstärkerlevel des Messverstärkers verändert wurde.
+Die folgenden Messungen mit verschiedenen Volumen wurden an einem anderen Messtag erstellt.
+In der Zwischenzeit wurden von anderen Personen ebenfalls Messungen erstellt, wobei das Verstärkerlevel des Messverstärkers verändert wurde.
 Im ersten Moment wurde diese Änderung übersehen, jedoch nach Bemerken wieder an die einheitliche Messeinstellung angepasst.
-Die dabei aufgenommenen Kurven weisen einen um 8dB höheren Pegel auf, als die welche danach aufgenommen wurden.
-Um zu bestätigen, dass nicht die Volumsverminderung schuld an der Pegeländerung ist, wurde eine Vergleichsmessung mit einem zuvor gemessenen Volumen angestellt.\\
+Die dabei aufgenommenen Kurven weisen einen um 8dB höheren Pegel auf, als die, welche danach aufgenommen wurden.
+Um zu bestätigen, dass nicht die Volumsverminderung Schuld an der Pegeländerung hat, wurde eine Vergleichsmessung mit einem zuvor gemessenen Volumen angestellt.\\
 
 Fazit:\\ 
 \textit{\textbf{ Die folgenden Messaufnahmen weißen einen um 8dB erhöhten Pegel auf.}} Dazu gehören: Messung \ref{fig:4.4.2.2}, \ref{fig:4.4.2.3}, \ref{fig:4.4.2.4} und \ref{fig:4.4.2.5}
@@ -142,17 +147,17 @@ Die folgenden Messungen zeigen den Vergleich, von verstellter Ausgangsverstärku
 \end{figure}
 Bei dem Vergleich ist lediglich eine Verschiebung auf der Y-Achse merkbar.\\ \\
 
-Nach den vielen verschiedenen Messungen der Box konnte der Schluss gezogen werden, dass ein Innenvolumen der Box von 47 Liter ausreicht um die gleiche Klangqualität unter dem selben Schalldruckpegel zu erreichen.\\
-Ein kleineres Volumen wurde nicht angestrebt, da die ganze Elektronik ( Verstärker, Weichen, Akku, ...) ebenfalls in der Box platz haben sollen.
+Nach den vielen verschiedenen Messungen der Box, konnte der Schluss gezogen werden, dass ein Innenvolumen der Box von 47 Liter ausreicht, um die gleiche Klangqualität unter dem selben Schalldruckpegel zu erreichen.\\
+Ein kleineres Volumen wurde nicht angestrebt, da die ganze Elektronik ( Verstärker, Weichen, Akku, ...) ebenfalls in der Box Platz haben sollen.
 Aus diesem Grund wird eine Box mit einem Innenvolumen von 50 Litern angestrebt.\\ \\ \\ \\
 
 
 
 
 \subsection{Box für Satelliten-Boxen}\label{subsec:4.4.3}
-Gleich wie für die Subwoofer-Box gilt auch hier das Boxenvolumen weitestgehend zu vermindern, unter der Bedingung das Klangqualität und Schalldruckpegel nicht darunter leiden.
-Hier wird die Tiefton-Lautsprecher-Box mit 13,72 l als Messobjekt verwendet.
-Mit verschiedenen Volumina und mit oder ohne Wolle, wird das Tiefton-Lautsprecher-Chassi \enquote{TT1} gemessen.\\
+Gleich wie für die Subwoofer-Box, gilt auch hier das Boxenvolumen weitestgehend zu vermindern, unter der Bedingung, dass Klangqualität und Schalldruckpegel nicht darunter leiden.
+Hier wird die Tiefton-Lautsprecher-Box mit 13,72 l als Messbox verwendet.
+Mit verschiedenen Volumina und mit oder ohne Wolle, wird das Tiefton-Lautsprecher-Chassis \enquote{TT1} gemessen.\\
 Die folgenden Messungen wurden nur unter Volumsänderung und ohne Wolle gemessen.\\
 Zu aller erst wird der Extremvergleich angestellt.
 Die Messung \ref{fig:4.4.3.1} ist ohne Styropor und ohne Wolle aufgenommen worden.
@@ -176,11 +181,11 @@ Diese wurde mit einem durch Styropor verringerten Volumen gemessen, sodass die B
 
 %TD Bitte Korregieren falls ich mich vertan habe!
 \newpage
-Als nächstes wurde versucht den Einbruch in der Frequenzgangskurve bei 1.75kHz weg zu bekommen.
-Ein möglicher Grund für diesen Einbruch kann eine Resonanz in der Box, auf Grund der Seitenwandlänge, sein.
-Diese Annahme kommt daher, dass die Seitenlänge der Box möglicherweise genau $\frac{Lamda}{2}$ für diese Frequenz bedeutet und dadurch die an der Rückwand reflektierte Welle sich mit der hin laufenden Welle auslöscht.
+Als nächstes wurde versucht, den Einbruch in der Frequenzgangskurve bei 1.75kHz weg zu bekommen.
+Ein möglicher Grund für diesen Einbruch kann eine Resonanz in der Box, aufgrund der Seitenwandlänge, sein.
+Diese Annahme kommt daher, dass die Seitenlänge der Box möglicherweise genau $\frac{\lambda}{2}$ für diese Frequenz bedeutet und dadurch die an der Rückwand reflektierte Welle sich mit der hin laufenden Welle auslöscht.
 Es entsteht eine Resonanz mit der Box.
-Es wird deshalb eine Schraubzwinge in mitten der Seitenlänge der Box montiert um diese mögliche Resonanz zu unterbinden.
+Es wird deshalb eine Schraubzwinge mittig der Seitenwand der Box montiert, um diese mögliche Resonanz zu unterbinden.
 Als Vergleich wird die Messung mit selbigen Volumsbedingungen und ohne Schraubzwinge herangezogen (Bild \ref{fig:4.4.3.1}).
 Die Messung mit Schraubzwinge ergibt aber keinen wesentlichen Unterschied (Bild \ref{fig:4.4.3.3}).\\ \\
 
@@ -222,6 +227,6 @@ Nachfolgend wurden weitere Kurven unter Volumsänderungen aufgenommen.
 	\label{fig:4.4.3.7}
 \end{figure}
 
-\textbf{Schlussendlich erschien die Messungkurven \ref{fig:4.4.3.5} als beste Kurve.
+\textbf{Schlussendlich erschien die Messungkurve \ref{fig:4.4.3.5} als beste Kurve.
 Aus diesem Grund wird ein Satelliten-Boxen-Volumen von 7 Liter angestrebt.}
 

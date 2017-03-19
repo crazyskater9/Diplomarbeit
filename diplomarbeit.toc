@@ -48,9 +48,9 @@
 \contentsline {section}{\numberline {7.2}Absatzkalkulation}{67}{section.7.2}
 \contentsline {section}{\numberline {7.3}Break-Even-Point}{67}{section.7.3}
 \contentsline {chapter}{\numberline {8}Anhang}{69}{chapter.8}
-\contentsline {section}{\numberline {8.1}Einstellungen f\IeC {\"u}r die PCB-Entwicklung in \enquote {Altium Designer}}{70}{section.8.1}
-\contentsline {section}{\numberline {8.2}Designregeln f\IeC {\"u}r die PCB-Entwicklung}{70}{section.8.2}
-\contentsline {section}{\numberline {8.3}TDA2030}{71}{section.8.3}
+\contentsline {section}{\numberline {8.1}Einstellungen f\IeC {\"u}r die PCB-Entwicklung in \enquote {Altium Designer}}{69}{section.8.1}
+\contentsline {section}{\numberline {8.2}Designregeln f\IeC {\"u}r die PCB-Entwicklung}{69}{section.8.2}
+\contentsline {section}{\numberline {8.3}TDA2030}{70}{section.8.3}
 \contentsline {subsection}{\numberline {8.3.1}Absolute Maximalwerte}{72}{subsection.8.3.1}
 \contentsline {subsection}{\numberline {8.3.2}TDA2030-Grundschaltung}{72}{subsection.8.3.2}
 \contentsline {subsection}{\numberline {8.3.3}Leistungstransistor-Schaltung}{74}{subsection.8.3.3}
