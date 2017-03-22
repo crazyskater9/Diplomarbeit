@@ -7,26 +7,43 @@ Nach einigen Überlegungen über die beste Herangehensweise an dieses Projekt, w
 	\label{fig:3.1.1}
 \end{figure}
 Ein wichtiger Teil des Projekts ist die Bluetooth-Hauptplatine (in Abb. \ref{fig:3.1.1} links unten).
-Diese Platine ist der Eingang der Schaltung.
-Das Stereo-Audio-Signal kann mithilfe der BT-Hauptplatine mittels Klinkenbuchse oder Übertragung über Bluetooth (siehe: Kap. \ref{sec:3.3}) ins System eingespeist werden.
+Diese Platine verfügt über die Audio-Eingänge des Projekts.
+Das Stereo-Audio-Signal kann mithilfe der BT-Hauptplatine mittels Klinkenbuchse oder Übertragung über Bluetooth (siehe: Kap. \ref{sec:3.3}) in die gesamte Schaltung eingespeist werden.
 \\ \\
-Dieses Signal wird dann mithilfe der Frequenzweichen in 3 verschiedene Frequenzbereiche, Hochton-, Mitte-Tiefton- und Bassbereich, aufgetrennt.
-Ab diesem Zeitpunkt existieren dann 3 verschiedene Stereo-Signale im System und müssen auch unabhängig voneinander weiterverarbeitet werden.
+Dieses Stereo-Audio-Signal wird dann mithilfe der Frequenzweichen in 3 verschiedene Frequenzbereiche (Hochton-, Mittel-Tiefton- und Bassbereich) aufgetrennt.
 \\
-Der Addierer innerhalb der Frequenzweichen hat die Aufgabe, das Stereo-Signal in ein Mono-Signal umzuwandeln (weitere Erklärung: Kap. \ref{sec:3.2}).
+Tiefe Frequenzen (<150Hz) werden \enquote{L + R} (Stereo) addiert und über eine Mono-Tiefpass-Weiche gefiltert.
 \\
-Insgesamt gibt es dann also 5 Signale, die weiterverarbeitet werden.
-\\ \\
-%TD You sure about that?
+Insgesamt gibt es dann also 5 Signale, die weiterverarbeitet werden:
+\\ 
+\begin{itemize}
+	\item Hochton-Links
+	\item Hochton-Rechts
+	\item Mittel-Tiefton-Links
+	\item Mittel-Tiefton-Rechts
+	\item Mono-Bassbereich
+\end{itemize}
 
-Die verschiedenen Audio-Signale werden dann mit je einem Verstärker auf einen angemessenen Pegel verstärkt.
-Nach diesem Vorgang wird jedes Audio-Signal an seinen passenden Lautsprecher geleitet.
-Die 2 Hochton-Signale für linken und rechten Kanal werden an die entsprechenden Hochton-Lautsprecher weitergeleitet.
-Das gleiche passiert auch mit den beiden Mitte-Tiefton-Signalen.
-Übrig bleibt das Mono-Signal für den Bassbereich.
-Es wird an den einzelnen Subwoofer geleitet.
-\\ \\
-Versorgt wird die Elektronik mit 12 V oder 24 V, genauere Erklärung im Kapitel \ref{sec:3.4}.
+Die verschiedenen Audio-Signale werden dann mit je einem Leistungs-Verstärker verstärkt.
+Die Ausgangsleistung der Leistungs-Verstärker variiert je nach Frequnzbereichen.
+Dies ist bedingt durch die verwendete Verstärkerschaltung.\\
+Diese Schaltungen sind:
+\begin{itemize}
+	\item \textbf{Hochtonbereich:}\\ TDA2030-Leistungsverstärker-Grundschaltung
+	\item \textbf{Mittel-Tieftonbereich:}\\ TDA2030-Leistungsverstärker mit Leistungstransistoren
+	\item \textbf{Bassbereich:}\\ TDA2030-Leistungsverstärker mit Leistungstransistoren in H-Brücke
+\end{itemize}
+Aus diesen Schaltungen erschließen sich folgenden maximale Ausgangsleistungen, bei asymmetrischer Spannungsversorgung von 24V und 1\% Klirrfaktor:\\
+\begin{itemize}
+	\item Hochton-Leistungsverstärker (an 8 Ohm): < 6W
+	\item Mittel-Tiefton-Leistungsverstärker (an 4 Ohm): < 11W
+	\item Bassbereich-Leistungsverstärker (an 4 Ohm): < 44W
+\end{itemize}
+
+Versorgt wird die Elektronik mit unter Akkubetrieb mit 12 V oder 24 V unter Netzbetrieb, genauere Erklärung im Kapitel \ref{sec:3.4}.
+Somit befindet man sich an der Untergrenze der Leistungs-Verstärker-Schaltungen, diese sind maximal bis \enquote{+/- 22V} oder \enquote{+ 44V asymmetrisch} ausgelegt.
+%Da eine Blei-Vlies-Batterie für das Projekt vorgesehen war und diese zumeist 12V liefern, ist die Entscheidung von einer 12V Spannungsversorgung sehr nahe.
+%Andere Alternativen wie zB. LiPo-Akkus könnten mehr Spannung und Strom liefern, diese sind jedoch um einiges vorsichtiger zu Behandeln (sehr hohe Energiedichte) und daher auch umständlicher (Lade-Überwachung, Brandgefahr).
 
 \newpage
 \section{Mehrweg-Lautsprechersysteme}\label{sec:3.2}
@@ -34,7 +51,7 @@ Ein Lautsprecher ist ein Bauelement, das ein elektrisches Signal in ein akustisc
 Dabei wird eine Membran in Schwingung versetzt, die wiederum die umgebende Luft zum Schwingen bringt und einen hörbaren Ton erzeugt.
 \\ \\
 Nun wird aber nicht jede Frequenz gleich gut von ein und demselben Lautsprecher abgestrahlt.
-Durch die physikalischen Gegebenheiten strahlen große Membranen tiefe Frequenzen besser ab, als hohe Frequenzen.
+Durch die physikalischen Gegebenheiten strahlen große Membranen tiefe Frequenzen besser ab als hohe Frequenzen.
 Daher ist es sinnvoll, mehrere Lautsprecher für verschiedene Frequenzbereiche zu verwenden.
 Benannt werden diese verschiedenen Lautsprecher durch den Bereich in dem sie am besten funktionieren.
 Beispielsweise Hochton-Lautsprecher oder Hochtöner für den Hochton-Bereich (>2,5 kHz).
