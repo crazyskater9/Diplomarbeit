@@ -2,7 +2,7 @@
 Nach einigen Überlegungen über die beste Herangehensweise an dieses Projekt, wurde folgendes Blockschaltbild entwickelt:
 \begin{figure} [H]
 	\centering
-	\includegraphics[width=1\textwidth]{img/blockschaltbild.png}
+	\includegraphics[width=1\textwidth]{img/blockschaltbildV2.png}
 	\caption{Blockschaltbild}
 	\label{fig:3.1.1}
 \end{figure}
@@ -52,25 +52,56 @@ Dabei wird eine Membran in Schwingung versetzt, die wiederum die umgebende Luft 
 \\ \\
 Nun wird aber nicht jede Frequenz gleich gut von ein und demselben Lautsprecher abgestrahlt.
 Durch die physikalischen Gegebenheiten strahlen große Membranen tiefe Frequenzen besser ab als hohe Frequenzen.
-Daher ist es sinnvoll, mehrere Lautsprecher für verschiedene Frequenzbereiche zu verwenden.
+In der Abbildung \ref{fig:3.2.1} wird der Audiobereich in drei Bereiche aufgeteilt, was auch der jeweiligen Lautsprecher-Charakteristik entspricht.\\
+Kennlinienbeschriftung:\\
+\begin{itemize}
+	\item \textbf{Hochton-Bereich}: Rot
+	\item \textbf{Mittel-Tiefton-Bereich}: Grün
+	\item \textbf{Tiefton(Bass)-Bereich}: Dunkelblau
+	\item \textbf{Summe der Bereiche}: Schwarz	
+\end{itemize}
+Es ist sinnvoll, mehrere Lautsprecher für verschiedene Frequenzbereiche zu verwenden.
 Benannt werden diese verschiedenen Lautsprecher durch den Bereich in dem sie am besten funktionieren.
 Beispielsweise Hochton-Lautsprecher oder Hochtöner für den Hochton-Bereich (>2,5 kHz).
 Wie gut nun verschiedene Frequenzen von einem Lautsprecher abgestrahlt werden, ist in seinem Frequenzgang ersichtlich:
 \begin{figure} [H]
 	\centering
-	\includegraphics[width=1\textwidth]{img/LSMessung/TT1_9,17l_bestes.png}
-	\caption{Beispiel eines Frequenzganges (Tieftöner PSS 297 58206)}
+	\includegraphics[width=1\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/Frequenzbereiche-Audio-cut.jpg}
+	\caption{Tiefton- ,Mittelton- und Hochton-Bereich - Beispiel}
 	\label{fig:3.2.1}
 \end{figure}
-Bei einem perfekten Lautsprecher würde diese Linie (Abb. \ref{fig:3.2.1}) eine parallele Gerade zur X-Achse bilden.
-Da so ein Lautsprecher aber nicht existiert, werden verschiedene Frequenzen auch mit einem verschiedenen Schalldruckpegel vom Lautsprecher abgestrahlt.
+\footnotetext{http://http://www.lavalu.de/images/Frequenzgang.jpg\\Zugriff: 23.03.2017}
+
+Bei einem perfekten Lautsprecher würde diese Linie bei 20 Hz beginnend (Abb. \ref{fig:3.2.1}) eine parallele Gerade zur X-Achse bilden, bis hin zu 20 kHz.
+Da so ein Lautsprecher nur eine ideale Annahme und nicht realisierbar ist, werden in der Praxis mehrere Lautsprecher zusammen verwendet um sich an dieses Ideal anzunähern.
+Wie in der Abbildung \ref{fig:3.2.1} gut ersichtlich ergeben die einzelnen Frequenzgänge der Lautsprecher aufsummiert den Gesamt-Frequenzgang (in Schwarz), der relativ linear ist.
+Unterhalb von 100 Hz ist zwar noch eine größere Lücke, die aber durch einen besseren Subwoofer ausgebessert werden könnte.\\
+Betrachtet man nur die \enquote{Dunkelblaue-Kurve} ist sofort ersichtlich, das über 400 Hz ein großer Teil an Signal fehlt.
+Diese ist auch ersichtlich bei der \enquote{Grünen-Kurve} bei dieser fehlt unterhalb von 400 Hz und oberhalb von 2 kHz ein großer Teil des Signals.
+Auch für die \enquote{Rot-Kurve} kann man diese bestimmen.
+Bei dieser fehlt der Frequenzbereich von unter 2 kHz.\\
+Schon aus den Grenzen dieser drei Kurven sind klarer Schnittpunkte ersichtlich.
+Diese Schnittpunkte der Kurven sind bewusst gewählt und werden durch Frequenzweichen realisiert.
+%Da so ein Lautsprecher aber nicht existiert, werden verschiedene Frequenzen auch mit einem verschiedenen Schalldruckpegel vom Lautsprecher abgestrahlt.
 \\
-In dem Beispiel (Abb. \ref{fig:3.2.1}) wurde ein Tieftöner gemessen.
-Das ist klar ersichtlich, da der Schalldruckpegel ab 5 kHz fast kontinuierlich fällt.
-Tiefere Frequenzen werden, in einem gewissen Bereich, gleich wiedergegeben.
-\\ \\
+Ein Beispiel für den Durchlassbereich dieser Frequenzweichen liefert die Abbildung \ref{fig:3.2.2}.
+In dieser sind die Eigenschaften der jeweiligen Filter gut ersichtlich (Siehe auch \ref{sec:8.4}).
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/Frequenzbereiche-Audio-Weiche-cut.jpg}
+	\caption{Tiefpass- ,Bandpass- und Hochpass-Weiche - Beispiel}
+	\label{fig:3.2.2}
+\end{figure}
+\footnotetext{http://www.audiovero.de/acourate-wiki/lib/exe/fetch.php?media=bilder\_funktionen:funkt\_bsp\_addition\_02.png\\Zugriff: 23.03.2017}
+
+Diese Schnittstellen können durch anders dimensionieren der Grenzfrequenzen der Frequenzweichen beeinflusst werden.
+Die Höhe des Pegels kann durch eingebaute Trimmer an den Lautsprecher und somit an die Pegel der anderen Lautsprecher angepasst werden.
+Ohne dieser Anpassung würden bestimmte Frequenzen lauter wiedergegeben werden als andere, was wieder einen nicht linearen Frequenzgang bedeuten würde.\\ \\
+
+
+\subsubsection*{Allgemeines zu Lautsprecher-Systemen}
 Je nach Frequenzbereich kann ein Ton vom menschlichen Ohr auch lokalisiert \mbox{werden}.
-Hohe Frequenzen (<20 kHz) sind besser lokalisierbar als tiefe Frequenzen.
+Hohe Frequenzen (>1 kHz) sind besser lokalisierbar als tiefe Frequenzen.
 Bei sehr niedrigen Frequenzen (<150 Hz) ist der Ton gar nicht mehr lokalisierbar.
 Diesen \mbox{Effekt} kann man nutzen und damit akustische Effekte erzeugen.
 Einige Lautsprecher-Systeme, die diesen Effekt nutzen sind:
@@ -79,18 +110,79 @@ Einige Lautsprecher-Systeme, die diesen Effekt nutzen sind:
 	\item 2.1-System
 	\item 5.1-System
 \end{itemize}
-Dabei steht die erste Zahl für die Anzahl der verteilten Lautsprecher und die zweite Zahl für die Anzahl der verwendeten Subwoofer.
+Dabei steht die erste Ziffer für die Anzahl der verteilten Lautsprecher und die zweite Ziffer für die Anzahl der verwendeten Subwoofer.
 \\
 Je mehr verteilte Lautsprecher benutzt werden, desto bessere Raumklang-Effekte sind realisierbar.
-Dadurch wird die Beschaltung aber auch komplizierter, da 5 verschiedene Audio-Signale verwendet werden.
+Dadurch wird die Beschaltung aber auch komplizierter, da 5+1 verschiedene Audio-Signale verwendet werden.
 \\ \\
 Der Subwoofer ist ein spezieller Lautsprecher.
-Er arbeitet im Bass-Bereich(20-150 Hz) und verarbeitet nur ein einziges Signal.
+Er arbeitet im Bass-Bereich(20-150 Hz).
 Diese Frequenzen sind nicht lokalisierbar, weshalb auch nur ein Subwoofer benötigt wird.
-Meistens ist die Membran des Subwoofers um einiges größer als die Membran der anderen Lautsprecher.
+Meistens ist die Membran des Subwoofers um einiges größer als die Membran anderer Lautsprecher.
 Damit kann der Subwoofer mehr Luft in Bewegung setzen und somit einen höheren Schalldruckpegel erzeugen.
-Um das zu ermöglichen benötigt der Subwoofer aber auch mehr Leistung als die anderen Lautsprecher.
+Um das zu ermöglichen benötigt der Subwoofer aber auch mehr Leistung als ein Lautsprecher für einen anderen Frequenzbereich.
 \\ \\
+
+Zu den Verschiedenen Lautsprecher-Systemen:
+\subsubsection*{2.0-System}
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital20-cut.jpg}
+	\caption{2.0-Lautsprecher-System}
+	\label{fig:3.2.3}
+\end{figure}
+\footnotetext{Editiert:\enquote{https://upload.wikimedia.org/wikipedia/commons/6/62/DOLBY\_Digital\_5.1.png}\\Zugriff: 23.03.2017}
+
+Dieses System bestehend aus Linker- und Rechter- Lautsprecher-Box (Abb. \ref{fig:3.2.3}), eignet sich bereits für Stereo-Klang.
+Meistens beinhalten diese Boxen einen Hochton-Lautsprecher und einen Tiefton-Lautsprecher.
+Diese müssen eine entsprechende Qualität aufweisen, um ohne Mittelton-Lautsprecher aus zu kommen.\\
+Eine Variante mit drei verschiedenen verbauten Lautsprecher-Chassis, für jeden Frequenzbereich, ist auch üblich.
+Der Vorteil von dieser Bauart ist, dass die Lautsprecher-Chassis einen geringeren Bereich mit einem linearen Frequenzgang abdecken müssen und daher zumeist von geringerer Qualität sein können.\\
+Für dieses System werden zu mindestens die Aufteilung in zwei Audio-Signale benötigt.
+Links und Rechts.\\
+Wie bereits erwähnt wird auch ein Tiefton-Lautsprecher verbaut.
+Dieser gilt aber nicht als Subwoofer, da er:
+\begin{enumerate}
+	\item In einer Lautsprecher-Box mit Lautsprecher-Chassis für andere Frequenzbereiche verbaut ist
+	\item Nicht nur den nicht-lokalisierbaren Frequenzbereich abstrahlt
+\end{enumerate}
+Aus vorher genannten Gründen und da die Position der Lautsprecher-Box einen Einfluss auf den Klang hat und der verbaute Tiefton-Lautsprecher dadurch nicht im Raum beliebig platziert werden kann, ist das Lautsprecher-System ein \enquote{2.0-System}.\\ \\
+
+
+
+\subsubsection*{2.1-System}
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital21-cut.jpg}
+	\caption{2.1-Lautsprecher-System}
+	\label{fig:3.2.4}
+\end{figure}
+\footnotetext{Editiert:\enquote{https://upload.wikimedia.org/wikipedia/commons/6/62/DOLBY\_Digital\_5.1.jpg}\\Zugriff: 23.03.2017}
+
+Dieses System besteht aus 2 + 1 Lautsprecher-Boxen.
+Eine Linke-, eine Rechte- und eine Subwoofer-Box.
+Hier ist wiederum Stereo-Klang möglich, nun aber mit Unterstützung für den Bass-Bereich (<150 Hz).
+Die Anordnung Boxen Links und Rechts ist vorgegeben.
+Die Subwoofer-Box darf im Raum verstellt werden, da wie bereits erklärt die abgestrahlten Frequenzen des Subwoofers nicht lokalisierbar sind.\\
+Für dieses System werden zu mindestens die Aufteilung in drei Audio-Signale benötigt.
+Links, Rechts, (Links+Rechts)-Bass-Bereich.\\
+Für die meisten allgemeinen Konsumenten-Anwendungen wird ein 2.1-System verwendet.\\ 
+
+
+
+\subsubsection*{5.1-System}
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital51-cut.jpg}
+	\caption{5.1-Lautsprecher-System}
+	\label{fig:3.2.5}
+\end{figure}
+\footnotetext{Editiert:\enquote{https://upload.wikimedia.org/wikipedia/commons/6/62/DOLBY\_Digital\_5.1.png}\\Zugriff: 23.03.2017}
+
+
+
+
+
 In unserem Projekt haben wir uns direkt für ein 2.1-System entschieden, da sich dieses System am besten bewährt hat und für Musik ein Stereo-System völlig ausreicht.
 Die zwei verteilten Boxen, auch Satelliten genannt, sind mit je einem Hochton- und einem Tiefton-Lautsprecher ausgestattet und werden über Kabeln mit der Hauptbox verbunden.
 Damit sollen die Satelliten fast den gesamten Frequenzbereich für Audio (20 Hz bis 20 kHz) abdecken.
