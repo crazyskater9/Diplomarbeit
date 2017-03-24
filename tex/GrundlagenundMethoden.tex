@@ -95,9 +95,9 @@ In dieser sind die Eigenschaften der jeweiligen Filter gut ersichtlich (Siehe au
 
 Diese Schnittstellen können durch anders dimensionieren der Grenzfrequenzen der Frequenzweichen beeinflusst werden.
 Die Höhe des Pegels kann durch eingebaute Trimmer an den Lautsprecher und somit an die Pegel der anderen Lautsprecher angepasst werden.
-Ohne dieser Anpassung würden bestimmte Frequenzen lauter wiedergegeben werden als andere, was wieder einen nicht linearen Frequenzgang bedeuten würde.\\ \\
+Ohne dieser Anpassung würden bestimmte Frequenzen lauter wiedergegeben werden als andere, was wieder einen nicht linearen Frequenzgang bedeuten würde.
 
-
+\newpage
 \subsubsection*{Allgemeines zu Lautsprecher-Systemen}
 Je nach Frequenzbereich kann ein Ton vom menschlichen Ohr auch lokalisiert \mbox{werden}.
 Hohe Frequenzen (>1 kHz) sind besser lokalisierbar als tiefe Frequenzen.
@@ -122,6 +122,7 @@ Damit kann der Subwoofer mehr Luft in Bewegung setzen und somit einen höheren S
 Um das zu ermöglichen benötigt der Subwoofer aber auch mehr Leistung als ein Lautsprecher für einen anderen Frequenzbereich.
 \\ \\
 
+\newpage
 Zu den Verschiedenen Lautsprecher-Systemen:
 \subsubsection*{2.0-System}
 \begin{figure} [H]
@@ -275,7 +276,7 @@ Der Chip benötigt einen externen Speicher und eine Antenne (auf dem Modul) um o
 
 \newpage
 \section{Spannungsversorgung}\label{sec:3.4}
-Die gesamte Box soll portabel sein, d.h. ohne externe Stromzufuhr funktionieren.
+Die gesamte Box soll portabel sein, d.h. auch ohne externe Stromzufuhr funktionieren.
 Dafür ist ein Akku notwendig.
 Nach einigen Überlegungen haben wir uns für einen Blei-Vlies-Akku entschieden.
 Gründe dafür sind:
@@ -285,15 +286,15 @@ Gründe dafür sind:
 	\item Geringere Gefahr gegenüber Lithium-Akkus
 	\item Wegen Vlies-Technik: Kein Auslaufen von chemischen Substanzen
 \end{itemize}
-Dieser Akku versorgt grundsätzlich die Elektronik mit 12 V und wird über ein passendes Ladegerät aufgeladen.
-Da aber mit dieser, relativ geringen, Spannung nur eher kleine Leistungen zu erwarten sind, kam die Idee auf, die Verstärker bei externer Versorgung durch das Stromnetz (230 V / AC) mit einer größeren Spannung (24 V) zu versorgen.
+Dieser Akku versorgt die Elektronik mit 12 V (DC) und wird über ein passendes Ladegerät aufgeladen.
+Da aber mit dieser, relativ geringen Spannung nur eher kleine Leistungen zu erwarten sind, kam die Idee auf, die Verstärker und Weichen bei externer Versorgung durch das Stromnetz (230 V / AC) mit einer größeren Spannung (24 V / DC) zu versorgen.
 Um das zu realisieren wird ein Netzteil, in unserem Fall ein Schaltnetzteil benötigt.
 Falls das Gerät am externen Stromnetz hängt, wird die Versorgung der Verstärker automatisch mithilfe eines passenden Relais umgeschaltet.
 Diese Lösung wurde gewählt, da sie sehr simpel ist und gut funktioniert.
 Veranschaulicht wird das Konzept durch diese Schaltung:
 \begin{figure} [H]
 	\centering	
-	\includegraphics[width=1\textwidth]{img/Grundlagen/Versorgung.png}
+	\includegraphics[width=1\textwidth]{img/Grundlagen/VersorgungV2.png}
 	\caption{Versorgungskonzept}
 	\label {fig:3.4.1}
 \end{figure}

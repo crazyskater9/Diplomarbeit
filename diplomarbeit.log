@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  24 MAR 2017 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  24 MAR 2017 18:46
 entering extended mode
 **./diplomarbeit.tex
 (diplomarbeit.tex
@@ -2324,12 +2324,12 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 
-<img/blockschaltbildV2.png, id=396, 907.13907pt x 600.74437pt>
+<img/blockschaltbildV2.png, id=396, 904.1278pt x 605.26125pt>
 File: img/blockschaltbildV2.png Graphic file (type png)
 
 <use img/blockschaltbildV2.png>
 Package pdftex.def Info: img/blockschaltbildV2.png used on input line 5.
-(pdftex.def)             Requested size: 430.20644pt x 284.89821pt.
+(pdftex.def)             Requested size: 430.20644pt x 287.99155pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--19
 
@@ -2421,24 +2421,14 @@ Overfull \hbox (82.3073pt too wide) in paragraph at lines 94--94
 dia=bilder_funktionen:funkt_bsp_addition_02.png 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--99
-
- []
-
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 100.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 100.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 100.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 100.
 [7 <./img/Grundlagen/Mehrweg-Lautsprechersysteme/Frequenzbereiche-Audio-Weiche-
 cut.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 112--124
@@ -2455,39 +2445,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--124
 
  []
 
-
-<img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital20-cut.jpg, id=429, 265
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 125.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 125.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 125.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 125.
+[8]
+<img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital20-cut.jpg, id=434, 265
 .74281pt x 213.04594pt>
 File: img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital20-cut.jpg Graphic
  file (type jpg)
 
 <use img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital20-cut.jpg>
 Package pdftex.def Info: img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigita
-l20-cut.jpg used on input line 129.
+l20-cut.jpg used on input line 130.
 (pdftex.def)             Requested size: 215.10321pt x 172.45247pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 133.
+Package hyperref Warning: Ignoring empty anchor on input line 134.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 133.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 133.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 133.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 133.
- [8]
-Overfull \hbox (0.75008pt too wide) in paragraph at lines 135--141
+Overfull \hbox (0.75008pt too wide) in paragraph at lines 136--142
 \T1/cmr/m/n/12 quenz-be-reich, ist auch üb-lich. Der Vor-teil von die-ser Bau-a
 rt ist, dass die Lautsprecher-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--148
+Underfull \hbox (badness 10000) in paragraph at lines 147--149
 
  []
 
@@ -2499,44 +2486,44 @@ File: img/Grundlagen/Mehrweg-Lautsprechersysteme/opt-20-aufstellung.jpg Graphic
 
 <use img/Grundlagen/Mehrweg-Lautsprechersysteme/opt-20-aufstellung.jpg>
 Package pdftex.def Info: img/Grundlagen/Mehrweg-Lautsprechersysteme/opt-20-aufs
-tellung.jpg used on input line 151.
+tellung.jpg used on input line 152.
 (pdftex.def)             Requested size: 215.10321pt x 146.27853pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 155.
+Package hyperref Warning: Ignoring empty anchor on input line 156.
 
 
-Overfull \hbox (85.51485pt too wide) in paragraph at lines 155--155
+Overfull \hbox (85.51485pt too wide) in paragraph at lines 156--156
 [][][]\T1/cmr/m/n/10 Editiert:https://images-eu.ssl-images-amazon.com/images/G/
 03/electronics/aplus/B0059DM2FE.001._SL300_.jpg 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 156.
 [9 <./img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital20-cut.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 168.
 [10 <./img/Grundlagen/Mehrweg-Lautsprechersysteme/opt-20-aufstellung.jpg>]
 <img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital21-cut.jpg, id=454, 310
 .91156pt x 213.04594pt>
@@ -2545,14 +2532,14 @@ File: img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital21-cut.jpg Graphic
 
 <use img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital21-cut.jpg>
 Package pdftex.def Info: img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigita
-l21-cut.jpg used on input line 171.
+l21-cut.jpg used on input line 172.
 (pdftex.def)             Requested size: 215.10321pt x 147.39519pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 175.
+Package hyperref Warning: Ignoring empty anchor on input line 176.
 
 
-Overfull \hbox (1.69237pt too wide) in paragraph at lines 177--191
+Overfull \hbox (1.69237pt too wide) in paragraph at lines 178--192
 \T1/cmr/m/n/12 Da der Sub-woofer nur einen sehr ge-rin-gen Teil des Fre-quenz-g
 angs über-nimmt (20...150
  []
@@ -2565,63 +2552,63 @@ File: img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital51-cut.jpg Graphic
 
 <use img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital51-cut.jpg>
 Package pdftex.def Info: img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigita
-l51-cut.jpg used on input line 197.
+l51-cut.jpg used on input line 198.
 (pdftex.def)             Requested size: 215.10321pt x 221.87404pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 201.
+Package hyperref Warning: Ignoring empty anchor on input line 202.
 
 
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 202.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 201.
+(babel)             in language  on input line 202.
  [11 <./img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital21-cut.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 213--221
+Underfull \hbox (badness 10000) in paragraph at lines 214--222
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--221
+Underfull \hbox (badness 10000) in paragraph at lines 214--222
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 228.
+(babel)             in language  on input line 229.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 228.
+(babel)             in language  on input line 229.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 228.
+(babel)             in language  on input line 229.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 228.
+(babel)             in language  on input line 229.
 [12 <./img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital51-cut.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 230.
+(babel)             in language  on input line 231.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 230.
+(babel)             in language  on input line 231.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 230.
+(babel)             in language  on input line 231.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 230.
+(babel)             in language  on input line 231.
 
 [13]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 231.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 231.
+(babel)             in language  on input line 232.
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--247
+Underfull \hbox (badness 10000) in paragraph at lines 233--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--247
+Underfull \hbox (badness 10000) in paragraph at lines 233--248
 
  []
 
@@ -2630,54 +2617,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--247
 File: img/Grundlagen/Bluetooth/BT-uebertragung-cut.jpg Graphic file (type jpg)
 <use img/Grundlagen/Bluetooth/BT-uebertragung-cut.jpg>
 Package pdftex.def Info: img/Grundlagen/Bluetooth/BT-uebertragung-cut.jpg used 
-on input line 250.
+on input line 251.
 (pdftex.def)             Requested size: 430.20644pt x 193.59106pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 254.
+Package hyperref Warning: Ignoring empty anchor on input line 255.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
 \T1/cmr/m/n/10 http://icon-icons.com/icons2/875/PNG/512/big-music-player-speake
 r_icon-
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 259.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 259.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 259.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 258.
+(babel)             in language  on input line 259.
 [14 <./img/Grundlagen/Bluetooth/BT-uebertragung-cut.jpg>]
 <img/BTModul/blockschaltbild.png, id=481, 523.9575pt x 345.54094pt>
 File: img/BTModul/blockschaltbild.png Graphic file (type png)
 
 <use img/BTModul/blockschaltbild.png>
-Package pdftex.def Info: img/BTModul/blockschaltbild.png used on input line 271
+Package pdftex.def Info: img/BTModul/blockschaltbild.png used on input line 272
 .
 (pdftex.def)             Requested size: 430.20644pt x 283.71974pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 277.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 277.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 277.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 277.
  [15 <./img/BTModul/blockschaltbild.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 277.
+(babel)             in language  on input line 278.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 277.
+(babel)             in language  on input line 278.
 
-<img/Grundlagen/Versorgung.png, id=492, 1177.39874pt x 399.74344pt>
-File: img/Grundlagen/Versorgung.png Graphic file (type png)
+<img/Grundlagen/VersorgungV2.png, id=492, 1017.04968pt x 366.61969pt>
+File: img/Grundlagen/VersorgungV2.png Graphic file (type png)
 
-<use img/Grundlagen/Versorgung.png>
-Package pdftex.def Info: img/Grundlagen/Versorgung.png used on input line 296.
-(pdftex.def)             Requested size: 430.20644pt x 146.06067pt.
+<use img/Grundlagen/VersorgungV2.png>
+Package pdftex.def Info: img/Grundlagen/VersorgungV2.png used on input line 297
+.
+(pdftex.def)             Requested size: 430.20644pt x 155.07567pt.
 )
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 146.
@@ -2687,7 +2675,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 146.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 146.
- [16 <./img/Grundlagen/Versorgung.png>]
+ [16 <./img/Grundlagen/VersorgungV2.png>]
 chapter 4.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 146.
@@ -4539,7 +4527,7 @@ Package rerunfilecheck Info: File `diplomarbeit.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  43181 strings out of 493333
- 898330 string characters out of 3139197
+ 898340 string characters out of 3139197
  1159442 words of memory out of 3000000
  45577 multiletter control sequences out of 15000+200000
  38318 words of font info for 66 fonts, out of 3000000 for 9000
@@ -4571,7 +4559,7 @@ pe1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 s/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on diplomarbeit.pdf (106 pages, 11372215 bytes).
+Output written on diplomarbeit.pdf (106 pages, 11338704 bytes).
 PDF statistics:
  1845 PDF objects out of 2073 (max. 8388607)
  335 named destinations out of 1000 (max. 500000)
