@@ -57,7 +57,7 @@ Es wird auch für geringfügigen Betrieb ein Kühlkörper empfohlen!
 	\item +Vs = positive Versorgungsspannung		
 \end{enumerate}
 
-\newpage
+%\newpage
 \subsection{Absolute Maximalwerte}\label{subsec:8.3.1}
 Diese Werte wurden zu aller erst mit den Bedingungen an der Schaltung verglichen, da sie ein sehr genaue, kurze Übersicht über den Baustein liefern. (Abb. \ref{fig:8.3.1.1})
 \begin{figure} [H]
@@ -87,7 +87,7 @@ Die Schaltung ist grundsätzlich für symmetrische und asymmetrische Versorgungs
 Die Schaltung ist für 4 und 8 Ohm Lautsprecher spezifiziert.
 \begin{figure} [H]
 	\centering
-	\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030-Grundschaltung.png}
+	\includegraphics[width=0.9\textwidth]{img/Grundlagen/TDA2030/TDA2030-Grundschaltung.png}
 	\caption[TDA2030-Grundschaltung]{TDA2030-Grundschaltung\footnotemark}
 	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.)
 	\label {fig:8.3.2.1}
@@ -104,7 +104,7 @@ Des weiteren sind die Leistungstransistoren im besten Fall aus der selben Famili
 Verwendet wird ein PNP-Leistungstransistor für die positive Halbwelle des Signals und ein NPN-Leistungstransistor für die negative Halbwelle.
 \begin{figure} [H]
 	\centering
-	\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030-Leistungstransschaltung.jpg}
+	\includegraphics[width=0.9\textwidth]{img/Grundlagen/TDA2030/TDA2030-Leistungstransschaltung.jpg}
 	\caption[TDA2030-Leistungstransistorschaltung]{TDA2030-Leistungstransistorschaltung\footnotemark}
 	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.)
 	\label {fig:8.3.3.1}
@@ -112,6 +112,7 @@ Verwendet wird ein PNP-Leistungstransistor für die positive Halbwelle des Signa
 \end{figure}
 \footnotetext{http://www.audiofanatic.it/Schemi/Tipo/Stato\_solido/chip/pic\_chip/TDA\_2030\_BD711\_712.jpg,\\Zugriff: 16.02.2017}
 
+\newpage
 \subsection{H-Brückenschaltung der TDA2030-Verstärkerschaltung}\label{subsec:8.3.4}
 Um noch mehr aus dem TDA2030 herauszuholen kann man zwei dieser Verstärker in H-Brücke (Abb. \ref{fig:8.3.4.1}) gegeneinander schalten.
 Ein TDA2030 verstärkt das originale Signal, währenddessen der Zweite das um 90° phasenverschobene Signal erhält und dieses verstärkt.
@@ -123,7 +124,7 @@ Beim Messen der Schaltung ist Vorsicht geboten, da beim Anschließen der Tastkop
 Es kann in diesem Fall auch die Leistungstransistorschaltung in H-Brücke geschaltet werden um noch mehr aus der Sache heraus zu holen.
 \begin{figure} [H]
 	\centering
-	\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030-H-Bruecke.PNG}
+	\includegraphics[width=0.75\textwidth]{img/Grundlagen/TDA2030/TDA2030-H-Bruecke.PNG}
 	\caption[TDA2030-H-Brückenschaltung]{TDA2030-H-Brückenschaltung\footnotemark}
 	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.)
 	\label {fig:8.3.4.1}
@@ -268,6 +269,15 @@ Fällt der Pegel viel mehr als der definierte Welligkeitsbereich, wird der Lauts
 Dadurch ist es möglich einen anderen Lautsprecher diese Bereich zu übernehmen und die Schwäche des anderen auszubessern.\\ \\
 Ziel eines Lautsprechersystems ist es über den ganzen Audiobereich, 20 Hz bis 20 kHz, einen linearen bzw. näherungsweise linearen Frequenzgang zu erhalten.
 
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{img/Optimierung/TT/TT1_ohneAllem_welligkeit.png}
+	\caption{PSS 297 58206 (\enquote{TT1}) ohne Volumsverminderung \\Volumen = 13,72 l}
+	\label{fig:8.6.1}
+\end{figure}
+
+In diesem Fall (Abb. \ref{fig:8.6.1}) würde man diesen Lautsprecher nur von ungefähr 60 Hz bis 400 Hz, unter beachten der Grenzen, spielen lassen.
+In der Praxis werden kleinere Ausreißer toleriert, sofern es sich nicht um ein Qualitätsprodukten handelt.
 
 
 

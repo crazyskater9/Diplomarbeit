@@ -51,18 +51,17 @@
 \contentsline {section}{\numberline {8.1}Einstellungen f\IeC {\"u}r die PCB-Entwicklung in \enquote {Altium Designer}}{76}{section.8.1}
 \contentsline {section}{\numberline {8.2}Designregeln f\IeC {\"u}r die PCB-Entwicklung}{76}{section.8.2}
 \contentsline {section}{\numberline {8.3}TDA2030}{77}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Absolute Maximalwerte}{79}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}TDA2030-Grundschaltung}{79}{subsection.8.3.2}
-\contentsline {subsection}{\numberline {8.3.3}Leistungstransistor-Schaltung}{81}{subsection.8.3.3}
-\contentsline {subsection}{\numberline {8.3.4}H-Br\IeC {\"u}ckenschaltung der TDA2030-Verst\IeC {\"a}rkerschaltung}{82}{subsection.8.3.4}
-\contentsline {section}{\numberline {8.4}Filter}{83}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}Butterworth-Filter 2. Ordnung}{84}{subsection.8.4.1}
-\contentsline {section}{\numberline {8.5}Nicht invertierende Verst\IeC {\"a}rker - OPV-Grundschaltung}{86}{section.8.5}
-\contentsline {subsection}{\numberline {8.5.1}Asymmetrische Versorgung eines OPV's}{87}{subsection.8.5.1}
-\contentsline {section}{\numberline {8.6}Welligkeit}{87}{section.8.6}
-\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{89}{chapter*.115}
-\contentsline {chapter}{Abbildungsverzeichnis}{91}{section*.116}
-\contentsline {chapter}{Danksagungen}{93}{section*.118}
-\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. ABCD}{93}{section*.120}
-\contentsline {subparagraph}{\nonumberline FL Ing. DEFG}{93}{section*.121}
-\contentsline {chapter}{Literaturverzeichnis}{94}{section*.122}
+\contentsline {subsection}{\numberline {8.3.1}Absolute Maximalwerte}{78}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}TDA2030-Grundschaltung}{78}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}Leistungstransistor-Schaltung}{80}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.4}H-Br\IeC {\"u}ckenschaltung der TDA2030-Verst\IeC {\"a}rkerschaltung}{81}{subsection.8.3.4}
+\contentsline {section}{\numberline {8.4}Filter}{82}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Butterworth-Filter 2. Ordnung}{82}{subsection.8.4.1}
+\contentsline {section}{\numberline {8.5}Nicht invertierende Verst\IeC {\"a}rker - OPV-Grundschaltung}{84}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Asymmetrische Versorgung eines OPV's}{85}{subsection.8.5.1}
+\contentsline {section}{\numberline {8.6}Welligkeit}{86}{section.8.6}
+\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{87}{chapter*.116}
+\contentsline {chapter}{Abbildungsverzeichnis}{89}{section*.117}
+\contentsline {chapter}{Danksagungen}{91}{section*.119}
+\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. Dr. Herbert Wagner}{91}{section*.121}
+\contentsline {chapter}{Literaturverzeichnis}{92}{section*.122}
