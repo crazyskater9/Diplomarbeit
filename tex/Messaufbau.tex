@@ -34,12 +34,12 @@
 %\end{itemize}
 %Diese Eigenschaften, sowie auch die Impedanz \emph{Z}, beschreiben ebenfalls das Verhalten eines Lautsprechers. Sie wurden aber nicht von uns gemessen, weil der Fokus unseres Projekts eher an der Optimierung des Frequenzganges liegt. Die Thiele-Small-Paramter sind außerdem nicht veränderbar, also auch nicht optimierbar.
 
-Um Lautsprecher mit geeigneten Eigenschaften auswählen zu können, müssen zunächst ausgewählte Lautsprecher gemessen und verglichen werden.
+Um Lautsprecher mit geeigneten Eigenschaften auswählen zu können, müssen zunächst verschiedene Lautsprecher gemessen und verglichen werden.
 
 \section{Messaufbau und Messung}\label{sec:4.1}
 Um überhaupt präzise Messungen an Lautsprechern durchführen zu können, benötigt man einen geeigneten Messraum.
 Die HTBLuVA St. Pölten verfügt glücklicherweise über so einen reflexionsarmer Raum (Abb. \ref{fig:4.1.1}).
-Dieser ist innen mit schalldämpfenden Material ausgekleidet und dämpft somit jede Schallwelle in ihm.
+Dieser ist innen mit schalldämpfendem Material ausgekleidet und dämpft somit jede Schallwelle.
 Die Anordnung und Struktur der an der Wand befestigten Absorberkeile ist ausschlaggeben dafür, dass der Raum eine relfexionsarme Umgebung aufweist.
 Der Raum ist auf allen Seiten mit Absorberkeilen bestückt.
 Es ist absichtlich ein 6-eckiger Raum um mögliche stehende Wellen noch besser zu unterdrücken.\\
@@ -55,7 +55,7 @@ Aus diesem Grund wurden die Messungen bei verdacht eines äußeren Einflusses er
 \end{figure}
 %\newpage
 In diesem Raum (Abb. \ref{fig:4.1.1}) wurden alle Lautsprecher-Chassis gemessen.\\
-Um auch ein passendes Mess-Signal erzeugen zu können ist noch weiteres Equipment nötig:
+Um auch ein passendes Mess-Signal zu erzeugen, ist noch weiteres Equipment nötig:
 \begin{itemize}
 	\item Mess-Software \enquote{PULSE LabShop Version 13.5.0} von \enquote{Brüel \& Kj\ae r}
 	\item USB-Dongle zur Aktivierung der Software
@@ -69,8 +69,8 @@ Um auch ein passendes Mess-Signal erzeugen zu können ist noch weiteres Equipmen
 \newpage
 \subsection*{Software}\label{subsec:4.1.1}
 Als Software wurde \enquote{PULSE LabShop Version 13.5.0} von \enquote{Brüel \& Kj\ae r} verwendet.
-Der Mess-PC basierte auf dem Betriebssystem \enquote{Windows XP}.
-Um diese Software ordnungsgemäß verwenden zu können wird noch ein USB-Dongle benötigt.
+Der Mess-PC basiert auf dem Betriebssystem \enquote{Windows XP}.
+Um diese Software ordnungsgemäß verwenden zu können, wird noch ein USB-Dongle benötigt.
 Nur mit diesem Dongle lässt sich die Software, und somit die Messung, aktivieren.
 \begin{figure} [H]
 	\centering
@@ -78,18 +78,19 @@ Nur mit diesem Dongle lässt sich die Software, und somit die Messung, aktiviere
 	\caption{Auschnitt aus der Software \enquote{PULSE LabShop}}
 	\label{fig:4.1.1.1}
 \end{figure}
-In der Abbildung \ref{fig:4.1.1.1} ist bereits ein gemessener Frequenzgang eines Tieftöners zu sehen. Bei den Messungen wurde eine abgespeicherte vorkonfigurierte Datei verwendet, da man sonst immer wieder die nötigen Einstellungen treffen müsste.
+In der Abbildung \ref{fig:4.1.1.1} ist bereits ein gemessener Frequenzgang eines Tiefton-Lautsprecher zu sehen.
+Bei den Messungen wurde eine abgespeicherte vorkonfigurierte Datei verwendet, damit man nicht immer wieder die nötigen Einstellungen treffen muss.
 Die Software ist damit auf alle verwendeten Komponenten abgestimmt und sendet auch das richtige Mess-Signal, ein (\enquote{Weißes Rauschen}), aus.
 Mit einem Klick auf die Start-Taste beginnt der Messvorgang.
 Es werden insgesamt 100 Messungen gemittelt um einen möglichst genauen Frequenzgang aufnehmen zu können.
-Dies dauert in etwa 20s.
+Dies dauert in etwa 20 s.
 \\
 Die Messeinstellungen sind je nach Wunsch veränderbar, ebenso wie die Angaben und Einheiten der 2 Achsen.
-Die Frequenzachse ist logarithmisch von 20Hz bis 20kHz dargestellt.
-Die Achse des Schalldruckpegels ist in der Einheit dB angegeben, da die Einheit für Schalldruck \enquote{Pascal} einen Bereich von µPa bis Pa darstellen müsste.
+Die Frequenzachse ist logarithmisch von 20 Hz bis 20 kHz dargestellt.
+Die Achse des Schalldruckpegels ist in der logarithmischen Einheit dB (vollständig dBSPL - Sound Pressure Level) angegeben, da die Einheit für Schalldruck \enquote{Pascal} einen Bereich von µPa bis Pa darstellen muss.
 Das dB-Maß erleichtert die Veranschaulichung und macht die Kurve übersichtlicher.
-In diesem Beispiel (Abb. \ref{fig:4.1.1.1}) ist der Bereich von 0dB bis 80dB gewählt.
-Diese Einstellung wurde später geändert auf 0dB bis 60dB um möglichst vergleichbare Messungen zu erzeugen.\\
+In diesem Beispiel (Abb. \ref{fig:4.1.1.1}) ist der Bereich von 0 dB bis 80 dB gewählt.
+Diese Einstellung wurde von uns geändert auf 0 dB bis 60 dB um möglichst vergleichbare Messungen zu erzeugen.\\
 Eine logarithmischen Frequenzachse und eine Pegelachse von 0 bis 60 (in dB), wird normalerweise für den Vergleich von Lautsprecher-Chassis verwendet.
 
 \newpage
@@ -123,7 +124,7 @@ Prinzipiell kann für diesen Aufbau jeder Leistungsverstärker verwendet werden.
 In unserem Fall war ein kalibrierter \enquote{Brüel \& Kj\ae r Power Amplifier Type 2706} in Verwendung.
 \\
 Da meist nur ein Lautsprecher gemessen wird, benötigt man auch nur ein Signal (Mono, kein Stereo) zum Messen.
-Der Verstärker verfügt über einen, in Stufen schaltbaren, Abschwächer und einen stufenlosen \enquote{Gain Control}.\\
+Der Verstärker verfügt über einen in Stufen schaltbaren Abschwächer und einen stufenlosen \enquote{Gain Control}.\\
 Da die anderen Messkomponenten in dem Aufbau auch von der Firma  \enquote{Brüel \& Kj\ae r} sind, weist der Verstärker eine hohe Kompatibilität zum restlichen Equipment auf.
 \begin{figure} [H]
 	\centering
@@ -134,12 +135,12 @@ Da die anderen Messkomponenten in dem Aufbau auch von der Firma  \enquote{Brüel
 
 \subsection*{Messmikrofon}\label{subsec:4.1.4}
 Um den Schalldruckpegel möglichst präzise messen zu können, wird auch ein dementsprechend genaues und kalibriertes Messmikrofon benötigt.
-Das bei uns verwendete Messmikrofon war das \enquote{Brüel \& Kj\ae r Type 2669}.
+In diesem Projekt wurde das Messmikrofon \enquote{Brüel \& Kj\ae r Type 2669} verwendet.
 \\
 Ebenfalls wichtig ist die Ausrichtung des Messmikrofons.
-Es sollte immer auf den Lautsprecher, in der Höhe und Seitlich, zentriert angebracht werden.
+Es sollte immer auf den Lautsprecher zentriert (horizontal und vertikal) angebracht werden.
 Die Entfernung zum Messobjekt (1 m) muss bei verschiedenen Lautsprechern gleich bleiben, um vergleichbare Messungen zu ermöglichen.
-Bei einem Zwei-Weg-System (Hoch- und Tieftöner) wurde das Mikrofon (vertikal gesehen) zwischen den Lautsprechern befestigt.
+Bei einem Zwei-Weg-System (Hoch- und Tiefton-Lautsprecher) wurde das Mikrofon (vertikal gesehen) zwischen den Lautsprechern befestigt.
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.4\textwidth]{img/LSMessung/mikroV2.png}

@@ -1,5 +1,5 @@
 \section{Blockschaltbild des Projekts}\label{sec:3.1}
-Nach einigen Überlegungen über die beste Herangehensweise an dieses Projekt, wurde folgendes Blockschaltbild entwickelt:
+Nach einigen Überlegungen über die beste Herangehensweise an dieses Projekt wurde folgendes Blockschaltbild entwickelt:
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/blockschaltbildV2.png}
@@ -24,8 +24,8 @@ Insgesamt gibt es dann also 5 Signale, die weiterverarbeitet werden:
 	\item Mono-Bassbereich
 \end{itemize}
 
-Die verschiedenen Audio-Signale werden dann mit je einem Leistungs-Verstärker verstärkt.
-Die Ausgangsleistung der Leistungs-Verstärker variiert je nach Frequenzbereichen.
+Die verschiedenen Audio-Signale werden dann mit je einem Leistungs-Verstärker auf einen höheren Pegel gebracht.
+Die Ausgangsleistung der Leistungs-Verstärker variiert je nach Frequenzbereich.
 Dies ist bedingt durch die verwendete Verstärkerschaltung.\\
 Diese Schaltungen sind für:
 \begin{itemize}
@@ -33,15 +33,16 @@ Diese Schaltungen sind für:
 	\item \textbf{Mittel-Tieftonbereich:}\\ TDA2030-Leistungsverstärker mit Leistungstransistoren
 	\item \textbf{Bassbereich:}\\ TDA2030-Leistungsverstärker mit Leistungstransistoren in H-Brücke
 \end{itemize}
-Aus diesen Schaltungen erschließen sich folgenden maximale Ausgangsleistungen, bei asymmetrischer Spannungsversorgung von 24V und 1\% Klirrfaktor:\\
+Aus diesen Schaltungen erschließen sich folgende maximale Ausgangsleistungen bei asymmetrischer Spannungsversorgung von 24V und 1\% Klirrfaktor:\\
 \begin{itemize}
 	\item Hochton-Leistungsverstärker (an 8 Ohm): < 6W
 	\item Mittel-Tiefton-Leistungsverstärker (an 4 Ohm): < 11W
 	\item Bassbereich-Leistungsverstärker (an 4 Ohm): < 44W
 \end{itemize}
 
-Versorgt wird die Elektronik mit unter Akkubetrieb mit 12 V oder 24 V unter Netzbetrieb, genauere Erklärung im Kapitel \ref{sec:3.4}.
-Somit befindet man sich an der Untergrenze der Leistungs-Verstärker-Schaltungen, diese sind maximal bis \enquote{+/- 22V} oder \enquote{+ 44V asymmetrisch} ausgelegt.
+Versorgt wird die Elektronik unter Akkubetrieb mit 12 V oder 24 V unter Netzbetrieb, genauere Erklärung im Kapitel \ref{sec:3.4}.
+Somit sind die Leistungs-Verstärker-Schaltungen noch nicht stark ausgelastet, da diese für maximal \enquote{+/- 22V} oder \enquote{+ 44V asymmetrisch} ausgelegt sind.
+
 %Da eine Blei-Vlies-Batterie für das Projekt vorgesehen war und diese zumeist 12V liefern, ist die Entscheidung von einer 12V Spannungsversorgung sehr nahe.
 %Andere Alternativen wie zB. LiPo-Akkus könnten mehr Spannung und Strom liefern, diese sind jedoch um einiges vorsichtiger zu Behandeln (sehr hohe Energiedichte) und daher auch umständlicher (Lade-Überwachung, Brandgefahr).
 
@@ -51,7 +52,7 @@ Ein Lautsprecher ist ein Bauelement, das ein elektrisches Signal in ein akustisc
 Dabei wird eine Membran in Schwingung versetzt, die wiederum die umgebende Luft zum Schwingen bringt und einen hörbaren Ton erzeugt.
 \\ \\
 Nun wird aber nicht jede Frequenz gleich gut von ein und demselben Lautsprecher abgestrahlt.
-Durch die physikalischen Gegebenheiten strahlen große Membranen tiefe Frequenzen besser ab, als hohe Frequenzen.
+Durch die physikalischen Gegebenheiten strahlen große Membranen tiefe Frequenzen besser ab als hohe Frequenzen.
 In der Abbildung \ref{fig:3.2.1} wird der Audiobereich in drei Bereiche aufgeteilt, was auch der jeweiligen Lautsprecher-Charakteristik entspricht.\\
 Kennlinienbeschriftung:\\
 \begin{itemize}
@@ -75,11 +76,11 @@ Wie gut nun verschiedene Frequenzen von einem Lautsprecher abgestrahlt werden, i
 Bei einem perfekten Lautsprecher würde diese Linie bei 20 Hz beginnend (Abb. \ref{fig:3.2.1}) eine parallele Gerade zur X-Achse bilden, bis hin zu 20 kHz.
 Da so ein Lautsprecher nur eine ideale Annahme und nicht realisierbar ist, werden in der Praxis mehrere Lautsprecher zusammen verwendet, um sich an dieses Ideal anzunähern.
 Wie in der Abbildung \ref{fig:3.2.1} gut ersichtlich, ergeben die einzelnen Frequenzgänge der Lautsprecher aufsummiert den Gesamt-Frequenzgang (in Schwarz), der relativ linear ist.
-Unterhalb von 100 Hz ist zwar noch eine größere Pegel-Lücke, die aber durch einen besseren Subwoofer ausgebessert werden könnte.\\
-Betrachtet man nur die \enquote{Dunkelblaue-Kurve} ist sofort ersichtlich, dass über 400 Hz der Pegel stark abnimmt.
-Dies ist auch ersichtlich bei der \enquote{Grünen-Kurve}.
+Unterhalb von 100 Hz ist zwar noch eine größere Pegel-Lücke, die aber durch einen besseren Subwoofer ausgebessert werden kann.\\
+Betrachtet man nur die dunkelblaue Kurve (in Abb. \ref{fig:3.2.2}) ist sofort ersichtlich, dass über 400 Hz der Pegel stark abnimmt.
+Dies ist auch ersichtlich bei der grünen Kurve.
 Bei dieser ist der Pegel unterhalb von 400 Hz und oberhalb von 2 kHz bereits gering.
-Auch für die \enquote{Rot-Kurve} kann man dies bestimmen.
+Auch für die rote Kurve kann man dies bestimmen.
 Bei dieser ist der Frequenzbereich von unter 2 kHz geringer.
 \\
 Schon aus den Grenzen dieser drei Kurven sind klare Schnittpunkte ersichtlich.
@@ -89,22 +90,22 @@ Ein Beispiel für den Durchlassbereich dieser Frequenzweichen liefert die Abbild
 In dieser sind die Eigenschaften der jeweiligen Filter gut ersichtlich (Siehe auch \ref{sec:8.4}).
 \begin{figure} [H]
 	\centering
-	\includegraphics[width=1\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/Frequenzbereiche-Audio-Weiche-cut.jpg}
-	\caption{Tiefpass- ,Bandpass- und Hochpass-Weiche - Beispiel}
+	\includegraphics[width=0.8\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/Frequenzbereiche-Audio-Weiche-cut.jpg}
+	\caption{Tiefpass-, Bandpass- und Hochpass-Weiche - Beispiel}
 	\label{fig:3.2.2}
 \end{figure}
-\footnotetext{http://www.audiovero.de/acourate-wiki/lib/exe/fetch.php?media=bilder\_funktionen:funkt\_bsp\_addition\_02.png\\Zugriff: 23.03.2017}
+\footnotetext{http://www.audiovero.de/acourate-wiki/lib/exe/fetch.php?media=bilder\_funktionen:funkt\_bsp\\\_addition\_02.png\\Zugriff: 23.03.2017}
 
 Diese Schnittstellen können durch Verändern der Grenzfrequenzen der Frequenzweichen beeinflusst werden.
 Die Höhe des Pegels kann durch eingebaute Trimmpotentiometer an den Lautsprechern verändert werden und somit an die Pegel der anderen Lautsprecher angepasst werden.
-Ohne dieser Anpassung würden bestimmte Frequenzen lauter wiedergegeben als andere, was wieder einen nichtlinearen Frequenzgang bedeuten würde.
+Ohne diese Anpassung werden bestimmte Frequenzen lauter wiedergegeben als andere, was wieder einen nichtlinearen Frequenzgang bedeuten würde.
 
 \newpage
 \subsubsection*{Allgemeines zu Lautsprecher-Systemen}
 Je nach Frequenzbereich kann ein Ton vom menschlichen Ohr auch lokalisiert \mbox{werden}.
 Hohe Frequenzen (>1 kHz) sind besser lokalisierbar als tiefe Frequenzen.
 Bei sehr niedrigen Frequenzen (<150 Hz) ist der Ton gar nicht mehr lokalisierbar.
-Diesen \mbox{Effekt} kann man nutzen und damit akustische Effekte erzeugen.
+Das kann man nutzen und damit akustische Effekte erzeugen.
 Einige Lautsprecher-Systeme, die diesen Effekt nutzen sind:
 \begin{itemize}
 	\item 2.0-System
@@ -113,7 +114,7 @@ Einige Lautsprecher-Systeme, die diesen Effekt nutzen sind:
 \end{itemize}
 Dabei steht die erste Ziffer für die Anzahl der verteilten Lautsprecher und die zweite Ziffer für die Anzahl der verwendeten Subwoofer.
 \\
-Je mehr verteilte Lautsprecher benutzt werden, desto bessere Raumklang-Effekte sind realisierbar.
+Je mehr verteilte Lautsprecher (auch Satelliten genannt) benutzt werden, desto bessere Raumklang-Effekte sind realisierbar.
 Dadurch wird die Beschaltung aber auch komplizierter, da 5+1 verschiedene Audio-Signale verwendet werden.
 \\ \\
 Der Subwoofer ist ein spezieller Lautsprecher.
@@ -135,36 +136,36 @@ Zu den Verschiedenen Lautsprecher-Systemen:
 \end{figure}
 \footnotetext{Editiert:\enquote{https://upload.wikimedia.org/wikipedia/commons/6/62/DOLBY\_Digital\_5.1.png}\\Zugriff: 23.03.2017}
 
-Dieses System, bestehend aus linker und rechter Lautsprecher-Box (Abb. \ref{fig:3.2.3}), eignet sich bereits für Stereo-Klang.
+Dieses System, bestehend aus linker und rechter Satelliten-Box (Abb. \ref{fig:3.2.3}), eignet sich bereits für Stereo-Klang.
 Meistens beinhalten diese Boxen einen Hochton-Lautsprecher und einen Tiefton-Lautsprecher.
 Diese müssen eine entsprechende Qualität aufweisen, um ohne Mittelton-Lautsprecher auszukommen.\\
-Eine Variante mit drei verschiedenen verbauten Lautsprecher-Chassis, für jeden Frequenzbereich, ist auch üblich.
-Der Vorteil von dieser Bauart ist, dass die Lautsprecher-Chassis einen geringeren Bereich mit einem linearen Frequenzgang abdecken müssen und daher zumeist von geringerer Qualität sein können.\\
+Eine Variante mit drei verschiedenen verbauten Lautsprecher-Chassis für jeden Frequenzbereich, ist auch üblich.
+Der Vorteil dieser Bauart ist, dass die Lautsprecher-Chassis einen geringeren Bereich mit einem linearen Frequenzgang abdecken müssen und daher zumeist von geringerer Qualität sein können.\\
 Bei der Ausrichtung dieser Lautsprecher ist zu beachten:
 \begin{enumerate}
-	\item Die Lautsprecher-Chassis sollen in Richtung des Betrachters zeigen
-	\item Die Hochton-Lautsprecher sollen sich auf Ohrenhöhe des Betrachters befinden
-	\item Die Lautsprecher-Boxen sollen optimalerweise, wie eingezeichnet, einen 30° Winkel zur Blickrichtung des Betrachters aufweisen
+	\item Die Lautsprecher-Chassis sollen in Richtung des Zuhörers zeigen
+	\item Die Hochton-Lautsprecher sollen sich auf Ohrenhöhe des Zuhörers befinden
+	\item Die Lautsprecher-Boxen sollen optimalerweise, wie eingezeichnet, einen 30° Winkel zur Blickrichtung des Zuhörers aufweisen
 \end{enumerate}
-Die Hochton-Lautsprecher müssen sich aus diesem Grund auf Ohrenhöhe befinden, da sich hohe Frequenzen geradliniger ausbreiten, als tiefe und man sie somit besser wahrnehmen kann.
+Die Hochton-Lautsprecher müssen sich aus diesem Grund auf Ohrenhöhe befinden, da sich hohe Frequenzen geradliniger ausbreiten als tiefe und man sie somit besser wahrnehmen kann.
 %Um einen optimalen Klang zu erhalten, müssen sich diese deshalb auf Höhe der Ohren befinden, um diese geradlinige Ausbreitung direkt wahrzunehmen.\\
 
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/opt-20-aufstellung.jpg}
-	\caption{Optimale Ausrichtung zum Betrachter}
+	\caption{Optimale Ausrichtung zum Zuhörer}
 	\label{fig:3.2.4}
 \end{figure}
 \footnotetext{Editiert:{https://images-eu.ssl-images-amazon.com/images/G/03/electronics/aplus/B0059DM2F\\E.001.\_SL300\_.jpg}\\Zugriff: 24.03.2017}
 
-Für dieses System wird mindestens die Aufteilung in zwei Audio-Signale benötigt (Links und Rechts).\\
+Für dieses System wird mindestens eine Aufteilung in zwei Audio-Signale benötigt (links und rechts).\\
 Wie bereits erwähnt, wird auch ein Tiefton-Lautsprecher verbaut.
-Dieser gilt aber nicht als Subwoofer, da er:
+Dieser gilt aber nicht als Subwoofer aus folgenden Gründen:
 \begin{enumerate}
-	\item In einer Lautsprecher-Box mit Lautsprecher-Chassis für andere Frequenzbereiche verbaut ist
-	\item Nicht nur den nicht-lokalisierbaren Frequenzbereich abstrahlt
+	\item Es ist in der Lautsprecher-Box auch ein Lautsprecher-Chassis für andere Frequenzbereiche verbaut
+	\item Der Tiefton-Lautsprecher strahlt nicht nur den nicht-lokalisierbaren Frequenzbereich ab
 \end{enumerate}
-Aus vorher genannten Gründen und da die Position der Lautsprecher-Box einen Einfluss auf den Klang hat und der verbaute Tiefton-Lautsprecher dadurch nicht im Raum beliebig platziert werden kann, ist das Lautsprecher-System ein \enquote{2.0-System}.
+Da das Lautsprecher-System aus 2 verteilten Boxen und keinem Subwoofer besteht nennt man das Lautsprecher-System ein \enquote{2.0-System}.
 
 
 \newpage
@@ -177,19 +178,18 @@ Aus vorher genannten Gründen und da die Position der Lautsprecher-Box einen Ein
 \end{figure}
 \footnotetext{Editiert:\enquote{https://upload.wikimedia.org/wikipedia/commons/6/62/DOLBY\_Digital\_5.1.jpg}\\Zugriff: 23.03.2017}
 
-Dieses System besteht aus 2 + 1 Lautsprecher-Boxen.
-Eine linke und rechte Lautsprecher-Box und eine Subwoofer-Box.
+Dieses System besteht aus 2 + 1 Lautsprecher-Boxen, und zwar eine linken und rechten Satelliten-Box und einer Subwoofer-Box.
 Hier ist wiederum Stereo-Klang möglich, nun aber mit Unterstützung für den Bass-Bereich (<150 Hz).
-Die Anordnung Boxen Links und Rechts ist vorgegeben.
+Die Anordnung der Satelliten ist vorgegeben (links und rechts).
 Die Subwoofer-Box darf im Raum verstellt werden, da wie bereits erklärt die abgestrahlten Frequenzen des Subwoofers nicht lokalisierbar sind.\\
-Für dieses System wird mindestens die Aufteilung in drei Audio-Signale benötigt.
-Links, Rechts, (Links+Rechts)-Bass-Bereich.\\
+Für dieses System wird die Aufteilung in mindestens 3 Audio-Signale benötigt:
+links, rechts, Bass-Bereich.\\
 Für die meisten allgemeinen Konsumenten-Anwendungen wird ein 2.1-System verwendet.\\ 
-Es ist üblich, dass in den Boxen Links und Rechts wieder zwei Lautsprecher-Chassis verbaut werden.
+Es ist üblich, dass in den Satelliten wieder zwei Lautsprecher-Chassis verbaut werden.
 Eines für den Hochton- und eines für den Mittel-Tiefton-Bereich.
-In diesem Fall muss der Mittel-Tiefton-Lautsprecher die sehr tiefen Frequenzen nicht übernehmen, dass macht der Subwoofer.
+In diesem Fall muss der Mittel-Tiefton-Lautsprecher die sehr tiefen Frequenzen nicht übernehmen, das macht der Subwoofer.
 Somit ergibt sich eine Aufteilung des Frequenzbereiches auf drei Lautsprecher, was wiederum bedeutet, dass diese in einem geringeren Frequenzbereich linear arbeiten müssen.\\
-Wenn ein guter Mittel-Tiefton-Lautsprecher verwendet wird der einen sehr linearen Frequenzgang bis in den Hochton-Bereich aufweist, kann man auch einen schlechteren Hochton-Lautsprecher in Kombination mit diesem verwenden.\\
+Wenn ein guter Mittel-Tiefton-Lautsprecher verwendet wird der einen annähernd linearen Frequenzgang bis in den Hochton-Bereich aufweist, kann man auch einen schlechteren Hochton-Lautsprecher in Kombination mit diesem verwenden.\\
 Da der Subwoofer nur einen sehr geringen Teil des Frequenzgangs übernimmt (20...150 Hz), werden trotzdem relativ gute Lautsprecher-Chassis für Mittel-Tiefton- und Hochton-Bereich benötigt.
 
 
@@ -203,8 +203,7 @@ Da der Subwoofer nur einen sehr geringen Teil des Frequenzgangs übernimmt (20..
 \end{figure}
 \footnotetext{Editiert:\enquote{https://upload.wikimedia.org/wikipedia/commons/6/62/DOLBY\_Digital\_5.1.png}\\Zugriff: 23.03.2017}
 
-Dieses System besteht aus 5+1 Lautsprecher-Boxen.
-Diese wären:
+Dieses System besteht aus 5+1 Lautsprecher-Boxen:
 \begin{itemize}
 	\item \textbf{L}inks-Vorne
 	\item \textbf{C}enter
@@ -214,17 +213,17 @@ Diese wären:
 	\item Subwoofer
 \end{itemize}
 Mit diesem System ist ein sogenannter \enquote{Surround-Sound} möglich.
-Das bedeutet, dass der Zuhörer in Mitten dieses Systems rundum beschallt wird.
-Die Anordnung, bis auf die des Subwoofers, ist wieder vorgegeben.
-Für dieses System wird mindestens die Aufteilung in 6 Audio-Signale benötigt.
+Das bedeutet, dass der Zuhörer inmitten dieses Systems rundum beschallt wird.
+Die Anordnung bis auf die des Subwoofers ist wieder vorgegeben.
+Für dieses System wird die Aufteilung in mindestens 6 Audio-Signale benötigt.
 Diese werden entsprechend den zuvor genannten Lautsprecher-Boxen benannt.\\
 Ein solches System kann man oft in Heimkinos finden.
-Kinosäle besitzen meistens noch besser ausgeklügelte, bzw größere Systeme.
+Kinosäle besitzen meistens noch besser ausgeklügelte, bzw. größere Systeme.
 \\ \\
 
 
-In unserem Projekt haben wir uns direkt für ein 2.1-System entschieden, da sich dieses System am besten bewährt hat und für Musik ein Stereo-System mit Subwoofer völlig ausreicht.
-Die zwei verteilten Boxen, auch Satelliten genannt, sind mit je einem Hochton- und einem Tiefton-Lautsprecher ausgestattet und werden über Audio-Kabeln mit der Hauptbox verbunden.
+In unserem Projekt haben wir uns für ein 2.1-System entschieden, da sich dieses System am besten bewährt hat und für Musik ein Stereo-System mit Subwoofer völlig ausreicht.
+Die zwei Satelliten sind mit je einem Hochton- und einem Tiefton-Lautsprecher ausgestattet und werden über Audio-Kabel mit der Hauptbox verbunden.
 Damit sollen die Satelliten fast den gesamten Frequenzbereich für Audio (20 Hz bis 20 kHz) abdecken.
 Der einzelne Subwoofer übernimmt den Bass-Bereich (<150 Hz) und sitzt in der Hauptbox.
 Dort ist auch die gesamte Elektronik verbaut.
@@ -238,7 +237,7 @@ Die Übertragung läuft folgendermaßen ab:
 \\
 Zuerst muss das sendende Gerät (z.B. ein Smartphone) mit dem empfangenden Gerät (z.B. Bluetooth-Modul) verbunden werden.
 Danach werden die gewünschten Daten ausgewählt.
-In diesem Fall wären die Daten ein Musikstück.
+In diesem Fall sind die Daten ein Musikstück.
 Über Funk werden die digitalen Daten an das empfangende Gerät gesendet.
 Nun muss das Bluetooth-Modul diese digitalen Daten wieder in ein analoges Signal umwandeln, welches dann weiterverarbeitet werden kann.
 \\ \\
@@ -260,14 +259,14 @@ Der darauf verbaute Chip \enquote{OVC3860} von \enquote{OmniVision Technologies}
 
 \newpage
 Im \enquote{OVC3860} (Abb. \ref {fig:3.3.2}) ist außer der Bluetooth-Verbindung auch noch ein Stereo-Audio-Prozessor verbaut.
-Zusätzlich gibt es noch eine UART-Schnittstelle mithilfe man einige Einstellungen am Chip vornehmen kann.
+Zusätzlich gibt es noch eine UART-Schnittstelle, mit deren Hilfe man einige Einstellungen am Chip vornehmen kann.
 Eine LiPo-Akku-Ladeschaltung ist ebenfalls vorhanden, wird aber in diesem Projekt nicht verwendet.
 \\
 Das Modul benötigt eine Versorgungsspannung von 3,3 V bis 4,2 V, wobei der Chip mit 1,8 V versorgt wird.
 Diese Spannung (1,8 V) wird auf dem Modul erzeugt.
 \\
 Die verwendete BT-Version ist 2.0.
-Einige GPIO-Pins sind auf das Modul herausgeführt um Funktionen wie \enquote{Play/Pause} zu ermöglichen.
+Einige GPIO-Pins sind auf das Modul herausgeführt, um Funktionen wie \enquote{Play/Pause} zu ermöglichen.
 Der Chip benötigt einen externen Speicher und eine Antenne (auf dem Modul) um ordnungsgemäß zu funktionieren.
 \begin{figure} [H]
 	\centering
@@ -286,11 +285,11 @@ Gründe dafür sind:
 	\item Geringe Kosten
 	\item Einfache Beschaltung
 	\item Geringere Gefahr gegenüber Lithium-Akkus
-	\item Wegen Vlies-Technik: Kein Auslaufen von chemischen Substanzen
+	\item Vlies-Technik: Kein Auslaufen von chemischen Substanzen
 \end{itemize}
 Dieser Akku versorgt die Elektronik mit 12 V (DC) und wird über ein passendes Ladegerät aufgeladen.
-Da aber mit dieser, relativ geringen Spannung nur eher kleine Leistungen zu erwarten sind, kam die Idee auf, die Verstärker und Weichen bei externer Versorgung durch das Stromnetz (230 V / AC) mit einer größeren Spannung (24 V / DC) zu versorgen.
-Um das zu realisieren wird ein Netzteil, in unserem Fall ein Schaltnetzteil benötigt.
+Da aber mit dieser relativ geringen Spannung nur eher kleine Leistungen zu erwarten sind, kam die Idee auf, die Verstärker und Weichen bei externer Versorgung durch das Stromnetz (230 V / AC) mit einer größeren Spannung (24 V / DC) zu versorgen.
+Um das zu realisieren wird ein Netzteil, in unserem Fall ein Schaltnetzteil, benötigt.
 Falls das Gerät am externen Stromnetz hängt, wird die Versorgung der Verstärker automatisch mithilfe eines passenden Relais umgeschaltet.
 Diese Lösung wurde gewählt, da sie sehr simpel ist und gut funktioniert.
 Veranschaulicht wird das Konzept durch diese Schaltung:
@@ -300,7 +299,7 @@ Veranschaulicht wird das Konzept durch diese Schaltung:
 	\caption{Versorgungskonzept}
 	\label {fig:3.4.1}
 \end{figure}
-Das Lautsprecher-System kann somit bei Netzbetrieb die Musik lauter abspielen, als bei Akku-Betrieb.
+Das Lautsprecher-System kann somit bei Netzbetrieb die Musik lauter abspielen als bei Akku-Betrieb.
 
 % ANDERE VERSION
 %Da das Projekt portabel sein soll, ist auch ein Akku (Vlies-Blei-Akku) eingebaut.
