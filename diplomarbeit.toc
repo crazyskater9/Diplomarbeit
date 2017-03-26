@@ -13,55 +13,56 @@
 \contentsline {chapter}{\numberline {4}Auswahl der Lautsprecher-Chassis}{17}{chapter.4}
 \contentsline {section}{\numberline {4.1}Messaufbau und Messung}{17}{section.4.1}
 \contentsline {section}{\numberline {4.2}Lautsprecher f\IeC {\"u}r Tiefton-Bereich}{22}{section.4.2}
-\contentsline {section}{\numberline {4.3}Lautsprecher f\IeC {\"u}r Hochton-Bereich}{30}{section.4.3}
-\contentsline {section}{\numberline {4.4}Optimierung der Lautsprecher-Boxen}{35}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Eignung von verschiedenen Materialien zur Volumsverminderung}{35}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Subwoofer-Box}{39}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Box f\IeC {\"u}r Satelliten-Boxen}{43}{subsection.4.4.3}
-\contentsline {chapter}{\numberline {5}Entwicklung der Elektronik-Platinen}{48}{chapter.5}
-\contentsline {section}{\numberline {5.1}Verst\IeC {\"a}rker-Schaltungen}{48}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Verst\IeC {\"a}rker f\IeC {\"u}r Hochton-Bereich}{48}{subsection.5.1.1}
-\contentsline {subsubsection}{\nonumberline Allgemeines}{48}{section*.63}
-\contentsline {subsubsection}{\nonumberline Schaltung}{49}{section*.64}
-\contentsline {subsubsection}{\nonumberline PCB}{50}{section*.66}
-\contentsline {subsection}{\numberline {5.1.2}Verst\IeC {\"a}rker f\IeC {\"u}r Tiefton-Bereich}{51}{subsection.5.1.2}
-\contentsline {subsubsection}{\nonumberline Allgemeines}{51}{section*.68}
-\contentsline {subsubsection}{\nonumberline Schaltung}{52}{section*.69}
-\contentsline {subsubsection}{\nonumberline PCB}{53}{section*.71}
-\contentsline {subsection}{\numberline {5.1.3}Subwoofer-Verst\IeC {\"a}rker}{54}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Frequenzweichen}{55}{section.5.2}
-\contentsline {subsubsection}{\nonumberline Allgemeines}{55}{section*.75}
-\contentsline {subsubsection}{\nonumberline Schaltung}{55}{section*.76}
-\contentsline {subsubsection}{\nonumberline PCB}{58}{section*.80}
-\contentsline {subsubsection}{\nonumberline Allgemeines}{59}{section*.83}
-\contentsline {subsubsection}{\nonumberline Schaltung}{59}{section*.84}
-\contentsline {subsubsection}{\nonumberline PCB}{61}{section*.86}
-\contentsline {section}{\numberline {5.3}Beschaltung des Bluetooth-Moduls \enquote {XS3868}}{62}{section.5.3}
-\contentsline {chapter}{\numberline {6}Verwendete Tools}{71}{chapter.6}
-\contentsline {section}{\numberline {6.1}Elektronik-Entwicklungsumgebung f\IeC {\"u}r Layout und Leiterplatten \enquote {Altium}}{71}{section.6.1}
-\contentsline {section}{\numberline {6.2}Filterberechnungstool \enquote {FilterPro}}{72}{section.6.2}
-\contentsline {chapter}{\numberline {7}Betriebswirtschaftlicher Teil}{73}{chapter.7}
-\contentsline {section}{\numberline {7.1}Kostenrechnung}{73}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Materialkosten}{73}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Entwicklungskosten}{74}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}Herstellungskosten}{74}{subsection.7.1.3}
-\contentsline {section}{\numberline {7.2}Absatzkalkulation}{74}{section.7.2}
-\contentsline {section}{\numberline {7.3}Break-Even-Point}{74}{section.7.3}
-\contentsline {chapter}{\numberline {8}Anhang}{75}{chapter.8}
-\contentsline {section}{\numberline {8.1}Einstellungen f\IeC {\"u}r die PCB-Entwicklung in \enquote {Altium Designer}}{75}{section.8.1}
-\contentsline {section}{\numberline {8.2}Designregeln f\IeC {\"u}r die PCB-Entwicklung}{75}{section.8.2}
-\contentsline {section}{\numberline {8.3}TDA2030}{76}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Absolute Maximalwerte}{77}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}TDA2030-Grundschaltung}{77}{subsection.8.3.2}
-\contentsline {subsection}{\numberline {8.3.3}Leistungstransistor-Schaltung}{79}{subsection.8.3.3}
-\contentsline {subsection}{\numberline {8.3.4}H-Br\IeC {\"u}ckenschaltung der TDA2030-Verst\IeC {\"a}rkerschaltung}{80}{subsection.8.3.4}
-\contentsline {section}{\numberline {8.4}Filter}{81}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}Butterworth-Filter 2. Ordnung}{81}{subsection.8.4.1}
-\contentsline {section}{\numberline {8.5}Nicht invertierende Verst\IeC {\"a}rker - OPV-Grundschaltung}{83}{section.8.5}
-\contentsline {subsection}{\numberline {8.5.1}Asymmetrische Versorgung eines OPV's}{84}{subsection.8.5.1}
-\contentsline {section}{\numberline {8.6}Welligkeit}{85}{section.8.6}
-\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{86}{chapter*.117}
-\contentsline {chapter}{Abbildungsverzeichnis}{88}{section*.118}
-\contentsline {chapter}{Danksagungen}{90}{section*.120}
-\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. Dr. Herbert Wagner}{90}{section*.122}
-\contentsline {chapter}{Literaturverzeichnis}{91}{section*.123}
+\contentsline {section}{\numberline {4.3}Lautsprecher f\IeC {\"u}r Hochton-Bereich}{31}{section.4.3}
+\contentsline {section}{\numberline {4.4}Optimierung der Lautsprecher-Boxen}{36}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Eignung von verschiedenen Materialien zur Volumsverminderung}{36}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Subwoofer-Box}{40}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Box f\IeC {\"u}r Satelliten-Boxen}{44}{subsection.4.4.3}
+\contentsline {chapter}{\numberline {5}Entwicklung der Elektronik-Platinen}{49}{chapter.5}
+\contentsline {section}{\numberline {5.1}Verst\IeC {\"a}rker-Schaltungen}{49}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Verst\IeC {\"a}rker f\IeC {\"u}r Hochton-Bereich}{49}{subsection.5.1.1}
+\contentsline {subsubsection}{\nonumberline Allgemeines}{49}{section*.63}
+\contentsline {subsubsection}{\nonumberline Schaltung}{50}{section*.64}
+\contentsline {subsubsection}{\nonumberline PCB}{51}{section*.66}
+\contentsline {subsection}{\numberline {5.1.2}Verst\IeC {\"a}rker f\IeC {\"u}r Tiefton-Bereich}{52}{subsection.5.1.2}
+\contentsline {subsubsection}{\nonumberline Allgemeines}{52}{section*.68}
+\contentsline {subsubsection}{\nonumberline Schaltung}{53}{section*.69}
+\contentsline {subsubsection}{\nonumberline PCB}{54}{section*.71}
+\contentsline {subsection}{\numberline {5.1.3}Subwoofer-Verst\IeC {\"a}rker}{55}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Frequenzweichen}{56}{section.5.2}
+\contentsline {subsubsection}{\nonumberline Allgemeines}{56}{section*.75}
+\contentsline {subsubsection}{\nonumberline Schaltung}{56}{section*.76}
+\contentsline {subsubsection}{\nonumberline PCB}{59}{section*.80}
+\contentsline {subsubsection}{\nonumberline Allgemeines}{60}{section*.83}
+\contentsline {subsubsection}{\nonumberline Schaltung}{60}{section*.84}
+\contentsline {subsubsection}{\nonumberline PCB}{62}{section*.86}
+\contentsline {section}{\numberline {5.3}Beschaltung des Bluetooth-Moduls \enquote {XS3868}}{63}{section.5.3}
+\contentsline {chapter}{\numberline {6}Verwendete Tools}{72}{chapter.6}
+\contentsline {section}{\numberline {6.1}Elektronik-Entwicklungsumgebung f\IeC {\"u}r Layout und Leiterplatten \enquote {Altium}}{72}{section.6.1}
+\contentsline {section}{\numberline {6.2}Filterberechnungstool \enquote {FilterPro}}{73}{section.6.2}
+\contentsline {chapter}{\numberline {7}Betriebswirtschaftlicher Teil}{74}{chapter.7}
+\contentsline {section}{\numberline {7.1}Kostenrechnung}{74}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Materialkosten}{74}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Entwicklungskosten}{75}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Herstellungskosten}{75}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Absatzkalkulation}{75}{section.7.2}
+\contentsline {section}{\numberline {7.3}Break-Even-Point}{75}{section.7.3}
+\contentsline {chapter}{\numberline {8}Anhang}{76}{chapter.8}
+\contentsline {section}{\numberline {8.1}Einstellungen f\IeC {\"u}r die PCB-Entwicklung in \enquote {Altium Designer}}{76}{section.8.1}
+\contentsline {section}{\numberline {8.2}Designregeln f\IeC {\"u}r die PCB-Entwicklung}{76}{section.8.2}
+\contentsline {section}{\numberline {8.3}TDA2030}{77}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Absolute Maximalwerte}{78}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}TDA2030-Grundschaltung}{78}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}Leistungstransistor-Schaltung}{80}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.4}H-Br\IeC {\"u}ckenschaltung der TDA2030-Verst\IeC {\"a}rkerschaltung}{81}{subsection.8.3.4}
+\contentsline {section}{\numberline {8.4}Filter}{82}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Butterworth-Filter 2. Ordnung}{82}{subsection.8.4.1}
+\contentsline {section}{\numberline {8.5}Nicht invertierende Verst\IeC {\"a}rker - OPV-Grundschaltung}{84}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Asymmetrische Versorgung eines OPV's}{85}{subsection.8.5.1}
+\contentsline {section}{\numberline {8.6}Welligkeit}{86}{section.8.6}
+\contentsline {section}{\numberline {8.7}Datenblatt - Renkforce B12123}{88}{section.8.7}
+\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{90}{chapter*.119}
+\contentsline {chapter}{Abbildungsverzeichnis}{92}{section*.120}
+\contentsline {chapter}{Danksagungen}{94}{section*.122}
+\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. Dr. Herbert Wagner}{94}{section*.124}
+\contentsline {chapter}{Literaturverzeichnis}{95}{section*.125}
