@@ -3,17 +3,18 @@
 %\newpage
 \section{Lautsprecher für Tiefton-Bereich} \label{sec:4.2}
 \subsection*{Einleitung} \label{subsec:4.2.1}
-Tieftöner sind, wie der Name bereits andeutet, für den unteren Frequenzbereich gedacht und konzipiert.
-In diesem Projekt werden Tieftöner-Lautsprecher an zwei verschiedenen Positionen verwendet:
+Tiefton-Lautsprecher sind, wie der Name bereits andeutet, für den unteren Frequenzbereich gedacht und konzipiert.
+In diesem Projekt werden Tiefton-Lautsprecher an zwei verschiedenen Positionen verwendet:
 \begin{itemize}
 	\item Im Subwoofer und 
 	\item in der Satellitenbox
 \end{itemize}
 Es ist so angedacht, dass der Subwoofer (Mono) nur die sehr niedrigen Frequenzen übernimmt.
-Er ist bis ca. 200 Hz aktiv.\\
-In den Satellitenboxen ist jeweils ein kleinerer Tieftöner verbaut, um den Übergang zwischen sehr tiefen und hohen Frequenzen zu bilden.
+Er ist bis ca. 150 Hz aktiv.\\
+In den Satellitenboxen ist jeweils ein kleinerer Tiefton-Lautsprecher verbaut, um den Übergang zwischen sehr tiefen und hohen Frequenzen zu bilden.
 Diese zwei Lautsprecher (Stereo) arbeiten ebenfalls bei niedrigen als auch bei mittleren bis hohen Frequenzen.
-Die Grenze des Satelliten-Tieftöners liegt bei ca. 5 kHz.
+Die Grenze des Satelliten-Tiefton-Lautsprechers liegt bei ca. 5 kHz.
+Somit wird die Frequenzweiche für diese Frequenz berechnet und konzipiert.
 
 \subsection*{Ziele} \label{subsec:4.2.2}
 Der Lautsprecher für die Subwoofer-Box muss größer und leistungsfähiger sein, um die richtig tiefen Frequenzen möglichst gut abzustrahlen.
@@ -51,11 +52,12 @@ Als Vergleichslautsprecher wurde ein \enquote{Visaton WPC30} gemessen.
 
 \newpage
 Diese Messungen wurden zu Beginn der Diplomarbeit durchgeführt und daher sind die Ergebnisse so aufgenommen, dass die Einstellungen der Software sichtbar sind.\\ % Ideale Messung beschreiben?
-Die zwei Subwoofer wurden einmal mit und einmal ohne Wolle in der Box gemessen. 
+Die zwei Subwoofer wurden einmal mit und einmal ohne Wolle in der Box gemessen.
+Um die Aufnahmen ansehnlicher zu machen wurde der Frequenzgang durch Nachbearbeitung ausgeschnitten, sodass im Gegensatz zur Abbildung \ref{fig:4.1.1.1} in den nachfolgenden Bildern (ab Abb. \ref{fig:4.2.3.2}) nur die zum Vergleichen relevanten Kurven dargestellt werden.
 \begin{figure} [H]
 	\centering
-	\subfloat{\includegraphics[width=0.75\textwidth]{img/LSMessung/TT/RenkforceOhneWolleMitSilikon.png}}\quad
-	\subfloat{\includegraphics[width=0.75\textwidth]{img/LSMessung/TT/VisatonMitSilikonOhneWolle.png}}
+	\subfloat{\includegraphics[width=1\textwidth]{img/LSMessung/TT/RenkforceOhneWolleMitSilikonV2.png}}\quad
+	\subfloat{\includegraphics[width=1\textwidth]{img/LSMessung/TT/VisatonMitSilikonOhneWolleV2.png}}
 	\caption{Subwoofer-Messung ohne Wolle\\ \enquote{Renkforce} (oben) und \enquote{Visaton} (unten) | Boxenvolumen: 149 l}
 	\label{fig:4.2.3.2}
 \end{figure}
@@ -65,16 +67,16 @@ Eine weitere Messung mit Wolle in der Box wurde deshalb durchgeführt, weil beid
 Die Auswirkungen auf die Lautsprecher sind folgende:
 \begin{figure} [H]
 	\centering
-	\subfloat{\includegraphics[width=0.75\textwidth]{img/LSMessung/TT/RenkforceMitWolleMitSilikon.png}}\quad
-	\subfloat{\includegraphics[width=0.75\textwidth]{img/LSMessung/TT/VisatonMitSilikonMitWolle.png}}
+	\subfloat{\includegraphics[width=1\textwidth]{img/LSMessung/TT/RenkforceMitWolleMitSilikonV2.png}}\quad
+	\subfloat{\includegraphics[width=1\textwidth]{img/LSMessung/TT/VisatonMitSilikonMitWolleV2.png}}
 	\caption{Subwoofer-Messung mit Wolle\\ \enquote{Renkforce} (oben) und \enquote{Visaton} (unten) | Boxenvolumen: 149 l}
 	\label{fig:4.2.3.3}
 \end{figure}
-Beide Frequenzgänge wurden durch das Hinzufügen von Wolle etwas \enquote{glatter}, also haben weniger Welligkeit.
+Beide Frequenzgänge wurden durch das Hinzufügen von Wolle etwas \enquote{glatter}, also weisen weniger Welligkeit auf.
 Die Wolle kann z.B. stehende Wellen in der Box verhindern und verbessert so deshalb die Eigenschaften der gesamten Box.\\ \\	%Es wirkt wie eine Vergrößerung des Volumens - hat Wagn einmal gsagt
 Der Lautsprecher \enquote{Renkforce} weist insgesamt bei tieferen Frequenzen einen höheren Schalldruckpegel auf und wurde auch deshalb von uns für dieses Projekt ausgewählt.
 
-
+\newpage
 \subsection*{Satelliten-Tieftöner} \label{4.2.4}
 Als Satelliten-Tieftöner kommen mehrere Lautsprecher in Frage, die vom Betreuer zu Verfügung gestellt wurden.
 Die Lautsprecher-Chassis haben einen ähnlichen Durchmesser.
@@ -89,16 +91,21 @@ Zu den gemessenen Chassis gehören:
 \end{itemize}
 Die Bezeichnung TT1 und TT2 dient zur Vereinfachung.\\
 
-\newpage
+%\newpage
 Wie zuvor erwähnt wurden die Messungen zu Beginn der Diplomarbeit über einen Screenshot festgehalten.
-Daher sind auf den Bildern auch die Messeinstellungen und das Messprogramm sichtbar.
-Man wurde auf eine bessere Methode zur Dokumentation hingewiesen, welche im laufe der Messungen angewandt wurde.\\
+Man wurde im Verlauf der Diplomarbeit auf eine bessere Methode zur Dokumentation hingewiesen, welche im laufe der Messungen angewandt wurde.
+Jene Verbesserung wird auf zwei Punkte bezogen:\\
+\begin{enumerate}
+	\item Die Skalierung der Y-Achse sollte von 0 bis 60 dB reichen, da diese Skalierung normalerweise für Lautsprechermessungen verwendet und so dieser Bereich genauer aufgelöst wird.
+	\item Es sollte nur das Fenster des Frequenzganges gespeichert werden, um eine höhere Auflösung für diesen zu erhalten.
+\end{enumerate}
 
+\newpage
 \textit{Die folgenden Messungen wurden bereits mit dem Silikon verschlossenen Gehäuse erstellt.}\\
 \begin{figure} [H]
 	\centering
-	\subfloat{\includegraphics[width=0.7\textwidth]{img/LSMessung/TT/TT1mitSilikon.png}}\quad
-	\subfloat{\includegraphics[width=0.7\textwidth]{img/LSMessung/TT/TT1mitSilikonUndWolle.png}}
+	\subfloat{\includegraphics[width=1\textwidth]{img/LSMessung/TT/TT1mitSilikonV2.png}}\quad
+	\subfloat{\includegraphics[width=1\textwidth]{img/LSMessung/TT/TT1mitSilikonUndWolleV2.png}}
 	\caption{Tieftöner-Messung ohne Wolle\\ \enquote{TT1} (oben) und mit Wolle \enquote{TT1} (unten) | Boxenvolumen: 13,72l}
 	\label{fig:4.2.4.1}
 \end{figure}
@@ -111,8 +118,8 @@ Als Referenz wird der Lautsprecher \enquote{TT2} gemessen.
 Ebenfalls einmal ohne und einmal mit Wolle im Gehäuse.
 \begin{figure} [H]
 	\centering
-	\subfloat{\includegraphics[width=0.7\textwidth]{img/LSMessung/TT/TT2mitSilikon_ohneWolle.png}}\quad
-	\subfloat{\includegraphics[width=0.7\textwidth]{img/LSMessung/TT/TT2mitSilikon_mitWolle.png}}
+	\subfloat{\includegraphics[width=1\textwidth]{img/LSMessung/TT/TT2mitSilikon_ohneWolleV2.png}}\quad
+	\subfloat{\includegraphics[width=1\textwidth]{img/LSMessung/TT/TT2mitSilikon_mitWolleV2.png}}
 	\caption{Tieftöner-Messung ohne Wolle\\ \enquote{TT2} (oben) und mit Wolle \enquote{TT2} (unten) Boxenvolumen: 13,72 l}
 	\label{fig:4.2.4.2}
 \end{figure}
