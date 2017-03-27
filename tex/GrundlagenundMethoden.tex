@@ -30,14 +30,14 @@ Dies ist bedingt durch die verwendete Verstärkerschaltung.\\
 Diese Schaltungen sind für:
 \begin{itemize}
 	\item \textbf{Hochtonbereich:}\\ TDA2030-Leistungsverstärker-Grundschaltung
-	\item \textbf{Mittel-Tieftonbereich:}\\ TDA2030-Leistungsverstärker mit Leistungstransistoren
-	\item \textbf{Bassbereich:}\\ TDA2030-Leistungsverstärker mit Leistungstransistoren in H-Brücke
+	\item \textbf{Mittel-Tieftonbereich:}\\ TDA2030-Leistungsverstärker erweitert mit Leistungstransistoren
+	\item \textbf{Bassbereich:}\\ TDA2030-Leistungsverstärker erweitert mit Leistungstransistoren in H-Brücke geschallten
 \end{itemize}
 Aus diesen Schaltungen erschließen sich folgende maximale Ausgangsleistungen bei asymmetrischer Spannungsversorgung von 24V und 1\% Klirrfaktor:\\
 \begin{itemize}
-	\item Hochton-Leistungsverstärker (an 8 Ohm): < 6W
-	\item Mittel-Tiefton-Leistungsverstärker (an 4 Ohm): < 11W
-	\item Bassbereich-Leistungsverstärker (an 4 Ohm): < 44W
+	\item Hochton-Leistungsverstärker (an 8 Ohm): 6W
+	\item Mittel-Tiefton-Leistungsverstärker (an 4 Ohm): 11W
+	\item Bassbereich-Leistungsverstärker (an 4 Ohm): 44W
 \end{itemize}
 
 Versorgt wird die Elektronik unter Akkubetrieb mit 12 V oder 24 V unter Netzbetrieb, genauere Erklärung im Kapitel \ref{sec:3.4}.
@@ -68,57 +68,61 @@ Wie gut nun verschiedene Frequenzen von einem Lautsprecher abgestrahlt werden, i
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/Frequenzbereiche-Audio-cut.jpg}
-	\caption{Tiefton- ,Mittelton- und Hochton-Bereich - Beispiel}
+	\caption{Tiefton-, Mittelton- und Hochton-Bereich\\- (Beispiel eines Lautsprecher-Systems)}
 	\label{fig:3.2.1}
 \end{figure}
 \footnotetext{http://http://www.lavalu.de/images/Frequenzgang.jpg\\Zugriff: 23.03.2017}
 
 Bei einem perfekten Lautsprecher würde diese Linie bei 20 Hz beginnend (Abb. \ref{fig:3.2.1}) eine parallele Gerade zur X-Achse bilden, bis hin zu 20 kHz.
 Da so ein Lautsprecher nur eine ideale Annahme und nicht realisierbar ist, werden in der Praxis mehrere Lautsprecher zusammen verwendet, um sich an dieses Ideal anzunähern.
-Wie in der Abbildung \ref{fig:3.2.1} gut ersichtlich, ergeben die einzelnen Frequenzgänge der Lautsprecher aufsummiert den Gesamt-Frequenzgang (in Schwarz), der relativ linear ist.
-Unterhalb von 100 Hz ist zwar noch eine größere Pegel-Lücke, die aber durch einen besseren Subwoofer ausgebessert werden kann.\\
-Betrachtet man nur die dunkelblaue Kurve (in Abb. \ref{fig:3.2.2}) ist sofort ersichtlich, dass über 400 Hz der Pegel stark abnimmt.
+Wie in der Abbildung \ref{fig:3.2.1} gut ersichtlich, ergeben die einzelnen Frequenzgänge der Lautsprecher aufsummiert den gesamt Frequenzverhalten des Systems (in Schwarz), der relativ linear ist.
+Unterhalb von 100 Hz ist zwar noch eine größere Pegel-Lücke, die aber durch einen besseren Subwoofer ausgebessert werden kann.
+
+\subsubsection*{Frequenzweichen in Zusammenhang mit Lautsprechersystemen}
+Das Diagramm (Abb. \ref{fig:3.2.2}) stellt ein Beispiel für die Übertragungskennlinien von Frequenzweichen dar.
+In diesem sind die Eigenschaften der jeweiligen Filterarten gut ersichtlich (Siehe auch \ref{sec:8.4}).\\
+Betrachtet man nur die dunkelblaue Kurve ist sofort ersichtlich, dass über 400 Hz der Pegel stark abnimmt bis hin zu 0.
 Dies ist auch ersichtlich bei der grünen Kurve.
-Bei dieser ist der Pegel unterhalb von 400 Hz und oberhalb von 2 kHz bereits gering.
-Auch für die rote Kurve kann man dies bestimmen.
-Bei dieser ist der Frequenzbereich von unter 2 kHz geringer.
+Bei dieser strebt der Pegel unter 400 Hz und oberhalb 2 kHz gegen Null.
+In der roten Kurve hingegen ist der Frequenzbereich von unter 2 kHz geringer, bzw. nicht vorhanden.
 \\
-Schon aus den Grenzen dieser drei Kurven sind klare Schnittpunkte ersichtlich.
-Diese Schnittpunkte der Kurven sind bewusst gewählt und werden durch Frequenzweichen realisiert.
+Es sind klare Schnittpunkte der Kurven ersichtlich, welche auch bewusst gewählt sind.
+Diese Übertragungskennlinien der Frequenzweichen sind für ein 3-Weg-System optimiert, d.h. das Eingangssignal wird, durch die entsprechenden Weichen, auf drei Teile aufgeteilt.
+Die Übertragungskennlinien, und somit die Schnittpunkte, variieren von System zu System.\\
+Nach der Auftrennung wird jedes Teilsignal mit einem jeweils eigenen Verstärker verstärkt.
 %Da so ein Lautsprecher aber nicht existiert, werden verschiedene Frequenzen auch mit einem verschiedenen Schalldruckpegel vom Lautsprecher abgestrahlt.
-Ein Beispiel für den Durchlassbereich dieser Frequenzweichen liefert die Abbildung \ref{fig:3.2.2}.
-In dieser sind die Eigenschaften der jeweiligen Filter gut ersichtlich (Siehe auch \ref{sec:8.4}).
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/Frequenzbereiche-Audio-Weiche-cut.jpg}
-	\caption{Tiefpass-, Bandpass- und Hochpass-Weiche - Beispiel}
+	\caption{Tiefpass-, Bandpass- und Hochpass-Weiche - (Beispiel für das Verhalten von Frequenzweichen)}
 	\label{fig:3.2.2}
 \end{figure}
 \footnotetext{http://www.audiovero.de/acourate-wiki/lib/exe/fetch.php?media=bilder\_funktionen:funkt\_bsp\\\_addition\_02.png\\Zugriff: 23.03.2017}
 
 Diese Schnittstellen können durch Verändern der Grenzfrequenzen der Frequenzweichen beeinflusst werden.
-Die Höhe des Pegels kann durch eingebaute Trimmpotentiometer an den Lautsprechern verändert werden und somit an die Pegel der anderen Lautsprecher angepasst werden.
-Ohne diese Anpassung werden bestimmte Frequenzen lauter wiedergegeben als andere, was wieder einen nichtlinearen Frequenzgang bedeuten würde.
+Die Höhe des Pegels kann durch in der Schaltung verbaute Trimmpotentiometer verändern werden.
+Somit können die Pegel der verschiedenen Lautsprecher untereinander angepasst werden um einen gleich hohen Pegel an allen Lautsprechern zu erreichen.
+Ohne diese Anpassung werden bestimmte Frequenzen lauter wiedergegeben als andere, was wieder einen nichtlinearen Frequenzgang bedeuten würde.\\ \\
 
-\newpage
+%\newpage
 \subsubsection*{Allgemeines zu Lautsprecher-Systemen}
-Je nach Frequenzbereich kann ein Ton vom menschlichen Ohr auch lokalisiert \mbox{werden}.
+Je nach Frequenzbereich kann ein Ton vom menschlichen Ohr lokalisiert \mbox{werden} oder nicht.
 Hohe Frequenzen (>1 kHz) sind besser lokalisierbar als tiefe Frequenzen.
-Bei sehr niedrigen Frequenzen (<150 Hz) ist der Ton gar nicht mehr lokalisierbar.
+Bei sehr niedrigen Frequenzen (<80 Hz) ist der Ton gar nicht mehr lokalisierbar. % Aus Wikipedia <80Hz!
 Das kann man nutzen und damit akustische Effekte erzeugen.
 Einige Lautsprecher-Systeme, die diesen Effekt nutzen sind:
 \begin{itemize}
-	\item 2.0-System
-	\item 2.1-System
-	\item 5.1-System
+	\item 2.0 - System
+	\item 2.1 - System
+	\item 5.1 - System
 \end{itemize}
 Dabei steht die erste Ziffer für die Anzahl der verteilten Lautsprecher und die zweite Ziffer für die Anzahl der verwendeten Subwoofer.
 \\
 Je mehr verteilte Lautsprecher (auch Satelliten genannt) benutzt werden, desto bessere Raumklang-Effekte sind realisierbar.
-Dadurch wird die Beschaltung aber auch komplizierter, da 5+1 verschiedene Audio-Signale verwendet werden.
+Dadurch wird die Beschaltung aber auch komplizierter, da zB. 5+1 verschiedene Audio-Signale verwendet werden.
 \\ \\
 Der Subwoofer ist ein spezieller Lautsprecher.
-Er arbeitet im Bass-Bereich(20-150 Hz).
+Er arbeitet im Bass-Bereich(20 bis 150 Hz).
 Diese Frequenzen sind nicht lokalisierbar, weshalb auch nur ein Subwoofer benötigt wird.
 Meistens ist die Membran des Subwoofers um einiges größer als die Membran anderer Lautsprecher.
 Damit kann der Subwoofer mehr Luft in Bewegung setzen und somit einen höheren Schalldruckpegel erzeugen.
@@ -126,8 +130,8 @@ Um das zu ermöglichen benötigt der Subwoofer aber auch mehr Leistung als ein L
 \\ \\
 
 \newpage
-Zu den Verschiedenen Lautsprecher-Systemen:
-\subsubsection*{2.0-System}
+\subsection*{Zu den Verschiedenen Lautsprecher-Systemen:}
+\subsubsection*{2.0 - System}
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital20-cut.jpg}
@@ -136,16 +140,16 @@ Zu den Verschiedenen Lautsprecher-Systemen:
 \end{figure}
 \footnotetext{Editiert:\enquote{https://upload.wikimedia.org/wikipedia/commons/6/62/DOLBY\_Digital\_5.1.png}\\Zugriff: 23.03.2017}
 
-Dieses System, bestehend aus linker und rechter Satelliten-Box (Abb. \ref{fig:3.2.3}), eignet sich bereits für Stereo-Klang.
+Dieses System, bestehend aus linker und rechter Lautsprecherbox (Abb. \ref{fig:3.2.3}), eignet sich bereits für Stereo-Klang.
 Meistens beinhalten diese Boxen einen Hochton-Lautsprecher und einen Tiefton-Lautsprecher.
 Diese müssen eine entsprechende Qualität aufweisen, um ohne Mittelton-Lautsprecher auszukommen.\\
 Eine Variante mit drei verschiedenen verbauten Lautsprecher-Chassis für jeden Frequenzbereich, ist auch üblich.
 Der Vorteil dieser Bauart ist, dass die Lautsprecher-Chassis einen geringeren Bereich mit einem linearen Frequenzgang abdecken müssen und daher zumeist von geringerer Qualität sein können.\\
 Bei der Ausrichtung dieser Lautsprecher ist zu beachten:
 \begin{enumerate}
-	\item Die Lautsprecher-Chassis sollen in Richtung des Zuhörers zeigen
-	\item Die Hochton-Lautsprecher sollen sich auf Ohrenhöhe des Zuhörers befinden
-	\item Die Lautsprecher-Boxen sollen optimalerweise, wie eingezeichnet, einen 30° Winkel zur Blickrichtung des Zuhörers aufweisen
+	\item Die Lautsprecher-Chassis sollen in Richtung des Testers zeigen
+	\item Die Hochton-Lautsprecher sollen sich auf Ohrenhöhe des Testers befinden
+	\item Die Lautsprecher-Boxen sollen optimaler weise, wie eingezeichnet, einen 30° Winkel zur Blickrichtung des Testers aufweisen
 \end{enumerate}
 Die Hochton-Lautsprecher müssen sich aus diesem Grund auf Ohrenhöhe befinden, da sich hohe Frequenzen geradliniger ausbreiten als tiefe und man sie somit besser wahrnehmen kann.
 %Um einen optimalen Klang zu erhalten, müssen sich diese deshalb auf Höhe der Ohren befinden, um diese geradlinige Ausbreitung direkt wahrzunehmen.\\
@@ -153,7 +157,7 @@ Die Hochton-Lautsprecher müssen sich aus diesem Grund auf Ohrenhöhe befinden, 
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/opt-20-aufstellung.jpg}
-	\caption{Optimale Ausrichtung zum Zuhörer}
+	\caption{Optimale Ausrichtung zum Tester}
 	\label{fig:3.2.4}
 \end{figure}
 \footnotetext{Editiert:{https://images-eu.ssl-images-amazon.com/images/G/03/electronics/aplus/B0059DM2F\\E.001.\_SL300\_.jpg}\\Zugriff: 24.03.2017}
@@ -165,11 +169,11 @@ Dieser gilt aber nicht als Subwoofer aus folgenden Gründen:
 	\item Es ist in der Lautsprecher-Box auch ein Lautsprecher-Chassis für andere Frequenzbereiche verbaut
 	\item Der Tiefton-Lautsprecher strahlt nicht nur den nicht-lokalisierbaren Frequenzbereich ab
 \end{enumerate}
-Da das Lautsprecher-System aus 2 verteilten Boxen und keinem Subwoofer besteht nennt man das Lautsprecher-System ein \enquote{2.0-System}.
+Da das Lautsprecher-System aus 2 verteilten Boxen und keinem Subwoofer besteht nennt man das Lautsprecher-System ein \enquote{2.0 - System}.
 
 
 \newpage
-\subsubsection*{2.1-System}
+\subsubsection*{2.1 - System}
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital21-cut.jpg}
@@ -181,20 +185,21 @@ Da das Lautsprecher-System aus 2 verteilten Boxen und keinem Subwoofer besteht n
 Dieses System besteht aus 2 + 1 Lautsprecher-Boxen, und zwar eine linken und rechten Satelliten-Box und einer Subwoofer-Box.
 Hier ist wiederum Stereo-Klang möglich, nun aber mit Unterstützung für den Bass-Bereich (<150 Hz).
 Die Anordnung der Satelliten ist vorgegeben (links und rechts).
-Die Subwoofer-Box darf im Raum verstellt werden, da wie bereits erklärt die abgestrahlten Frequenzen des Subwoofers nicht lokalisierbar sind.\\
+Die Subwoofer-Box darf im Raum verstellt werden, da wie bereits erklärt die abgestrahlten Frequenzen des Subwoofers schwer bzw. nicht lokalisierbar sind.\\
 Für dieses System wird die Aufteilung in mindestens 3 Audio-Signale benötigt:
 links, rechts, Bass-Bereich.\\
 Für die meisten allgemeinen Konsumenten-Anwendungen wird ein 2.1-System verwendet.\\ 
-Es ist üblich, dass in den Satelliten wieder zwei Lautsprecher-Chassis verbaut werden.
+Es ist üblich, dass in den Satelliten-Boxen wieder zwei Lautsprecher-Chassis verbaut werden.
 Eines für den Hochton- und eines für den Mittel-Tiefton-Bereich.
 In diesem Fall muss der Mittel-Tiefton-Lautsprecher die sehr tiefen Frequenzen nicht übernehmen, das macht der Subwoofer.
 Somit ergibt sich eine Aufteilung des Frequenzbereiches auf drei Lautsprecher, was wiederum bedeutet, dass diese in einem geringeren Frequenzbereich linear arbeiten müssen.\\
 Wenn ein guter Mittel-Tiefton-Lautsprecher verwendet wird der einen annähernd linearen Frequenzgang bis in den Hochton-Bereich aufweist, kann man auch einen schlechteren Hochton-Lautsprecher in Kombination mit diesem verwenden.\\
+Eine billigere Variante würde die Ausführung der Satelliten-Boxen mit jeweils einem Breitband-Lautsprecher bieten.\\
 Da der Subwoofer nur einen sehr geringen Teil des Frequenzgangs übernimmt (20...150 Hz), werden trotzdem relativ gute Lautsprecher-Chassis für Mittel-Tiefton- und Hochton-Bereich benötigt.
 
 
 
-\subsubsection*{5.1-System}
+\subsubsection*{5.1 - System}
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital51-cut.jpg}
@@ -213,18 +218,19 @@ Dieses System besteht aus 5+1 Lautsprecher-Boxen:
 	\item Subwoofer
 \end{itemize}
 Mit diesem System ist ein sogenannter \enquote{Surround-Sound} möglich.
-Das bedeutet, dass der Zuhörer inmitten dieses Systems rundum beschallt wird.
+Das bedeutet, dass der Tester inmitten dieses Systems rundum beschallt wird.
 Die Anordnung bis auf die des Subwoofers ist wieder vorgegeben.
 Für dieses System wird die Aufteilung in mindestens 6 Audio-Signale benötigt.
 Diese werden entsprechend den zuvor genannten Lautsprecher-Boxen benannt.\\
+Der \enquote{Center}-Lautsprecher ist aus diesem Grund wichtig da sich aus der Erfahrung heraus bewiesen hat, dass Sprache von einem Menschen, der bei einem Film sich in mitten des Bildes befindet, sich akustisch mittig lokalisieren lassen sollte.\\ 
 Ein solches System kann man oft in Heimkinos finden.
 Kinosäle besitzen meistens noch besser ausgeklügelte, bzw. größere Systeme.
 \\ \\
 
 
-In unserem Projekt haben wir uns für ein 2.1-System entschieden, da sich dieses System am besten bewährt hat und für Musik ein Stereo-System mit Subwoofer völlig ausreicht.
-Die zwei Satelliten sind mit je einem Hochton- und einem Tiefton-Lautsprecher ausgestattet und werden über Audio-Kabel mit der Hauptbox verbunden.
-Damit sollen die Satelliten fast den gesamten Frequenzbereich für Audio (20 Hz bis 20 kHz) abdecken.
+In unserem Projekt haben wir uns für ein 2.1 - System entschieden, da sich dieses System am besten bewährt hat und für Musik ein Stereo-System mit Mono-Subwoofer völlig ausreicht.
+Die zwei Satelliten-Lautsprecher sind mit je einem Hochton- und einem Tiefton-Lautsprecher ausgestattet und werden über Audio-Kabel mit der Hauptbox verbunden.
+Damit sollen die Satelliten-Lautsprecher fast den gesamten Frequenzbereich für Audio (20 Hz bis 20 kHz) abdecken.
 Der einzelne Subwoofer übernimmt den Bass-Bereich (<150 Hz) und sitzt in der Hauptbox.
 Dort ist auch die gesamte Elektronik verbaut.
 
