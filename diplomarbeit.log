@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  26 MAR 2017 21:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.8)  27 MAR 2017 21:16
 entering extended mode
 **./diplomarbeit.tex
 (diplomarbeit.tex
@@ -3626,51 +3626,51 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--25
+Underfull \hbox (badness 10000) in paragraph at lines 12--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--25
+Underfull \hbox (badness 10000) in paragraph at lines 12--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--25
+Underfull \hbox (badness 10000) in paragraph at lines 12--26
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 33.
 [56]
 <img/Print4/4_TTuHTWeiche-Schematic.PNG, id=887, 754.61925pt x 466.1415pt>
 File: img/Print4/4_TTuHTWeiche-Schematic.PNG Graphic file (type png)
 
 <use img/Print4/4_TTuHTWeiche-Schematic.PNG>
 Package pdftex.def Info: img/Print4/4_TTuHTWeiche-Schematic.PNG used on input l
-ine 42.
+ine 43.
 (pdftex.def)             Requested size: 430.20644pt x 265.75319pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 48.
  [57 <./img/Print4/4_TTuHTWeiche-Schematic.PNG>]
 <img/Print4/4_TTuHTWeiche-LinksHP-Schematic.PNG, id=895, 764.8575pt x 448.67625
 pt>
 File: img/Print4/4_TTuHTWeiche-LinksHP-Schematic.PNG Graphic file (type png)
  <use img/Print4/4_TTuHTWeiche-LinksHP-Schematic.PNG>
 Package pdftex.def Info: img/Print4/4_TTuHTWeiche-LinksHP-Schematic.PNG used on
- input line 56.
+ input line 57.
 (pdftex.def)             Requested size: 279.63155pt x 164.03589pt.
 
 <img/Print4/4_TTuHTWeiche-RechtsBP-Schematic.PNG, id=898, 630.55576pt x 440.244
@@ -3678,63 +3678,63 @@ Package pdftex.def Info: img/Print4/4_TTuHTWeiche-LinksHP-Schematic.PNG used on
 File: img/Print4/4_TTuHTWeiche-RechtsBP-Schematic.PNG Graphic file (type png)
  <use img/Print4/4_TTuHTWeiche-RechtsBP-Schematic.PNG>
 Package pdftex.def Info: img/Print4/4_TTuHTWeiche-RechtsBP-Schematic.PNG used o
-n input line 65.
+n input line 66.
 (pdftex.def)             Requested size: 258.12648pt x 180.22609pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--68
+Underfull \hbox (badness 10000) in paragraph at lines 62--69
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 71.
 [58 <./img/Print4/4_TTuHTWeiche-LinksHP-Schematic.PNG> <./img/Print4/4_TTuHTWei
 che-RechtsBP-Schematic.PNG>]
 <img/Print4/4_TTuHTWeiche-PCB.PNG, id=911, 944.02687pt x 648.92438pt>
 File: img/Print4/4_TTuHTWeiche-PCB.PNG Graphic file (type png)
 
 <use img/Print4/4_TTuHTWeiche-PCB.PNG>
-Package pdftex.def Info: img/Print4/4_TTuHTWeiche-PCB.PNG used on input line 77
+Package pdftex.def Info: img/Print4/4_TTuHTWeiche-PCB.PNG used on input line 78
 .
 (pdftex.def)             Requested size: 430.20644pt x 295.72644pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 85.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 85.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 85.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 85.
  [59 <./img/Print4/4_TTuHTWeiche-PCB.PNG>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 101.
  [60]
 <img/Print3/3mTTWeicheruAddiererDiplSchematic.PNG, id=929, 847.968pt x 214.401p
 t>
 File: img/Print3/3mTTWeicheruAddiererDiplSchematic.PNG Graphic file (type png)
  <use img/Print3/3mTTWeicheruAddiererDiplSchematic.PNG>
 Package pdftex.def Info: img/Print3/3mTTWeicheruAddiererDiplSchematic.PNG used 
-on input line 104.
+on input line 105.
 (pdftex.def)             Requested size: 608.45332pt x 153.84187pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 110.
  [61
 
  <./img/Print3/3mTTWeicheruAddiererDiplSchematic.PNG>]
@@ -3743,7 +3743,7 @@ File: img/Print3/3mTTWeicheruAddierer-PCB.PNG Graphic file (type png)
 
 <use img/Print3/3mTTWeicheruAddierer-PCB.PNG>
 Package pdftex.def Info: img/Print3/3mTTWeicheruAddierer-PCB.PNG used on input 
-line 126.
+line 127.
 (pdftex.def)             Requested size: 301.14319pt x 330.65854pt.
 ) (tex/Bluetooth-Modul.tex
 Package babel Info: Redefining ngerman shorthand "|
@@ -4654,9 +4654,9 @@ r8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
 b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on diplomarbeit.pdf (107 pages, 10869910 bytes).
+Output written on diplomarbeit.pdf (107 pages, 10869586 bytes).
 PDF statistics:
- 1957 PDF objects out of 2073 (max. 8388607)
+ 1955 PDF objects out of 2073 (max. 8388607)
  344 named destinations out of 1000 (max. 500000)
  980 words of extra memory for PDF output out of 10000 (max. 10000000)
 

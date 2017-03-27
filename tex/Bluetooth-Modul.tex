@@ -37,13 +37,13 @@ Insgesamt hat das Modul 23 verwendbare Pins, aufgeteilt auf 2 Seiten in 11 und 1
 	\includegraphics[width=1\textwidth]{img/BTModul/XS3868_Pinbelegung.png}
 	\caption{Pinbelegung XS3868}\label {fig:5.3.4.1}
 \end{figure}
-Wie in Abbildung \ref{fig:5.3.4.1} dargestellt, ist der Audio-Ausgang auf den Pins 1-3.
+Wie in Abbildung \ref{fig:5.3.4.1} dargestellt, liegt der Audio-Ausgang auf den Pins 1-3.
 Die Status-LED für das Modul wird mit dem Pin 6 geschaltet.
 \\ \\
 Die Versorgung des Moduls erfolgt über die Pins 11 (VBAT) und 9 (GND).
-Für die Audiofunktionen wird eine konstante Spannung (1,8V - Pin 12) benötigt.
+Für die Audiofunktionen wird eine konstante Spannung (1,8V - Pin 12) erzeugt.
 Diese Funktionen befinden sich auf den Pins 14-16 und 21-22.
-Sie werden mit Tastern beschalten.
+Sie werden mit Tastern beschaltet.
 \\
 Die UART-Schnittstelle befindet sich auf den Pins 18-19.
 \\
@@ -61,14 +61,14 @@ Bereits mit einer simplen Beschaltung kann das Modul in Betrieb genommen werden:
 Mit dieser Schaltung (Abb. \ref {fig:5.3.5.1}) kann das Modul bereits ordnungsgemäß arbeiten.
 \\
 Die Versorgungsspannung darf zwischen 3,3 V und 4,2 V liegen.
-Das XS3868-Modul hat eine Stromaufnahme von bis zu 200mA wenn Musik abgespielt wird.
+Das XS3868-Modul hat eine Stromaufnahme von bis zu 200 mA wenn Musik abgespielt wird.
 \\ \\
-Die Status-LED ist, wie in Abbildung \ref {fig:5.3.5.1} dargestellt, \enquote{Low-Aktiv}.
+Die Status-LED ist, wie in Abbildung \ref {fig:5.3.5.1} dargestellt \enquote{Low-Aktiv}.
 Das bedeutet, dass der Pin 6 (\enquote{LED1}) auf Masse geschaltet wird, wenn die LED leuchten soll.
 Beim Starten des Moduls und während der Suche nach Geräten blinkt sie durchgehend, wobei sie bei einer bestehenden Verbindung nur die Hälfte der Zeit blinkt.
 \\ \\
 Mit einfachem Betätigen eines Tasters wird die entsprechende Funktion vom Modul ausgeführt, jeweils mit einem Bestätigungston begleitet.
-Dieser Ton wird auch beim Starten des Moduls abgespielt.
+Dieser Ton ist auch beim Starten des Moduls zu hören.
 \\ \\
 Statt die Lautsprecher direkt an das Modul anzuschließen, sollte allerdings noch ein Verstärker verbaut werden.
 \newpage
@@ -77,12 +77,12 @@ Statt die Lautsprecher direkt an das Modul anzuschließen, sollte allerdings noc
 \subsection*{Verbindung mit dem Modul} \label{subsec:5.3.6}
 Wenn der OVC3860 eingeschaltet ist, sucht er andauernd nach BT-Geräten.
 Mit einem Smartphone findet man das Gerät und kann sich mit einem Standard-PIN-Code (\enquote{0000}) verbinden.
-Wenn bereits Lautsprecher angeschlossen sind, wird ein Ton abgespielt, der die Verbindung bestätigt.
-Außerdem hat die Status-LED nun ein anderes Blinkverhalten (Mehrmaliges Blinken mit längeren Pausen).
+Wenn bereits Lautsprecher angeschlossen sind, ist ein Ton zu hören, der die Verbindung bestätigt.
+Außerdem hat die Status-LED nun ein anderes Blinkverhalten (mehrmaliges Blinken mit längeren Pausen).
 \\
-Jetzt ist das Modul bereit Musik abzuspielen.
+Jetzt ist das Modul bereit Musik wiederzugeben.
 Diese kann vom Smartphone oder vom Modul aus gesteuert werden.
-Die notwendigen Taster müssen allerdings schon in der Schaltung verbaut sein um die Bedienung der Musik zu ermöglichen.
+Die notwendigen Taster müssen allerdings schon in der Schaltung verbaut sein, um die manuelle Steuerung der Musik am Modul zu ermöglichen.
 
 
 %\section{Zusatz-Leiterplatten} \label{sec:4.3}
@@ -108,8 +108,8 @@ Das PCB (Abb. \ref{fig:5.3.7.2}) ist, wie bereits erwähnt, einseitig aufgebaut:
 	\includegraphics[width=0.6\textwidth]{img/BTModul/adapter_pcb.png}
 	\caption{PCB des Adapter-Boards}\label {fig:5.3.7.2}
 \end{figure} 
-Mit diesem PCB kann da BT-Modul nun besser getestet und auch weiterverwendet werden.
-Gemeinsam mit diesem Adapter kommt es auch auf die Hauptplatine.
+Mit diesem PCB kann das BT-Modul nun besser getestet und auch weiterverwendet werden.
+	Gemeinsam mit diesem Adapter w es auch auf die Hauptplatine.
 \newpage
 
 

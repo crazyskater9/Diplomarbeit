@@ -8,16 +8,16 @@
 Die gefilterten Hochton-Frequenzen müssen vor dem Abstrahlen verstärkt werden.
 Hierfür wird die TDA2030-Verstärker-Grundschaltung(siehe Kapitel \ref{subsec:8.3.2}) verwendet.
 \\ \\
-Hier ohne Leistungstransistoren, da Hochton-Lautsprecher nicht eine so hohe Leistung, ohne Gefahr von Zerstörung, umsetzen können.
+Hier ohne Leistungstransistoren, da Hochton-Lautsprecher nicht eine so hohe Leistung ohne Gefahr von Zerstörung, umsetzen können.
 Die Spulen des Lautsprechers könnten bei zu hoher Leistung durchbrennen, d.h. der Isolierschutzlack der Spulenwindungen wird zu heiß, die Windungen werden kurzgeschlossen.
 Das verstärkte Audiosignal weist dadurch am Ausgang der Schaltung eine höhere Spannung und einen höheren Strom auf.
 \\ \\
-Es soll nach diesem Schritt möglich sein den Hochton-Lautsprecher in einer der zwei Satellitenboxen mit ausreichend Signal zu versorgen, um einen Schalldruck von zumindest Zimmerlautstärke zu erhalten. 
+Es soll nach diesem Schritt möglich sein, den Hochton-Lautsprecher in einer der zwei Satellitenboxen mit ausreichend Signal zu versorgen, um einen Schalldruck von zumindest Zimmerlautstärke zu erhalten. 
 % Sollen wir hier genau das selbe schreiben wie beim TTVerstärker?
 
 \newpage
 \subsubsection{Schaltung}\label{subsec:5.1.2}
-Aus der TDA2030-Grundschaltung (siehe Kapitel \ref{subsec:8.3.2}) folgend ist auch hier ein Spannungsteiler vorgesehen um den Arbeitspunkt (Siehe Kapitel \ref{subsec:8.5.1}) einzustellen.
+Aus der TDA2030-Grundschaltung (siehe Kapitel \ref{subsec:8.3.2}) folgend ist auch hier ein Spannungsteiler vorgesehen, um den Arbeitspunkt (Siehe Kapitel \ref{subsec:8.5.1}) einzustellen.
 Die Schaltung wurde aus dem Datenblatt übernommen, nur vereinzelte Werte wurden angepasst. 
 % Veränderte Werte nennen?
 
@@ -31,8 +31,8 @@ Die Schaltung wurde aus dem Datenblatt übernommen, nur vereinzelte Werte wurden
 \newpage
 \subsubsection{PCB}\label{subsec:5.1.3}
 Das Layout wird wieder nach den Grunddesignregeln(siehe Kapitel \ref{subsec:8.2}) erstellt.\\
-Eine große Fläche über dem TDA2030 wird vorgesehen um einen Testkühlkörper mit dem Print mechanisch verbinden zu können.
-Es dient zur Verringerung der Hebelwirkung.
+Eine große freie Fläche über dem TDA2030 wird vorgesehen, um einen Testkühlkörper mit dem Print mechanisch verbinden zu können.
+Diese Fläche dient zur Verringerung der Hebelwirkung.
 %Mit Fortschreiten der Arbeit wurde die Fläche gekürtzt um mit dem neuen Kühlkörper eben abzuschließen.
 
 \begin{figure} [H]
@@ -51,19 +51,19 @@ Es wurde eine analoge Verstärker-Schaltung verwendet, da diese einfacher und mi
 \\ \\
 Mithilfe bereits bekannter, bewährter Schaltungen konnte ein Layout für diese Schaltung entwickelt werden.
 Ein wichtiger Baustein in dieser Schaltung ist der Verstärkerbaustein \enquote{TDA2030} (Siehe Kapitel \ref{sec:8.3}).
-Des weiteren werden zwei Leistungstransistoren verbaut die höhere Ströme schalten können, falls der maximale Schaltstrom des TDA2030 erreicht wird (Siehe Kapitel \ref{subsec:8.3.1}).
+Des weiteren werden zwei Leistungstransistoren verbaut, die höhere Ströme schalten können, falls der maximale Schaltstrom des TDA2030 erreicht wird (Siehe Kapitel \ref{subsec:8.3.1}).
 \\ \\
-Das Eingangssignal soll verstärkt werden um am Ausgang der Schaltung höhere Spannung und höheren Ströme aufzuweisen.
-Es soll nach diesem Schritt möglich sein den Tiefton-Lautsprecher in einer der zwei Satellitenboxen mit ausreichend Signal zu versorgen, um einen Schalldruck von zumindest Zimmerlautstärke zu erhalten. 
+Das Eingangssignal soll verstärkt werden, um am Ausgang der Schaltung höhere Spannung und höhere Ströme aufzuweisen.
+Es soll nach diesem Schritt möglich sein, den Tiefton-Lautsprecher in einer der zwei Satellitenboxen mit ausreichend Signal zu versorgen, um einen Schalldruck von zumindest Zimmerlautstärke zu erhalten. 
 
 \newpage
 \subsubsection{Schaltung}\label{subsec:5.2.2}
-In der linken, oberen Ecke der Schaltung (\ref{fig:5.2.2.1}) ist der Spannungsteiler für einstellen des Arbeitspunktes (Siehe Kapitel \ref{subsec:8.5.1}) ersichtlich.
-Mit Hilfe des ELKO's \enquote{EL504} wird verschleppte Gleichspannung am Eingang der Schaltung heraus gesiebt.
-Dafür ist auch der ELKO \enquote{EL502}, dieser siebt die Gleichspannung am Ausgang der Schaltung heraus, bevor das Signal die Platine verlässt. \\
+In der linken, oberen Ecke der Schaltung (Abb. \ref{fig:5.2.2.1}) ist der Spannungsteiler für die Einstellung des Arbeitspunktes (Siehe Kapitel \ref{subsec:8.5.1}) ersichtlich.
+Mit Hilfe des ELKO's \enquote{EL504} wird verschleppte Gleichspannung am Eingang der Schaltung herausgefiltert.
+Der ELKO \enquote{EL502} filtert die Gleichspannung am Ausgang der Schaltung heraus, bevor das Signal die Platine verlässt. \\
 Über die Widerstände \enquote{R506} und \enquote{R505} wird die Verstärkung der Schaltung eingestellt.
 In diesem Fall ist die Verstärkung $\frac{R505+R506}{R505}$ = 31 .
-Das bedeutet, dass das Eingangssignal am Ausgang 31mal so groß sein soll, natürlich unter Beachtung der Grenzen der OPV-Verstärkerschaltung (\ref{sec:8.5}).
+Dies bedeutet, dass das Eingangssignal am Ausgang 31mal so groß sein soll, natürlich unter Beachtung der Grenzen der OPV-Verstärkerschaltung (Kap. \ref{sec:8.5}).
 
 
 \begin{figure} [H]
@@ -75,9 +75,9 @@ Das bedeutet, dass das Eingangssignal am Ausgang 31mal so groß sein soll, natü
 
 \newpage
 \subsubsection{PCB}\label{subsec:5.2.3}
-Die drei zu kühlenden Bauteile \enquote{Q502, U501, Q501} (\ref{fig:5.2.3.1}) sind auf selber Höhe montiert um sie auf einen Kühlkörper montieren können.\\
+Die drei zu kühlenden Bauteile \enquote{Q502, U501, Q501} (Abb. \ref{fig:5.2.3.1}) sind auf selber Höhe montiert, um sie auf einen Kühlkörper befestigen können.\\
 \emph{Zu beachten dabei ist deren Potential an der Kühlfläche!}\\
-Das Potential ist das Selbe wie an dem mittleren Anschluss-Pin des jeweiligen Bauteils.
+Das Potential ist dasselbe wie an dem mittleren Anschluss-Pin des jeweiligen Bauteils.
 Daher:
 \begin{itemize}
 	\item TDA2030: \enquote{-Vcc} = Masse bei asymmetrische Versorgung
@@ -87,9 +87,9 @@ Daher:
 
 Aus diesem Grund müssen zumindest die zwei Transistoren isoliert am Kühlkörper angebracht werden.\\
 Die Ein- und Ausgänge sind auf einer Seite montiert. 
-Einheitlich mit der Hochton-Verstärkerplatine(\ref{subsec:5.1.3}) ist von links nach rechts zuerst Versorgungsstecker, dann Eingangssignal und am Ende der Ausgangsstecker angebracht.
-Ebenso ist Masse jeweils rechts angeordnet um die Einheitlichkeit noch weiter zu erhöhen.\\
-Auf der Platine ist über den zu kühlenden Elementen ist eine große frei Fläche mit Bohrungen um eine bessere mechanische Verbindung mit dem Kühlkörper zu erhalten.
+Einheitlich mit der Hochton-Verstärkerplatine(Kap. \ref{subsec:5.1.3}) ist von links nach rechts zuerst der Versorgungsstecker, dann das Eingangssignal und am Ende der Ausgangsstecker angebracht.
+Ebenso ist Masse jeweils rechts angeordnet, um die Einheitlichkeit noch weiter zu erhöhen.\\
+Auf der Platine über den zu kühlenden Elementen ist eine große freie Fläche mit Bohrungen vorgesehen, um eine bessere mechanische Verbindung mit dem Kühlkörper zu ermöglichen.
 Die vier kleineren Bohrungen waren für einen Testkühlkörper vorgesehen. 
 Dieser Kühlkörper wurde bald durch einen größeren ersetzt, um mehrere Platinen montieren zu können.
 %Die finale Ausführung ist jedoch nur auf die mechanische Verbindung der Bauteile mit dem Kühlkörper angewiesen.
@@ -105,7 +105,7 @@ Dieser Kühlkörper wurde bald durch einen größeren ersetzt, um mehrere Platin
 \newpage
 \subsection{Subwoofer-Verstärker}
 Die Schaltung (Kap. \ref{subsec:8.3.4}) für den Verstärker wurde aus dem Datenblatt übernommen.\\
-Das bewährte Layout wurde aus einer HiFi-Zeitschrift von \enquote{SGS-Ates} übernommen (Artikel von: Herbert Sax).
+Das bewährte Layout wurde aus einer HiFi-Zeitschrift von \enquote{SGS-Ates} übernommen (Artikel von Herbert Sax).
 \\ \\
 
 \begin{figure} [H]
