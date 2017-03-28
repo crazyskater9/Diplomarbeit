@@ -116,7 +116,7 @@ Mit diesem PCB kann das BT-Modul nun besser getestet und auch weiterverwendet we
 \subsection*{Hauptplatine} \label{subsec:5.3.8}
 %\subsubsection{Funktion} \label{subsubsec:4.1.8.1}
 Die Hauptplatine wird hauptsächlich zur Versorgung des BT-Moduls, aber auch zur Weiterverarbeitung des Audio-Signals verwendet.
-Darüber hinaus ist eine Additionsschaltung vorgesehen, die das Signal des BT-Moduls mit einem zweiten, von einem Klinken-Eingang zugeführten, Signal vermischt.
+Darüber hinaus ist eine Additionsschaltung vorgesehen, die das Signal des BT-Moduls mit einem zweiten, von einem Klinken-Eingang zugeführten Signal vermischt.
 Die Lautstärke von diesem zweiten Audio-Signal kann über ein Stereo-Potentiometer geregelt werden.
 \\
 Weiterhin sind die Pins zur Bedienung der Musik an einen 2x5-Wannenstecker herausgeführt.
@@ -137,7 +137,7 @@ Mit einer maximalen Stromaufnahme von 200mA ergibt sich folgende Verlustleistung
 \begin{equation}
 	P_{max} = 8,6 V * 200 mA = 1,7 2W
 \end{equation}
-Deshalb wird auch ein Kühlkörper, in Form einer Alu-Platte, verwendet.
+Deshalb wird auch ein Kühlkörper in Form einer Alu-Platte verwendet.
 \\
 Ein eigener Stecker (Stiftleiste) für die Versorgung (12 V) sowie die UART-Schnittstelle (RS232, 3V3) sind auch vorgesehen.
 Der Wannenstecker (hier: \enquote{MediaControl}) ist mit allen wichtigen Pins des Moduls verbunden und verbindet eine Frontplatine mit der Hauptplatine.
@@ -161,7 +161,7 @@ Der Arbeitspunkt bei 6 V am Pin 3 wird benötigt um am Ausgang eine Spannung von
 \newpage
 
 %\subsubsection{PCB} \label{subsec:4.1.8.3}
-Die Platine(Abb. \ref {fig:5.3.8.3.1}) für die Hauptplatine sollte möglichst kompakt sein und alle Eingänge oder Bedienelemente auf einer Seite (hier rechts) haben.
+Die Platine(Abb. \ref {fig:5.3.8.3.1}) für die Hauptplatine sollte möglichst kompakt sein und alle Eingänge oder Bedienelemente sollten sich auf einer Seite (hier rechts) befinden.
 Das BT-Modul wird samt Adapter auf zwei Stiftleisten gesteckt.
 Darunter werden keine Bauteile verwendet, weil es sonst zu eng wäre.
 Des weiteren wären Bauteile unter dem Adapterprint während der Testphase unvorteilhaft, da diese schwerer zugänglich sind.
@@ -190,10 +190,10 @@ Die Höhe der Taster reicht über die Kondensatoren hinaus um eine Bedienung zu 
 \end{figure}
 Jeder Taster ist mit dem 1V8-Pin des Moduls verbunden und geht dann weiter auf den entsprechenden Funktionspin.
 Die Bezeichnung \enquote{LED+} entspricht der Versorgungsspannung (\enquote{VBAT} = 3,4 V) des Moduls.
-\enquote{LED-} ist mit dem Ansteuerungssignal am BT-Modul verbunden (Pin 6).
+\enquote{LED-} ist mit dem \mbox{Ansteuerungssignal} am BT-Modul verbunden (Pin 6).
 
 %%\subsubsection{PCB} \label{subsubsec:4.1.9.3}
-Das PCB (Abb. \ref {fig:5.3.9.3.1}) der Frontplatine soll ebenfalls so klein wie möglich aber von der Bedienung her sinnvoll aufgebaut sein.
+Das PCB (Abb. \ref {fig:5.3.9.3.1}) der Frontplatine soll ebenfalls so klein wie möglich, aber von der Bedienung her sinnvoll aufgebaut sein.
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/BTModul/front_pcb.png}
