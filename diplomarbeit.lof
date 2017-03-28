@@ -3,7 +3,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Blockschaltbild\relax }}{4}{figure.caption.4}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Tiefton-, Mittelton- und Hochton-Bereich - (Beispiel eines Lautsprecher-Systems)\relax }}{6}{figure.caption.5}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Tiefton-, Mittelton- und Hochton-Bereich - (Beispiel Frequenzgang eines Lautsprecher-Systems)\relax }}{6}{figure.caption.5}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Tiefpass-, Bandpass- und Hochpass-Weiche - (Beispiel f\IeC {\"u}r das Verhalten von Frequenzweichen)\relax }}{7}{figure.caption.7}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces 2.0-Lautsprecher-System\relax }}{9}{figure.caption.11}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Optimale Ausrichtung zum Tester\relax }}{10}{figure.caption.12}
@@ -83,9 +83,9 @@
 \contentsline {figure}{\numberline {8.3}{\ignorespaces TDA2030-Grundschaltung}}{79}{figure.caption.112}
 \contentsline {figure}{\numberline {8.4}{\ignorespaces TDA2030-Leistungstransistorschaltung}}{80}{figure.caption.113}
 \contentsline {figure}{\numberline {8.5}{\ignorespaces TDA2030-H-Br\IeC {\"u}ckenschaltung}}{81}{figure.caption.114}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Butterworth-Tiefpass-Filter 2. Ordnung\relax }}{83}{figure.caption.115}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{83}{figure.caption.116}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Butterworth-Hochpass-Filter 2. Ordnung\relax }}{84}{figure.caption.117}
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Nicht invertierender Verst\IeC {\"a}rker - OPV-Grundschaltung}}{85}{figure.caption.118}
-\contentsline {figure}{\numberline {8.10}{\ignorespaces PSS 297 58206 (\enquote {TT1}) ohne Volumsverminderung Volumen = 13,72 l\relax }}{86}{figure.caption.119}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Butterworth-Tiefpass-Filter 2. Ordnung\relax }}{96}{figure.caption.116}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{96}{figure.caption.117}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Butterworth-Hochpass-Filter 2. Ordnung\relax }}{97}{figure.caption.118}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Nicht invertierender Verst\IeC {\"a}rker - OPV-Grundschaltung}}{98}{figure.caption.119}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces PSS 297 58206 (\enquote {TT1}) ohne Volumsverminderung Volumen = 13,72 l\relax }}{99}{figure.caption.120}
 \addvspace {10\p@ }

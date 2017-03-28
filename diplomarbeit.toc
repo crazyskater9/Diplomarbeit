@@ -55,14 +55,16 @@
 \contentsline {subsection}{\numberline {8.3.2}TDA2030-Grundschaltung}{78}{subsection.8.3.2}
 \contentsline {subsection}{\numberline {8.3.3}Leistungstransistor-Schaltung}{80}{subsection.8.3.3}
 \contentsline {subsection}{\numberline {8.3.4}H-Br\IeC {\"u}ckenschaltung der TDA2030-Verst\IeC {\"a}rkerschaltung}{81}{subsection.8.3.4}
-\contentsline {section}{\numberline {8.4}Filter}{82}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}Butterworth-Filter 2. Ordnung}{82}{subsection.8.4.1}
-\contentsline {section}{\numberline {8.5}Nicht invertierende Verst\IeC {\"a}rker - OPV-Grundschaltung}{84}{section.8.5}
-\contentsline {subsection}{\numberline {8.5.1}Asymmetrische Versorgung eines OPV's}{85}{subsection.8.5.1}
-\contentsline {section}{\numberline {8.6}Welligkeit}{86}{section.8.6}
-\contentsline {section}{\numberline {8.7}Datenblatt - Renkforce B12123}{88}{section.8.7}
-\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{90}{chapter*.122}
-\contentsline {chapter}{Abbildungsverzeichnis}{92}{section*.123}
-\contentsline {chapter}{Danksagungen}{94}{section*.125}
-\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. Dr. Herbert Wagner}{94}{section*.127}
-\contentsline {chapter}{Literaturverzeichnis}{95}{section*.128}
+\contentsline {subsection}{\numberline {8.3.5}Datenblatt TDA2030}{82}{subsection.8.3.5}
+\contentsline {section}{\numberline {8.4}Filter}{95}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Butterworth-Filter 2. Ordnung}{95}{subsection.8.4.1}
+\contentsline {section}{\numberline {8.5}Nicht invertierende Verst\IeC {\"a}rker - OPV-Grundschaltung}{97}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Asymmetrische Versorgung eines OPV's}{98}{subsection.8.5.1}
+\contentsline {section}{\numberline {8.6}Welligkeit}{99}{section.8.6}
+\contentsline {section}{\numberline {8.7}Datenblatt - Renkforce B12123}{100}{section.8.7}
+\contentsline {section}{\numberline {8.8}Datenblatt - Visaton DTW 72-8}{102}{section.8.8}
+\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{103}{chapter*.124}
+\contentsline {chapter}{Abbildungsverzeichnis}{105}{section*.125}
+\contentsline {chapter}{Danksagungen}{107}{section*.127}
+\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. Dr. Herbert Wagner}{107}{section*.129}
+\contentsline {chapter}{Literaturverzeichnis}{108}{section*.130}
