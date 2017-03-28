@@ -1,39 +1,245 @@
-\section{Einstellungen für die PCB-Entwicklung in \enquote{Altium Designer}}\label{subsec:8.1}
-%% Altium und Einstellungserklärung + Wichtige Layout-Faktoren
-%Beim designen des Leiterplattenlayouts wurden die allgemeinen Altium-Einstellungen vorgenommen und auf die zu berücksichtigenden Layoutpunkte geachtet.
-Beim \enquote{Layouten} der Schaltung in \enquote{Altium Designer} mussten einige wichtige Einstellungen vorab getätigt werden:\\
-Wie da wären:
-\begin{itemize}
-	\item Arbeiten mit der Metrischen Einheit \enquote{mm}
-	\item Layers benennen nach Vorgaben der Leiterplattenfertigung
-	\item Kupferabstände
-	\item Kupferbreite
-	\item Lochdurchmesser und Restringeinstellungen für Vias
-	\item Wärmefallen
-	\item Restring für Pads
-	\item Lochdurchmesser für Pads
-\end{itemize}
+\section{Arbeitsnachweis}\label{sec:8.9}
+\subsection{Aufschlüsselung}
+\subsubsection*{Bointner}
 
-\section{Designregeln für die PCB-Entwicklung}\label{subsec:8.2}
-Beim Entwickeln einer Leiterplatte musste ständig auf wichtige Faktoren geachtet werden um eine Durchwegs EMV konforme, elektrisch wie auch mechanisch Stabile und Teils variable Schaltung zu erhalten.
-Variabel daher weil es keine Prints für Serienreife sind, welche im Notfall auch mit anderen Bauteilen als den zuvor Vorgesehenen bestückt werden können.\\
-Zu den Wichtigen Faktoren zählen:
-\begin{itemize}
-	\item EMV-Technische-Faktoren
-	\begin{itemize}
-		\item Kurze Leiterbahnen
-		\item Durchdachtes Spannungsversorgungsnetz
-		\item kleine Leiterschleifen
-		\item Massefläche verwenden
-		\item Anordnung der Bauteile
-	\end{itemize}
-	\item Ausnützen der Printfläche
-	\item Mehrfach-Footprints ermöglichen für verschiedene Bauteile
-	\item Mechanische Aufhängebohrungen vorsehen (in jeder Ecke des Prints)
-	\item Beschriftung bei Möglichkeit vorsehen
-\end{itemize}
+\subsubsection*{Macsek}
+
+\newpage
+\section{Printunterlagen}\label{sec:8.10}
+\subsection{0\_BTAdapter}
+\subsubsection*{Schaltung}
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/BTModul/adapter_sch.png}
+	\caption{0\_BTAdapter - Schaltung}
+	\label {fig:8.10.1}
+\end{figure}
+
+\newpage
+\subsubsection*{Bestückungsplan}
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{img/BTModul/adapter_Best.png}
+	\caption{0\_BTAdapter - Bestückungsplan}
+	\label {fig:8.10.2}
+\end{figure}
+
+\subsubsection*{Stückliste}
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/BTModul/adapter_Blist.png}
+	\caption{0\_BTAdapter - Stückliste}
+	\label {fig:8.10.3}
+\end{figure}
 
 
+
+
+\subsection{1\_BTFrontplatine}
+\subsubsection*{Schaltung}
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{img/BTModul/front_sch.png}
+	\caption{1\_BTFrontplatine - Schaltung}
+	\label {fig:8.10.4}
+\end{figure}
+
+\newpage
+\subsubsection*{Bestückungsplan}
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/BTModul/front_Best.png}
+	\caption{1\_BTFrontplatine - Bestückungsplan}
+	\label {fig:8.10.5}
+\end{figure}
+\subsubsection*{Stückliste}
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/BTModul/front_Blist.png}
+	\caption{1\_BTFrontplatine - Stückliste}
+	\label {fig:8.10.6}
+\end{figure}
+
+
+
+
+
+\begin{sidewaysfigure}
+	\subsection{2\_Hauptplatine}
+	\subsubsection*{Schaltung}
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=1\textwidth]{img/BTModul/hauptboard_sch.png}
+		\caption{2\_Hauptplatine - Schaltung}
+		\label {fig:8.10.7}
+	\end{figure}
+\end{sidewaysfigure}
+
+\begin{sidewaysfigure}
+	\subsubsection*{Bestückungsplan}
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=1\textwidth]{img/BTModul/hauptboard_Best.png}
+		\caption{2\_Hauptplatine - Bestückungsplan}
+		\label {fig:8.10.8}
+	\end{figure}
+\end{sidewaysfigure}
+
+\begin{sidewaysfigure}
+	\subsubsection*{Stückliste}
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=1\textwidth]{img/BTModul/hauptboard_Blist.png}
+		\caption{2\_Hauptplatine - Stückliste}
+		\label {fig:8.10.9}
+	\end{figure}
+\end{sidewaysfigure}
+
+
+
+
+
+
+
+\begin{sidewaysfigure}
+	\subsection{3\_mTT-Weiche und Addierer}
+	\subsubsection*{Schaltung}
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=1\textwidth]{img/Print3/3mTTWeicheruAddiererDiplSchematic.png}
+		\caption{3\_mTT-Weiche und Addierer - Schaltung}
+		\label {fig:8.10.10}
+	\end{figure}
+\end{sidewaysfigure}
+
+\begin{sidewaysfigure}
+	\subsubsection*{Bestückungsplan}
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=0.5\textwidth]{img/Print3/3mTTWeicheruAddierer-Best.png}
+		\caption{3\_mTT-Weiche und Addierer - Bestückungsplan}
+		\label {fig:8.10.11}
+	\end{figure}
+\end{sidewaysfigure}
+
+\begin{sidewaysfigure}
+	\subsubsection*{Stückliste}
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=1\textwidth]{img/Print3/3mTTWeicheruAddierer-Blist.png}
+		\caption{3\_mTT-Weiche und Addierer - Stückliste}
+		\label {fig:8.10.12}
+	\end{figure}
+\end{sidewaysfigure}
+
+
+
+
+
+
+\begin{sidewaysfigure}
+	\subsection{4\_HTundTT-Weiche}
+	\subsubsection*{Schaltung}
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=1\textwidth]{img/Print4/4_TTuHTWeiche-Schematic.png}
+		\caption{4\_HTundTT-Weiche - Schaltung}
+		\label {fig:8.10.13}
+	\end{figure}
+\end{sidewaysfigure}
+
+\begin{sidewaysfigure}
+	\subsubsection*{Bestückungsplan}
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{img/Print4/4_TTuHTWeiche-Best.png}
+		\caption{4\_HTundTT-Weiche - Bestückungsplan}
+		\label {fig:8.10.14}
+	\end{figure}
+\end{sidewaysfigure}
+
+\begin{sidewaysfigure}
+	\subsubsection*{Stückliste}
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=1\textwidth]{img/Print4/4_TTuHTWeiche-Blist.png}
+		\caption{4\_HTundTT-Weiche - Stückliste}
+		\label {fig:8.10.15}
+	\end{figure}
+\end{sidewaysfigure}
+
+
+
+
+\begin{sidewaysfigure}
+	\subsection{5\_TTVerstärker}
+	\subsubsection*{Schaltung}
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=1\textwidth]{img/Print5/5_TTVerstaerker-Schem.png}
+		\caption{5\_TTVerstärker - Schaltung}
+		\label {fig:8.10.16}
+	\end{figure}
+\end{sidewaysfigure}
+
+\begin{sidewaysfigure}
+	\subsubsection*{Bestückungsplan}
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=0.7\textwidth]{img/Print5/5_TTVerstaerker-Best.png}
+		\caption{5\_TTVerstärker - Bestückungsplan}
+		\label {fig:8.10.17}
+	\end{figure}
+\end{sidewaysfigure}
+
+\begin{sidewaysfigure}
+	\subsubsection*{Stückliste}
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=1\textwidth]{img/Print5/5_TTVerstaerker-Blist.png}
+		\caption{5\_TTVerstärker - Stückliste}
+		\label {fig:8.10.18}
+	\end{figure}
+\end{sidewaysfigure}
+
+
+
+
+\begin{sidewaysfigure}
+	\subsection{6\_HTVerstärker}
+	\subsubsection*{Schaltung}
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=1\textwidth]{img/Print6/HTVerstaerker-Schem.png}
+		\caption{6\_HTVerstärker - Schaltung}
+		\label {fig:8.10.19}
+	\end{figure}
+\end{sidewaysfigure}
+
+\subsubsection*{Bestückungsplan}
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{img/Print6/HTVerstaerker-Best.png}
+		\caption{6\_HTVerstärker - Bestückungsplan}
+		\label {fig:8.10.20}
+	\end{figure}
+
+\begin{sidewaysfigure}
+	\subsubsection*{Stückliste}
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=1\textwidth]{img/Print6/HTVerstaerker-Blist.png}
+		\caption{6\_HTVerstärker - Stückliste}
+		\label {fig:8.10.21}
+	\end{figure}
+\end{sidewaysfigure}
+
+
+
+
+
+
+\newpage
 \section{TDA2030}\label{sec:8.3}
 Der TDA2030 ist ein für den Audio-Frequenzbereich optimierter OPV.
 Dieser kann symmetrisch sowie auch asymmetrisch versorgt werden.
@@ -287,20 +493,65 @@ Ziel eines Lautsprechersystems ist es über den ganzen Audiobereich, 20 Hz bis 2
 In diesem Fall (Abb. \ref{fig:8.6.1}) würde man diesen Lautsprecher nur von ungefähr 60 Hz bis 400 Hz, unter beachten der Grenzen, spielen lassen.
 In der Praxis werden kleinere Ausreißer toleriert, sofern es sich nicht um ein Qualitätsprodukten handelt.
 
-%\newpage
-\section{Datenblatt - Renkforce B12123}\label{sec:8.7}
-\begin{figure} [H]
-	\includegraphics[page=1,scale=0.65,angle=90]{img/LSMessung/TT/Renkforce-Datasheet.pdf}
-\end{figure}
-\newpage
-\begin{figure} [H]
-	\includegraphics[page=2,scale=0.7,angle=90]{img/LSMessung/TT/Renkforce-Datasheet.pdf}
-\end{figure}
 
-\section{Datenblatt - Visaton DTW 72-8}
+\begin{sidewaysfigure}
+	\section{Datenblatt - Renkforce B12123}\label{sec:8.7}
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=1\textwidth]{img/LSMessung/TT/Renkforce-Datasheet1.png}
+	\end{figure}
+\end{sidewaysfigure}
+	\begin{sidewaysfigure}
+	\begin{figure} [H]
+		\centering
+		\includegraphics[width=1\textwidth]{img/LSMessung/TT/Renkforce-Datasheet2.png}
+	\end{figure}
+\end{sidewaysfigure}
+
+
+\newpage
+\section{Datenblatt - Visaton DTW 72-8}\label{sec:8.8}
 \begin{figure} [H]	
 	\centering
-	\includegraphics[width=0.8\textwidth]{form/VIS_DTW72.PNG}
+	\includegraphics[width=0.9\textwidth]{form/VIS_DTW72.PNG}
 \end{figure}
+
+
+
+\section{Einstellungen für die PCB-Entwicklung in \enquote{Altium Designer}}\label{subsec:8.1}
+%% Altium und Einstellungserklärung + Wichtige Layout-Faktoren
+%Beim designen des Leiterplattenlayouts wurden die allgemeinen Altium-Einstellungen vorgenommen und auf die zu berücksichtigenden Layoutpunkte geachtet.
+Beim \enquote{Layouten} der Schaltung in \enquote{Altium Designer} mussten einige wichtige Einstellungen vorab getätigt werden:\\
+Wie da wären:
+\begin{itemize}
+	\item Arbeiten mit der Metrischen Einheit \enquote{mm}
+	\item Layers benennen nach Vorgaben der Leiterplattenfertigung
+	\item Kupferabstände
+	\item Kupferbreite
+	\item Lochdurchmesser und Restringeinstellungen für Vias
+	\item Wärmefallen
+	\item Restring für Pads
+	\item Lochdurchmesser für Pads
+\end{itemize}
+
+
+\section{Designregeln für die PCB-Entwicklung}\label{subsec:8.2}
+Beim Entwickeln einer Leiterplatte musste ständig auf wichtige Faktoren geachtet werden um eine Durchwegs EMV konforme, elektrisch wie auch mechanisch Stabile und Teils variable Schaltung zu erhalten.
+Variabel daher weil es keine Prints für Serienreife sind, welche im Notfall auch mit anderen Bauteilen als den zuvor Vorgesehenen bestückt werden können.\\
+Zu den Wichtigen Faktoren zählen:
+\begin{itemize}
+	\item EMV-Technische-Faktoren
+	\begin{itemize}
+		\item Kurze Leiterbahnen
+		\item Durchdachtes Spannungsversorgungsnetz
+		\item kleine Leiterschleifen
+		\item Massefläche verwenden
+		\item Anordnung der Bauteile
+	\end{itemize}
+	\item Ausnützen der Printfläche
+	\item Mehrfach-Footprints ermöglichen für verschiedene Bauteile
+	\item Mechanische Aufhängebohrungen vorsehen (in jeder Ecke des Prints)
+	\item Beschriftung bei Möglichkeit vorsehen
+\end{itemize}
 
 
