@@ -48,33 +48,34 @@
 \contentsline {section}{\numberline {7.2}Absatzkalkulation}{75}{section.7.2}
 \contentsline {section}{\numberline {7.3}Break-Even-Point}{75}{section.7.3}
 \contentsline {chapter}{\numberline {8}Anhang}{76}{chapter.8}
-\contentsline {section}{\numberline {8.1}Arbeitsnachweis}{76}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Aufschl\IeC {\"u}sselung}{76}{subsection.8.1.1}
-\contentsline {section}{\numberline {8.2}Printunterlagen}{77}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}0\_BTAdapter}{77}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}1\_BTFrontplatine}{79}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}2\_Hauptplatine}{81}{subsection.8.2.3}
-\contentsline {subsection}{\numberline {8.2.4}3\_mTT-Weiche und Addierer}{84}{subsection.8.2.4}
-\contentsline {subsection}{\numberline {8.2.5}4\_HTundTT-Weiche}{87}{subsection.8.2.5}
-\contentsline {subsection}{\numberline {8.2.6}5\_TTVerst\IeC {\"a}rker}{90}{subsection.8.2.6}
-\contentsline {subsection}{\numberline {8.2.7}6\_HTVerst\IeC {\"a}rker}{93}{subsection.8.2.7}
-\contentsline {section}{\numberline {8.3}TDA2030}{96}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Absolute Maximalwerte}{96}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}TDA2030-Grundschaltung}{97}{subsection.8.3.2}
-\contentsline {subsection}{\numberline {8.3.3}Leistungstransistor-Schaltung}{98}{subsection.8.3.3}
-\contentsline {subsection}{\numberline {8.3.4}H-Br\IeC {\"u}ckenschaltung der TDA2030-Verst\IeC {\"a}rkerschaltung}{100}{subsection.8.3.4}
-\contentsline {subsection}{\numberline {8.3.5}Datenblatt TDA2030}{101}{subsection.8.3.5}
-\contentsline {section}{\numberline {8.4}Filter}{114}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}Butterworth-Filter 2. Ordnung}{114}{subsection.8.4.1}
-\contentsline {section}{\numberline {8.5}Nicht invertierende Verst\IeC {\"a}rker - OPV-Grundschaltung}{116}{section.8.5}
-\contentsline {subsection}{\numberline {8.5.1}Asymmetrische Versorgung eines OPV's}{117}{subsection.8.5.1}
-\contentsline {section}{\numberline {8.6}Welligkeit}{118}{section.8.6}
-\contentsline {section}{\numberline {8.7}Datenblatt - Renkforce B12123}{119}{section.8.7}
-\contentsline {section}{\numberline {8.8}Datenblatt - Visaton DTW 72-8}{122}{section.8.8}
-\contentsline {section}{\numberline {8.9}Einstellungen f\IeC {\"u}r die PCB-Entwicklung in \enquote {Altium Designer}}{123}{section.8.9}
-\contentsline {section}{\numberline {8.10}Designregeln f\IeC {\"u}r die PCB-Entwicklung}{123}{section.8.10}
-\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{125}{chapter*.185}
-\contentsline {chapter}{Abbildungsverzeichnis}{127}{section*.186}
-\contentsline {chapter}{Danksagungen}{130}{section*.188}
-\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. Dr. Herbert Wagner}{130}{section*.190}
-\contentsline {chapter}{Literaturverzeichnis}{131}{section*.191}
+\contentsline {section}{\numberline {8.1}Arbeitsnachweis}{77}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Aufschl\IeC {\"u}sselung - Bointner}{77}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Aufschl\IeC {\"u}sselung - Macsek}{80}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Printunterlagen}{83}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}0\_BTAdapter}{83}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}1\_BTFrontplatine}{85}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}2\_Hauptplatine}{87}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}3\_mTT-Weiche und Addierer}{90}{subsection.8.2.4}
+\contentsline {subsection}{\numberline {8.2.5}4\_HTundTT-Weiche}{93}{subsection.8.2.5}
+\contentsline {subsection}{\numberline {8.2.6}5\_TTVerst\IeC {\"a}rker}{96}{subsection.8.2.6}
+\contentsline {subsection}{\numberline {8.2.7}6\_HTVerst\IeC {\"a}rker}{99}{subsection.8.2.7}
+\contentsline {section}{\numberline {8.3}TDA2030}{102}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Absolute Maximalwerte}{102}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}TDA2030-Grundschaltung}{103}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}Leistungstransistor-Schaltung}{104}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.4}H-Br\IeC {\"u}ckenschaltung der TDA2030-Verst\IeC {\"a}rkerschaltung}{106}{subsection.8.3.4}
+\contentsline {subsection}{\numberline {8.3.5}Datenblatt TDA2030}{107}{subsection.8.3.5}
+\contentsline {section}{\numberline {8.4}Filter}{120}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Butterworth-Filter 2. Ordnung}{120}{subsection.8.4.1}
+\contentsline {section}{\numberline {8.5}Nicht invertierende Verst\IeC {\"a}rker - OPV-Grundschaltung}{122}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Asymmetrische Versorgung eines OPV's}{123}{subsection.8.5.1}
+\contentsline {section}{\numberline {8.6}Welligkeit}{124}{section.8.6}
+\contentsline {section}{\numberline {8.7}Datenblatt - Renkforce B12123}{125}{section.8.7}
+\contentsline {section}{\numberline {8.8}Datenblatt - Visaton DTW 72-8}{127}{section.8.8}
+\contentsline {section}{\numberline {8.9}Einstellungen f\IeC {\"u}r die PCB-Entwicklung in \enquote {Altium Designer}}{128}{section.8.9}
+\contentsline {section}{\numberline {8.10}Designregeln f\IeC {\"u}r die PCB-Entwicklung}{128}{section.8.10}
+\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{130}{chapter*.189}
+\contentsline {chapter}{Abbildungsverzeichnis}{132}{section*.190}
+\contentsline {chapter}{Danksagungen}{136}{section*.192}
+\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. Dr. Herbert Wagner}{136}{section*.194}
+\contentsline {chapter}{Literaturverzeichnis}{137}{section*.195}
