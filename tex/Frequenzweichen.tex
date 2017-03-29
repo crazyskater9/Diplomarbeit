@@ -27,13 +27,13 @@ Dementsprechend sollen die Weichen gewählt und entwickelt werden.
 \subsubsection{Schaltung}\label{subsec:5.4.2}
 Das Eingangssignal (Links, Rechts, Masse) wird an einer dreipoligen Stiftleiste angeschlossen (Abb. \ref{fig:5.4.2.1}).
 Zuerst gelangt das linke und rechte Signal an jeweils ein Potentiometer, um den Pegel anpassen zu können, es bietet also eine Regelmöglichkeit.
-Über das Widerstandsnetzwerk am Plus-Eingang von HTA, welcher mit jedem Plus-Eingang der anderen OPVs verbunden ist, wird der Arbeitspunkt eingestellt (Siehe Kapitel \ref{subsec:8.5.1}). 
+Über das Widerstandsnetzwerk am Plus-Eingang von HTA, welcher mit jedem Plus-Eingang der anderen OPVs verbunden ist, wird der Arbeitspunkt eingestellt (Kap. \ref{subsec:8.5.1}). 
 
 %\\ \\
 \newpage
 Es folgen die Weichen.
 Hochpass-Weiche für Links/Rechts und Tiefpass-Weiche für Links/Rechts.
-Ein \enquote{Butterworth-Tiefpass 2. Ordnung} wurde bereits in dem Kapitel \ref{subsec:8.4.1} erklärt.
+Ein \enquote{Butterworth-Tiefpass 2. Ordnung} wird im Kapitel \ref{subsec:8.4.1} erklärt.
 Der \enquote{Butterworth-Hoch- und Bandpass 2. Ordnung} weist keine groben Unterschiede auf, der Unterschied liegt lediglich in der Bauteilaufteilung.
 %\newpage
 Nach der Weiche gelangen die frequenzmäßig getrennten Signale zu deren Ausgangspunkt. Es ist für jede Signalleitung eine zweipolige Stiftleiste vorgesehen (Signal \& Masse), da der darauffolgende Verstärker selbige Verbindung als Eingang vorweist.
@@ -70,7 +70,7 @@ Die zwei Teile sind über das IC-Gehäuse mit der gleichen Versorgungsspannung v
 
 \newpage
 \subsubsection{PCB}\label{subsec:5.4.3}
-Es werden die grundlegenden Regeln zur Leiterplattenentflechtung angewandt (Kap. \ref{subsec:8.2}).
+Es werden die grundlegenden Regeln zur Leiterplattenentflechtung angewandt (Kap. \ref{subsec:8.1}).
 Bei dem Design (Abb. \ref{fig:5.4.3.1}) wird auf hohe Variierbarkeit geachtet, um auch zB. Kondensatoren mit unterschiedlichen Gehäuse (engl. \enquote{Footprint}) verwenden zu können.\\
 Es wurden ebenfalls nahe an den OPVs ELKOs \enquote{EL401, EL402} zwischen Versorgungsspannung und Masse verbaut, um Störungen zu verhindern.
 \begin{figure} [H]
@@ -87,14 +87,14 @@ Es wurden ebenfalls nahe an den OPVs ELKOs \enquote{EL401, EL402} zwischen Verso
 \subsubsection{Allgemeines}\label{susec:5.5.1}
 Das empfangene Audio-Signal muss für das Lautsprecher-System aufgetrennt werden, und zwar in Hoch-, Mitte- und Tiefton-Bereich.
 Für den \enquote{Mono-Subwoofer} werden nur die tiefen Frequenzen des Audiosignals verwendet.
-Da, wie der Name schon sagt, es sich um einen \enquote{Mono-Subwoofer} handelt, muss das Stereo-Audio-Signal zuvor mittels OPV-Addierschaltung addiert werden um ein Mono-Audio-Signal zu erhalten.\\
-Es wird eine Platine angefertigt, welche über eine OPV-Addierschaltung verfügt und des weiteren das eintreffende Audio-Signal über eine Weiche passend für den \enquote{Mono-Subwoofer} filtert.
+Da, wie der Name schon sagt, es sich um einen \enquote{Mono-Subwoofer} handelt, muss das Stereo-Audio-Signal zuvor mittels OPV-Addierschaltung addiert werden, um ein Mono-Audio-Signal zu erhalten.\\
+Es wird eine Platine angefertigt, welche über eine OPV-Addierschaltung verfügt und des weiteren das eintreffende Audio-Signal über eine Weiche, passend für den \enquote{Mono-Subwoofer}, filtert.
 Diese Schaltung für die Tiefpass-Weiche muss variabel entwickelt werden. Die Tiefpass-Weiche muss unabhängig vom Platinendesign, nur durch Ändern von Bauteilwerten, andere Grenzfrequenzen umsetzen können.
 
 \subsubsection{Schaltung}\label{subsec:5.5.2}
 Passend dem Signalverlauf sitzt am Beginn der Schaltung (Abb. \ref{fig:5.5.2.1}) die erste Regelung über zwei Potentiometer.
 Anschließend kommt man zu der Addier-Schaltung, welche das Stereo-Audiosignal in ein Mono-Audiosignal wandelt und dadurch Stereo-Effekte wie zB. Balance am \enquote{Mono-Subwoofer} entfernt.\\
-Bedingt durch die asymmetrische Spannungsversorgung muss am Plus-Eingang des OPV ein Arbeitspunkt eingestellt werden (Siehe Kapitel \ref{subsec:8.5.1}).\\
+Bedingt durch die asymmetrische Spannungsversorgung muss am Plus-Eingang des OPV ein Arbeitspunkt eingestellt werden (Kap. \ref{subsec:8.5.1}).\\
 Um Störungen im OPV zu vermeiden, wird sehr nahe an diesem der ELKO \enquote{EL301} zwischen Versorgungsspannung und Masse eingesetzt.\\
 Nach Addieren des Stereo-Audiosignals zu einem Mono-Audiosignal kommt dieses zur aktive Tiefpass-Weiche.
 Bevor das gefilterte Signal weiter zum Verstärker läuft, wird nochmals die Möglichkeit geboten die Amplitude des Signals anzupassen.

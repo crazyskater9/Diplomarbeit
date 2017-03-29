@@ -63,8 +63,6 @@
 \end{figure}
 
 
-
-
 \subsection{1\_BTFrontplatine}
 \subsubsection*{Schaltung}
 \begin{figure} [H]
@@ -89,9 +87,6 @@
 	\caption{1\_BTFrontplatine - Stückliste}
 	\label {fig:8.10.6}
 \end{figure}
-
-
-
 
 
 \begin{sidewaysfigure}
@@ -126,11 +121,6 @@
 \end{sidewaysfigure}
 
 
-
-
-
-
-
 \begin{sidewaysfigure}
 	\subsection{3\_mTT-Weiche und Addierer}
 	\subsubsection*{Schaltung}
@@ -161,10 +151,6 @@
 		\label {fig:8.10.12}
 	\end{figure}
 \end{sidewaysfigure}
-
-
-
-
 
 
 \begin{sidewaysfigure}
@@ -199,8 +185,6 @@
 \end{sidewaysfigure}
 
 
-
-
 \begin{sidewaysfigure}
 	\subsection{5\_TTVerstärker}
 	\subsubsection*{Schaltung}
@@ -233,8 +217,6 @@
 \end{sidewaysfigure}
 
 
-
-
 \begin{sidewaysfigure}
 	\subsection{6\_HTVerstärker}
 	\subsubsection*{Schaltung}
@@ -264,32 +246,70 @@
 	\end{figure}
 \end{sidewaysfigure}
 
+
+
 \newpage
 \section{Fertigungsunterlagen - Mechanik}\label{sec:8.11}
-Es wurden 19mm Spanplatten verwendet.
+Es wurden 19mm Rohspanplatten verwendet.
 \subsection{Subwooferbox}
+Die Box hat ein Gesamtinnenvolumen von 72 l, mit Ausnehmung 59 l.\\
 Benötigte Platten:
 \begin{itemize}
 	\item Vorderseite: 400 x 438 x 19 [mm]
 	\item Rückseite: 400 x 250 x 19 [mm]
 	\item Ober- und Unterseite: 400 x 450 x 19 [mm]
 	\item Linke und rechte Seite: 488 x 438 x 19 [mm]
-	\item Schacht-Oben: 400 x 139 x 19 [mm]
+	\item Schacht-Oben: 400 x 239 x 19 [mm]
 	\item Schacht-Vorne: 400 x 169 x 19 [mm]
 \end{itemize}
 In die Vorderseite wird zentriert ein rundes Loch, mit dem Durchmesser 30 cm, für den Subwoofer vorgesehen.\\
-Die Rückseite ist verkürzt um eine Ausnehmung und somit den Platz für den Elektronikschacht zu gewährleisten.
-Dieser Schacht ist von Spanplatten umschlossen, sodass das Gehäuse auch ohne Elektronikschacht-Einschub luftdicht verschlossen ist.
+Die Rückseite ist verkürzt um eine Ausnehmung und somit den Platz für den Elektronikeinschub zu gewährleisten.
+Dieser Schacht ist von Spanplatten umschlossen, sodass das Gehäuse auch ohne Elektronikeinschub luftdicht verschlossen ist.
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{img/Fertigungsunterlagen/Subwooferbox.png}
+	\caption{Subwooferbox - 3D}
+	\label {fig:8.11.1}
+\end{figure}
 
 
+\subsection{Elektronikeinschub}
+Der Einschub hat ein Volumen von 13 l.\\
+Benötigte Platten:
+\begin{itemize}
+	\item Unterseite: 400 x 220 x 19 [mm]
+	\item Line und rechte Seite: 120 x 220 x 19 [mm]
+	\item Vorderseite: 400 x 170 x 3 [mm]
+\end{itemize}
+Die hellen Flächen geben die Ausschnitte/Löcher vor.\\ \\
+\begin{figure} [H]
+	\centering
+	\subfloat{\includegraphics[width=0.48\textwidth]{img/Fertigungsunterlagen/Elektronikschacht3D.png}}\quad
+	\subfloat{\includegraphics[width=0.48\textwidth]{img/Fertigungsunterlagen/Elektronikschacht2D.png}}
+	\caption{Elektronikeinschub - 3D (links) \& 2D (rechts)}
+	\label{fig:8.11.2}
+\end{figure}
+
+
+\newpage
 \subsection{Satellitenbox}
+Die Box hat ein Innenvolumen von 9 l.\\
 Benötigte Platten:
 \begin{itemize}
 	\item Vorder- und Rückseite: 180 x 318 x 19 [mm]
 	\item Ober- und Unterseite: 180 x 180 x 19 [mm]
 	\item Linke und rechte Seite: 318 x 218 x 19 [mm]
 \end{itemize}
-In der Vorderseite werden zwei runde Löcher vorgesehen um einen Hochton-Lautsprecher mit 7 cm Durchmesser und einen Tieftonlautsprecher mit 16 cm Durchmesser montieren zu können.
+In der Vorderseite werden zwei runde Löcher vorgesehen um einen Hochton-Lautsprecher mit 6 cm Durchmesser und einen Tieftonlautsprecher mit 15 cm Durchmesser montieren zu können.
+
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{img/Fertigungsunterlagen/Satellitenbox.png}
+	\caption{Subwooferbox - 3D}
+	\label {fig:8.11.4}
+\end{figure}
+
+
 
 \newpage
 \section{Datenblätter}\label{sec:8.2}
@@ -299,9 +319,8 @@ In der Vorderseite werden zwei runde Löcher vorgesehen um einen Hochton-Lautspr
 	\includegraphics[width=0.82\textwidth]{form/tda2030first.PNG}
 \end{figure}
 \includepdf[pagecommand={},pages={2-12}, noautoscale =true, scale = 0.77]{form/tda2030.pdf}
-
 \begin{sidewaysfigure}
-	\section{Datenblatt - Renkforce B12123}\label{sec:8.7}
+	\subsection{Datenblatt - Renkforce B12123}\label{sec:8.7}
 	\begin{figure} [H]
 		\centering
 		\includegraphics[width=0.8\textwidth]{img/LSMessung/TT/Renkforce-Datasheet1.png}
@@ -323,108 +342,8 @@ In der Vorderseite werden zwei runde Löcher vorgesehen um einen Hochton-Lautspr
 
 
 
+
 \begin{comment}
-	\newpage
-	\section{TDA2030}\label{sec:8.3}
-	Der TDA2030 ist ein für den Audio-Frequenzbereich optimierter OPV.
-	Dieser kann symmetrisch sowie auch asymmetrisch versorgt werden.
-	Eine typische Beschaltung ist im Datenblatt auch vorgegeben, welche auch verwendet wurde.
-	Der TDA2030 besitzt ein Pentawatt-Gehäuse, welches eine Kühlfläche besitzt.
-	Diese Kühlfläche hat das selbe Potential wie der mittlere Anschlusspin (Abb. \ref{fig:8.3.1}).\\
-	Es wird auch für geringfügigen Betrieb ein Kühlkörper empfohlen!
-	\begin{figure} [H]
-	\centering
-	\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030Pinning.PNG}
-	\caption[TDA2030-Pinning]{TDA2030-Pinning\footnotemark}
-	\label {fig:8.3.1}
-	%http://www.itisff.it/dip_eln/tda2030.pdf --> SnippingTool
-	\end{figure}
-	\footnotetext{http://www.itisff.it/dip\_eln/tda2030.pdf,\\Zugriff: 16.02.2017}
-	\begin{enumerate}
-	\item Noninverting Input = Plus-Eingang des Verstärkers
-	\item Inverting Input = Minus-Eingang des Verstärkers
-	\item -Vs = negative Versorgungsspannung (bzw. Masse)
-	\item Output = Verstärkerausgang
-	\item +Vs = positive Versorgungsspannung		
-	\end{enumerate}
-	
-	%\newpage
-	\subsection{Absolute Maximalwerte}\label{subsec:8.3.1}
-	Diese Werte wurden zu aller erst mit den Bedingungen an der Schaltung verglichen, da sie ein sehr genaue, kurze Übersicht über den Baustein liefern. (Abb. \ref{fig:8.3.1.1})
-	\begin{figure} [H]
-	\centering
-	\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030MaximumRatings.PNG}
-	\caption[TDA2030-Maximum Ratings]{TDA2030-Maximum Ratings\footnotemark}
-	\label {fig:8.3.1.1}
-	%http://www.itisff.it/dip_eln/tda2030.pdf --> SnippingTool
-	\end{figure}
-	\footnotetext{http://www.itisff.it/dip\_eln/tda2030.pdf,\\Zugriff: 16.02.2017}
-	
-	\subsection{TDA2030-Grundschaltung}\label{subsec:8.3.2}
-	Ein wichtiges Bauelement in der Grundschaltung(Abb. \ref{fig:8.3.2.1}) sind die Dioden. Sie schützen den angeschlossenen Lautsprecher vor Überspannungsspitzen.\\
-	Das Spannungsteiler am Plus-Eingang (Pin1) des OPVs ist da um den Arbeitspunkt des TDA2030 festzulegen.
-	In diesem Fall bei asymmetrischer Versorgung soll dieser $\frac{Vcc}{2}$ betragen.\\
-	Das Widerstandsverhältnis am Minus-Eingang (Pin2) des OPVs von 150k Ohm zu 4,7k Ohm liefert die Verstärkung der Schaltung.
-	Hier wäre es dementsprechend eine Verstärkung von ungefähr x32 .\\
-	Viele vereinzelte Kondensatoren sind zum Entstören und gegen mögliches Schwingen der Schaltung vorgesehen.\\
-	Der Große-Ausgangs-ELKO wird deshalb verbaut um keine verschleppte Gleichspannung am Lautsprecher unnötigerweise anzulegen.
-	Gleichspannung ist an einem Lautsprecher weder hörbar (Frequenz = 0Hz) noch sinnvoll und kann den Lautsprecher beschädigen.
-	Der Kondensator lädt sich einmal mit dieser Gleichspannung auf und lässt die Wechselspannung ohne weiteres passieren.\\\\
-	Ein weiteres wesentliches Bauelement ist das \enquote{Boucherot-Glied}, ein in Serie geschalteter Kondensator und Widerstand von der Ausgangsleitung des Verstärkers gegen Masse, noch vor dem Ausgangs-ELKO.
-	Es dient zur Widerstandsanpassung im höheren Audio-Frequenzbereich, da der Lautsprecher einen induktiven Impedanzabfall aufweist, wird dieser mit dem kapazitiven Impedanzanstieg in diesem Bereich kompensiert.
-	So bleibt die Impedanz im Arbeitsbereich des Verstärkers im wesentlichen die selbe.
-	Ein weiterer Vorteil ist, dass Frequenzen über der Grenzfrequenz des \enquote{Boucherot-Glieds} wie ein Kurzschluss behandelt werden und so mögliche auftretende Schaltfrequenzen gedämpft werden und nicht andere folgende Schaltungen beeinflussen können.\\\\
-	Die Schaltung ist grundsätzlich für symmetrische und asymmetrische Versorgungsspannung ausgelegt. 
-	Die Schaltung ist für 4 und 8 Ohm Lautsprecher spezifiziert.
-	\begin{figure} [H]
-	\centering
-	\includegraphics[width=0.9\textwidth]{img/Grundlagen/TDA2030/TDA2030-Grundschaltung.png}
-	\caption[TDA2030-Grundschaltung]{TDA2030-Grundschaltung\footnotemark}
-	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.)
-	\label {fig:8.3.2.1}
-	%http://www.mikrocontroller.net/attachment/79272/Schaltung.png
-	\end{figure}
-	\footnotetext{http://www.mikrocontroller.net/attachment/79272/Schaltung.png,\\Zugriff: 16.02.2017}
-	
-	\subsection{Leistungstransistor-Schaltung}\label{subsec:8.3.3}
-	Durch das Erweitern der TDA2030-Grundschaltung(Kap. \ref{subsec:8.3.2}) mit zwei Leistungstransistoren wird die Schaltung leistungsfähiger.
-	Die Transistoren schalten Ströme über den maximalen schaltbaren Strömen des TDA2030. Während des Normalbetriebes fließt kein Strom durch die Transistoren, sobald aber eine Grenze erreicht wird, wird grundsätzlich mit den Transistoren gearbeitet.
-	Um die Schaltschwelle der Leistungstransistoren festzulegen wird ein kleiner Widerstand von der Versorgungsspannung gegen den Basis-Anschluss des Transistors geschallten.
-	Beziehungsweise wird dieser Widerstand von der Negativen Versorgungsspannung, oder in diesem Fall von Masse, gegen den Basis-Anschluss des Leistungstransistors geschaltet.
-	Des weiteren sind die Leistungstransistoren im besten Fall aus der selben Familie.
-	Verwendet wird ein PNP-Leistungstransistor für die positive Halbwelle des Signals und ein NPN-Leistungstransistor für die negative Halbwelle.
-	\begin{figure} [H]
-	\centering
-	\includegraphics[width=0.9\textwidth]{img/Grundlagen/TDA2030/TDA2030-Leistungstransschaltung.jpg}
-	\caption[TDA2030-Leistungstransistorschaltung]{TDA2030-Leistungstransistorschaltung\footnotemark}
-	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.)
-	\label {fig:8.3.3.1}
-	%http://www.audiofanatic.it/Schemi/Tipo/Stato_solido/chip/pic_chip/TDA_2030_BD711_712.jpg
-	\end{figure}
-	\footnotetext{http://www.audiofanatic.it/Schemi/Tipo/Stato\_solido/chip/pic\_chip/TDA\_2030\_BD711\_712.jpg,\\Zugriff: 16.02.2017}
-	
-	\newpage
-	\subsection{H-Brückenschaltung der TDA2030-Verstärkerschaltung}\label{subsec:8.3.4}
-	Um noch mehr aus dem TDA2030 herauszuholen kann man zwei dieser Verstärker in H-Brücke (Abb. \ref{fig:8.3.4.1}) gegeneinander schalten.
-	Ein TDA2030 verstärkt das originale Signal, währenddessen der Zweite das um 90° phasenverschobene Signal erhält und dieses verstärkt.
-	Das hat zur Folge das während der eine TDA2030 die positive Halbwelle verstärkt der zweite die negative Halbwelle verstärkt.
-	Dies bewirkt einen größeren Hub, da der eine Verstärker bei maximaler Auslenkung die positive Versorgungsspannung erreicht, während der zweite die negative Versorgungsspannung erreicht.
-	So erhält man mit zwei TDA2030 den doppelten Ausgangspegel des Signals.\\
-	Einziger Nachteil dieser Konstellation: Zwischen den beiden Verstärkern gibt es keinen Massebezug.
-	Beim Messen der Schaltung ist Vorsicht geboten, da beim Anschließen der Tastkopf-Masse, je nach anliegendem Signal, der eine oder der andere Verstärker beschädigt werden kann(Kurzschluss!).\\
-	Es kann in diesem Fall auch die Leistungstransistorschaltung in H-Brücke geschaltet werden um noch mehr aus der Sache heraus zu holen.
-	\begin{figure} [H]
-	\centering
-	\includegraphics[width=0.75\textwidth]{img/Grundlagen/TDA2030/TDA2030-H-Bruecke.PNG}
-	\caption[TDA2030-H-Brückenschaltung]{TDA2030-H-Brückenschaltung\footnotemark}
-	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.)
-	\label {fig:8.3.4.1}
-	%http://www.itisff.it/dip_eln/tda2030.pdf --> SnippingTool
-	\end{figure}
-	\footnotetext{http://www.itisff.it/dip\_eln/tda2030.pdf,\\Zugriff: 16.02.2017}
-
-
-
 \section{Filter}\label{sec:8.4}
 Es wurde nach einem möglichst steilen, im Durchlassbereich linearen und einfachen Filter gesucht.
 Man hat sich für ein \enquote{Aktives-Filter 2.Ordnung} entschieden, dabei wurde die \enquote{Butterworth-Schaltung} bevorzugt.
@@ -433,7 +352,111 @@ Dies bedeutet, dass bei einer Tiepfass-Filterung eine Frequenz die 10mal größe
 \end{comment}
 
 
-\section{Grundlegendes}\label{sec:8.1}
+\section{Ergänzende Informationen}\label{sec:8.1}
+\begin{comment}
+{\newpage
+\section{TDA2030}\label{sec:8.3}
+Der TDA2030 ist ein für den Audio-Frequenzbereich optimierter OPV.
+Dieser kann symmetrisch sowie auch asymmetrisch versorgt werden.
+Eine typische Beschaltung ist im Datenblatt auch vorgegeben, welche auch verwendet wurde.
+Der TDA2030 besitzt ein Pentawatt-Gehäuse, welches eine Kühlfläche besitzt.
+Diese Kühlfläche hat das selbe Potential wie der mittlere Anschlusspin (Abb. \ref{fig:8.3.1}).\\
+Es wird auch für geringfügigen Betrieb ein Kühlkörper empfohlen!
+\begin{figure} [H]
+\centering
+\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030Pinning.PNG}
+\caption[TDA2030-Pinning]{TDA2030-Pinning\footnotemark}
+\label {fig:8.3.1}
+%http://www.itisff.it/dip_eln/tda2030.pdf --> SnippingTool
+\end{figure}
+\footnotetext{http://www.itisff.it/dip\_eln/tda2030.pdf,\\Zugriff: 16.02.2017}
+\begin{enumerate}
+\item Noninverting Input = Plus-Eingang des Verstärkers
+\item Inverting Input = Minus-Eingang des Verstärkers
+\item -Vs = negative Versorgungsspannung (bzw. Masse)
+\item Output = Verstärkerausgang
+\item +Vs = positive Versorgungsspannung		
+\end{enumerate}}
+
+%\newpage
+\subsection{Absolute Maximalwerte}\label{subsec:8.3.1}
+Diese Werte wurden zu aller erst mit den Bedingungen an der Schaltung verglichen, da sie ein sehr genaue, kurze Übersicht über den Baustein liefern. (Abb. \ref{fig:8.3.1.1})
+\begin{figure} [H]
+\centering
+\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030MaximumRatings.PNG}
+\caption[TDA2030-Maximum Ratings]{TDA2030-Maximum Ratings\footnotemark}
+\label {fig:8.3.1.1}
+%http://www.itisff.it/dip_eln/tda2030.pdf --> SnippingTool
+\end{figure}
+\footnotetext{http://www.itisff.it/dip\_eln/tda2030.pdf,\\Zugriff: 16.02.2017}
+\end{comment}
+
+\subsection{TDA2030-Grundschaltung}\label{subsec:8.3.2}
+Ein wichtiges Bauelement in der Grundschaltung (Abb. \ref{fig:8.3.2.1}) sind die Dioden. Sie schützen den angeschlossenen Lautsprecher vor Überspannungsspitzen.\\
+Das Spannungsteiler am Plus-Eingang (Pin1) des OPVs ist da um den Arbeitspunkt des TDA2030 festzulegen.
+In diesem Fall bei asymmetrischer Versorgung soll dieser $\frac{Vcc}{2}$ betragen.\\
+Das Widerstandsverhältnis am Minus-Eingang (Pin2) des OPVs von 150k Ohm zu 4,7k Ohm liefert die Verstärkung der Schaltung.
+Hier wäre es dementsprechend eine Verstärkung von ungefähr x32 .\\
+Viele vereinzelte Kondensatoren sind zum Entstören und gegen mögliches Schwingen der Schaltung vorgesehen.\\
+Der Große-Ausgangs-ELKO wird deshalb verbaut um keine verschleppte Gleichspannung am Lautsprecher unnötigerweise anzulegen.
+Gleichspannung ist an einem Lautsprecher weder hörbar (Frequenz = 0Hz) noch sinnvoll und kann den Lautsprecher beschädigen.
+Der Kondensator lädt sich einmal mit dieser Gleichspannung auf und lässt die Wechselspannung ohne weiteres passieren.\\\\
+Ein weiteres wesentliches Bauelement ist das \enquote{Boucherot-Glied}, ein in Serie geschalteter Kondensator und Widerstand von der Ausgangsleitung des Verstärkers gegen Masse, noch vor dem Ausgangs-ELKO.
+Es dient zur Widerstandsanpassung im höheren Audio-Frequenzbereich, da der Lautsprecher einen induktiven Impedanzabfall aufweist, wird dieser mit dem kapazitiven Impedanzanstieg in diesem Bereich kompensiert.
+So bleibt die Impedanz im Arbeitsbereich des Verstärkers im wesentlichen die selbe.
+Ein weiterer Vorteil ist, dass Frequenzen über der Grenzfrequenz des \enquote{Boucherot-Glieds} wie ein Kurzschluss behandelt werden und so mögliche auftretende Schaltfrequenzen gedämpft werden und nicht andere folgende Schaltungen beeinflussen können.\\\\
+Die Schaltung ist grundsätzlich für symmetrische und asymmetrische Versorgungsspannung ausgelegt. 
+Die Schaltung ist für 4 und 8 Ohm Lautsprecher spezifiziert.
+\newpage
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030-Grundschaltung.png}
+	\caption[TDA2030-Grundschaltung]{TDA2030-Grundschaltung\footnotemark}
+	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.)
+	\label {fig:8.3.2.1}
+	%http://www.mikrocontroller.net/attachment/79272/Schaltung.png
+\end{figure}
+\footnotetext{http://www.mikrocontroller.net/attachment/79272/Schaltung.png,\\Zugriff: 16.02.2017}
+
+\newpage
+\subsection{TDA2030-Leistungstransistor-Schaltung}\label{subsec:8.3.3}
+Durch das Erweitern der TDA2030-Grundschaltung (Kap. \ref{subsec:8.3.2}) mit zwei Leistungstransistoren wird die Schaltung leistungsfähiger.
+Die Transistoren schalten Ströme über den maximalen schaltbaren Strömen des TDA2030. Während des Normalbetriebes fließt kein Strom durch die Transistoren, sobald aber eine Grenze erreicht wird, wird grundsätzlich mit den Transistoren gearbeitet.
+Um die Schaltschwelle der Leistungstransistoren festzulegen wird ein kleiner Widerstand von der Versorgungsspannung gegen den Basis-Anschluss des Transistors geschallten.
+Beziehungsweise wird dieser Widerstand von der Negativen Versorgungsspannung, oder in diesem Fall von Masse, gegen den Basis-Anschluss des Leistungstransistors geschaltet.
+Des weiteren sind die Leistungstransistoren im besten Fall aus der selben Familie.
+Verwendet wird ein PNP-Leistungstransistor für die positive Halbwelle des Signals und ein NPN-Leistungstransistor für die negative Halbwelle.
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{img/Grundlagen/TDA2030/TDA2030-Leistungstransschaltung.jpg}
+	\caption[TDA2030-Leistungstransistorschaltung]{TDA2030-Leistungstransistorschaltung\footnotemark}
+	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.)
+	\label {fig:8.3.3.1}
+	%http://www.audiofanatic.it/Schemi/Tipo/Stato_solido/chip/pic_chip/TDA_2030_BD711_712.jpg
+\end{figure}
+\footnotetext{http://www.audiofanatic.it/Schemi/Tipo/Stato\_solido/chip/pic\_chip/TDA\_2030\_BD711\_712.jpg,\\Zugriff: 16.02.2017}
+
+\newpage
+\subsection{H-Brückenschaltung der TDA2030-Verstärkerschaltung}\label{subsec:8.3.4}
+Um noch mehr aus dem TDA2030 herauszuholen kann man zwei dieser Verstärker in H-Brücke (Abb. \ref{fig:8.3.4.1}) gegeneinander schalten.
+Ein TDA2030 verstärkt das originale Signal, währenddessen der Zweite das um 90° phasenverschobene Signal erhält und dieses verstärkt.
+Das hat zur Folge das während der eine TDA2030 die positive Halbwelle verstärkt der zweite die negative Halbwelle verstärkt.
+Dies bewirkt einen größeren Hub, da der eine Verstärker bei maximaler Auslenkung die positive Versorgungsspannung erreicht, während der zweite die negative Versorgungsspannung erreicht.
+So erhält man mit zwei TDA2030 den doppelten Ausgangspegel des Signals.\\
+Einziger Nachteil dieser Konstellation: Zwischen den beiden Verstärkern gibt es keinen Massebezug.
+Beim Messen der Schaltung ist Vorsicht geboten, da beim Anschließen der Tastkopf-Masse, je nach anliegendem Signal, der eine oder der andere Verstärker beschädigt werden kann (Kurzschluss!).\\
+Es kann in diesem Fall auch die Leistungstransistorschaltung in H-Brücke geschaltet werden um noch mehr aus der Sache heraus zu holen.
+\begin{figure} [H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{img/Grundlagen/TDA2030/TDA2030-H-Bruecke.PNG}
+	\caption[TDA2030-H-Brückenschaltung]{TDA2030-H-Brückenschaltung\footnotemark}
+	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.)
+	\label {fig:8.3.4.1}
+	%http://www.itisff.it/dip_eln/tda2030.pdf --> SnippingTool
+\end{figure}
+\footnotetext{http://www.itisff.it/dip\_eln/tda2030.pdf,\\Zugriff: 16.02.2017}
+
+
 \subsection{Butterworth-Filter 2. Ordnung}\label{subsec:8.4.1}
 Die Grundschaltung eines \enquote{Butterworth-Filters 2. Ordnung} ist für verschiedene Grenzfrequenzen dieselbe, lediglich die Bauteilwerte variieren.
 Auch die Schaltung der verschiedenen Grundfilterarten ist unterschiedlich. \\
@@ -455,7 +478,7 @@ Am Plus-Eingang des OPVs wird entweder Masse bei symmetrischer Spannungsversorgu
 	\label {fig:8.4.1.1}
 	%Selbst generiert in Altium
 \end{figure}
-Das Bandpass-Filter(\ref{fig:8.4.1.2}) besteht aus drei Widerständen, zwei Kondensatoren und einem OPV, jedoch mit anderer Anordnung als bei dem Tiefpass-Filter.
+Das Bandpass-Filter (Abb. \ref{fig:8.4.1.2}) besteht aus drei Widerständen, zwei Kondensatoren und einem OPV, jedoch mit anderer Anordnung als bei dem Tiefpass-Filter.
 Dieses Filter lässt alle Frequenzen oberhalb seiner Unteren-Grenzfrequenz und unterhalb seiner Oberen-Grenzfrequenz durch.
 \begin{figure} [H]
 	\centering
@@ -464,7 +487,7 @@ Dieses Filter lässt alle Frequenzen oberhalb seiner Unteren-Grenzfrequenz und u
 	\label {fig:8.4.1.2}
 	%Selbst generiert in Altium	
 \end{figure}
-Das Hochpass-Filter(\ref{fig:8.4.1.3}) hat wieder eine ähnliche Konstruktion.
+Das Hochpass-Filter (Abb. \ref{fig:8.4.1.3}) hat wieder eine ähnliche Konstruktion.
 Dieses besteht aus drei Kondensatoren, zwei Widerständen und einem OPV.
 Wiederum in mit bestimmter Anordnung.
 Dieses Filter lässt alle Frequenzen oberhalb seiner Grenzfrequenz durch.
@@ -478,7 +501,7 @@ Dieses Filter lässt alle Frequenzen oberhalb seiner Grenzfrequenz durch.
 
 \subsection{Nicht invertierende Verstärker - OPV-Grundschaltung}\label{sec:8.5}
 Die hauptsächlichen Eigenschaften eines solchen Verstärkers liegen in der Phasengleichheit am Ein- und Ausgang der Schaltung und am wichtigsten, in der Verstärkung. \\
-Um eine Verstärkung zu erhalten wird am invertierten Eingang (\ref{fig:8.5.1}), oder umgänglicher am Minus-Eingang des OPV ein Rückkopplungsnetz aus zwei Widerständen gebaut.
+Um eine Verstärkung zu erhalten wird am invertierten Eingang (Abb. \ref{fig:8.5.1}), oder umgänglicher am Minus-Eingang des OPV ein Rückkopplungsnetz aus zwei Widerständen gebaut.
 Diese bewirken, dass eine Verstärkung \enquote{Vu} möglich ist.
 Diese wird wie folgt berechnet: Vu = $\frac{R2+R1}{R1}$ .
 Aus der Formel geht hervor das R2 im Verhältnis zu R1 normalerweise größer sein sollte um eine nennenswerte Verstärkung zu erhalten.
@@ -510,7 +533,7 @@ Somit liegt das Eingangssignalgrundpegel in mitten der Versorgungsspannung.
 D.h. der Spannungsunterschied zur positiven Versorgungsspannung ist der selbe wie zur negativen Versorgungsspannung (Masse). 
 
 \subsection{Welligkeit} \label{sec:8.6}
-Die Welligkeit gibt den Toleranzbereich um einen idealen(linearen) Frequenzgang an.
+Die Welligkeit gibt den Toleranzbereich um einen idealen (linearen) Frequenzgang an.
 Das bedeutet wenn ein Weißes-Rauschen mit einem definierten Pegel an der Membran abgestrahlt wird, darf der Pegel über den Frequenzverlauf im Welligkeitsbreich variieren, ohne das es als kritisch empfunden werden muss. \\
 Für Lautsprechermessungen ist eine Welligkeit im \enquote{Consumer-Bereich} von 10dB und im \enquote{HiFi-Bereich} von 6dB üblich.
 So darf ein Consumer-Lautsprecher bei einem definierten Pegel von 80dB über den ganzen Messbereich maximal +/- 5dB variieren, d.h. im Bereich zwischen 75 dB und 85 dB.

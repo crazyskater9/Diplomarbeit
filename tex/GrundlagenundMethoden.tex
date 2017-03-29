@@ -1,20 +1,20 @@
 \section{Blockschaltbild des Projekts}\label{sec:3.1}
-Nach einigen Überlegungen über die beste Herangehensweise an dieses Projekt wurde folgendes Blockschaltbild entwickelt:
+Nach einigen Überlegungen über die bestmögliche Herangehensweise an dieses Projekt, wurde folgendes Blockschaltbild entwickelt:
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/blockschaltbildV2.png}
 	\caption{Blockschaltbild}
 	\label{fig:3.1.1}
 \end{figure}
-Ein wichtiger Teil des Projekts ist die Bluetooth-Hauptplatine (in Abb. \ref{fig:3.1.1} links unten).
+Ein wichtiger Teil des Projekts ist die Bluetooth-Hauptplatine (Abb. \ref{fig:3.1.1} links unten).
 Diese Platine verfügt über die Audio-Eingänge des Projekts.
-Das Stereo-Audio-Signal kann mithilfe der BT-Hauptplatine mittels Klinkenbuchse oder Übertragung über Bluetooth (siehe: Kap. \ref{sec:3.3}) in die gesamte Schaltung eingespeist werden.
+Das Stereo-Audio-Signal kann mithilfe der BT-Hauptplatine mittels Klinkenbuchse oder Übertragung über Bluetooth (Kap. \ref{sec:3.3}) in die gesamte Schaltung eingespeist werden.
 \\ \\
-Dieses Stereo-Audio-Signal wird dann mithilfe der Frequenzweichen in 3 verschiedene Frequenzbereiche (Hochton-, Mittel-Tiefton- und Bassbereich) aufgetrennt.
+Dieses Stereo-Audio-Signal wird mithilfe der Frequenzweichen in 3 verschiedene Frequenzbereiche (Hochton-, Mittel-Tiefton- und Bassbereich) aufgetrennt.
 \\
 Tiefe Frequenzen (<150Hz) werden \enquote{L + R} (Stereo) addiert und über eine Mono-Tiefpass-Weiche gefiltert.
 \\
-Insgesamt gibt es dann also 5 Signale, die weiterverarbeitet werden:
+Insgesamt gibt es nach dem auftrennen 5 Signale, die weiterverarbeitet werden:
 \\ 
 \begin{itemize}
 	\item Hochton-Links
@@ -24,14 +24,14 @@ Insgesamt gibt es dann also 5 Signale, die weiterverarbeitet werden:
 	\item Mono-Bassbereich
 \end{itemize}
 
-Die verschiedenen Audio-Signale werden dann mit je einem Leistungs-Verstärker auf einen höheren Pegel gebracht.
+Die verschiedenen Audio-Signale werden mit je einem Leistungs-Verstärker auf einen höheren Pegel gebracht.
 Die Ausgangsleistung der Leistungs-Verstärker variiert je nach Frequenzbereich.
 Dies ist bedingt durch die verwendete Verstärkerschaltung.\\
 Diese Schaltungen sind für:
 \begin{itemize}
 	\item \textbf{Hochtonbereich:}\\ TDA2030-Leistungsverstärker-Grundschaltung
 	\item \textbf{Mittel-Tieftonbereich:}\\ TDA2030-Leistungsverstärker erweitert mit Leistungstransistoren
-	\item \textbf{Bassbereich:}\\ TDA2030-Leistungsverstärker erweitert mit Leistungstransistoren in H-Brücke geschallten
+	\item \textbf{Bassbereich:}\\ TDA2030-Leistungsverstärker erweitert mit Leistungstransistoren in H-Brücke geschalten
 \end{itemize}
 Aus diesen Schaltungen erschließen sich folgende maximale Ausgangsleistungen bei asymmetrischer Spannungsversorgung von 24V und 1\% Klirrfaktor:\\
 \begin{itemize}
@@ -40,20 +40,20 @@ Aus diesen Schaltungen erschließen sich folgende maximale Ausgangsleistungen be
 	\item Bassbereich-Leistungsverstärker (an 4 Ohm): 44W
 \end{itemize}
 
-Versorgt wird die Elektronik unter Akkubetrieb mit 12 V oder 24 V unter Netzbetrieb, genauere Erklärung im Kapitel \ref{sec:3.4}.
-Somit sind die Leistungs-Verstärker-Schaltungen noch nicht stark ausgelastet, da diese für maximal \enquote{+/- 22V} oder \enquote{+ 44V asymmetrisch} ausgelegt sind.
+Versorgt wird die Elektronik unter Akkubetrieb mit 12 V, oder mit 24 V unter Netzbetrieb, genauere Erklärung dazu im Kapitel \ref{sec:3.4}.
+Somit sind die Leistungsverstärker-Schaltungen noch nicht stark ausgelastet, da diese für maximal \enquote{+/- 22V} oder \enquote{+ 44V asymmetrisch} ausgelegt sind.
 
 %Da eine Blei-Vlies-Batterie für das Projekt vorgesehen war und diese zumeist 12V liefern, ist die Entscheidung von einer 12V Spannungsversorgung sehr nahe.
 %Andere Alternativen wie zB. LiPo-Akkus könnten mehr Spannung und Strom liefern, diese sind jedoch um einiges vorsichtiger zu Behandeln (sehr hohe Energiedichte) und daher auch umständlicher (Lade-Überwachung, Brandgefahr).
 
 \newpage
 \section{Mehrweg-Lautsprechersysteme}\label{sec:3.2}
-Ein Lautsprecher ist ein Bauelement, das ein elektrisches Signal in ein akustisches Signal (20 Hz bis 20 kHz) umwandelt.
-Dabei wird eine Membran in Schwingung versetzt, die wiederum die umgebende Luft zum Schwingen bringt und einen hörbaren Ton erzeugt.
+Ein Lautsprecher ist ein Bauelement, welcher ein elektrisches Signal in ein akustisches Signal (20 Hz bis 20 kHz) umwandelt.
+Dabei wird eine Membran in Schwingung versetzt, welche wiederum die umgebende Luft zum Schwingen bringt und einen hörbaren Ton erzeugt.
 \\ \\
 Nun wird aber nicht jede Frequenz gleich gut von ein und demselben Lautsprecher abgestrahlt.
-Durch die physikalischen Gegebenheiten strahlen große Membranen tiefe Frequenzen besser ab als hohe Frequenzen.
-In der Abbildung \ref{fig:3.2.1} wird der Audiobereich in drei Bereiche aufgeteilt, was auch der jeweiligen Lautsprecher-Charakteristik entspricht.\\
+Durch die physikalischen Gegebenheiten strahlen große Membranen tiefe Frequenzen besser ab, als hohe Frequenzen.
+In der Abbildung \ref{fig:3.2.1} wird der Audiobereich in drei Bereiche aufgeteilt, was der jeweiligen Lautsprecher-Charakteristik entspricht.\\
 Kennlinienbeschriftung:\\
 \begin{itemize}
 	\item \textbf{Hochton-Bereich}: Rot
@@ -62,9 +62,9 @@ Kennlinienbeschriftung:\\
 	\item \textbf{Summe der Bereiche}: Schwarz	
 \end{itemize}
 Es ist sinnvoll, mehrere Lautsprecher für verschiedene Frequenzbereiche zu verwenden.
-Benannt werden diese verschiedenen Lautsprecher durch den Bereich, in dem sie am besten funktionieren.
+Benannt werden diese verschiedenen Lautsprecher durch den Bereich, in welchem sie am besten funktionieren.
 Beispielsweise Hochton-Lautsprecher oder Hochtöner für den Hochton-Bereich (>2,5 kHz).
-Wie gut nun verschiedene Frequenzen von einem Lautsprecher abgestrahlt werden, ist in seinem Frequenzgang ersichtlich:
+Wie gut verschiedene Frequenzen von einem Lautsprecher abgestrahlt werden, ist in seinem Frequenzgang ersichtlich:
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/Frequenzbereiche-Audio-cut.jpg}
@@ -74,15 +74,15 @@ Wie gut nun verschiedene Frequenzen von einem Lautsprecher abgestrahlt werden, i
 \footnotetext{http://http://www.lavalu.de/images/Frequenzgang.jpg\\Zugriff: 23.03.2017}
 
 Bei einem perfekten Lautsprecher würde diese Linie bei 20 Hz beginnend (Abb. \ref{fig:3.2.1}) eine parallele Gerade zur X-Achse bilden, bis hin zu 20 kHz.
-Da so ein Lautsprecher nur eine ideale Annahme und nicht realisierbar ist, werden in der Praxis mehrere Lautsprecher zusammen verwendet, um sich an dieses Ideal anzunähern.
-Wie in der Abbildung \ref{fig:3.2.1} gut ersichtlich, ergeben die einzelnen Frequenzgänge der Lautsprecher aufsummiert den gesamt Frequenzverhalten des Systems (in Schwarz), der relativ linear ist.
-Unterhalb von 100 Hz ist zwar noch eine größere Pegel-Lücke, die aber durch einen besseren Subwoofer ausgebessert werden kann.
+Da solch ein Lautsprecher nur eine ideale Annahme und nicht realisierbar ist, werden in der Praxis mehrere Lautsprecher zusammen verwendet, um sich diesem Ideal anzunähern.
+Wie in der Abbildung \ref{fig:3.2.1} gut ersichtlich, ergeben die einzelnen Frequenzgänge der Lautsprecher aufsummiert das Gesamtfrequenzverhalten des Systems (in Schwarz), der relativ linear ist.
+Unterhalb von 100 Hz ist noch eine größere Pegel-Lücke, die aber durch einen besseren Subwoofer ausgebessert werden kann.
 
-\subsubsection*{Frequenzweichen in Zusammenhang mit Lautsprechersystemen}
+\subsubsection*{Frequenzweichen im Zusammenhang mit Lautsprechersystemen}
 Das Diagramm (Abb. \ref{fig:3.2.2}) stellt ein Beispiel für die Übertragungskennlinien von Frequenzweichen dar.
-In diesem sind die Eigenschaften der jeweiligen Filterarten gut ersichtlich (Siehe auch \ref{sec:8.4}).\\
-Betrachtet man nur die \enquote{dunkelblaue} Kurve ist sofort sichtbar, dass über 400 Hz der Pegel stark abnimmt bis hin zu 0.
-Dies ist auch ersichtlich bei der \enquote{grünen} Kurve.
+In diesem sind die Eigenschaften der jeweiligen Filterarten gut ersichtlich (Siehe auch \ref{subsec:8.4.1}).\\
+Betrachtet man nur die \enquote{dunkelblaue} Kurve, ist sofort sichtbar, dass über 400 Hz der Pegel stark abnimmt, bis hin zu 0.
+Dies ist auch bei der \enquote{grünen} Kurve ersichtlich.
 Bei dieser strebt der Pegel unter 400 Hz und oberhalb 2 kHz gegen Null.
 In der \enquote{roten} Kurve hingegen ist der Frequenzbereich von unter 2 kHz geringer, bzw. nicht vorhanden.
 Wenn diese drei Übertragungskennlinien der Weichen aufaddiert werden, ergibt das die Gesamtübertragungskennlinie in \enquote{schwarz} gezeichnet.
@@ -101,17 +101,18 @@ Nach der Auftrennung wird jedes Teilsignal mit einem jeweils eigenen Verstärker
 \footnotetext{http://www.audiovero.de/acourate-wiki/lib/exe/fetch.php?media=bilder\_funktionen:funkt\_bsp\\\_addition\_02.png\\Zugriff: 23.03.2017}
 
 Diese Schnittstellen können durch Verändern der Grenzfrequenzen der Frequenzweichen beeinflusst werden.
-Die Höhe des Pegels kann durch in der Schaltung verbaute Trimmpotentiometer verändern werden.
-Somit können die Pegel der verschiedenen Lautsprecher untereinander angepasst werden um einen gleich hohen Pegel an allen Lautsprechern zu erreichen.
-Ohne diese Anpassung werden bestimmte Frequenzen lauter wiedergegeben als andere, was wieder einen nichtlinearen Frequenzgang bedeuten würde.\\ \\
+Die Höhe des Pegels kann durch in der Schaltung verbaute Trimmpotentiometer verändert werden.
+Somit können die Pegel der verschiedenen Lautsprecher untereinander angepasst werden, um einen gleich hohen Pegel an allen Lautsprechern zu erreichen.
+Ohne diese Anpassung, werden bestimmte Frequenzen lauter wiedergegeben als andere.
+Was wiederum einen nichtlinearen Frequenzgang bedeuten würde.\\ \\
 
 %\newpage
 \subsubsection*{Allgemeines zu Lautsprecher-Systemen}
-Je nach Frequenzbereich kann ein Ton vom menschlichen Ohr lokalisiert \mbox{werden} oder nicht.
-Hohe Frequenzen (>1 kHz) sind besser lokalisierbar als tiefe Frequenzen.
+Je nach Frequenzbereich, kann ein Ton vom menschlichen Ohr lokalisiert \mbox{werden}, oder nicht.
+Hohe Frequenzen (>1 kHz) sind besser lokalisierbar, als tiefe Frequenzen.
 Bei sehr niedrigen Frequenzen (<80 Hz) ist der Ton gar nicht mehr lokalisierbar. % Aus Wikipedia <80Hz!
-Das kann man nutzen und damit akustische Effekte erzeugen.
-Einige Lautsprecher-Systeme, die diesen Effekt nutzen sind:
+Dies kann man nutzen und damit akustische Effekte erzeugen.
+Wie zum Beispiel folgende Lautsprecher-Systeme:
 \begin{itemize}
 	\item 2.0 - System
 	\item 2.1 - System
@@ -119,15 +120,15 @@ Einige Lautsprecher-Systeme, die diesen Effekt nutzen sind:
 \end{itemize}
 Dabei steht die erste Ziffer für die Anzahl der verteilten Lautsprecher und die zweite Ziffer für die Anzahl der verwendeten Subwoofer.
 \\
-Je mehr verteilte Lautsprecher (auch Satelliten genannt) benutzt werden, desto bessere Raumklang-Effekte sind realisierbar.
+Je mehr verteilte Lautsprecher (auch Satelliten genannt) benutzt werden, desto bessere Raumklangeffekte sind realisierbar.
 Dadurch wird die Beschaltung aber auch komplizierter, da zB. 5+1 verschiedene Audio-Signale verwendet werden.
 \\ \\
 Der Subwoofer ist ein spezieller Lautsprecher.
-Er arbeitet im Bass-Bereich(20 bis 150 Hz).
+Er arbeitet im Bass-Bereich (20 bis 150 Hz).
 Diese Frequenzen sind teils schwer, teils nicht lokalisierbar, weshalb auch nur ein Subwoofer benötigt wird.
-Meistens ist die Membran des Subwoofers um einiges größer als die Membran anderer Lautsprecher.
+Meistens ist die Membran des Subwoofers um einiges größer, als die Membran anderer Lautsprecher.
 Damit kann der Subwoofer mehr Luft in Bewegung setzen und somit einen höheren Schalldruckpegel erzeugen.
-Um das zu ermöglichen benötigt der Subwoofer aber auch mehr Leistung als ein Lautsprecher für einen anderen Frequenzbereich.
+Um dies zu ermöglichen benötigt der Subwoofer aber auch mehr Leistung als ein Lautsprecher für einen anderen Frequenzbereich.
 \\ \\
 
 \newpage
@@ -144,13 +145,13 @@ Um das zu ermöglichen benötigt der Subwoofer aber auch mehr Leistung als ein L
 Dieses System, bestehend aus linker und rechter Lautsprecherbox (Abb. \ref{fig:3.2.3}), eignet sich bereits für Stereo-Klang.
 Meistens beinhalten diese Boxen einen Hochton-Lautsprecher und einen Tiefton-Lautsprecher.
 Diese müssen eine entsprechende Qualität aufweisen, um ohne Mittelton-Lautsprecher auszukommen.\\
-Eine Variante mit drei verschiedenen verbauten Lautsprecher-Chassis für jeden Frequenzbereich, ist auch üblich.
+Eine Variante mit drei verschiedenen verbauten Lautsprecher-Chassis für jeden Frequenzbereich, ist ebenfalls üblich.
 Der Vorteil dieser Bauart ist, dass die Lautsprecher-Chassis einen geringeren Bereich mit einem linearen Frequenzgang abdecken müssen und daher zumeist von geringerer Qualität sein können.\\
 Bei der Ausrichtung dieser Lautsprecher ist zu beachten:
 \begin{enumerate}
 	\item Die Lautsprecher-Chassis sollen in Richtung des Testers zeigen
 	\item Die Hochton-Lautsprecher sollen sich auf Ohrenhöhe des Testers befinden
-	\item Die Lautsprecher-Boxen sollen optimaler weise, wie eingezeichnet (Abb. \ref{fig:3.2.4}), einen 30° Winkel zur Blickrichtung des Testers aufweisen
+	\item Die Lautsprecher-Boxen sollen optimalerweise, wie eingezeichnet (Abb. \ref{fig:3.2.4}), einen 30° Winkel zur Blickrichtung des Testers aufweisen
 \end{enumerate}
 Die Hochton-Lautsprecher müssen sich aus diesem Grund auf Ohrenhöhe befinden, da sich hohe Frequenzen geradliniger ausbreiten als tiefe und man sie somit besser wahrnehmen kann.
 %Um einen optimalen Klang zu erhalten, müssen sich diese deshalb auf Höhe der Ohren befinden, um diese geradlinige Ausbreitung direkt wahrzunehmen.\\
@@ -165,12 +166,12 @@ Die Hochton-Lautsprecher müssen sich aus diesem Grund auf Ohrenhöhe befinden, 
 
 Für dieses System wird mindestens eine Aufteilung in zwei Audio-Signale benötigt (links und rechts).\\
 Wie bereits erwähnt, wird auch ein Tiefton-Lautsprecher verbaut.
-Dieser gilt aber nicht als Subwoofer aus folgenden Gründen:
+Dieser gilt aber aus folgenden Gründen nicht als Subwoofer:
 \begin{enumerate}
-	\item Es ist in der Lautsprecher-Box auch ein Lautsprecher-Chassis für andere Frequenzbereiche verbaut
+	\item In der Lautsprecher-Box ist auch ein Lautsprecher-Chassis für andere Frequenzbereiche verbaut
 	\item Der Tiefton-Lautsprecher strahlt nicht nur den nicht-lokalisierbaren Frequenzbereich ab
 \end{enumerate}
-Da das Lautsprecher-System aus 2 verteilten Boxen und keinem Subwoofer besteht nennt man das Lautsprecher-System ein \enquote{2.0 - System}.
+Da das Lautsprecher-System aus 2 verteilten Boxen und keinem Subwoofer besteht, nennt man das Lautsprecher-System ein \enquote{2.0 - System}.
 
 
 \newpage
@@ -183,7 +184,7 @@ Da das Lautsprecher-System aus 2 verteilten Boxen und keinem Subwoofer besteht n
 \end{figure}
 \footnotetext{Editiert:\enquote{https://upload.wikimedia.org/wikipedia/commons/6/62/DOLBY\_Digital\_5.1.jpg}\\Zugriff: 23.03.2017}
 
-Dieses System besteht aus 2 + 1 Lautsprecher-Boxen, und zwar eine linken und rechten Satelliten-Box und einer Subwoofer-Box.
+Dieses System besteht aus 2 + 1 Lautsprecher-Boxen, und zwar einer linken und rechten Satelliten-Box und einer Subwoofer-Box.
 Hier ist wiederum Stereo-Klang möglich, nun aber mit Unterstützung für den Bass-Bereich (<150 Hz).
 Die Anordnung der Satelliten ist vorgegeben (links und rechts).
 Die Subwoofer-Box darf im Raum verstellt werden, da wie bereits erklärt die abgestrahlten Frequenzen des Subwoofers schwer bzw. nicht lokalisierbar sind.\\
@@ -192,9 +193,9 @@ links, rechts, Bass-Bereich.\\
 Für die meisten allgemeinen Konsumenten-Anwendungen wird ein 2.1-System verwendet.\\ 
 Es ist üblich, dass in den Satelliten-Boxen wieder zwei Lautsprecher-Chassis verbaut werden.
 Eines für den Hochton- und eines für den Mittel-Tiefton-Bereich.
-In diesem Fall muss der Mittel-Tiefton-Lautsprecher die sehr tiefen Frequenzen nicht übernehmen, das macht der Subwoofer.
+In diesem Fall muss der Mittel-Tiefton-Lautsprecher die sehr tiefen Frequenzen nicht übernehmen, dies macht der Subwoofer.
 Somit ergibt sich eine Aufteilung des Frequenzbereiches auf drei Lautsprecher, was wiederum bedeutet, dass diese in einem geringeren Frequenzbereich linear arbeiten müssen.\\
-Wenn ein guter Mittel-Tiefton-Lautsprecher verwendet wird der einen annähernd linearen Frequenzgang bis in den Hochton-Bereich aufweist, kann man auch einen schlechteren Hochton-Lautsprecher in Kombination mit diesem verwenden.\\
+Wenn ein guter Mittel-Tiefton-Lautsprecher verwendet wird, welcher einen annähernd linearen Frequenzgang bis in den Hochton-Bereich aufweist, kann man auch einen schlechteren Hochton-Lautsprecher in Kombination mit diesem verwenden.\\
 Eine billigere Variante würde die Ausführung der Satelliten-Boxen mit jeweils einem Breitband-Lautsprecher bieten, der wie der Name schon sagt einen sehr \enquote{Breiten} Frequenzbereich übernimmt.\\
 Da der Subwoofer nur einen sehr geringen Teil des Frequenzgangs übernimmt (20...150 Hz), werden trotzdem relativ gute Lautsprecher-Chassis für Mittel-Tiefton- und Hochton-Bereich benötigt.
 
@@ -223,8 +224,8 @@ Das bedeutet, dass der Tester inmitten dieses Systems rundum beschallt wird.
 Die Anordnung bis auf die des Subwoofers ist wieder vorgegeben.
 Für dieses System wird die Aufteilung in mindestens 6 Audio-Signale benötigt.
 Diese werden entsprechend den zuvor genannten Lautsprecher-Boxen benannt.\\
-Der \enquote{Center}-Lautsprecher ist aus diesem Grund wichtig da sich aus der Erfahrung heraus bewiesen hat, dass Sprache von einem Menschen, der bei einem Film sich in mitten des Bildes befindet, sich akustisch mittig lokalisieren lassen sollte.\\ 
-Ein solches System kann man oft in Heimkinos finden.
+Der \enquote{Center}-Lautsprecher ist aus diesem Grund wichtig, da sich aus der Erfahrung heraus bewiesen hat, dass Sprache eines sich inmitten des Bildes befindenden Menschen, auch akustisch mittig zu lokalisieren sein sollte.\\ 
+Ein solches System findet man oft in Heimkinos.
 Kinosäle besitzen meistens noch besser ausgeklügelte, bzw. größere Systeme.
 \\ \\
 
@@ -248,7 +249,7 @@ In diesem Fall sind die Daten ein Musikstück.
 Über Funk werden die digitalen Daten an das empfangende Gerät gesendet.
 Nun muss das Bluetooth-Modul diese digitalen Daten wieder in ein analoges Signal umwandeln, welches dann weiterverarbeitet werden kann.
 \\ \\
-Dabei ist eine hohe Kompatibilität mit viele Geräten wichtig, weil es sehr viele verschiedene Versionen von Bluetooth gibt.
+Dabei ist eine hohe Kompatibilität mit vielen Geräten wichtig, weil es sehr viele verschiedene Versionen von Bluetooth gibt.
 Da Bluetooth-Geräte meist abwärtskompatibel sind, ist es sinnvoll das Modul mit einer älteren BT-Version laufen zu lassen.
 \\ \\
 Nach ausführlicher Recherche wurde das Modul \enquote{XS3868} ausgewählt.
@@ -296,7 +297,7 @@ Gründe dafür sind:
 \end{itemize}
 Dieser Akku versorgt die Elektronik mit 12 V (DC) und wird über ein passendes Ladegerät aufgeladen.
 Da aber mit dieser relativ geringen Spannung nur eher kleine Leistungen zu erwarten sind, kam die Idee auf, die Verstärker und Weichen bei externer Versorgung durch das Stromnetz (230 V / AC) mit einer größeren Spannung (24 V / DC) zu versorgen.
-Um das zu realisieren wird ein Netzteil, in unserem Fall ein Schaltnetzteil, benötigt.
+Um dies zu realisieren, wird ein Netzteil, in unserem Fall ein Schaltnetzteil, benötigt.
 Falls das Gerät am externen Stromnetz hängt, wird die Versorgung der Verstärker automatisch mithilfe eines passenden Relais umgeschaltet.
 Diese Lösung wurde gewählt, da sie sehr simpel ist und gut funktioniert.
 Veranschaulicht wird das Konzept durch diese Schaltung:

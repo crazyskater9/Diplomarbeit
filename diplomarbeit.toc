@@ -56,18 +56,22 @@
 \contentsline {subsection}{\numberline {8.2.7}6\_HTVerst\IeC {\"a}rker}{102}{subsection.8.2.7}
 \contentsline {section}{\numberline {8.3}Fertigungsunterlagen - Mechanik}{105}{section.8.3}
 \contentsline {subsection}{\numberline {8.3.1}Subwooferbox}{105}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}Satellitenbox}{105}{subsection.8.3.2}
-\contentsline {section}{\numberline {8.4}Datenbl\IeC {\"a}tter}{106}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}TDA2030}{106}{subsection.8.4.1}
-\contentsline {section}{\numberline {8.5}Datenblatt - Renkforce B12123}{119}{section.8.5}
-\contentsline {subsection}{\numberline {8.5.1}Visaton DTW 72-8}{121}{subsection.8.5.1}
-\contentsline {section}{\numberline {8.6}Grundlegendes}{122}{section.8.6}
-\contentsline {subsection}{\numberline {8.6.1}Butterworth-Filter 2. Ordnung}{122}{subsection.8.6.1}
-\contentsline {subsection}{\numberline {8.6.2}Nicht invertierende Verst\IeC {\"a}rker - OPV-Grundschaltung}{124}{subsection.8.6.2}
-\contentsline {subsection}{\numberline {8.6.3}Welligkeit}{125}{subsection.8.6.3}
-\contentsline {subsection}{\numberline {8.6.4}Einstellungen f\IeC {\"u}r die PCB-Entwicklung in \enquote {Altium Designer}}{126}{subsection.8.6.4}
-\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{128}{chapter*.188}
-\contentsline {chapter}{Abbildungsverzeichnis}{130}{section*.189}
-\contentsline {chapter}{Danksagungen}{133}{section*.191}
-\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. Dr. Herbert Wagner}{133}{section*.193}
-\contentsline {chapter}{Literaturverzeichnis}{134}{section*.194}
+\contentsline {subsection}{\numberline {8.3.2}Elektronikeinschub}{106}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}Satellitenbox}{107}{subsection.8.3.3}
+\contentsline {section}{\numberline {8.4}Datenbl\IeC {\"a}tter}{108}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}TDA2030}{108}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Datenblatt - Renkforce B12123}{121}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.3}Visaton DTW 72-8}{123}{subsection.8.4.3}
+\contentsline {section}{\numberline {8.5}Erg\IeC {\"a}nzende Informationen}{124}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}TDA2030-Grundschaltung}{124}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}TDA2030-Leistungstransistor-Schaltung}{126}{subsection.8.5.2}
+\contentsline {subsection}{\numberline {8.5.3}H-Br\IeC {\"u}ckenschaltung der TDA2030-Verst\IeC {\"a}rkerschaltung}{127}{subsection.8.5.3}
+\contentsline {subsection}{\numberline {8.5.4}Butterworth-Filter 2. Ordnung}{128}{subsection.8.5.4}
+\contentsline {subsection}{\numberline {8.5.5}Nicht invertierende Verst\IeC {\"a}rker - OPV-Grundschaltung}{130}{subsection.8.5.5}
+\contentsline {subsection}{\numberline {8.5.6}Welligkeit}{131}{subsection.8.5.6}
+\contentsline {subsection}{\numberline {8.5.7}Einstellungen f\IeC {\"u}r die PCB-Entwicklung in \enquote {Altium Designer}}{132}{subsection.8.5.7}
+\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{134}{chapter*.194}
+\contentsline {chapter}{Abbildungsverzeichnis}{136}{section*.195}
+\contentsline {chapter}{Danksagungen}{140}{section*.197}
+\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. Dr. Herbert Wagner}{140}{section*.199}
+\contentsline {chapter}{Literaturverzeichnis}{141}{section*.200}
