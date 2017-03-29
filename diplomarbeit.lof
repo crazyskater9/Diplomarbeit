@@ -78,35 +78,30 @@
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Logo von \enquote {FilterPro}}}{73}{figure.caption.109}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces 0\_BTAdapter - Schaltung\relax }}{83}{figure.caption.118}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces 0\_BTAdapter - Best\IeC {\"u}ckungsplan\relax }}{84}{figure.caption.120}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces 0\_BTAdapter - St\IeC {\"u}ckliste\relax }}{84}{figure.caption.122}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces 1\_BTFrontplatine - Schaltung\relax }}{85}{figure.caption.124}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces 1\_BTFrontplatine - Best\IeC {\"u}ckungsplan\relax }}{86}{figure.caption.126}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces 1\_BTFrontplatine - St\IeC {\"u}ckliste\relax }}{86}{figure.caption.128}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces 2\_Hauptplatine - Schaltung\relax }}{87}{figure.caption.131}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces 2\_Hauptplatine - Best\IeC {\"u}ckungsplan\relax }}{88}{figure.caption.134}
-\contentsline {figure}{\numberline {8.9}{\ignorespaces 2\_Hauptplatine - St\IeC {\"u}ckliste\relax }}{89}{figure.caption.137}
-\contentsline {figure}{\numberline {8.10}{\ignorespaces 3\_mTT-Weiche und Addierer - Schaltung\relax }}{90}{figure.caption.140}
-\contentsline {figure}{\numberline {8.11}{\ignorespaces 3\_mTT-Weiche und Addierer - Best\IeC {\"u}ckungsplan\relax }}{91}{figure.caption.143}
-\contentsline {figure}{\numberline {8.12}{\ignorespaces 3\_mTT-Weiche und Addierer - St\IeC {\"u}ckliste\relax }}{92}{figure.caption.146}
-\contentsline {figure}{\numberline {8.13}{\ignorespaces 4\_HTundTT-Weiche - Schaltung\relax }}{93}{figure.caption.149}
-\contentsline {figure}{\numberline {8.14}{\ignorespaces 4\_HTundTT-Weiche - Best\IeC {\"u}ckungsplan\relax }}{94}{figure.caption.152}
-\contentsline {figure}{\numberline {8.15}{\ignorespaces 4\_HTundTT-Weiche - St\IeC {\"u}ckliste\relax }}{95}{figure.caption.155}
-\contentsline {figure}{\numberline {8.16}{\ignorespaces 5\_TTVerst\IeC {\"a}rker - Schaltung\relax }}{96}{figure.caption.158}
-\contentsline {figure}{\numberline {8.17}{\ignorespaces 5\_TTVerst\IeC {\"a}rker - Best\IeC {\"u}ckungsplan\relax }}{97}{figure.caption.161}
-\contentsline {figure}{\numberline {8.18}{\ignorespaces 5\_TTVerst\IeC {\"a}rker - St\IeC {\"u}ckliste\relax }}{98}{figure.caption.164}
-\contentsline {figure}{\numberline {8.19}{\ignorespaces 6\_HTVerst\IeC {\"a}rker - Schaltung\relax }}{99}{figure.caption.167}
-\contentsline {figure}{\numberline {8.20}{\ignorespaces 6\_HTVerst\IeC {\"a}rker - Best\IeC {\"u}ckungsplan\relax }}{100}{figure.caption.169}
-\contentsline {figure}{\numberline {8.21}{\ignorespaces 6\_HTVerst\IeC {\"a}rker - St\IeC {\"u}ckliste\relax }}{101}{figure.caption.172}
-\contentsline {figure}{\numberline {8.22}{\ignorespaces TDA2030-Pinning}}{102}{figure.caption.173}
-\contentsline {figure}{\numberline {8.23}{\ignorespaces TDA2030-Maximum Ratings}}{103}{figure.caption.174}
-\contentsline {figure}{\numberline {8.24}{\ignorespaces TDA2030-Grundschaltung}}{104}{figure.caption.175}
-\contentsline {figure}{\numberline {8.25}{\ignorespaces TDA2030-Leistungstransistorschaltung}}{105}{figure.caption.176}
-\contentsline {figure}{\numberline {8.26}{\ignorespaces TDA2030-H-Br\IeC {\"u}ckenschaltung}}{106}{figure.caption.177}
-\contentsline {figure}{\numberline {8.27}{\ignorespaces Butterworth-Tiefpass-Filter 2. Ordnung\relax }}{121}{figure.caption.179}
-\contentsline {figure}{\numberline {8.28}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{121}{figure.caption.180}
-\contentsline {figure}{\numberline {8.29}{\ignorespaces Butterworth-Hochpass-Filter 2. Ordnung\relax }}{122}{figure.caption.181}
-\contentsline {figure}{\numberline {8.30}{\ignorespaces Nicht invertierender Verst\IeC {\"a}rker - OPV-Grundschaltung}}{123}{figure.caption.182}
-\contentsline {figure}{\numberline {8.31}{\ignorespaces PSS 297 58206 (\enquote {TT1}) ohne Volumsverminderung Volumen = 13,72 l\relax }}{124}{figure.caption.183}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces 0\_BTAdapter - Schaltung\relax }}{86}{figure.caption.121}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces 0\_BTAdapter - Best\IeC {\"u}ckungsplan\relax }}{87}{figure.caption.123}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces 0\_BTAdapter - St\IeC {\"u}ckliste\relax }}{87}{figure.caption.125}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces 1\_BTFrontplatine - Schaltung\relax }}{88}{figure.caption.127}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces 1\_BTFrontplatine - Best\IeC {\"u}ckungsplan\relax }}{89}{figure.caption.129}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces 1\_BTFrontplatine - St\IeC {\"u}ckliste\relax }}{89}{figure.caption.131}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces 2\_Hauptplatine - Schaltung\relax }}{90}{figure.caption.134}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces 2\_Hauptplatine - Best\IeC {\"u}ckungsplan\relax }}{91}{figure.caption.137}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces 2\_Hauptplatine - St\IeC {\"u}ckliste\relax }}{92}{figure.caption.140}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces 3\_mTT-Weiche und Addierer - Schaltung\relax }}{93}{figure.caption.143}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces 3\_mTT-Weiche und Addierer - Best\IeC {\"u}ckungsplan\relax }}{94}{figure.caption.146}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces 3\_mTT-Weiche und Addierer - St\IeC {\"u}ckliste\relax }}{95}{figure.caption.149}
+\contentsline {figure}{\numberline {8.13}{\ignorespaces 4\_HTundTT-Weiche - Schaltung\relax }}{96}{figure.caption.152}
+\contentsline {figure}{\numberline {8.14}{\ignorespaces 4\_HTundTT-Weiche - Best\IeC {\"u}ckungsplan\relax }}{97}{figure.caption.155}
+\contentsline {figure}{\numberline {8.15}{\ignorespaces 4\_HTundTT-Weiche - St\IeC {\"u}ckliste\relax }}{98}{figure.caption.158}
+\contentsline {figure}{\numberline {8.16}{\ignorespaces 5\_TTVerst\IeC {\"a}rker - Schaltung\relax }}{99}{figure.caption.161}
+\contentsline {figure}{\numberline {8.17}{\ignorespaces 5\_TTVerst\IeC {\"a}rker - Best\IeC {\"u}ckungsplan\relax }}{100}{figure.caption.164}
+\contentsline {figure}{\numberline {8.18}{\ignorespaces 5\_TTVerst\IeC {\"a}rker - St\IeC {\"u}ckliste\relax }}{101}{figure.caption.167}
+\contentsline {figure}{\numberline {8.19}{\ignorespaces 6\_HTVerst\IeC {\"a}rker - Schaltung\relax }}{102}{figure.caption.170}
+\contentsline {figure}{\numberline {8.20}{\ignorespaces 6\_HTVerst\IeC {\"a}rker - Best\IeC {\"u}ckungsplan\relax }}{103}{figure.caption.172}
+\contentsline {figure}{\numberline {8.21}{\ignorespaces 6\_HTVerst\IeC {\"a}rker - St\IeC {\"u}ckliste\relax }}{104}{figure.caption.175}
+\contentsline {figure}{\numberline {8.22}{\ignorespaces Butterworth-Tiefpass-Filter 2. Ordnung\relax }}{122}{figure.caption.182}
+\contentsline {figure}{\numberline {8.23}{\ignorespaces Butterworth-Bandpass-Filter 2. Ordnung\relax }}{123}{figure.caption.183}
+\contentsline {figure}{\numberline {8.24}{\ignorespaces Butterworth-Hochpass-Filter 2. Ordnung\relax }}{123}{figure.caption.184}
+\contentsline {figure}{\numberline {8.25}{\ignorespaces Nicht invertierender Verst\IeC {\"a}rker - OPV-Grundschaltung}}{124}{figure.caption.185}
+\contentsline {figure}{\numberline {8.26}{\ignorespaces PSS 297 58206 (\enquote {TT1}) ohne Volumsverminderung Volumen = 13,72 l\relax }}{126}{figure.caption.187}
 \addvspace {10\p@ }

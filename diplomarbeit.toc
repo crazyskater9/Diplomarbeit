@@ -41,41 +41,33 @@
 \contentsline {section}{\numberline {6.1}Elektronik-Entwicklungsumgebung f\IeC {\"u}r Layout und Leiterplatten \enquote {Altium}}{72}{section.6.1}
 \contentsline {section}{\numberline {6.2}Filterberechnungstool \enquote {FilterPro}}{73}{section.6.2}
 \contentsline {chapter}{\numberline {7}Betriebswirtschaftlicher Teil}{74}{chapter.7}
-\contentsline {section}{\numberline {7.1}Kostenrechnung}{74}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Materialkosten}{74}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Entwicklungskosten}{75}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}Herstellungskosten}{75}{subsection.7.1.3}
-\contentsline {section}{\numberline {7.2}Absatzkalkulation}{75}{section.7.2}
-\contentsline {section}{\numberline {7.3}Break-Even-Point}{75}{section.7.3}
-\contentsline {chapter}{\numberline {8}Anhang}{76}{chapter.8}
-\contentsline {section}{\numberline {8.1}Arbeitsnachweis}{77}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Aufschl\IeC {\"u}sselung - Bointner}{77}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Aufschl\IeC {\"u}sselung - Macsek}{80}{subsection.8.1.2}
-\contentsline {section}{\numberline {8.2}Printunterlagen}{83}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}0\_BTAdapter}{83}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}1\_BTFrontplatine}{85}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}2\_Hauptplatine}{87}{subsection.8.2.3}
-\contentsline {subsection}{\numberline {8.2.4}3\_mTT-Weiche und Addierer}{90}{subsection.8.2.4}
-\contentsline {subsection}{\numberline {8.2.5}4\_HTundTT-Weiche}{93}{subsection.8.2.5}
-\contentsline {subsection}{\numberline {8.2.6}5\_TTVerst\IeC {\"a}rker}{96}{subsection.8.2.6}
-\contentsline {subsection}{\numberline {8.2.7}6\_HTVerst\IeC {\"a}rker}{99}{subsection.8.2.7}
-\contentsline {section}{\numberline {8.3}TDA2030}{102}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Absolute Maximalwerte}{102}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}TDA2030-Grundschaltung}{103}{subsection.8.3.2}
-\contentsline {subsection}{\numberline {8.3.3}Leistungstransistor-Schaltung}{104}{subsection.8.3.3}
-\contentsline {subsection}{\numberline {8.3.4}H-Br\IeC {\"u}ckenschaltung der TDA2030-Verst\IeC {\"a}rkerschaltung}{106}{subsection.8.3.4}
-\contentsline {subsection}{\numberline {8.3.5}Datenblatt TDA2030}{107}{subsection.8.3.5}
-\contentsline {section}{\numberline {8.4}Filter}{120}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}Butterworth-Filter 2. Ordnung}{120}{subsection.8.4.1}
-\contentsline {section}{\numberline {8.5}Nicht invertierende Verst\IeC {\"a}rker - OPV-Grundschaltung}{122}{section.8.5}
-\contentsline {subsection}{\numberline {8.5.1}Asymmetrische Versorgung eines OPV's}{123}{subsection.8.5.1}
-\contentsline {section}{\numberline {8.6}Welligkeit}{124}{section.8.6}
-\contentsline {section}{\numberline {8.7}Datenblatt - Renkforce B12123}{125}{section.8.7}
-\contentsline {section}{\numberline {8.8}Datenblatt - Visaton DTW 72-8}{127}{section.8.8}
-\contentsline {section}{\numberline {8.9}Einstellungen f\IeC {\"u}r die PCB-Entwicklung in \enquote {Altium Designer}}{128}{section.8.9}
-\contentsline {section}{\numberline {8.10}Designregeln f\IeC {\"u}r die PCB-Entwicklung}{128}{section.8.10}
-\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{130}{chapter*.189}
-\contentsline {chapter}{Abbildungsverzeichnis}{132}{section*.190}
-\contentsline {chapter}{Danksagungen}{136}{section*.192}
-\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. Dr. Herbert Wagner}{136}{section*.194}
-\contentsline {chapter}{Literaturverzeichnis}{137}{section*.195}
+\contentsline {section}{\numberline {7.1}Kostenrechnung}{75}{section.7.1}
+\contentsline {chapter}{\numberline {8}Anhang}{79}{chapter.8}
+\contentsline {section}{\numberline {8.1}Arbeitsnachweis}{80}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Aufschl\IeC {\"u}sselung - Bointner}{80}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Aufschl\IeC {\"u}sselung - Macsek}{83}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Fertigungsunterlagen - Elektronik}{86}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}0\_BTAdapter}{86}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}1\_BTFrontplatine}{88}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}2\_Hauptplatine}{90}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}3\_mTT-Weiche und Addierer}{93}{subsection.8.2.4}
+\contentsline {subsection}{\numberline {8.2.5}4\_HTundTT-Weiche}{96}{subsection.8.2.5}
+\contentsline {subsection}{\numberline {8.2.6}5\_TTVerst\IeC {\"a}rker}{99}{subsection.8.2.6}
+\contentsline {subsection}{\numberline {8.2.7}6\_HTVerst\IeC {\"a}rker}{102}{subsection.8.2.7}
+\contentsline {section}{\numberline {8.3}Fertigungsunterlagen - Mechanik}{105}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Subwooferbox}{105}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Satellitenbox}{105}{subsection.8.3.2}
+\contentsline {section}{\numberline {8.4}Datenbl\IeC {\"a}tter}{106}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}TDA2030}{106}{subsection.8.4.1}
+\contentsline {section}{\numberline {8.5}Datenblatt - Renkforce B12123}{119}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Visaton DTW 72-8}{121}{subsection.8.5.1}
+\contentsline {section}{\numberline {8.6}Grundlegendes}{122}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}Butterworth-Filter 2. Ordnung}{122}{subsection.8.6.1}
+\contentsline {subsection}{\numberline {8.6.2}Nicht invertierende Verst\IeC {\"a}rker - OPV-Grundschaltung}{124}{subsection.8.6.2}
+\contentsline {subsection}{\numberline {8.6.3}Welligkeit}{125}{subsection.8.6.3}
+\contentsline {subsection}{\numberline {8.6.4}Einstellungen f\IeC {\"u}r die PCB-Entwicklung in \enquote {Altium Designer}}{126}{subsection.8.6.4}
+\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{128}{chapter*.188}
+\contentsline {chapter}{Abbildungsverzeichnis}{130}{section*.189}
+\contentsline {chapter}{Danksagungen}{133}{section*.191}
+\contentsline {subparagraph}{\nonumberline Prof. Dipl.-Ing. Dr. Herbert Wagner}{133}{section*.193}
+\contentsline {chapter}{Literaturverzeichnis}{134}{section*.194}
