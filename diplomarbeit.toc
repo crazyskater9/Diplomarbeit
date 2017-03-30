@@ -35,7 +35,7 @@
 \contentsline {subsubsection}{\nonumberline PCB}{59}{section*.83}
 \contentsline {subsubsection}{\nonumberline Allgemeines}{60}{section*.86}
 \contentsline {subsubsection}{\nonumberline Schaltung}{60}{section*.87}
-\contentsline {subsubsection}{\nonumberline PCB}{60}{section*.90}
+\contentsline {subsubsection}{\nonumberline PCB}{62}{section*.90}
 \contentsline {section}{\numberline {5.3}Beschaltung des Bluetooth-Moduls \enquote {XS3868}}{63}{section.5.3}
 \contentsline {chapter}{\numberline {6}Verwendete Tools}{72}{chapter.6}
 \contentsline {section}{\numberline {6.1}Elektronik-Entwicklungsumgebung f\IeC {\"u}r Layout und Leiterplatten \enquote {Altium}}{72}{section.6.1}
@@ -68,8 +68,8 @@
 \contentsline {subsection}{\numberline {8.5.3}H-Br\IeC {\"u}ckenschaltung der TDA2030-Verst\IeC {\"a}rkerschaltung}{127}{subsection.8.5.3}
 \contentsline {subsection}{\numberline {8.5.4}Butterworth-Filter 2. Ordnung}{128}{subsection.8.5.4}
 \contentsline {subsection}{\numberline {8.5.5}Nicht invertierende Verst\IeC {\"a}rker - OPV-Grundschaltung}{130}{subsection.8.5.5}
-\contentsline {subsection}{\numberline {8.5.6}Welligkeit}{131}{subsection.8.5.6}
-\contentsline {subsection}{\numberline {8.5.7}Einstellungen f\IeC {\"u}r die PCB-Entwicklung in \enquote {Altium Designer}}{132}{subsection.8.5.7}
+\contentsline {subsection}{\numberline {8.5.6}Welligkeit}{132}{subsection.8.5.6}
+\contentsline {subsection}{\numberline {8.5.7}Einstellungen f\IeC {\"u}r die PCB-Entwicklung in \enquote {Altium Designer}}{133}{subsection.8.5.7}
 \contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{134}{chapter*.194}
 \contentsline {chapter}{Abbildungsverzeichnis}{136}{section*.195}
 \contentsline {chapter}{Danksagungen}{140}{section*.197}

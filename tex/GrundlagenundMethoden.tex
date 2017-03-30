@@ -1,20 +1,20 @@
 \section{Blockschaltbild des Projekts}\label{sec:3.1}
-Nach einigen Überlegungen über die bestmögliche Herangehensweise an dieses Projekt, wurde folgendes Blockschaltbild entwickelt:
+Nach einigen Überlegungen, über die bestmögliche Herangehensweise an dieses Projekt, wurde folgendes Blockschaltbild entwickelt:
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/blockschaltbildV2.png}
 	\caption{Blockschaltbild}
 	\label{fig:3.1.1}
 \end{figure}
-Ein wichtiger Teil des Projekts ist die Bluetooth-Hauptplatine (Abb. \ref{fig:3.1.1} links unten).
+Ein wichtiger Teil des Projekts ist die Bluetooth-Hauptplatine (Abb. \ref{fig:3.1.1} links mittig).
 Diese Platine verfügt über die Audio-Eingänge des Projekts.
 Das Stereo-Audio-Signal kann mithilfe der BT-Hauptplatine mittels Klinkenbuchse oder Übertragung über Bluetooth (Kap. \ref{sec:3.3}) in die gesamte Schaltung eingespeist werden.
 \\ \\
 Dieses Stereo-Audio-Signal wird mithilfe der Frequenzweichen in 3 verschiedene Frequenzbereiche (Hochton-, Mittel-Tiefton- und Bassbereich) aufgetrennt.
 \\
-Tiefe Frequenzen (<150Hz) werden \enquote{L + R} (Stereo) addiert und über eine Mono-Tiefpass-Weiche gefiltert.
+Bei tiefen Frequenzen (<150Hz) werden \enquote{L + R} (Stereo) addiert und über eine Mono-Tiefpass-Weiche gefiltert.
 \\
-Insgesamt gibt es nach dem auftrennen 5 Signale, die weiterverarbeitet werden:
+Insgesamt gibt es nach dem Auftrennen 5 Signale, die weiterverarbeitet werden:
 \\ 
 \begin{itemize}
 	\item Hochton-Links
@@ -67,13 +67,13 @@ Beispielsweise Hochton-Lautsprecher oder Hochtöner für den Hochton-Bereich (>2
 Wie gut verschiedene Frequenzen von einem Lautsprecher abgestrahlt werden, ist in seinem Frequenzgang ersichtlich:
 \begin{figure} [H]
 	\centering
-	\includegraphics[width=1\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/Frequenzbereiche-Audio-cut.jpg}
-	\caption{Tiefton-, Mittelton- und Hochton-Bereich\\- (Beispiel Frequenzgang eines Lautsprecher-Systems)}
+	\includegraphics[width=0.97\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/Frequenzbereiche-Audio-cut.jpg}
+	\caption[Tiefton-, Mittelton- und Hochton-Bereich\\- (Beispiel Frequenzgang eines Lautsprecher-Systems)]{Tiefton-, Mittelton- und Hochton-Bereich\\- (Beispiel Frequenzgang eines Lautsprecher-Systems)\footnotemark}
 	\label{fig:3.2.1}
 \end{figure}
 \footnotetext{http://http://www.lavalu.de/images/Frequenzgang.jpg\\Zugriff: 23.03.2017}
 
-Bei einem perfekten Lautsprecher würde diese Linie bei 20 Hz beginnend (Abb. \ref{fig:3.2.1}) eine parallele Gerade zur X-Achse bilden, bis hin zu 20 kHz.
+Bei einem perfekten Lautsprecher würde diese Linie, bei 20 Hz beginnend (Abb. \ref{fig:3.2.1}), eine parallele Gerade zur X-Achse bilden, bis hin zu 20 kHz.
 Da solch ein Lautsprecher nur eine ideale Annahme und nicht realisierbar ist, werden in der Praxis mehrere Lautsprecher zusammen verwendet, um sich diesem Ideal anzunähern.
 Wie in der Abbildung \ref{fig:3.2.1} gut ersichtlich, ergeben die einzelnen Frequenzgänge der Lautsprecher aufsummiert das Gesamtfrequenzverhalten des Systems (in Schwarz), der relativ linear ist.
 Unterhalb von 100 Hz ist noch eine größere Pegel-Lücke, die aber durch einen besseren Subwoofer ausgebessert werden kann.
@@ -84,7 +84,7 @@ In diesem sind die Eigenschaften der jeweiligen Filterarten gut ersichtlich (Sie
 Betrachtet man nur die \enquote{dunkelblaue} Kurve, ist sofort sichtbar, dass über 400 Hz der Pegel stark abnimmt, bis hin zu 0.
 Dies ist auch bei der \enquote{grünen} Kurve ersichtlich.
 Bei dieser strebt der Pegel unter 400 Hz und oberhalb 2 kHz gegen Null.
-In der \enquote{roten} Kurve hingegen ist der Frequenzbereich von unter 2 kHz geringer, bzw. nicht vorhanden.
+In der \enquote{roten} Kurve hingegen sind die Pegel unter 2 kHz geringer, bzw. nicht vorhanden.
 Wenn diese drei Übertragungskennlinien der Weichen aufaddiert werden, ergibt das die Gesamtübertragungskennlinie in \enquote{schwarz} gezeichnet.
 \\
 Es sind klare Schnittpunkte der Kurven ersichtlich, welche auch bewusst gewählt sind.
@@ -94,8 +94,8 @@ Nach der Auftrennung wird jedes Teilsignal mit einem jeweils eigenen Verstärker
 %Da so ein Lautsprecher aber nicht existiert, werden verschiedene Frequenzen auch mit einem verschiedenen Schalldruckpegel vom Lautsprecher abgestrahlt.
 \begin{figure} [H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/Frequenzbereiche-Audio-Weiche-cut.jpg}
-	\caption{Tiefpass-, Bandpass- und Hochpass-Weiche - (Beispiel für das Verhalten von Frequenzweichen)}
+	\includegraphics[width=1\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/Frequenzbereiche-Audio-Weiche-cut.jpg}
+	\caption[Tiefpass-, Bandpass- und Hochpass-Weiche - (Beispiel für das Verhalten von Frequenzweichen)]{Tiefpass-, Bandpass- und Hochpass-Weiche - (Beispiel für das Verhalten von Frequenzweichen)\footnotemark}
 	\label{fig:3.2.2}
 \end{figure}
 \footnotetext{http://www.audiovero.de/acourate-wiki/lib/exe/fetch.php?media=bilder\_funktionen:funkt\_bsp\\\_addition\_02.png\\Zugriff: 23.03.2017}
@@ -128,7 +128,7 @@ Er arbeitet im Bass-Bereich (20 bis 150 Hz).
 Diese Frequenzen sind teils schwer, teils nicht lokalisierbar, weshalb auch nur ein Subwoofer benötigt wird.
 Meistens ist die Membran des Subwoofers um einiges größer, als die Membran anderer Lautsprecher.
 Damit kann der Subwoofer mehr Luft in Bewegung setzen und somit einen höheren Schalldruckpegel erzeugen.
-Um dies zu ermöglichen benötigt der Subwoofer aber auch mehr Leistung als ein Lautsprecher für einen anderen Frequenzbereich.
+Um dies zu ermöglichen, benötigt der Subwoofer aber auch mehr Leistung, als ein Lautsprecher für einen anderen Frequenzbereich.
 \\ \\
 
 \newpage
@@ -137,7 +137,7 @@ Um dies zu ermöglichen benötigt der Subwoofer aber auch mehr Leistung als ein 
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital20-cut.jpg}
-	\caption{2.0-Lautsprecher-System}
+	\caption[2.0-Lautsprecher-System]{2.0-Lautsprecher-System\footnotemark}
 	\label{fig:3.2.3}
 \end{figure}
 \footnotetext{Editiert:\enquote{https://upload.wikimedia.org/wikipedia/commons/6/62/DOLBY\_Digital\_5.1.png}\\Zugriff: 23.03.2017}
@@ -159,7 +159,7 @@ Die Hochton-Lautsprecher müssen sich aus diesem Grund auf Ohrenhöhe befinden, 
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/opt-20-aufstellung.jpg}
-	\caption{Optimale Ausrichtung zum Tester}
+	\caption[Optimale Ausrichtung zum Tester]{Optimale Ausrichtung zum Tester\footnotemark}
 	\label{fig:3.2.4}
 \end{figure}
 \footnotetext{Editiert:{https://images-eu.ssl-images-amazon.com/images/G/03/electronics/aplus/B0059DM2F\\E.001.\_SL300\_.jpg}\\Zugriff: 24.03.2017}
@@ -179,7 +179,7 @@ Da das Lautsprecher-System aus 2 verteilten Boxen und keinem Subwoofer besteht, 
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital21-cut.jpg}
-	\caption{2.1-Lautsprecher-System}
+	\caption[2.1-Lautsprecher-System]{2.1-Lautsprecher-System\footnotemark}
 	\label{fig:3.2.5}
 \end{figure}
 \footnotetext{Editiert:\enquote{https://upload.wikimedia.org/wikipedia/commons/6/62/DOLBY\_Digital\_5.1.jpg}\\Zugriff: 23.03.2017}
@@ -187,7 +187,7 @@ Da das Lautsprecher-System aus 2 verteilten Boxen und keinem Subwoofer besteht, 
 Dieses System besteht aus 2 + 1 Lautsprecher-Boxen, und zwar einer linken und rechten Satelliten-Box und einer Subwoofer-Box.
 Hier ist wiederum Stereo-Klang möglich, nun aber mit Unterstützung für den Bass-Bereich (<150 Hz).
 Die Anordnung der Satelliten ist vorgegeben (links und rechts).
-Die Subwoofer-Box darf im Raum verstellt werden, da wie bereits erklärt die abgestrahlten Frequenzen des Subwoofers schwer bzw. nicht lokalisierbar sind.\\
+Die Subwoofer-Box darf im Raum verstellt werden, da, wie bereits erklärt, die abgestrahlten Frequenzen des Subwoofers schwer bzw. nicht lokalisierbar sind.\\
 Für dieses System wird die Aufteilung in mindestens 3 Audio-Signale benötigt:
 links, rechts, Bass-Bereich.\\
 Für die meisten allgemeinen Konsumenten-Anwendungen wird ein 2.1-System verwendet.\\ 
@@ -196,7 +196,7 @@ Eines für den Hochton- und eines für den Mittel-Tiefton-Bereich.
 In diesem Fall muss der Mittel-Tiefton-Lautsprecher die sehr tiefen Frequenzen nicht übernehmen, dies macht der Subwoofer.
 Somit ergibt sich eine Aufteilung des Frequenzbereiches auf drei Lautsprecher, was wiederum bedeutet, dass diese in einem geringeren Frequenzbereich linear arbeiten müssen.\\
 Wenn ein guter Mittel-Tiefton-Lautsprecher verwendet wird, welcher einen annähernd linearen Frequenzgang bis in den Hochton-Bereich aufweist, kann man auch einen schlechteren Hochton-Lautsprecher in Kombination mit diesem verwenden.\\
-Eine billigere Variante würde die Ausführung der Satelliten-Boxen mit jeweils einem Breitband-Lautsprecher bieten, der wie der Name schon sagt einen sehr \enquote{Breiten} Frequenzbereich übernimmt.\\
+Eine billigere Variante würde die Ausführung der Satelliten-Boxen mit jeweils einem Breitband-Lautsprecher bieten, der wie der Name schon sagt einen sehr \enquote{breiten} Frequenzbereich übernimmt.
 Da der Subwoofer nur einen sehr geringen Teil des Frequenzgangs übernimmt (20...150 Hz), werden trotzdem relativ gute Lautsprecher-Chassis für Mittel-Tiefton- und Hochton-Bereich benötigt.
 
 
@@ -205,7 +205,7 @@ Da der Subwoofer nur einen sehr geringen Teil des Frequenzgangs übernimmt (20..
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{img/Grundlagen/Mehrweg-Lautsprechersysteme/DOLBYDigital51-cut.jpg}
-	\caption{5.1-Lautsprecher-System}
+	\caption[5.1-Lautsprecher-System]{5.1-Lautsprecher-System\footnotemark}
 	\label{fig:3.2.6}
 \end{figure}
 \footnotetext{Editiert:\enquote{https://upload.wikimedia.org/wikipedia/commons/6/62/DOLBY\_Digital\_5.1.png}\\Zugriff: 23.03.2017}
@@ -221,10 +221,10 @@ Dieses System besteht aus 5+1 Lautsprecher-Boxen:
 \end{itemize}
 Mit diesem System ist ein sogenannter \enquote{Surround-Sound} möglich.
 Das bedeutet, dass der Tester inmitten dieses Systems rundum beschallt wird.
-Die Anordnung bis auf die des Subwoofers ist wieder vorgegeben.
+Die Anordnung, bis auf die des Subwoofers, ist wieder vorgegeben.
 Für dieses System wird die Aufteilung in mindestens 6 Audio-Signale benötigt.
-Diese werden entsprechend den zuvor genannten Lautsprecher-Boxen benannt.\\
-Der \enquote{Center}-Lautsprecher ist aus diesem Grund wichtig, da sich aus der Erfahrung heraus bewiesen hat, dass Sprache eines sich inmitten des Bildes befindenden Menschen, auch akustisch mittig zu lokalisieren sein sollte.\\ 
+Diese werden entsprechend den zuvor genannten Lautsprecher-Boxen bezeichnet.\\
+Der \enquote{Center}-Lautsprecher ist aus diesem Grund wichtig, da sich aus der Erfahrung heraus bewiesen hat, dass Sprache eines inmitten des Bildes befindlichen Menschen, auch akustisch mittig zu lokalisieren sein soll.\\ 
 Ein solches System findet man oft in Heimkinos.
 Kinosäle besitzen meistens noch besser ausgeklügelte, bzw. größere Systeme.
 \\ \\
@@ -258,7 +258,7 @@ Der darauf verbaute Chip \enquote{OVC3860} von \enquote{OmniVision Technologies}
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{img/Grundlagen/Bluetooth/BT-uebertragung-cut.jpg}
-	\caption{Bluetooth-Funkübertragung - Schematisch}
+	\caption[Bluetooth-Funkübertragung - Schematisch]{Bluetooth-Funkübertragung - Schematisch\footnotemark}
 	\label{fig:3.3.1}
 \end{figure}
 \footnotetext{Editiert:\enquote{http://themetro.de/wp-content/uploads/bluetooth\_mac\_artikelbild.png \\http://icon-icons.com/icons2/875/PNG/512/big-music-player-speaker\_icon-icons.com\_68248.png }\\Zugriff: 24.03.2017}
@@ -271,7 +271,7 @@ Zusätzlich gibt es noch eine UART-Schnittstelle, mit deren Hilfe man einige Ein
 Eine LiPo-Akku-Ladeschaltung ist ebenfalls vorhanden, wird aber in diesem Projekt nicht verwendet.
 \\
 Das Modul benötigt eine Versorgungsspannung von 3,3 V bis 4,2 V, wobei der Chip mit 1,8 V versorgt wird.
-Diese Spannung (1,8 V) wird auf dem Modul erzeugt.
+Diese Spannung 1,8 V wird auf dem Modul, aus den 3,3 V bis 4,2 V Versorgungsspannung, erzeugt.
 \\
 Die verwendete BT-Version ist 2.0.
 Einige GPIO-Pins sind auf das Modul herausgeführt, um Funktionen wie \enquote{Play/Pause} zu ermöglichen.

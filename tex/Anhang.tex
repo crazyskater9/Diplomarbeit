@@ -262,9 +262,9 @@ Benötigte Platten:
 	\item Schacht-Oben: 400 x 239 x 19 [mm]
 	\item Schacht-Vorne: 400 x 169 x 19 [mm]
 \end{itemize}
-In die Vorderseite wird zentriert ein rundes Loch, mit dem Durchmesser 30 cm, für den Subwoofer vorgesehen.\\
-Die Rückseite ist verkürzt um eine Ausnehmung und somit den Platz für den Elektronikeinschub zu gewährleisten.
-Dieser Schacht ist von Spanplatten umschlossen, sodass das Gehäuse auch ohne Elektronikeinschub luftdicht verschlossen ist.
+In der Vorderseite wird zentriert ein rundes Loch, mit dem Durchmesser 30 cm, für den Subwoofer vorgesehen.\\
+Die Rückseite ist verkürzt, um eine Ausnehmung und somit den Platz für den Elektronikeinschub zu gewährleisten.
+Dieser Schacht ist von Spanplatten umschlossen, damit das Gehäuse auch ohne Elektronikeinschub luftdicht verschlossen ist.
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.6\textwidth]{img/Fertigungsunterlagen/Subwooferbox.png}
@@ -278,7 +278,7 @@ Der Einschub hat ein Volumen von 13 l.\\
 Benötigte Platten:
 \begin{itemize}
 	\item Unterseite: 400 x 220 x 19 [mm]
-	\item Line und rechte Seite: 120 x 220 x 19 [mm]
+	\item Linke und rechte Seite: 120 x 220 x 19 [mm]
 	\item Vorderseite: 400 x 170 x 3 [mm]
 \end{itemize}
 Die hellen Flächen geben die Ausschnitte/Löcher vor.\\ \\
@@ -300,7 +300,7 @@ Benötigte Platten:
 	\item Ober- und Unterseite: 180 x 180 x 19 [mm]
 	\item Linke und rechte Seite: 318 x 218 x 19 [mm]
 \end{itemize}
-In der Vorderseite werden zwei runde Löcher vorgesehen um einen Hochton-Lautsprecher mit 6 cm Durchmesser und einen Tieftonlautsprecher mit 15 cm Durchmesser montieren zu können.
+In der Vorderseite sind zwei runde Löcher vorgesehen um einen Hochton-Lautsprecher mit 6 cm Durchmesser und einen Tieftonlautsprecher mit 15 cm Durchmesser montieren zu können.
 
 \begin{figure} [H]
 	\centering
@@ -393,18 +393,20 @@ Diese Werte wurden zu aller erst mit den Bedingungen an der Schaltung verglichen
 
 \subsection{TDA2030-Grundschaltung}\label{subsec:8.3.2}
 Ein wichtiges Bauelement in der Grundschaltung (Abb. \ref{fig:8.3.2.1}) sind die Dioden. Sie schützen den angeschlossenen Lautsprecher vor Überspannungsspitzen.\\
-Das Spannungsteiler am Plus-Eingang (Pin1) des OPVs ist da um den Arbeitspunkt des TDA2030 festzulegen.
-In diesem Fall bei asymmetrischer Versorgung soll dieser $\frac{Vcc}{2}$ betragen.\\
-Das Widerstandsverhältnis am Minus-Eingang (Pin2) des OPVs von 150k Ohm zu 4,7k Ohm liefert die Verstärkung der Schaltung.
-Hier wäre es dementsprechend eine Verstärkung von ungefähr x32 .\\
+Der Spannungsteiler am Plus-Eingang (Pin1) des OPVs legt den Arbeitspunkt des TDA2030 fest.
+In diesem Fall, bei asymmetrischer Versorgung, soll dieser $\frac{Vcc}{2}$ betragen.\\
+Das Widerstandsverhältnis am Minus-Eingang (Pin2) des OPVs, von 150 kOhm zu 4,7 kOhm, liefert die Verstärkung der Schaltung.
+Hier ist es dementsprechend eine Verstärkung von ungefähr x32 .\\
 Viele vereinzelte Kondensatoren sind zum Entstören und gegen mögliches Schwingen der Schaltung vorgesehen.\\
-Der Große-Ausgangs-ELKO wird deshalb verbaut um keine verschleppte Gleichspannung am Lautsprecher unnötigerweise anzulegen.
-Gleichspannung ist an einem Lautsprecher weder hörbar (Frequenz = 0Hz) noch sinnvoll und kann den Lautsprecher beschädigen.
-Der Kondensator lädt sich einmal mit dieser Gleichspannung auf und lässt die Wechselspannung ohne weiteres passieren.\\\\
-Ein weiteres wesentliches Bauelement ist das \enquote{Boucherot-Glied}, ein in Serie geschalteter Kondensator und Widerstand von der Ausgangsleitung des Verstärkers gegen Masse, noch vor dem Ausgangs-ELKO.
+Der Große-Ausgangs-ELKO wird deshalb verbaut, um keine verschleppte Gleichspannung am Lautsprecher unnötigerweise anzulegen.
+Gleichspannung ist an einem Lautsprecher weder hörbar (Frequenz = 0 Hz), noch sinnvoll, und kann den Lautsprecher beschädigen.
+Der Kondensator lädt sich einmal mit dieser Gleichspannung auf, und lässt die Wechselspannung ohne weiteres passieren.\\\\
+Ein weiteres wesentliches Bauelement ist das \enquote{Boucherot-Glied}, ein in Serie geschalteter Kondensator und Widerstand, von der Ausgangsleitung des Verstärkers gegen Masse, noch vor dem Ausgangs-ELKO.
 Es dient zur Widerstandsanpassung im höheren Audio-Frequenzbereich, da der Lautsprecher einen induktiven Impedanzabfall aufweist, wird dieser mit dem kapazitiven Impedanzanstieg in diesem Bereich kompensiert.
 So bleibt die Impedanz im Arbeitsbereich des Verstärkers im wesentlichen die selbe.
-Ein weiterer Vorteil ist, dass Frequenzen über der Grenzfrequenz des \enquote{Boucherot-Glieds} wie ein Kurzschluss behandelt werden und so mögliche auftretende Schaltfrequenzen gedämpft werden und nicht andere folgende Schaltungen beeinflussen können.\\\\
+Ein weiterer Vorteil ist, dass Frequenzen über der Grenzfrequenz des \enquote{Boucherot-Glieds} wie ein Kurzschluss behandelt werden. 
+Mögliche auftretende Schaltfrequenzen werden so gedämpft, und andere folgende Schaltungen können nicht beeinflusst werden.
+\\\\
 Die Schaltung ist grundsätzlich für symmetrische und asymmetrische Versorgungsspannung ausgelegt. 
 Die Schaltung ist für 4 und 8 Ohm Lautsprecher spezifiziert.
 \newpage
@@ -412,7 +414,7 @@ Die Schaltung ist für 4 und 8 Ohm Lautsprecher spezifiziert.
 	\centering
 	\includegraphics[width=1\textwidth]{img/Grundlagen/TDA2030/TDA2030-Grundschaltung.png}
 	\caption[TDA2030-Grundschaltung]{TDA2030-Grundschaltung\footnotemark}
-	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.)
+	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zur Veranschaulichung der Schaltung.)
 	\label {fig:8.3.2.1}
 	%http://www.mikrocontroller.net/attachment/79272/Schaltung.png
 \end{figure}
@@ -420,17 +422,17 @@ Die Schaltung ist für 4 und 8 Ohm Lautsprecher spezifiziert.
 
 \newpage
 \subsection{TDA2030-Leistungstransistor-Schaltung}\label{subsec:8.3.3}
-Durch das Erweitern der TDA2030-Grundschaltung (Kap. \ref{subsec:8.3.2}) mit zwei Leistungstransistoren wird die Schaltung leistungsfähiger.
+Durch das Erweitern der TDA2030-Grundschaltung (Kap. \ref{subsec:8.3.2}) mit zwei Leistungstransistoren, wird die Schaltung leistungsfähiger.
 Die Transistoren schalten Ströme über den maximalen schaltbaren Strömen des TDA2030. Während des Normalbetriebes fließt kein Strom durch die Transistoren, sobald aber eine Grenze erreicht wird, wird grundsätzlich mit den Transistoren gearbeitet.
-Um die Schaltschwelle der Leistungstransistoren festzulegen wird ein kleiner Widerstand von der Versorgungsspannung gegen den Basis-Anschluss des Transistors geschallten.
+Um die Schaltschwelle der Leistungstransistoren festzulegen, wird ein kleiner Widerstand von der Versorgungsspannung gegen den Basis-Anschluss des Transistors geschallten.
 Beziehungsweise wird dieser Widerstand von der Negativen Versorgungsspannung, oder in diesem Fall von Masse, gegen den Basis-Anschluss des Leistungstransistors geschaltet.
 Des weiteren sind die Leistungstransistoren im besten Fall aus der selben Familie.
-Verwendet wird ein PNP-Leistungstransistor für die positive Halbwelle des Signals und ein NPN-Leistungstransistor für die negative Halbwelle.
+Verwendet wird ein PNP-Leistungstransistor für die positive Halbwelle des Signals, und ein NPN-Leistungstransistor für die negative Halbwelle.
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{img/Grundlagen/TDA2030/TDA2030-Leistungstransschaltung.jpg}
 	\caption[TDA2030-Leistungstransistorschaltung]{TDA2030-Leistungstransistorschaltung\footnotemark}
-	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.)
+	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zur Veranschaulichung der Schaltung.)
 	\label {fig:8.3.3.1}
 	%http://www.audiofanatic.it/Schemi/Tipo/Stato_solido/chip/pic_chip/TDA_2030_BD711_712.jpg
 \end{figure}
@@ -438,19 +440,19 @@ Verwendet wird ein PNP-Leistungstransistor für die positive Halbwelle des Signa
 
 \newpage
 \subsection{H-Brückenschaltung der TDA2030-Verstärkerschaltung}\label{subsec:8.3.4}
-Um noch mehr aus dem TDA2030 herauszuholen kann man zwei dieser Verstärker in H-Brücke (Abb. \ref{fig:8.3.4.1}) gegeneinander schalten.
+Um noch mehr aus dem TDA2030 herauszuholen, kann man zwei dieser Verstärker in H-Brücke (Abb. \ref{fig:8.3.4.1}) gegeneinander schalten.
 Ein TDA2030 verstärkt das originale Signal, währenddessen der Zweite das um 90° phasenverschobene Signal erhält und dieses verstärkt.
-Das hat zur Folge das während der eine TDA2030 die positive Halbwelle verstärkt der zweite die negative Halbwelle verstärkt.
+Dies hat zur Folge das, während der eine TDA2030 die positive Halbwelle verstärkt, der zweite die negative Halbwelle verstärkt.
 Dies bewirkt einen größeren Hub, da der eine Verstärker bei maximaler Auslenkung die positive Versorgungsspannung erreicht, während der zweite die negative Versorgungsspannung erreicht.
 So erhält man mit zwei TDA2030 den doppelten Ausgangspegel des Signals.\\
 Einziger Nachteil dieser Konstellation: Zwischen den beiden Verstärkern gibt es keinen Massebezug.
 Beim Messen der Schaltung ist Vorsicht geboten, da beim Anschließen der Tastkopf-Masse, je nach anliegendem Signal, der eine oder der andere Verstärker beschädigt werden kann (Kurzschluss!).\\
-Es kann in diesem Fall auch die Leistungstransistorschaltung in H-Brücke geschaltet werden um noch mehr aus der Sache heraus zu holen.
+Es kann in diesem Fall auch die Leistungstransistorschaltung in H-Brücke geschaltet werden, um noch mehr aus der Sache herauszuholen.
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.75\textwidth]{img/Grundlagen/TDA2030/TDA2030-H-Bruecke.PNG}
 	\caption[TDA2030-H-Brückenschaltung]{TDA2030-H-Brückenschaltung\footnotemark}
-	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zu Veranschaulichung der Schaltung.)
+	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zur Veranschaulichung der Schaltung.)
 	\label {fig:8.3.4.1}
 	%http://www.itisff.it/dip_eln/tda2030.pdf --> SnippingTool
 \end{figure}
@@ -469,7 +471,7 @@ Die da wären:
 Ein Butterworth-Tiefpass-Filter 2. Ordnung besteht hauptsächlich aus einem OPV, drei Widerständen und zwei Kondensatoren.
 Deren Anordnung ist ausschlaggebend für das Tiefpass-Filter (Abb. \ref{fig:8.4.1.1}).
 Dieses Filter lässt alle Frequenzen unterhalb seiner Grenzfrequenz durch.\\ 
-Bedingt durch das Beschalten des OPVs wird das Ausgangssignal invertiert, was hier keine gröberen Folgen mit sich bringt.\\ 
+Bedingt durch das Beschalten des OPVs, wird das Ausgangssignal invertiert, was hier keine gröberen Folgen mit sich bringt.\\ 
 Am Plus-Eingang des OPVs wird entweder Masse bei symmetrischer Spannungsversorgung, oder $\frac{Vcc}{2}$ bei asymmetrischer Spannungsversorgung angelegt.
 \begin{figure} [H]
 	\centering
@@ -489,7 +491,7 @@ Dieses Filter lässt alle Frequenzen oberhalb seiner Unteren-Grenzfrequenz und u
 \end{figure}
 Das Hochpass-Filter (Abb. \ref{fig:8.4.1.3}) hat wieder eine ähnliche Konstruktion.
 Dieses besteht aus drei Kondensatoren, zwei Widerständen und einem OPV.
-Wiederum in mit bestimmter Anordnung.
+Wiederum mit bestimmter Anordnung.
 Dieses Filter lässt alle Frequenzen oberhalb seiner Grenzfrequenz durch.
 \begin{figure} [H]
 	\centering	
@@ -501,21 +503,21 @@ Dieses Filter lässt alle Frequenzen oberhalb seiner Grenzfrequenz durch.
 
 \subsection{Nicht invertierende Verstärker - OPV-Grundschaltung}\label{sec:8.5}
 Die hauptsächlichen Eigenschaften eines solchen Verstärkers liegen in der Phasengleichheit am Ein- und Ausgang der Schaltung und am wichtigsten, in der Verstärkung. \\
-Um eine Verstärkung zu erhalten wird am invertierten Eingang (Abb. \ref{fig:8.5.1}), oder umgänglicher am Minus-Eingang des OPV ein Rückkopplungsnetz aus zwei Widerständen gebaut.
+Um eine Verstärkung zu erhalten, wird am invertierten Eingang (Abb. \ref{fig:8.5.1}), oder umgänglicher am Minus-Eingang des OPV, ein Rückkopplungsnetz aus zwei Widerständen gebaut.
 Diese bewirken, dass eine Verstärkung \enquote{Vu} möglich ist.
 Diese wird wie folgt berechnet: Vu = $\frac{R2+R1}{R1}$ .
-Aus der Formel geht hervor das R2 im Verhältnis zu R1 normalerweise größer sein sollte um eine nennenswerte Verstärkung zu erhalten.
+Aus der Formel geht hervor, dass R2 im Verhältnis zu R1 normalerweise größer sein sollte, um eine nennenswerte Verstärkung zu erhalten.
 Die Verstärkung funktioniert aus einem einfachen Grund.
-Wenn am Eingang ein Signal anliegt möchte der OPV nach seiner Natur den selben Wert wie am + Eingang auch am - Eingang haben, er regelt nach.
-Das heißt der Spannungsunterschied Upn soll gegen 0 gehen.
-Wird nun künstlich das Nachregeln beeinflusst, indem man einen Spannungsteiler einbaut, regelt der OPV den Ausgang höher als er eigentlich müsste, er Verstärkt also.
-Der Verstärker ist jedoch durch seine Versorgungsspannung begrenzt, soll heißen wenn man ein Verstärkung von 10 erwartet bei einem Eingangssignal von 1 Volt und einer Versorgungsspannung von 5 Volt, dann ist das Signal nie 10 Volt groß.
+Wenn am Eingang ein Signal anliegt, möchte der OPV nach seiner Natur den selben Wert wie am + Eingang auch am - Eingang haben, er regelt nach.
+Das heißt, der Spannungsunterschied Upn soll gegen 0 gehen.
+Wird nun künstlich das Nachregeln beeinflusst, indem man einen Spannungsteiler einbaut, regelt der OPV den Ausgang höher, als er eigentlich müsste, er Verstärkt also.
+Der Verstärker ist jedoch durch seine Versorgungsspannung begrenzt, das soll heißen wenn man eine Verstärkung von 10 erwartet, bei einem Eingangssignal von 1 Volt und einer Versorgungsspannung von 5 Volt, dann ist das Signal nie 10 Volt groß.
 Ein OPV-Verstärker kann auch übersteuert werden.
-Das passiert wenn man ihn, wie bereits vorher erläutert, zu viel Eingangssignal liefert in Abhängigkeit zu der Verstärkung und der Versorgungsspannung.
-So kommt es das wenn der OPV übersteuert ein Sinus kein Sinus mehr ist sonder vielleicht gar zum Rechteck wird, da die Ober- und Untergrenze die positive und negative Versorgungsspannung bietet.
+Das passiert, wenn man ihn, wie bereits vorher erläutert, zuviel Eingangssignal liefert, in Abhängigkeit zu der Verstärkung und der Versorgungsspannung.
+So kommt es, wenn der OPV übersteuert ein Sinus kein Sinus mehr ist, sonder vielleicht gar zum Rechteck wird, da die Ober- und Untergrenze die positive und negative Versorgungsspannung bietet.
 \begin{figure} [H]
 	\centering	
-	\includegraphics[width=0.6\textwidth]{img/Grundlagen/OPV-Verstaerker/OPV-VerstaerkerGrundschaltung.png}
+	\includegraphics[width=0.4\textwidth]{img/Grundlagen/OPV-Verstaerker/OPV-VerstaerkerGrundschaltung.png}
 	\caption[Nicht invertierender Verstärker - OPV-Grundschaltung]{Nicht invertierender Verstärker - OPV-Grundschaltung\footnotemark}
 	\label {fig:8.5.1}
 	%http://www.elektronik-kompendium.de/sites/slt/schalt/02101511.gif
@@ -525,23 +527,24 @@ So kommt es das wenn der OPV übersteuert ein Sinus kein Sinus mehr ist sonder v
 \subsubsection*{Asymmetrische Versorgung eines OPV's}\label{subsec:8.5.1}
 Beim Arbeiten mit OPV-Verstärkerschaltungen muss die Symmetrie der Verstärkung beachtet werden.
 Bei einer asymmetrischen Versorgung muss daher beachtet werden, dass ein bestimmter Arbeitspunkt eingestellt wird.
-Dieser ist dafür da um die Asymmetrie durch die Spannungsversorgung wieder auszugleichen.
-Dafür wird am Eingang ein Spannungsteiler dimensioniert welcher in Mitte von diesem $\frac{Vcc}{2}$ erzeugt.
+Dieser ist dazu da, um die Asymmetrie durch die Spannungsversorgung wieder auszugleichen.
+Dafür wird am Eingang ein Spannungsteiler dimensioniert, welcher inmitten von diesem $\frac{Vcc}{2}$ erzeugt.
 Dies erfolgt über zwei gleichgroße Widerstände, die zumeist im Bereich vom Kilo-Ohm liegen.
 Sie werden in Serie von Vcc gegen Masse gelegt, somit kann zwischen den beiden Widerständen $\frac{Vcc}{2}$ abgegriffen werden.
-Somit liegt das Eingangssignalgrundpegel in mitten der Versorgungsspannung.
-D.h. der Spannungsunterschied zur positiven Versorgungsspannung ist der selbe wie zur negativen Versorgungsspannung (Masse). 
+Somit liegt der Eingangssignalgrundpegel inmitten der Versorgungsspannung.
+D.h. der Spannungsunterschied zur positiven Versorgungsspannung ist derselbe wie zur negativen Versorgungsspannung (Masse). 
 
-\subsection{Welligkeit} \label{sec:8.6}
-Die Welligkeit gibt den Toleranzbereich um einen idealen (linearen) Frequenzgang an.
-Das bedeutet wenn ein Weißes-Rauschen mit einem definierten Pegel an der Membran abgestrahlt wird, darf der Pegel über den Frequenzverlauf im Welligkeitsbreich variieren, ohne das es als kritisch empfunden werden muss. \\
-Für Lautsprechermessungen ist eine Welligkeit im \enquote{Consumer-Bereich} von 10dB und im \enquote{HiFi-Bereich} von 6dB üblich.
-So darf ein Consumer-Lautsprecher bei einem definierten Pegel von 80dB über den ganzen Messbereich maximal +/- 5dB variieren, d.h. im Bereich zwischen 75 dB und 85 dB.
-Fällt der Pegel viel mehr als der definierte Welligkeitsbereich, wird der Lautsprecher zumeist gefiltert.
-Dadurch ist es möglich einen anderen Lautsprecher diese Bereich zu übernehmen und die Schwäche des anderen auszubessern.\\ \\
-Ziel eines Lautsprechersystems ist es über den ganzen Audiobereich, 20 Hz bis 20 kHz, einen linearen bzw. näherungsweise linearen Frequenzgang zu erhalten.
 
 \newpage
+\subsection{Welligkeit} \label{sec:8.6}
+Die Welligkeit gibt den Toleranzbereich um einen idealen (linearen) Frequenzgang an.
+Das bedeutet, wenn ein Weißes-Rauschen mit einem definierten Pegel an der Membran abgestrahlt wird, darf der Pegel über den Frequenzverlauf im Welligkeitsbreich variieren, ohne dass es als kritisch empfunden werden muss. \\
+Für Lautsprechermessungen ist eine Welligkeit im \enquote{Consumer-Bereich} von 10 dB und im \enquote{HiFi-Bereich} von 6 dB üblich.
+So darf ein Consumer-Lautsprecher bei einem definierten Pegel von 80 dB über den ganzen Messbereich maximal +/- 5 dB variieren, d.h. im Bereich zwischen 75 dB und 85 dB.
+Fällt der Pegel viel mehr als der definierte Welligkeitsbereich, wird der Lautsprecher zumeist gefiltert.
+Dadurch ist es möglich einen anderen Lautsprecher, ohne Interferenzen, diesen Bereich übernehmen zu lassen und die Schwäche des anderen auszubessern.\\ \\
+Ziel eines Lautsprechersystems ist es, über den ganzen Audiobereich, 20 Hz bis 20 kHz, einen linearen bzw. näherungsweise linearen Frequenzgang zu erhalten.
+
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.65\textwidth]{img/Optimierung/TT/TT1_ohneAllem_welligkeit.png}
@@ -550,14 +553,13 @@ Ziel eines Lautsprechersystems ist es über den ganzen Audiobereich, 20 Hz bis 2
 \end{figure}
 
 In diesem Fall (Abb. \ref{fig:8.6.1}) würde man diesen Lautsprecher nur von ungefähr 60 Hz bis 400 Hz, unter beachten der Grenzen, spielen lassen.
-In der Praxis werden kleinere Ausreißer toleriert, sofern es sich nicht um ein Qualitätsprodukten handelt.\\ \\
+In der Praxis werden kleinere Ausreißer toleriert, sofern es sich nicht um ein Qualitätsprodukt handelt.\\ \\
 
 
 \subsection{Einstellungen für die PCB-Entwicklung in \enquote{Altium Designer}}\label{subsec:8.1}
 %% Altium und Einstellungserklärung + Wichtige Layout-Faktoren
 %Beim designen des Leiterplattenlayouts wurden die allgemeinen Altium-Einstellungen vorgenommen und auf die zu berücksichtigenden Layoutpunkte geachtet.
-Beim \enquote{Layouten} der Schaltung in \enquote{Altium Designer} mussten einige wichtige Einstellungen vorab getätigt werden:\\
-Wie da wären:
+Beim \enquote{Layouten} der Schaltung in \enquote{Altium Designer} mussten einige wichtige Einstellungen vorab getätigt werden:
 \begin{itemize}
 	\item Arbeiten mit der Metrischen Einheit \enquote{mm}
 	\item Layers benennen nach Vorgaben der Leiterplattenfertigung
@@ -569,15 +571,15 @@ Wie da wären:
 	\item Lochdurchmesser für Pads
 \end{itemize}
 
-Beim Entwickeln einer Leiterplatte musste ständig auf wichtige Faktoren geachtet werden um eine Durchwegs EMV konforme, elektrisch wie auch mechanisch Stabile und Teils variable Schaltung zu erhalten.
-Variabel daher weil es keine Prints für Serienreife sind, welche im Notfall auch mit anderen Bauteilen als den zuvor Vorgesehenen bestückt werden können.\\
+Beim Entwickeln einer Leiterplatte musste ständig auf wichtige Faktoren geachtet werden, um eine Durchwegs EMV konforme, elektrisch wie auch mechanisch stabile und Teils variable Schaltung zu erhalten.
+Variabel daher, weil es keine Prints für Serienreife sind, welche im Notfall auch mit anderen Bauteilen, als den zuvor Vorgesehenen, bestückt werden können.\\
 Zu den Wichtigen Faktoren zählen:
 \begin{itemize}
 	\item EMV-Technische-Faktoren
 	\begin{itemize}
 		\item Kurze Leiterbahnen
 		\item Durchdachtes Spannungsversorgungsnetz
-		\item kleine Leiterschleifen
+		\item Kleine Leiterschleifen
 		\item Massefläche verwenden
 		\item Anordnung der Bauteile
 	\end{itemize}
