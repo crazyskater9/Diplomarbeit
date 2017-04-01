@@ -64,8 +64,8 @@
 \contentsline {subsection}{\numberline {8.4.3}Visaton DTW 72-8}{123}{subsection.8.4.3}
 \contentsline {section}{\numberline {8.5}Erg\IeC {\"a}nzende Informationen}{124}{section.8.5}
 \contentsline {subsection}{\numberline {8.5.1}TDA2030-Grundschaltung}{124}{subsection.8.5.1}
-\contentsline {subsection}{\numberline {8.5.2}TDA2030-Leistungstransistor-Schaltung}{126}{subsection.8.5.2}
-\contentsline {subsection}{\numberline {8.5.3}H-Br\IeC {\"u}ckenschaltung der TDA2030-Verst\IeC {\"a}rkerschaltung}{127}{subsection.8.5.3}
+\contentsline {subsection}{\numberline {8.5.2}TDA2030 mit externem Stromverst\IeC {\"a}rker}{126}{subsection.8.5.2}
+\contentsline {subsection}{\numberline {8.5.3}TDA2030 in Br\IeC {\"u}ckenschaltung}{127}{subsection.8.5.3}
 \contentsline {subsection}{\numberline {8.5.4}Butterworth-Filter 2. Ordnung}{128}{subsection.8.5.4}
 \contentsline {subsection}{\numberline {8.5.5}Nicht invertierende Verst\IeC {\"a}rker - OPV-Grundschaltung}{130}{subsection.8.5.5}
 \contentsline {subsection}{\numberline {8.5.6}Welligkeit}{132}{subsection.8.5.6}

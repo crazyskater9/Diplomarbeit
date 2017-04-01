@@ -421,7 +421,7 @@ Die Schaltung ist für 4 und 8 Ohm Lautsprecher spezifiziert.
 \footnotetext{http://www.mikrocontroller.net/attachment/79272/Schaltung.png,\\Zugriff: 16.02.2017}
 
 \newpage
-\subsection{TDA2030-Leistungstransistor-Schaltung}\label{subsec:8.3.3}
+\subsection{TDA2030 mit externem Stromverstärker}\label{subsec:8.3.3}
 Durch das Erweitern der TDA2030-Grundschaltung (Kap. \ref{subsec:8.3.2}) mit zwei Leistungstransistoren, wird die Schaltung leistungsfähiger.
 Die Transistoren schalten Ströme über den maximalen schaltbaren Strömen des TDA2030. Während des Normalbetriebes fließt kein Strom durch die Transistoren, sobald aber eine Grenze erreicht wird, wird grundsätzlich mit den Transistoren gearbeitet.
 Um die Schaltschwelle der Leistungstransistoren festzulegen, wird ein kleiner Widerstand von der Versorgungsspannung gegen den Basis-Anschluss des Transistors geschallten.
@@ -431,7 +431,7 @@ Verwendet wird ein PNP-Leistungstransistor für die positive Halbwelle des Signa
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{img/Grundlagen/TDA2030/TDA2030-Leistungstransschaltung.jpg}
-	\caption[TDA2030-Leistungstransistorschaltung]{TDA2030-Leistungstransistorschaltung\footnotemark}
+	\caption[TDA2030 mit externem Stromverstärker]{TDA2030 mit externem Stromverstärker\footnotemark}
 	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zur Veranschaulichung der Schaltung.)
 	\label {fig:8.3.3.1}
 	%http://www.audiofanatic.it/Schemi/Tipo/Stato_solido/chip/pic_chip/TDA_2030_BD711_712.jpg
@@ -439,19 +439,19 @@ Verwendet wird ein PNP-Leistungstransistor für die positive Halbwelle des Signa
 \footnotetext{http://www.audiofanatic.it/Schemi/Tipo/Stato\_solido/chip/pic\_chip/TDA\_2030\_BD711\_712.jpg,\\Zugriff: 16.02.2017}
 
 \newpage
-\subsection{H-Brückenschaltung der TDA2030-Verstärkerschaltung}\label{subsec:8.3.4}
-Um noch mehr aus dem TDA2030 herauszuholen, kann man zwei dieser Verstärker in H-Brücke (Abb. \ref{fig:8.3.4.1}) gegeneinander schalten.
+\subsection{TDA2030 in Brückenschaltung}\label{subsec:8.3.4}
+Um noch mehr aus dem TDA2030 herauszuholen, kann man zwei dieser Verstärker in Brücke (Abb. \ref{fig:8.3.4.1}) gegeneinander schalten.
 Ein TDA2030 verstärkt das originale Signal, währenddessen der Zweite das um 90° phasenverschobene Signal erhält und dieses verstärkt.
 Dies hat zur Folge das, während der eine TDA2030 die positive Halbwelle verstärkt, der zweite die negative Halbwelle verstärkt.
 Dies bewirkt einen größeren Hub, da der eine Verstärker bei maximaler Auslenkung die positive Versorgungsspannung erreicht, während der zweite die negative Versorgungsspannung erreicht.
 So erhält man mit zwei TDA2030 den doppelten Ausgangspegel des Signals.\\
 Einziger Nachteil dieser Konstellation: Zwischen den beiden Verstärkern gibt es keinen Massebezug.
 Beim Messen der Schaltung ist Vorsicht geboten, da beim Anschließen der Tastkopf-Masse, je nach anliegendem Signal, der eine oder der andere Verstärker beschädigt werden kann (Kurzschluss!).\\
-Es kann in diesem Fall auch die Leistungstransistorschaltung in H-Brücke geschaltet werden, um noch mehr aus der Sache herauszuholen.
+Es kann in diesem Fall auch die mit externem Stromverstärker erweiterte Schaltung in Brücke geschaltet werden, um noch mehr aus der Sache herauszuholen.
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.75\textwidth]{img/Grundlagen/TDA2030/TDA2030-H-Bruecke.PNG}
-	\caption[TDA2030-H-Brückenschaltung]{TDA2030-H-Brückenschaltung\footnotemark}
+	\caption[TDA2030 in Brückenschaltung]{TDA2030 inBrückenschaltung\footnotemark}
 	\text (Die im Bild vorhandenen Werte müssen nicht der entwickelten Schaltung entsprechen. Es dient nur zur Veranschaulichung der Schaltung.)
 	\label {fig:8.3.4.1}
 	%http://www.itisff.it/dip_eln/tda2030.pdf --> SnippingTool
@@ -538,7 +538,7 @@ D.h. der Spannungsunterschied zur positiven Versorgungsspannung ist derselbe wie
 \newpage
 \subsection{Welligkeit} \label{sec:8.6}
 Die Welligkeit gibt den Toleranzbereich um einen idealen (linearen) Frequenzgang an.
-Das bedeutet, wenn ein Weißes-Rauschen mit einem definierten Pegel an der Membran abgestrahlt wird, darf der Pegel über den Frequenzverlauf im Welligkeitsbreich variieren, ohne dass es als kritisch empfunden werden muss. \\
+Das bedeutet, wenn ein Weißes-Rauschen mit einem definierten Pegel an der Membran wiedergegeben wird, darf der Pegel über den Frequenzverlauf im Welligkeitsbreich variieren, ohne dass es als kritisch empfunden werden muss. \\
 Für Lautsprechermessungen ist eine Welligkeit im \enquote{Consumer-Bereich} von 10 dB und im \enquote{HiFi-Bereich} von 6 dB üblich.
 So darf ein Consumer-Lautsprecher bei einem definierten Pegel von 80 dB über den ganzen Messbereich maximal +/- 5 dB variieren, d.h. im Bereich zwischen 75 dB und 85 dB.
 Fällt der Pegel viel mehr als der definierte Welligkeitsbereich, wird der Lautsprecher zumeist gefiltert.
