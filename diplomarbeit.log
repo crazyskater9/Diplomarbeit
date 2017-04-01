@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  1 APR 2017 14:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  1 APR 2017 14:35
 entering extended mode
 **./diplomarbeit.tex
 (diplomarbeit.tex
@@ -3217,16 +3217,6 @@ File: img/Optimierung/Sub/RenkforceStyro_47l.png Graphic file (type png)
 Package pdftex.def Info: img/Optimierung/Sub/RenkforceStyro_47l.png used on inp
 ut line 94.
 (pdftex.def)             Requested size: 279.63155pt x 199.5999pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--101
-
- []
-
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 102.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3235,21 +3225,21 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 102.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 102.
-[39 <./img/Optimierung/Sub/RenkforceStyro_47l.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 102--107
+ [39 <./img/Optimierung/Sub/RenkforceStyro_47l.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 103--108
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 109.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 109.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 109.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 109.
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
@@ -3258,7 +3248,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
 File: img/Optimierung/Sub/RenkforceStyro_138l.png Graphic file (type png)
 <use img/Optimierung/Sub/RenkforceStyro_138l.png>
 Package pdftex.def Info: img/Optimierung/Sub/RenkforceStyro_138l.png used on in
-put line 113.
+put line 114.
 (pdftex.def)             Requested size: 318.35512pt x 227.23938pt.
 
 <img/Optimierung/Sub/RenkforceStyro_138l_Wolle.png, id=807, 415.5525pt x 296.60
@@ -3267,7 +3257,7 @@ File: img/Optimierung/Sub/RenkforceStyro_138l_Wolle.png Graphic file (type png)
 
  <use img/Optimierung/Sub/RenkforceStyro_138l_Wolle.png>
 Package pdftex.def Info: img/Optimierung/Sub/RenkforceStyro_138l_Wolle.png used
- on input line 120.
+ on input line 121.
 (pdftex.def)             Requested size: 318.35512pt x 227.23938pt.
 
 <img/Optimierung/Sub/RenkforceStyro_126l_Wolle.png, id=808, 415.5525pt x 296.60
@@ -3276,33 +3266,33 @@ File: img/Optimierung/Sub/RenkforceStyro_126l_Wolle.png Graphic file (type png)
 
  <use img/Optimierung/Sub/RenkforceStyro_126l_Wolle.png>
 Package pdftex.def Info: img/Optimierung/Sub/RenkforceStyro_126l_Wolle.png used
- on input line 127.
+ on input line 128.
 (pdftex.def)             Requested size: 322.65482pt x 230.30792pt.
 
 <img/Optimierung/Sub/RenkforceStyro_136l.png, id=809, 415.5525pt x 296.60812pt>
 File: img/Optimierung/Sub/RenkforceStyro_136l.png Graphic file (type png)
 <use img/Optimierung/Sub/RenkforceStyro_136l.png>
 Package pdftex.def Info: img/Optimierung/Sub/RenkforceStyro_136l.png used on in
-put line 133.
+put line 134.
 (pdftex.def)             Requested size: 322.65482pt x 230.30792pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 136.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 136.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 136.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 136.
+(babel)             in language  on input line 137.
  [41 <./img/Optimierung/Sub/RenkforceStyro_138l.png> <./img/Optimierung/Sub/Ren
 kforceStyro_138l_Wolle.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 138.
+(babel)             in language  on input line 139.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 138.
+(babel)             in language  on input line 139.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 138.
+(babel)             in language  on input line 139.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 138.
+(babel)             in language  on input line 139.
 
 [42 <./img/Optimierung/Sub/RenkforceStyro_126l_Wolle.png> <./img/Optimierung/Su
 b/RenkforceStyro_136l.png>]
@@ -3312,7 +3302,7 @@ File: img/Optimierung/Sub/RenkforceStyro_113l_Wolle.png Graphic file (type png)
 
  <use img/Optimierung/Sub/RenkforceStyro_113l_Wolle.png>
 Package pdftex.def Info: img/Optimierung/Sub/RenkforceStyro_113l_Wolle.png used
- on input line 142.
+ on input line 143.
 (pdftex.def)             Requested size: 279.63155pt x 199.5999pt.
 
 <img/Optimierung/Sub/RenkforceStyro_113l_Wolle_Angepasst.png, id=831, 415.5525p
@@ -3322,55 +3312,55 @@ File: img/Optimierung/Sub/RenkforceStyro_113l_Wolle_Angepasst.png Graphic file
 
 <use img/Optimierung/Sub/RenkforceStyro_113l_Wolle_Angepasst.png>
 Package pdftex.def Info: img/Optimierung/Sub/RenkforceStyro_113l_Wolle_Angepass
-t.png used on input line 149.
+t.png used on input line 150.
 (pdftex.def)             Requested size: 279.63155pt x 199.5999pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 156.
  [43 <./img/Optimierung/Sub/RenkforceStyro_113l_Wolle.png> <./img/Optimierung/S
 ub/RenkforceStyro_113l_Wolle_Angepasst.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 156--159
+Underfull \hbox (badness 10000) in paragraph at lines 157--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--159
+Underfull \hbox (badness 10000) in paragraph at lines 157--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--159
+Underfull \hbox (badness 10000) in paragraph at lines 157--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--159
+Underfull \hbox (badness 10000) in paragraph at lines 157--160
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 163.
+(babel)             in language  on input line 164.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 163.
+(babel)             in language  on input line 164.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 173.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 173.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 173.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 172.
+(babel)             in language  on input line 173.
 [44] <img/Optimierung/TT/TT1_ohneAllem.png, id=850, 415.5525pt x 296.60812pt>
 File: img/Optimierung/TT/TT1_ohneAllem.png Graphic file (type png)
 
 <use img/Optimierung/TT/TT1_ohneAllem.png>
 Package pdftex.def Info: img/Optimierung/TT/TT1_ohneAllem.png used on input lin
-e 175.
+e 176.
 (pdftex.def)             Requested size: 322.65482pt x 230.30792pt.
 
 <img/Optimierung/TT/TT1_Styro_4-87l.png, id=851, 415.5525pt x 296.60812pt>
@@ -3378,24 +3368,24 @@ File: img/Optimierung/TT/TT1_Styro_4-87l.png Graphic file (type png)
 
 <use img/Optimierung/TT/TT1_Styro_4-87l.png>
 Package pdftex.def Info: img/Optimierung/TT/TT1_Styro_4-87l.png used on input l
-ine 182.
+ine 183.
 (pdftex.def)             Requested size: 322.65482pt x 230.30792pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 188.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 188.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 188.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 188.
+(babel)             in language  on input line 189.
  [45 <./img/Optimierung/TT/TT1_ohneAllem.png> <./img/Optimierung/TT/TT1_Styro_4
 -87l.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 189--198
+Underfull \hbox (badness 10000) in paragraph at lines 190--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--198
+Underfull \hbox (badness 10000) in paragraph at lines 190--199
 
  []
 
@@ -3406,23 +3396,23 @@ File: img/Optimierung/TT/TT1_ohneAllem_Schraubzwinge.png Graphic file (type png
 )
  <use img/Optimierung/TT/TT1_ohneAllem_Schraubzwinge.png>
 Package pdftex.def Info: img/Optimierung/TT/TT1_ohneAllem_Schraubzwinge.png use
-d on input line 201.
+d on input line 202.
 (pdftex.def)             Requested size: 322.65482pt x 230.30792pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 206.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 206.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 206.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 206.
+(babel)             in language  on input line 207.
  [46 <./img/Optimierung/TT/TT1_ohneAllem_Schraubzwinge.png>]
 <img/Optimierung/TT/TT1_Styro_9-67l.png, id=870, 415.5525pt x 296.60812pt>
 File: img/Optimierung/TT/TT1_Styro_9-67l.png Graphic file (type png)
 
 <use img/Optimierung/TT/TT1_Styro_9-67l.png>
 Package pdftex.def Info: img/Optimierung/TT/TT1_Styro_9-67l.png used on input l
-ine 211.
+ine 212.
 (pdftex.def)             Requested size: 322.65482pt x 230.30792pt.
 
 <img/Optimierung/TT/TT1_Styro_7-17l.png, id=871, 415.5525pt x 296.60812pt>
@@ -3430,7 +3420,7 @@ File: img/Optimierung/TT/TT1_Styro_7-17l.png Graphic file (type png)
 
 <use img/Optimierung/TT/TT1_Styro_7-17l.png>
 Package pdftex.def Info: img/Optimierung/TT/TT1_Styro_7-17l.png used on input l
-ine 218.
+ine 219.
 (pdftex.def)             Requested size: 322.65482pt x 230.30792pt.
 
 <img/Optimierung/TT/TT1_Styro_6-07l.png, id=872, 415.5525pt x 296.60812pt>
@@ -3438,16 +3428,16 @@ File: img/Optimierung/TT/TT1_Styro_6-07l.png Graphic file (type png)
 
 <use img/Optimierung/TT/TT1_Styro_6-07l.png>
 Package pdftex.def Info: img/Optimierung/TT/TT1_Styro_6-07l.png used on input l
-ine 225.
+ine 226.
 (pdftex.def)             Requested size: 301.14319pt x 214.95618pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 229.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 229.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 229.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 229.
+(babel)             in language  on input line 230.
  [47 <./img/Optimierung/TT/TT1_Styro_9-67l.png> <./img/Optimierung/TT/TT1_Styro
 _7-17l.png>]
 <img/Optimierung/TT/TT1_Styro_5-47l.png, id=881, 415.5525pt x 296.60812pt>
@@ -3455,7 +3445,7 @@ File: img/Optimierung/TT/TT1_Styro_5-47l.png Graphic file (type png)
 
 <use img/Optimierung/TT/TT1_Styro_5-47l.png>
 Package pdftex.def Info: img/Optimierung/TT/TT1_Styro_5-47l.png used on input l
-ine 232.
+ine 233.
 (pdftex.def)             Requested size: 301.14319pt x 214.95618pt.
 )
 Package babel Info: Redefining ngerman shorthand "|
@@ -5605,7 +5595,7 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9
 pe1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/u
 hvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on diplomarbeit.pdf (154 pages, 12645219 bytes).
+Output written on diplomarbeit.pdf (154 pages, 12644857 bytes).
 PDF statistics:
  2447 PDF objects out of 2487 (max. 8388607)
  478 named destinations out of 1000 (max. 500000)
